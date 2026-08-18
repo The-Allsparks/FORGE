@@ -1,0 +1,235 @@
+# 2026–2027 BIOBUZZ season calendar
+#
+# PLANNING INPUTS — verify if the FIRST Nevada calendar changes.
+# Do not bury the only copy of these dates in prose.
+#
+# Team cadence assumption: Meeting A Tuesday, Meeting B Thursday, 120 minutes.
+# Adjust meeting_pattern if the team meets on other days; keep session dates in sync.
+
+season: "2026-2027"
+season_name: BIOBUZZ
+team: The Allsparks
+team_number: 36117
+timezone: America/Los_Angeles
+last_reviewed: "2026-08-17"
+dates_are_planning_inputs: true
+
+meeting_pattern:
+  meeting_a_weekday: Tuesday
+  meeting_b_weekday: Thursday
+  duration_minutes: 120
+
+assumptions:
+  - "Treat ViDAR, AMPER, MIMIC, BEACON, TRACE, HELM, and ECHO as functionally complete for scheduling after the week of 2026-08-24."
+  - "Remaining season work is onboarding, integration, calibration, testing, and field validation — not greenfield library invention."
+  - "BIOBUZZ game details are unknown until Kickoff 2026-09-12."
+
+events:
+  - id: kickoff
+    name: FTC Kickoff, Southern Nevada
+    date: "2026-09-12"
+    end_date: "2026-09-12"
+    verify: true
+  - id: clinic
+    name: Clinic / scrimmage
+    date: "2026-10-10"
+    end_date: "2026-10-10"
+    verify: true
+  - id: league-1s-2s
+    name: League Meets 1S and 2S
+    date: "2026-10-31"
+    end_date: "2026-10-31"
+    verify: true
+  - id: league-3s-4s
+    name: League Meets 3S and 4S
+    date: "2026-12-05"
+    end_date: "2026-12-05"
+    verify: true
+  - id: league-5s-6s
+    name: League Meets 5S and 6S
+    date: "2027-01-09"
+    end_date: "2027-01-09"
+    verify: true
+  - id: league-tournament
+    name: League Tournament
+    date: "2027-01-22"
+    end_date: "2027-01-23"
+    verify: true
+  - id: state-championship
+    name: Nevada State Championship
+    date: "2027-02-19"
+    end_date: "2027-02-20"
+    verify: true
+    contingent: "Only if the team advances."
+
+sessions:
+  - id: S001
+    date: "2026-09-01"
+    meeting_type: A
+    season_phase: preseason
+    event_checkpoint: none
+    file: sessions/S001-system-map-safety-trace.md
+    title: System map, safety, and TRACE evidence
+  - id: S002
+    date: "2026-09-03"
+    meeting_type: B
+    season_phase: preseason
+    event_checkpoint: none
+    file: sessions/S002-drivetrain-driver-baseline.md
+    title: Drivetrain inspection, driver baseline, and log review
+  - id: S003
+    date: "2026-09-08"
+    meeting_type: A
+    season_phase: preseason
+    event_checkpoint: none
+    file: sessions/S003-amper-passive-power.md
+    title: AMPER passive battery and power observations
+  - id: S004
+    date: "2026-09-10"
+    meeting_type: B
+    season_phase: preseason
+    event_checkpoint: none
+    file: sessions/S004-mimic-mechanism-states.md
+    title: MIMIC mechanism states using simulated or simple hardware
+  - id: SK01
+    date: "2026-09-12"
+    meeting_type: K
+    season_phase: kickoff
+    event_checkpoint: kickoff
+    file: sessions/SK01-kickoff-biobuzz.md
+    title: BIOBUZZ Kickoff analysis and minimum viable robot
+  - id: S005
+    date: "2026-09-15"
+    meeting_type: A
+    season_phase: kickoff-to-clinic
+    event_checkpoint: clinic
+    file: sessions/S005-vidar-one-camera.md
+    title: ViDAR camera geometry and one-camera observation
+  - id: S006
+    date: "2026-09-17"
+    meeting_type: B
+    season_phase: kickoff-to-clinic
+    event_checkpoint: clinic
+    file: sessions/S006-beacon-freshness-recovery.md
+    title: BEACON communications freshness and recovery
+  - id: S007
+    date: "2026-09-22"
+    meeting_type: A
+    season_phase: kickoff-to-clinic
+    event_checkpoint: clinic
+    file: sessions/S007-pedro-conventional-auto.md
+    title: Pedro Pathing conventional autonomous
+  - id: S008
+    date: "2026-09-24"
+    meeting_type: B
+    season_phase: kickoff-to-clinic
+    event_checkpoint: clinic
+    file: sessions/S008-vidar-game-detection.md
+    title: ViDAR game-relevant detection
+  - id: S009
+    date: "2026-09-29"
+    meeting_type: A
+    season_phase: kickoff-to-clinic
+    event_checkpoint: clinic
+    file: sessions/S009-mimic-interlocks.md
+    title: MIMIC interlocks
+  - id: S010
+    date: "2026-10-01"
+    meeting_type: B
+    season_phase: kickoff-to-clinic
+    event_checkpoint: clinic
+    file: sessions/S010-echo-cue-vocabulary.md
+    title: ECHO cue vocabulary and off-robot driver lab
+  - id: S011
+    date: "2026-10-06"
+    meeting_type: A
+    season_phase: kickoff-to-clinic
+    event_checkpoint: clinic
+    file: sessions/S011-integrated-failure-injection.md
+    title: Integrated failure injection
+  - id: S012
+    date: "2026-10-08"
+    meeting_type: B
+    season_phase: kickoff-to-clinic
+    event_checkpoint: clinic
+    file: sessions/S012-clinic-scrimmage-prep.md
+    title: Clinic and scrimmage preparation
+  - id: S013
+    date: "2026-10-13"
+    meeting_type: A
+    season_phase: reliability-sprint
+    event_checkpoint: clinic
+    file: sessions/S013-event-retrospective.md
+    title: Clinic retrospective and reliability sprint
+  - id: S014
+    date: "2026-10-20"
+    meeting_type: A
+    season_phase: reliability-sprint
+    event_checkpoint: league-1s-2s
+    file: sessions/S014-helm-intent-vocabulary.md
+    title: HELM intent-tree vocabulary
+  - id: S015
+    date: "2026-10-22"
+    meeting_type: B
+    season_phase: reliability-sprint
+    event_checkpoint: league-1s-2s
+    file: sessions/S015-helm-shadow.md
+    title: HELM shadow recommendations
+  - id: S016
+    date: "2026-10-27"
+    meeting_type: A
+    season_phase: reliability-sprint
+    event_checkpoint: league-1s-2s
+    file: sessions/S016-league-meet-prep.md
+    title: League meet 1S/2S preparation
+  - id: S017
+    date: "2026-12-08"
+    meeting_type: A
+    season_phase: adversity-simulations
+    event_checkpoint: league-5s-6s
+    file: sessions/S017-full-match-simulation.md
+    title: Full match simulation
+  - id: S018
+    date: "2027-01-13"
+    meeting_type: A
+    season_phase: feature-freeze
+    event_checkpoint: league-tournament
+    file: sessions/S018-tournament-feature-freeze.md
+    title: Tournament feature freeze
+  - id: S019
+    date: "2027-01-26"
+    meeting_type: A
+    season_phase: state-prep
+    event_checkpoint: state-championship
+    file: sessions/S019-state-preparation.md
+    title: State preparation
+
+cadence_windows:
+  - id: preseason
+    start: "2026-08-25"
+    end: "2026-09-11"
+    intent: Drivetrain, driver control, TRACE habit, passive AMPER/MIMIC, intro ViDAR/BEACON/ECHO/HELM without authority.
+  - id: kickoff-to-clinic
+    start: "2026-09-12"
+    end: "2026-10-10"
+    intent: Minimum viable BIOBUZZ robot; TRACE on; AMPER/BEACON passive; ECHO sim or drills; HELM describe/simulate; conventional fallbacks.
+  - id: reliability-sprint
+    start: "2026-10-12"
+    end: "2026-10-31"
+    intent: Repairs, auto reps, driver practice; only tested MIMIC protections; ECHO off unless evidenced; HELM observe or static.
+  - id: league-development
+    start: "2026-11-02"
+    end: "2026-12-05"
+    intent: Match evidence; deeper calibration; still drive and auto every week. Use Meeting A/B templates when a numbered session is not written.
+  - id: adversity-simulations
+    start: "2026-12-07"
+    end: "2027-01-09"
+    intent: Full match simulations and failure drills; immediate rollback for optional systems.
+  - id: feature-freeze
+    start: "2027-01-11"
+    end: "2027-01-23"
+    intent: Freeze active features; mock competition; inspection; judging; pit.
+  - id: state-prep
+    start: "2027-01-25"
+    end: "2027-02-20"
+    intent: If advancing, two or three evidenced improvements only; prioritize driving, auto, reliability, judging.

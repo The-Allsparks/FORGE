@@ -1,0 +1,62 @@
+{
+  "season_dir": "season/2026-2027-biobuzz",
+  "calendar_file": "season/2026-2027-biobuzz/calendar.yaml",
+  "session_glob": "season/2026-2027-biobuzz/sessions/*.md",
+  "allowed_meeting_types": ["A", "B", "K"],
+  "allowed_season_phases": [
+    "preseason",
+    "kickoff",
+    "kickoff-to-clinic",
+    "reliability-sprint",
+    "league-development",
+    "adversity-simulations",
+    "feature-freeze",
+    "state-prep"
+  ],
+  "allowed_projects": [
+    "TRACE",
+    "AMPER",
+    "MIMIC",
+    "ViDAR",
+    "BEACON",
+    "HELM",
+    "ECHO",
+    "PEDRO"
+  ],
+  "agenda_a": [10, 75, 25, 10],
+  "agenda_b": [10, 35, 55, 20],
+  "required_headings": [
+    "Session identity",
+    "Driving question",
+    "Student-facing objective",
+    "Robot outcome",
+    "Prerequisites",
+    "Vocabulary",
+    "Safety concerns",
+    "Required hardware",
+    "Required software",
+    "Preparation required before the meeting",
+    "Exact 120-minute agenda",
+    "Mentor demonstration",
+    "Student work",
+    "Integrated build or test activity",
+    "Failure-injection scenario",
+    "Evidence to collect",
+    "Student explain-back questions",
+    "Assessment or exit check",
+    "Portfolio or engineering-notebook artifact",
+    "Competition enablement impact",
+    "Rollback procedure",
+    "Cleanup requirements",
+    "Next-session preparation",
+    "Hardware-unavailable fallback",
+    "Robot-unavailable simulation option",
+    "Links to authoritative project documentation",
+    "Mentor notes"
+  ],
+  "headings_must_be_nonempty": [
+    "Evidence to collect",
+    "Hardware-unavailable fallback",
+    "Rollback procedure"
+  ]
+}
