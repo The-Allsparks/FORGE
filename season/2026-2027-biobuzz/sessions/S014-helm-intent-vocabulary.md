@@ -5,19 +5,21 @@ date: 2026-10-20
 meeting_type: A
 season_phase: reliability-sprint
 event_checkpoint: league-1s-2s
-status: outline
+status: complete
 difficulty: Foundation
 projects: [HELM, PEDRO, TRACE]
 active_features: []
 ---
+
 # S014 — HELM intent-tree vocabulary
 
 ## Session identity
+
 | Field | Value |
 | ----- | ----- |
 | Session ID | S014 |
 | Title | HELM intent-tree vocabulary |
-| Calendar date | 2026-10-20 (planning input) |
+| Calendar date | 2026-10-20 (planning input; Tuesday Meeting A) |
 | Relative week | Reliability sprint |
 | Meeting type | A |
 | Season phase | reliability-sprint |
@@ -26,52 +28,63 @@ active_features: []
 
 ## Driving question
 
-Can we name the auto we already have as goals, tasks, timeouts, and fallbacks — without giving HELM authority?
+Can we name the auto we already have as goals, tasks, timeouts, and fallbacks — without giving HELM any authority?
 
 ## Student-facing objective
 
-Paper intent tree of the conventional auto. Construction continues. HELM mode OFF.
+Keep repairing the robot. On paper (and optional desktop `Helm.validate`), describe the **existing** conventional auto. HELM mode stays `OFF`. Pedro still moves the chassis.
 
 ## Robot outcome
 
-Unchanged control. Tree on paper / `Helm.validate` offline if available.
+- Unchanged control code path for matches
+- Paper intent tree that matches the auto students can explain
+- Optional validate errors discussed — not an executor
 
 ## Prerequisites
 
-Students can explain the conventional auto. [intent-trees.md](https://github.com/The-Allsparks/HELM/blob/main/docs/intent-trees.md), [mentor-guide.md](https://github.com/The-Allsparks/HELM/blob/main/docs/mentor-guide.md).
+- Students can explain the S007 (or later) conventional auto
+- [intent-trees.md](https://github.com/The-Allsparks/HELM/blob/main/docs/intent-trees.md)
+- [mentor-guide.md](https://github.com/The-Allsparks/HELM/blob/main/docs/mentor-guide.md)
+- [readiness-gates.md](https://github.com/The-Allsparks/HELM/blob/main/docs/readiness-gates.md) — treat authority as **not met**
+- [safety.md](https://github.com/The-Allsparks/HELM/blob/main/docs/safety.md)
 
 ## Vocabulary
 
-goal · task · timeout · fallback · validate
+goal · task · timeout · fallback · validate · `OFF`
 
 ## Safety concerns
 
-No execute flags. Physical output refused in library; still do not practice 'just enable it.'
+- No execute flags. Physical output is refused in the library; still do not practice "just enable it"
+- HELM does not replace MIMIC, BEACON, AMPER, or Pedro
+- Unknown vision is not "no game piece"
 
 ## Required hardware
 
-Robot for construction; paper for HELM.
+- Robot for the 75-minute reliability/MVP work
+- Paper or whiteboard for HELM
 
 ## Required software
 
-HELM desktop validate optional; Pedro auto remains the runner.
+- Optional HELM desktop validate
+- Pedro/fallback auto remains what would run in a match
+- TRACE records the real auto if installed — HELM does not need to be a sink yet
 
 ## Preparation required before the meeting
 
-Print the current auto steps.
+Print the current auto steps from the notebook. Clone HELM and run tests on one laptop if time.
 
 ## Exact 120-minute agenda
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | HELM is last; gates unmet; construction still wins |
-| 75 | Construction | Reliability repairs / MVP remaining. |
-| 25 | Integration | Encode paper tree; optional Helm.validate; TRACE not required to be a HELM sink yet. |
-| 10 | Closeout | TRACE evidence, explain-back, dashboard, cleanup |
+| 10 | Opening | HELM is last; gates unmet; construction still wins; no execute |
+| 75 | Construction | Reliability repairs and remaining MVP — not HELM wiring |
+| 25 | Integration | Encode the paper tree; optional `Helm.validate`; compare to what the auto actually does |
+| 10 | Closeout | Photo of tree; dashboard HELM ladder 1 disabled; explain-back; cleanup |
 
 ## Mentor demonstration
 
-Refuse 'pick the best spike.' That is later phases.
+Refuse "just make it pick the best spike." That is later phases in the HELM student path. Two minutes.
 
 ## Student work
 
@@ -79,52 +92,54 @@ Refuse 'pick the best spike.' That is later phases.
 | ---- | ---- |
 | Mechanical | Repairs |
 | Electrical | Repairs |
-| Programming | Paper tree / validate |
+| Programming | Paper tree / optional validate |
 | Drive team | Confirm the auto they actually run |
 | Documentation | Tree photo |
 
 ## Integrated build or test activity
 
-Name success/failure for each step. Mark safe terminal conceptually ([HELM safety](https://github.com/The-Allsparks/HELM/blob/main/docs/safety.md)) without claiming Phase 2 replaces MIMIC.
+For each auto step: name the goal, success, timeout, fallback. Mark a conceptual safe terminal using HELM safety language **without** claiming Phase 2 validation replaces hardware interlocks.
 
 ## Failure-injection scenario
 
-Unknown pose confidence — tree must not assume a piece is absent ([HELM mentor guide](https://github.com/The-Allsparks/HELM/blob/main/docs/mentor-guide.md)).
+"Pose confidence unknown — so there is no piece." Students must catch that ([HELM mentor guide](https://github.com/The-Allsparks/HELM/blob/main/docs/mentor-guide.md)).
 
 ## Evidence to collect
 
-Tree; validate errors if run; dashboard HELM ladder 1.
+- Intent tree
+- Validate errors if run
+- Dashboard HELM: ladder 1, status disabled
 
 ## Student explain-back questions
 
-1. How do we turn HELM off?
+1. How do we turn HELM off? (`OFF`; it was never in the match OpMode.)
 2. Who overrides HELM?
 3. Who moves the chassis?
-4. Which readiness gates are unmet?
+4. Which readiness gates are unmet? (Point at the gates doc; do not argue with a stale "TRACE empty" row — TRACE exists, authority still is not approved.)
 
 ## Assessment or exit check
 
-Tree matches the auto students can drive/explain.
+Tree matches the auto a non-programmer can explain. Robot repairs progressed.
 
 ## Portfolio or engineering-notebook artifact
 
-Intent tree.
+Intent tree. Link HELM docs; do not copy season point values into FORGE or HELM core.
 
 ## Competition enablement impact
 
-HELM stays disabled. Vocabulary only.
+HELM stays **disabled**. Vocabulary only.
 
 ## Rollback procedure
 
-Never added to robot. Mode OFF.
+Never added to the robot. Mode `OFF`. Run Pedro/fallback auto.
 
 ## Cleanup requirements
 
-Standard.
+Robot disabled; papers photographed; no execute flags in TeamCode.
 
 ## Next-session preparation
 
-S015 shadow — still no execute.
+S015 shadow — still no execute. Thursday Meeting B: auto reps.
 
 ## Hardware-unavailable fallback
 
@@ -132,17 +147,20 @@ Paper tree of a walked auto.
 
 ## Robot-unavailable simulation option
 
-Desktop HELM tests.
+HELM desktop tests plus paper tree.
 
 ## Links to authoritative project documentation
 
 - [HELM README](https://github.com/The-Allsparks/HELM/blob/main/README.md)
 - [Student path](https://github.com/The-Allsparks/HELM/blob/main/docs/student-learning-path.md)
+- [Mentor guide](https://github.com/The-Allsparks/HELM/blob/main/docs/mentor-guide.md)
 - [Intent trees](https://github.com/The-Allsparks/HELM/blob/main/docs/intent-trees.md)
 - [Readiness gates](https://github.com/The-Allsparks/HELM/blob/main/docs/readiness-gates.md)
 - [Safety](https://github.com/The-Allsparks/HELM/blob/main/docs/safety.md)
+- [Season strategy](https://github.com/The-Allsparks/HELM/blob/main/docs/season-strategy.md)
 - [projects/helm.md](../../../projects/helm.md)
+- [projects/pedro-pathing.md](../../../projects/pedro-pathing.md)
 
 ## Mentor notes
 
-Gates file may still say TRACE was empty — treat authority as not met regardless.
+Gates file may still say TRACE was empty. Treat **authority** as not met regardless. Do not skip to execute because the paper tree looks tidy.
