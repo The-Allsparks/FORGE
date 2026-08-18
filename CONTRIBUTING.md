@@ -10,7 +10,7 @@ Curriculum, meeting plans, integration labs, readiness tracking, and student lea
 
 ## What this repository is not
 
-A runtime robot library. Do not add Java/Gradle robot code here. Do not make robot projects depend on FORGE.
+A runtime robot library. Do not add Java/Gradle robot code here. Do not make robot projects depend on FORGE. The TeamCode project is tracked in [docs/team-robot-project.md](docs/team-robot-project.md) — fill the URL there; do not invent one.
 
 ## Setup
 

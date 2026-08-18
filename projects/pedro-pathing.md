@@ -6,8 +6,12 @@ Authoritative documentation is **not** an Allsparks repository:
 
 - [pedropathing.com](https://pedropathing.com/)
 - [Introduction](https://pedropathing.com/docs/pathing)
+- [Tuning](https://pedropathing.com/docs/pathing/tuning)
+- [Localization](https://pedropathing.com/docs/pathing/tuning/localization)
+- [Dashboard](https://pedropathing.com/docs/pathing/dashboard)
 - [Pedro-Pathing/PedroPathing](https://github.com/Pedro-Pathing/PedroPathing)
 - [Quickstart](https://github.com/Pedro-Pathing/Quickstart)
+- [Visualizer](https://github.com/Pedro-Pathing/Visualizer)
 
 ## What students learn here
 
@@ -27,7 +31,7 @@ Built drivetrain, battery discipline, Driver Station basics. Dead wheels / Pinpo
 
 ## Hardware / simulation
 
-Visualizer is a separate Pedro project. If the robot is unavailable, students sketch the path on paper and walk it, then encode it when hardware returns.
+[Visualizer](https://github.com/Pedro-Pathing/Visualizer) is a separate Pedro project. Shop tuning often uses Panels on robot Wi-Fi ([dashboard docs](https://pedropathing.com/docs/pathing/dashboard)). If the robot is unavailable, students sketch the path on paper and walk it, then encode it when hardware returns. Full follower tuning can take days; FORGE sessions must not consume Meeting B driving to finish every tuner.
 
 ## Evidence
 

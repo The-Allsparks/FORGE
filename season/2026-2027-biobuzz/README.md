@@ -28,11 +28,11 @@ working robot → reliable mechanisms → driver practice → conventional auton
 
 ## Written sessions
 
-**Complete (run as-is):** S001–S006.
+**Complete (run as-is):** S001–S007 and SK01.
 
-**Kickoff workshop:** SK01.
+**Structured outlines:** S008–S019. Expand them with the session template before the week you need them. Unnumbered Tuesdays/Thursdays use Meeting A/B templates plus the cadence window in `calendar.yaml`.
 
-**Structured outlines:** S007–S019. Expand them with the session template before the week you need them. Unnumbered Tuesdays/Thursdays use Meeting A/B templates plus the cadence window in `calendar.yaml`.
+Pit packing, rollback, and clinic test card: [pit-and-inspection.md](pit-and-inspection.md) (not a substitute for the official FIRST checklist).
 
 ## Kickoff replan
 

@@ -38,7 +38,7 @@ Packed spare list; inspection attempt; auto that still runs with extras off.
 
 ## Prerequisites
 
-Clinic date is a planning input. [event-retrospective template](../../../templates/event-retrospective.md) printed blank for Saturday.
+Clinic date is a planning input. Print [pit-and-inspection.md](../pit-and-inspection.md) and a blank [event-retrospective template](../../../templates/event-retrospective.md).
 
 ## Vocabulary
 
@@ -58,7 +58,7 @@ Competition-like config: TRACE recorder OK; AMPER/BEACON passive; others off unl
 
 ## Preparation required before the meeting
 
-Inspection checklist (team). Packing list. Charge batteries.
+Walk [pit-and-inspection.md](../pit-and-inspection.md). Charge batteries. Confirm 26–27 official inspection PDF status on the FIRST event resources page.
 
 ## Exact 120-minute agenda
 
@@ -136,6 +136,8 @@ Walk pit workflow without robot.
 
 ## Links to authoritative project documentation
 
+- [pit-and-inspection.md](../pit-and-inspection.md)
+- [2026–2027 event resources / inspection](https://ftc-resources.firstinspires.org/ftc/archive/2027/event)
 - [BEACON preflight](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/preflight.md)
 - [TRACE mentor guide](https://github.com/The-Allsparks/TRACE/blob/main/docs/mentor-guide.md)
 - [ECHO competition readiness](https://github.com/The-Allsparks/ECHO/blob/main/docs/competition-readiness.md)

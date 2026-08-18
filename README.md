@@ -82,6 +82,7 @@ working robot → reliable mechanisms → driver practice → conventional auton
 | Students | [docs/student-guide.md](docs/student-guide.md) |
 | Mentors | [docs/mentor-guide.md](docs/mentor-guide.md) |
 | This season | [season/2026-2027-biobuzz/README.md](season/2026-2027-biobuzz/README.md) |
+| Robot code (not this repo) | [docs/team-robot-project.md](docs/team-robot-project.md) |
 | First meeting | [season/2026-2027-biobuzz/sessions/S001-system-map-safety-trace.md](season/2026-2027-biobuzz/sessions/S001-system-map-safety-trace.md) |
 | Readiness | [season/2026-2027-biobuzz/readiness-dashboard.md](season/2026-2027-biobuzz/readiness-dashboard.md) |
 | Event dates | [season/2026-2027-biobuzz/calendar.yaml](season/2026-2027-biobuzz/calendar.yaml) |

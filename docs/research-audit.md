@@ -176,7 +176,7 @@ Verified links: [README](https://github.com/The-Allsparks/ECHO/blob/main/README.
 | Competition | Conventional autonomous is a season priority |
 | Integration | Chassis owner; ViDAR optional consumer; HELM must not replace it |
 
-Verified links: [site](https://pedropathing.com/), [introduction](https://pedropathing.com/docs/pathing), [GitHub](https://github.com/Pedro-Pathing/PedroPathing), [Quickstart](https://github.com/Pedro-Pathing/Quickstart).
+Verified links: [site](https://pedropathing.com/), [introduction](https://pedropathing.com/docs/pathing), [tuning](https://pedropathing.com/docs/pathing/tuning), [localization](https://pedropathing.com/docs/pathing/tuning/localization), [GitHub](https://github.com/Pedro-Pathing/PedroPathing), [Quickstart](https://github.com/Pedro-Pathing/Quickstart).
 
 ## Gaps (do not invent)
 
@@ -191,7 +191,7 @@ Verified links: [site](https://pedropathing.com/), [introduction](https://pedrop
 | ECHO Driver Hub / match audio untested | ECHO competition readiness | Simulation and mute drills only |
 | SystemCore APIs | Blocked issues in AMPER/MIMIC/BEACON | Out of season scope |
 | ViDAR missing some community files | ViDAR README / CONTRIBUTING | Link README; do not claim a ViDAR CoC that is not there |
-| Team robot repository not identified in this org audit | Local `FTC-test` exists; not treated as production TeamCode | Sessions say "team FTC project" without a forged repo URL |
+| Team robot repository not identified in this org audit | Local `FTC-test` exists with no git remote; org has no TeamCode repo as of 18 Aug 2026 | [docs/team-robot-project.md](team-robot-project.md) holds the placeholder; do not forge a URL |
 
 ## Scheduling assumption
 

@@ -4,7 +4,7 @@ Welcome to FORGE — **Framework for Onboarding, Robotics, Guidance, and Educati
 
 This repository is the season map for The Allsparks. It tells you what we are building this week, what evidence to collect, and when a software feature is allowed to be more than a passenger.
 
-It is **not** the robot code. Robot code lives in the team's FTC project and in the library repositories.
+It is **not** the robot code. Robot code lives in the team's FTC project and in the library repositories. That project URL is recorded in [team-robot-project.md](team-robot-project.md) when the team publishes it.
 
 ## How a meeting works
 

@@ -4,7 +4,7 @@ FORGE is the season-orchestration repository for The Allsparks (FTC Team 36117).
 
 ## Non-negotiable constraints
 
-- Do **not** add robot libraries, Gradle modules, or TeamCode here.
+- Do **not** add robot libraries, Gradle modules, or TeamCode here. If the team robot GitHub URL is unknown, update [docs/team-robot-project.md](docs/team-robot-project.md) rather than inventing a clone path.
 - Do **not** make ViDAR, AMPER, MIMIC, BEACON, TRACE, HELM, ECHO, or the robot project depend on FORGE.
 - Do **not** duplicate project manuals. Link to authoritative files in those repositories.
 - Do **not** invent APIs, safety limits, voltage thresholds, or game rules. If a document is missing, link to the closest source and record the gap.
