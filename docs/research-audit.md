@@ -192,7 +192,8 @@ Verified links: [site](https://pedropathing.com/), [introduction](https://pedrop
 | SystemCore APIs | Blocked issues in AMPER/MIMIC/BEACON | Out of season scope |
 | ViDAR missing some community files | ViDAR README / CONTRIBUTING | Link README; do not claim a ViDAR CoC that is not there |
 | Team robot repository not identified in this org audit | Local `FTC-test` exists with no git remote; org has no TeamCode repo as of 18 Aug 2026 | [docs/team-robot-project.md](team-robot-project.md) holds the placeholder; do not forge a URL |
+| Combined Control Hub stack not compile-checked | [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4); AMPER install as packaging reference | [stack-acceptance.md](stack-acceptance.md) documents install/lifecycle/conventions; Hub evidence waits on #2 |
 
 ## Scheduling assumption
 
-User/team instruction: treat all seven libraries as functionally complete for **scheduling** after the week of 24 August 2026. That is a planning assumption, not a hardware-validation claim. FORGE still requires evidence before active competition use.
+User/team instruction: treat all seven libraries as functionally complete for **scheduling** after the week of 24 August 2026. That is a planning assumption, not a hardware-validation claim and not combined FTC readiness. FORGE still requires evidence before active competition use. Combined-stack acceptance is the first integration priority.

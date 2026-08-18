@@ -49,3 +49,7 @@ Stale tracks must not be treated as current field truth. AprilTag scout observat
 - [API](https://github.com/The-Allsparks/ViDAR/blob/main/docs/API.md)
 
 Audit: [docs/research-audit.md](../docs/research-audit.md)
+
+## Combined stack
+
+ViDAR is optional. Teaching OpModes are no-motors. Combined FTC readiness is [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). Sibling P0: [ViDAR#33](https://github.com/The-Allsparks/ViDAR/issues/33). See [stack-acceptance.md](../docs/stack-acceptance.md) and [conventions.md](../docs/conventions.md) (frames).

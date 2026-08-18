@@ -5,6 +5,7 @@ Short activities that fit inside a session block. They do not replace Meeting A 
 | Lab | Kind | Use in |
 | --- | ---- | ------ |
 | [I001 TRACE closeout](integrated/I001-trace-closeout.md) | integrated | Every session closeout |
+| [I002 stack install diagnosis](integrated/I002-stack-install-diagnosis.md) | integrated | Preseason / whenever a library is added; paper path until #2 exists |
 | [SIM001 ViDAR browser](simulated/SIM001-vidar-browser.md) | simulated | S005 / hardware-unavailable |
 | [SIM002 ECHO desktop](simulated/SIM002-echo-desktop.md) | simulated | S010 |
 | [HW001 drivetrain inspect](hardware/HW001-drivetrain-inspect.md) | hardware | S002 |

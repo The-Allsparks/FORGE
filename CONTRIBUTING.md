@@ -10,7 +10,7 @@ Curriculum, meeting plans, integration labs, readiness tracking, and student lea
 
 ## What this repository is not
 
-A runtime robot library. Do not add Java/Gradle robot code here. Do not make robot projects depend on FORGE. The TeamCode project is tracked in [docs/team-robot-project.md](docs/team-robot-project.md) — fill the URL there; do not invent one.
+A runtime robot library. Do not add Java/Gradle robot code here. Do not make robot projects depend on FORGE. The TeamCode project is tracked in [docs/team-robot-project.md](docs/team-robot-project.md) — fill the URL there; do not invent one. Combined-stack acceptance teaching lives in [docs/stack-acceptance.md](docs/stack-acceptance.md); compile-checked examples belong in the robot repo ([FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)).
 
 ## Setup
 
@@ -33,6 +33,7 @@ python tools/validation/validate_curriculum.py
 8. Do not commit secrets, Wi-Fi passwords, tokens, or student PII.
 9. Keep dates in [season/2026-2027-biobuzz/calendar.yaml](season/2026-2027-biobuzz/calendar.yaml). Do not bury the only copy of event dates in prose.
 10. Run the validator before requesting review.
+11. Combined FTC stack acceptance ([FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)) outranks standalone curriculum expansion that assumes the libraries already compose on a robot.
 
 ## Pull requests
 

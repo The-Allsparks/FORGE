@@ -29,10 +29,13 @@ TeamCode path:        TeamCode/src/main/java/org/firstinspires/ftc/teamcode/
 Android Studio:       required for Pedro Pathing
 ```
 
-Install libraries into **that** project using each library's own install docs (AMPER, TRACE, ViDAR, and so on). FORGE only links those docs.
+Install libraries into **that** project using each library's own install docs (AMPER, TRACE, ViDAR, and so on). FORGE only links those docs. Combined order, lifecycle, and disable paths: [stack-acceptance.md](stack-acceptance.md), [student-install.md](student-install.md). AMPER’s multi-module packaging is the starting Gradle reference, not something to copy into FORGE.
+
+Until this URL exists, [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) cannot check compile-checked TeleOp/auto or Control Hub budgets. Keep this issue and [#2](https://github.com/The-Allsparks/FORGE/issues/2) open.
 
 ## Related
 
 - Tracking issue: [The-Allsparks/FORGE#2](https://github.com/The-Allsparks/FORGE/issues/2)
+- Combined stack epic: [The-Allsparks/FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)
 - Pedro Quickstart (if starting from Pedro's template): [Pedro-Pathing/Quickstart](https://github.com/Pedro-Pathing/Quickstart)
 - Official SDK: [FIRST-Tech-Challenge/FtcRobotController](https://github.com/FIRST-Tech-Challenge/FtcRobotController)

@@ -43,7 +43,7 @@ Track each capability independently on the [readiness dashboard](../season/2026-
 - Demonstrated benefit
 - Repeatability
 
-Opening a GitHub repository, merging a pull request, or completing a FORGE session is **not** approval.
+Opening a GitHub repository, merging a pull request, completing a FORGE session, or passing **desktop** CI is **not** approval. Combined Control Hub evidence lives under [stack-acceptance.md](stack-acceptance.md) / [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4).
 
 ## Project defaults for this season
 
@@ -80,6 +80,8 @@ Every session that touches an optional active feature must name:
 3. The conventional behavior that remains
 
 If students cannot perform the rollback, the feature is not practice-ready.
+
+Student-facing disable table: [student-install.md](student-install.md). Pit copy: [pit-and-inspection.md](../season/2026-2027-biobuzz/pit-and-inspection.md).
 
 ## Failure injection
 

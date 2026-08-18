@@ -46,3 +46,7 @@ Phase 0/1 never call `setPower` / `setVelocity`. Placeholder voltage thresholds 
 - [Examples](https://github.com/The-Allsparks/AMPER/blob/main/examples/README.md)
 
 Audit: [docs/research-audit.md](../docs/research-audit.md)
+
+## Combined stack
+
+AMPER is optional. Combined FTC readiness is [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4), not this page. Packaging reference: [AMPER install](https://github.com/The-Allsparks/AMPER/blob/main/docs/install.md). Sibling P0: [AMPER#41](https://github.com/The-Allsparks/AMPER/issues/41). See [stack-acceptance.md](../docs/stack-acceptance.md).

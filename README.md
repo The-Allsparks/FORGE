@@ -47,14 +47,17 @@ Do not construct seven independent courses. Teach these as related layers of one
 
 ## Current status
 
+**First combined-stack acceptance priority:** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). A library that compiles on a desktop is not an FTC-ready stack. See [docs/stack-acceptance.md](docs/stack-acceptance.md). Do not invent a TeamCode URL ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)).
+
 | Item | Status |
 | ---- | ------ |
 | Season | 2026–2027 BIOBUZZ (game details unknown until Kickoff) |
-| Foundation | Session contract, calendar, first six complete sessions, remaining season outlines |
+| Foundation | Session contract, calendar, complete sessions S001–S019 and SK01 |
+| Combined stack acceptance | **Open P0.** Install matrix and conventions documented; compile-checked Hub evidence blocked on the robot project |
 | Competition enablement | All optional advanced features start **disabled** or **passive** |
 | Hardware validation of linked libraries | **Not claimed.** See each project README |
 
-**Library completion for scheduling:** treat ViDAR, AMPER, MIMIC, BEACON, TRACE, HELM, and ECHO as functionally complete after the week of **24 August 2026**. Remaining season work is onboarding, integration, calibration, testing, and field validation.
+**Library completion for scheduling:** treat ViDAR, AMPER, MIMIC, BEACON, TRACE, HELM, and ECHO as functionally complete after the week of **24 August 2026**. That is not combined Control Hub acceptance. Remaining season work is onboarding, integration, calibration, testing, and field validation.
 
 ---
 
@@ -73,6 +76,8 @@ The Allsparks are a small rookie FTC team.
 
 working robot → reliable mechanisms → driver practice → conventional autonomous → evidence collection → advanced autonomy
 
+Combined FTC stack acceptance ([#4](https://github.com/The-Allsparks/FORGE/issues/4)) is the integration gate in front of any claim that those libraries already compose on a robot.
+
 ---
 
 ## Start here
@@ -82,6 +87,8 @@ working robot → reliable mechanisms → driver practice → conventional auton
 | Students | [docs/student-guide.md](docs/student-guide.md) |
 | Mentors | [docs/mentor-guide.md](docs/mentor-guide.md) |
 | This season | [season/2026-2027-biobuzz/README.md](season/2026-2027-biobuzz/README.md) |
+| Combined stack gate | [docs/stack-acceptance.md](docs/stack-acceptance.md) |
+| Student install / disable | [docs/student-install.md](docs/student-install.md) |
 | Robot code (not this repo) | [docs/team-robot-project.md](docs/team-robot-project.md) |
 | First meeting | [season/2026-2027-biobuzz/sessions/S001-system-map-safety-trace.md](season/2026-2027-biobuzz/sessions/S001-system-map-safety-trace.md) |
 | Readiness | [season/2026-2027-biobuzz/readiness-dashboard.md](season/2026-2027-biobuzz/readiness-dashboard.md) |
@@ -152,7 +159,7 @@ python tools/validation/validate_curriculum.py
 
 ## Continue the work
 
-Open issues and milestones are the handoff. Start with the next recommended issue listed in the initial pull request, or read [docs/maintaining-the-schedule.md](docs/maintaining-the-schedule.md).
+Open issues and milestones are the handoff. **Next:** keep [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) as the combined-stack epic; keep [#2](https://github.com/The-Allsparks/FORGE/issues/2) open until a real robot URL exists. Do not expand sessions as if the stack already composes on a Control Hub. Schedule maintenance: [docs/maintaining-the-schedule.md](docs/maintaining-the-schedule.md).
 
 ## License
 

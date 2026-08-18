@@ -53,3 +53,7 @@ A student should explain the current TRACE phase out loud before anyone enables 
 - [SECURITY](https://github.com/The-Allsparks/TRACE/blob/main/SECURITY.md)
 
 Audit: [docs/research-audit.md](../docs/research-audit.md)
+
+## Combined stack
+
+TRACE is optional as a recorder and must not command motors. Combined FTC readiness is [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). Sibling P0: [TRACE#31](https://github.com/The-Allsparks/TRACE/issues/31). See [stack-acceptance.md](../docs/stack-acceptance.md) and [conventions.md](../docs/conventions.md).

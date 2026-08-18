@@ -47,3 +47,7 @@ No production safety claims. Incorrect homing, units, direction, or gearing can 
 - [Testing](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/testing.md)
 
 Audit: [docs/research-audit.md](../docs/research-audit.md)
+
+## Combined stack
+
+MIMIC is optional. Phase 0 observation is the season default. Combined FTC readiness is [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). Sibling P0: [MIMIC#34](https://github.com/The-Allsparks/MIMIC/issues/34). See [stack-acceptance.md](../docs/stack-acceptance.md).

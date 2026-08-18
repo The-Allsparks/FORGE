@@ -5,19 +5,21 @@ date: 2026-12-08
 meeting_type: A
 season_phase: adversity-simulations
 event_checkpoint: league-5s-6s
-status: outline
+status: complete
 difficulty: Competition readiness
 projects: [TRACE, AMPER, MIMIC, ViDAR, BEACON, ECHO, HELM, PEDRO]
 active_features: []
 ---
+
 # S017 — Full match simulation
 
 ## Session identity
+
 | Field | Value |
 | ----- | ----- |
 | Session ID | S017 |
 | Title | Full match simulation |
-| Calendar date | 2026-12-08 (planning input) |
+| Calendar date | 2026-12-08 (planning input; Tuesday Meeting A) |
 | Relative week | Adversity window |
 | Meeting type | A |
 | Season phase | adversity-simulations |
@@ -30,48 +32,59 @@ Can we finish a match when the battery is tired, the camera is blocked, and a cu
 
 ## Student-facing objective
 
-Timed mock match with scripted faults. Only narrowly bounded validated active behavior. Immediate rollback.
+Run a **scripted** mock with only narrowly bounded, already-validated behavior. Practice mute/disable in under five seconds. Immediate rollback if anything optional fails its benefit test. This session tests the team, not a claim that the combined stack is FTC-ready ([stack-acceptance.md](../../../docs/stack-acceptance.md)).
 
 ## Robot outcome
 
-Survives the mock or fails with a written rollback.
+- Survives the mock, or fails with a written rollback
+- Annotated script in the notebook
+- Dashboard rows updated (disable anything that failed)
 
 ## Prerequisites
 
-League evidence already in dashboard. Expand this outline the week before with the team's real faults.
+- League evidence already on the dashboard
+- Expand the script the week before with the team’s **real** faults
+- [ECHO hearing safety](https://github.com/The-Allsparks/ECHO/blob/main/docs/hearing-safety.md) if any audio will be used (default: skip audio)
+- [BEACON recovery](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/recovery.md) — observation vocabulary only
+- [AMPER hardware test card](https://github.com/The-Allsparks/AMPER/blob/main/docs/validation/hardware-test-card.md) — do not induce uncontrolled brownout
 
 ## Vocabulary
 
-mock match · depleted · stale · mute
+mock match · depleted · stale · mute · rollback
 
 ## Safety concerns
 
-Script faults. No uncontrolled brownout. ECHO off unless already evidenced — if on, include bad-cue mute test.
+- Script faults. Mentor present
+- No uncontrolled brownout
+- ECHO off unless already evidenced — if on, include bad-cue mute; mute must not stop the robot
+- HELM still not in charge
+- Covered camera, not staring into lights
+- Mechanism faults must be **safe** (no gravity-load jams to “test MIMIC”)
 
 ## Required hardware
 
-Robot; weaker labeled pack; lens cover; spare battery.
+Robot; weaker labeled pack if owned; lens cover; spare healthy battery; pit layout space.
 
 ## Required software
 
-Meet-like config.
+Meet-like config. Optionals off or passive unless dashboard already says practice-only with evidence.
 
 ## Preparation required before the meeting
 
-Script: T=0 auto, T=30 cover camera, T=60 missed acquire, T=90 mute/disable optional systems.
+Script on the board, for example: T=0 auto, T=30 cover camera, T=60 missed acquire, T=90 mute/disable optionals. Assign driver, coach, programmer, pit.
 
 ## Exact 120-minute agenda
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Script and safety; HELM still not in charge |
-| 75 | Construction | Fix anything the last meet broke; pit layout. |
-| 25 | Integration | Run the scripted mock (may spill a few minutes from construction if mentors agree — prefer keeping 75 min build/pit practice as physical pit reset). |
+| 10 | Opening | Script and safety; HELM still not in charge; clinic/league evidence only |
+| 75 | Construction | Fix anything the last meet broke; pit layout; battery swap drill |
+| 25 | Integration | Run the scripted mock (short). If a full mock needs 55 minutes, keep this block as pit reset and move the full mock to Thursday Meeting B |
 | 10 | Closeout | TRACE evidence, explain-back, dashboard, cleanup |
 
 ## Mentor demonstration
 
-How to mute/disable in under five seconds.
+How to mute/disable in under five seconds ([student-install.md](../../../docs/student-install.md)). Students repeat.
 
 ## Student work
 
@@ -79,60 +92,63 @@ How to mute/disable in under five seconds.
 | ---- | ---- |
 | Mechanical | Pit reset |
 | Electrical | Battery swap drill |
-| Programming | Watch logs live |
+| Programming | Watch logs live; call stale vs missing |
 | Drive team | Play the match |
 | Documentation | Script results |
 
 ## Integrated build or test activity
 
-Full script. If construction must stay 75 min, run a shortened mock in the 25-minute integration block and schedule a Thursday Meeting B for the full 55+ mock.
+Run the scripted mock in the 25-minute block **or** a shortened version (auto + one fault + rollback). Full timed mock belongs on Meeting B if construction must stay 75 minutes. Do not skip driving this week.
 
 ## Failure-injection scenario
 
-Obstructed camera, stale sensor story, comms stop, ambiguous ECHO if present, mechanism fault (safe).
+Obstructed camera, stale sensor story, official stop, ambiguous ECHO if present, safe mechanism fault. Students must keep conventional teleop.
 
 ## Evidence to collect
 
-Script sheet; TRACE; dashboard.
+- Annotated script
+- TRACE export if recording
+- Dashboard updates
+- Rollback time (target: under one minute)
 
 ## Student explain-back questions
 
 1. What did we roll back?
-2. Did drivers still function?
-3. Auto fallback?
-4. Any active feature that failed its benefit test?
+2. Did drivers still function with optionals off?
+3. Did conventional auto still exist?
+4. Did any active feature fail its benefit test?
 
 ## Assessment or exit check
 
-Mock completed or blocker documented.
+Mock completed or blocker documented. Healthy pack reinstalled.
 
 ## Portfolio or engineering-notebook artifact
 
-Script annotated.
+Script annotated with times and rollback notes.
 
 ## Competition enablement impact
 
-Disable anything that failed. Do not add authority.
+Disable anything that failed. Do not add authority. Combined stack is still not match-approved because a mock happened.
 
 ## Rollback procedure
 
-Practiced live.
+Practiced live: DS stop, teleop, disable table, battery disconnect if needed.
 
 ## Cleanup requirements
 
-Healthy pack installed; robot safe.
+Healthy pack installed; robot safe; lens cover off the camera for storage.
 
 ## Next-session preparation
 
-Continue adversity window with templates through 9 Jan. S018 freeze.
+Continue adversity window with templates through 9 January. S018 freeze.
 
 ## Hardware-unavailable fallback
 
-Tabletop match with timers and paper faults.
+Tabletop match with timers and paper faults. Still practice the disable table.
 
 ## Robot-unavailable simulation option
 
-Driver + programmer at a table with logs.
+Driver + programmer at a table with logs. Say this is not Hub loop-time evidence.
 
 ## Links to authoritative project documentation
 
@@ -140,7 +156,9 @@ Driver + programmer at a table with logs.
 - [ECHO hearing safety](https://github.com/The-Allsparks/ECHO/blob/main/docs/hearing-safety.md)
 - [BEACON recovery](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/recovery.md)
 - [docs/safety-and-enablement.md](../../../docs/safety-and-enablement.md)
+- [docs/student-install.md](../../../docs/student-install.md)
+- [docs/stack-acceptance.md](../../../docs/stack-acceptance.md)
 
 ## Mentor notes
 
-If the 75-minute build and a full mock cannot both fit, the outline already splits to Thursday. Do not skip driving.
+If the 75-minute build and a full mock cannot both fit, split to Thursday. Do not skip driving. Do not treat a successful mock as AMPER Phase 2, MIMIC actuation, BEACON recovery, HELM execute, ECHO match audio, or ViDAR motion authority.

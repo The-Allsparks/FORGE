@@ -4,6 +4,8 @@
 
 Students build and drive a working robot. FORGE exists so the Allsparks libraries support that robot instead of replacing the season.
 
+**First integration priority:** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) — combined FTC stack acceptance. Do not expand later labs as if AMPER, TRACE, ViDAR, and the rest already compose on a Control Hub. There is still no published TeamCode URL ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)). Use [stack-acceptance.md](stack-acceptance.md) and [student-install.md](student-install.md).
+
 ## How to run a meeting
 
 1. Read the session the night before. Complete the **Preparation required** list.
@@ -20,6 +22,7 @@ Students build and drive a working robot. FORGE exists so the Allsparks librarie
 - Exclusion zones and a known e-stop / disable path before wheels-on tests.
 - Student PII and secrets out of logs (see [TRACE SECURITY.md](https://github.com/The-Allsparks/TRACE/blob/main/SECURITY.md)).
 - Conventional teleop and autonomous fallbacks. Optional systems default off or passive.
+- Combined-stack honesty. Desktop tests and sibling CI are not Hub evidence.
 - Driver practice time. Do not spend Meeting B rewriting architecture.
 
 ## Review questions (every enablement discussion)

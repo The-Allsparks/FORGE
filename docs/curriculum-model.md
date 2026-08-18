@@ -85,6 +85,8 @@ Summaries only. Authoritative phase tables live in the project repos.
 | ECHO | Cue design and driver workload off-robot first. Immediate mute. Competition-off until benefit is evidenced. |
 | Pedro Pathing | Conventional autonomous ownership of chassis motion. |
 
+Combined FTC stack acceptance is a FORGE gate, not a per-library README claim. See [stack-acceptance.md](stack-acceptance.md).
+
 ## Session contract
 
 Copy [templates/session.md](../templates/session.md). Required headings are enforced by `tools/validation/validate_curriculum.py`.
