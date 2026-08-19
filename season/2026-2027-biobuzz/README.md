@@ -2,12 +2,21 @@
 
 Season folder for The Allsparks. Game details are unknown until Kickoff.
 
-**Dates in [calendar.yaml](calendar.yaml) are planning inputs.** Verify them if the FIRST Nevada calendar changes.
+**Dates in [calendar.yaml](calendar.yaml) are planning inputs.** Verify them if the FIRST Nevada calendar changes. Regular shop meetings are **4:00–6:00 PM** (Monday Meeting A, Friday Meeting B).
+
+## Numbering
+
+| Prefix | Meaning |
+| ------ | ------- |
+| **P001–P008** | Preseason (before Kickoff) |
+| **K001** | Kickoff |
+| **S001+** | Official season after Kickoff |
+| **E004, E005** | Event days that replace a regular meeting |
 
 ## Start this week
 
 1. Read [season-plan.md](season-plan.md)
-2. Open today's file under [sessions/](sessions/) — **P000–P005** and **S001–S002** are preseason; **SK01** is Kickoff
+2. Open today's file under [sessions/](sessions/)
 3. Update [readiness-dashboard.md](readiness-dashboard.md) in the last 10–20 minutes
 
 ## Priority
@@ -30,11 +39,11 @@ working robot → reliable mechanisms → driver practice → conventional auton
 
 ## Written sessions
 
-**Preseason (before Kickoff):** P000–P003 (Strafer build), S001–S002 (bring-up and driver baseline), P004–P005 (mechanism lab and Kickoff readiness). P000 date requires confirmation.
+**Preseason:** P001–P008 (Strafer build, bring-up, mechanism lab, Kickoff readiness).
 
-**Complete (run as-is):** P000–P005, S001–S023, and SK01.
+**Kickoff:** K001.
 
-Unnumbered Tuesdays/Thursdays: [cadence Meeting A](../../templates/cadence-meeting-a.md) and [cadence Meeting B](../../templates/cadence-meeting-b.md).
+**Season:** S001–S042 milestone and cadence sessions; **E004** (League Tournament day 1) and **E005** (State day 1, contingent) replace regular meetings on those dates.
 
 Team robot GitHub URL: **BLOCKED** ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)). Shop construction and driving still proceed. Compile-checked stack does not. Playbook: [create-robot-project.md](../../docs/create-robot-project.md).
 

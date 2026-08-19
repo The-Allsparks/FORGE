@@ -4,7 +4,7 @@
 
 FORGE does **not** contain BIOBUZZ rules. Use FIRST Kickoff materials and the season Game Manual. This guide only tells the team how to change the schedule without abandoning the robot.
 
-## Timebox (fits SK01)
+## Timebox (fits K001)
 
 Keep construction and a short drive if a robot is on site. Analysis is not a six-hour slide deck.
 

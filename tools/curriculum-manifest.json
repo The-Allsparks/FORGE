@@ -2,7 +2,7 @@
   "season_dir": "season/2026-2027-biobuzz",
   "calendar_file": "season/2026-2027-biobuzz/calendar.yaml",
   "session_glob": "season/2026-2027-biobuzz/sessions/*.md",
-  "allowed_meeting_types": ["A", "B", "K", "S"],
+  "allowed_meeting_types": ["A", "B", "E", "K", "S"],
   "allowed_season_phases": [
     "preseason",
     "kickoff",

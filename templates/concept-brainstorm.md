@@ -1,6 +1,6 @@
 # Concept brainstorm record
 
-Use at Kickoff (**SK01**) or any major replan. About 10–15 minutes of silent/sketch time, then group share. **Do not** pick a winner in this form — debate and MVP selection come next.
+Use at Kickoff (**K001**) or any major replan. About 10–15 minutes of silent/sketch time, then group share. **Do not** pick a winner in this form — debate and MVP selection come next.
 
 | Field | Value |
 | ----- | ----- |
