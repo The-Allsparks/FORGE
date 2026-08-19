@@ -53,7 +53,8 @@ Do not construct seven independent courses. Teach these as related layers of one
 | ---- | ------ |
 | Season | 2026–2027 BIOBUZZ (game details unknown until Kickoff) |
 | Foundation | Session contract, calendar, complete sessions S001–S019 and SK01 |
-| Combined stack acceptance | **Open P0.** Install matrix and conventions documented; compile-checked Hub evidence blocked on the robot project |
+| Combined stack acceptance | **Open P0.** Paper install/lifecycle/conventions done. Compile-checked Hub evidence **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2) |
+| Team robot / TeamCode repository | **BLOCKED.** No published URL. Playbook: [docs/create-robot-project.md](docs/create-robot-project.md) |
 | Competition enablement | All optional advanced features start **disabled** or **passive** |
 | Hardware validation of linked libraries | **Not claimed.** See each project README |
 
@@ -89,7 +90,8 @@ Combined FTC stack acceptance ([#4](https://github.com/The-Allsparks/FORGE/issue
 | This season | [season/2026-2027-biobuzz/README.md](season/2026-2027-biobuzz/README.md) |
 | Combined stack gate | [docs/stack-acceptance.md](docs/stack-acceptance.md) |
 | Student install / disable | [docs/student-install.md](docs/student-install.md) |
-| Robot code (not this repo) | [docs/team-robot-project.md](docs/team-robot-project.md) |
+| Robot code (not this repo) | [docs/team-robot-project.md](docs/team-robot-project.md) — **blocked** |
+| Create the robot repo (when ready) | [docs/create-robot-project.md](docs/create-robot-project.md) |
 | First meeting | [season/2026-2027-biobuzz/sessions/S001-system-map-safety-trace.md](season/2026-2027-biobuzz/sessions/S001-system-map-safety-trace.md) |
 | Readiness | [season/2026-2027-biobuzz/readiness-dashboard.md](season/2026-2027-biobuzz/readiness-dashboard.md) |
 | Event dates | [season/2026-2027-biobuzz/calendar.yaml](season/2026-2027-biobuzz/calendar.yaml) |
@@ -159,7 +161,23 @@ python tools/validation/validate_curriculum.py
 
 ## Continue the work
 
-Open issues and milestones are the handoff. **Next:** keep [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) as the combined-stack epic; keep [#2](https://github.com/The-Allsparks/FORGE/issues/2) open until a real robot URL exists. Do not expand sessions as if the stack already composes on a Control Hub. Schedule maintenance: [docs/maintaining-the-schedule.md](docs/maintaining-the-schedule.md).
+[#2](https://github.com/The-Allsparks/FORGE/issues/2) is **blocked** until the team publishes a robot repository. Do not invent a URL. Do not put TeamCode in FORGE.
+
+**Can proceed without that repo**
+
+- Unnumbered Tuesdays/Thursdays: [templates/cadence-meeting-a.md](templates/cadence-meeting-a.md) and [templates/cadence-meeting-b.md](templates/cadence-meeting-b.md)
+- Kickoff replan after 12 September 2026: [kickoff-replan-guide.md](season/2026-2027-biobuzz/kickoff-replan-guide.md)
+- Judging story practice: [templates/judging-one-pager.md](templates/judging-one-pager.md)
+- Mechanical/electrical construction and driver practice in the shop (hardware does not wait on GitHub)
+- Paper stack teaching: [docs/stack-acceptance.md](docs/stack-acceptance.md)
+
+**Blocked until #2**
+
+- Compile-checked combined TeleOp/auto
+- Control Hub loop-time / USB / camera budgets
+- Closing [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)
+
+Schedule maintenance: [docs/maintaining-the-schedule.md](docs/maintaining-the-schedule.md).
 
 ## License
 

@@ -14,7 +14,7 @@ Season folder for The Allsparks. Game details are unknown until Kickoff.
 
 working robot → reliable mechanisms → driver practice → conventional autonomous → evidence collection → advanced autonomy
 
-**Integration gate:** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) — combined FTC stack acceptance ([stack-acceptance.md](../../docs/stack-acceptance.md)). No published TeamCode URL yet ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)).
+**Integration gate:** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) — combined FTC stack acceptance. TeamCode URL is **BLOCKED** ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)).
 
 ## First Nevada checkpoints (from calendar.yaml)
 
@@ -32,7 +32,9 @@ working robot → reliable mechanisms → driver practice → conventional auton
 
 **Complete (run as-is):** S001–S019 and SK01.
 
-Unnumbered Tuesdays/Thursdays use Meeting A/B templates plus the cadence window in `calendar.yaml`.
+Unnumbered Tuesdays/Thursdays: [cadence Meeting A](../../templates/cadence-meeting-a.md) and [cadence Meeting B](../../templates/cadence-meeting-b.md).
+
+Team robot GitHub URL: **BLOCKED** ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)). Shop construction and driving still proceed. Compile-checked stack does not. Playbook: [create-robot-project.md](../../docs/create-robot-project.md).
 
 Combined-stack teaching: [stack-acceptance.md](../../docs/stack-acceptance.md), [student-install.md](../../docs/student-install.md), [lab I002](../../labs/integrated/I002-stack-install-diagnosis.md).
 

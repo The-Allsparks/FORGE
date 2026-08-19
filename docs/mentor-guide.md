@@ -4,7 +4,7 @@
 
 Students build and drive a working robot. FORGE exists so the Allsparks libraries support that robot instead of replacing the season.
 
-**First integration priority:** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) — combined FTC stack acceptance. Do not expand later labs as if AMPER, TRACE, ViDAR, and the rest already compose on a Control Hub. There is still no published TeamCode URL ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)). Use [stack-acceptance.md](stack-acceptance.md) and [student-install.md](student-install.md).
+**First integration priority:** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) — combined FTC stack acceptance. The team robot repository is **blocked** ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)). When the team is ready to create it: [create-robot-project.md](create-robot-project.md). Do not invent a URL. Use [stack-acceptance.md](stack-acceptance.md) and [student-install.md](student-install.md).
 
 ## How to run a meeting
 

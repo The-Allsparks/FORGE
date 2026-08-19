@@ -64,6 +64,7 @@ FTC SDK / Control Hub / Driver Station own official control and stop behavior.
 ## Related documents
 
 - [Stack acceptance](stack-acceptance.md)
+- [Create robot project (when ready)](create-robot-project.md)
 - [Shared conventions](conventions.md)
 - [Student install](student-install.md)
 - [Curriculum model](curriculum-model.md)

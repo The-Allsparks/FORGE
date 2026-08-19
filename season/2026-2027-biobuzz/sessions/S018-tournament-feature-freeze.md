@@ -151,6 +151,7 @@ Q&A practice for judging.
 ## Links to authoritative project documentation
 
 - [learning-paths/documentation.md](../../../learning-paths/documentation.md)
+- [templates/judging-one-pager.md](../../../templates/judging-one-pager.md)
 - [readiness-dashboard.md](../readiness-dashboard.md)
 - [docs/safety-and-enablement.md](../../../docs/safety-and-enablement.md)
 - [docs/stack-acceptance.md](../../../docs/stack-acceptance.md)

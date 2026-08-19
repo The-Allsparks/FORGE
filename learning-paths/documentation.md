@@ -17,7 +17,7 @@ Documentation is the last 10–20 minutes, not a homework mountain.
 ## Integration
 
 - Event retrospective after clinic and league meets
-- Judging narrative: problem, test, evidence, iteration — not a software tour of seven logos
+- Judging narrative: problem, test, evidence, iteration — not a software tour of seven logos ([judging one-pager](../templates/judging-one-pager.md))
 
 ## Competition readiness
 
