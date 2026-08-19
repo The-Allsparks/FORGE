@@ -11,7 +11,7 @@ season_name: BIOBUZZ
 team: The Allsparks
 team_number: 36117
 timezone: America/Los_Angeles
-last_reviewed: "2026-08-17"
+last_reviewed: "2026-08-18"
 dates_are_planning_inputs: true
 
 meeting_pattern:
@@ -21,6 +21,7 @@ meeting_pattern:
 
 assumptions:
   - "Treat ViDAR, AMPER, MIMIC, BEACON, TRACE, HELM, and ECHO as functionally complete for scheduling after the week of 2026-08-24."
+  - "Functional completeness for scheduling is not combined Control Hub acceptance. FORGE#4 remains the integration gate."
   - "Remaining season work is onboarding, integration, calibration, testing, and field validation — not greenfield library invention."
   - "BIOBUZZ game details are unknown until Kickoff 2026-09-12."
 

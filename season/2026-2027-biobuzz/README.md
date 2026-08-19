@@ -14,6 +14,8 @@ Season folder for The Allsparks. Game details are unknown until Kickoff.
 
 working robot → reliable mechanisms → driver practice → conventional autonomous → evidence collection → advanced autonomy
 
+**Integration gate:** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) — combined FTC stack acceptance ([stack-acceptance.md](../../docs/stack-acceptance.md)). No published TeamCode URL yet ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)).
+
 ## First Nevada checkpoints (from calendar.yaml)
 
 | Date | Event |
@@ -28,9 +30,11 @@ working robot → reliable mechanisms → driver practice → conventional auton
 
 ## Written sessions
 
-**Complete (run as-is):** S001–S012, S014, and SK01.
+**Complete (run as-is):** S001–S019 and SK01.
 
-**Structured outlines:** S013, S015–S019. Expand them with the session template before the week you need them. Unnumbered Tuesdays/Thursdays use Meeting A/B templates plus the cadence window in `calendar.yaml`.
+Unnumbered Tuesdays/Thursdays use Meeting A/B templates plus the cadence window in `calendar.yaml`.
+
+Combined-stack teaching: [stack-acceptance.md](../../docs/stack-acceptance.md), [student-install.md](../../docs/student-install.md), [lab I002](../../labs/integrated/I002-stack-install-diagnosis.md).
 
 Pit packing, rollback, and clinic test card: [pit-and-inspection.md](pit-and-inspection.md) (not a substitute for the official FIRST checklist).
 

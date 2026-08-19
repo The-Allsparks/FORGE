@@ -49,3 +49,7 @@ Start OS volume low and ECHO gain at default. Stop if ears ring or speech is har
 - [Mentor guide](https://github.com/The-Allsparks/ECHO/blob/main/docs/mentor-guide.md)
 
 Audit: [docs/research-audit.md](../docs/research-audit.md)
+
+## Combined stack
+
+ECHO is optional, last, and disabled until its deployment-path gate passes. Combined FTC readiness is [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). Sibling P0: [ECHO#17](https://github.com/The-Allsparks/ECHO/issues/17). See [stack-acceptance.md](../docs/stack-acceptance.md).

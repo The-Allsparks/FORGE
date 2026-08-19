@@ -2,7 +2,9 @@
 
 This plan sequences **one robot**. It is not seven courses. Dates: [calendar.yaml](calendar.yaml) (planning inputs; verify if FIRST Nevada changes them).
 
-Libraries may be treated as **functionally complete for scheduling** after the week of 24 August 2026. That is not hardware validation.
+**First combined-stack acceptance priority:** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). FORGE owns the student-facing install matrix, lifecycle ordering, conventions, disable paths, and acceptance teaching ([stack-acceptance.md](../../docs/stack-acceptance.md)). It does not contain TeamCode. Compile-checked combined TeleOp/auto is blocked until a published robot repository exists ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)). Do not invent a URL. Do not teach later sessions as if the stack already composes on a Control Hub.
+
+Libraries may be treated as **functionally complete for scheduling** after the week of 24 August 2026. That is not hardware validation and not combined FTC readiness.
 
 ## Constraints
 
@@ -11,6 +13,7 @@ Libraries may be treated as **functionally complete for scheduling** after the w
 - Substantial driver practice
 - Reliable conventional autonomous (Pedro Pathing owns chassis motion)
 - Advanced libraries support the robot; they do not consume the season
+- Combined stack acceptance (install, lifecycle, fallbacks, Hub evidence) outranks deeper standalone library expansion
 
 ## Phase map
 
@@ -22,7 +25,8 @@ Libraries may be treated as **functionally complete for scheduling** after the w
 - Make TRACE permanent as a closeout habit
 - Use AMPER passively
 - Introduce MIMIC snapshots
-- Mention ViDAR/BEACON/ECHO/HELM so vocabulary exists; dedicated labs are S005–S006 and later outlines
+- Mention ViDAR/BEACON/ECHO/HELM so vocabulary exists; dedicated labs are S005–S006 and later
+- Teach composition root = OpMode ([student-install.md](../../docs/student-install.md)); paper path of [lab I002](../../labs/integrated/I002-stack-install-diagnosis.md) until the robot repo exists
 - HELM has **no** authority
 
 S005–S006 fall after Kickoff because a four-hour week cannot also finish a scoring robot. They remain **introduction** sessions, not competition enablement.
@@ -60,7 +64,7 @@ Reliability sprint: repairs, auto repetitions, driver practice. TRACE on. AMPER 
 
 ### 2 November – 5 December
 
-Use match evidence. Deeper ViDAR calibration, MIMIC lifecycle, AMPER envelope, BEACON recovery exercises, ECHO experiments, HELM shadow. **Drive and auto every week.** Expand outlines or use templates.
+Use match evidence. Deeper ViDAR calibration, MIMIC lifecycle, AMPER envelope, BEACON recovery exercises, ECHO experiments, HELM shadow. **Drive and auto every week.** Do not treat sibling CI or desktop tests as combined Hub acceptance.
 
 ### 7 December – 9 January (S017 + templates)
 

@@ -162,7 +162,9 @@ If no FTC project exists: run TRACE desktop tests from the TRACE repo and log ev
 - [TRACE architecture](https://github.com/The-Allsparks/TRACE/blob/main/docs/architecture.md)
 - [projects/trace.md](../../../projects/trace.md)
 - [projects/pedro-pathing.md](../../../projects/pedro-pathing.md)
+- [docs/stack-acceptance.md](../../../docs/stack-acceptance.md)
+- [docs/student-install.md](../../../docs/student-install.md)
 
 ## Mentor notes
 
-Protect the 75-minute build. Do not recap all seven READMEs. If a student asks about HELM or ECHO, point at the project page and return to the wrench. Never let TRACE become a reason to skip mechanical debugging — that sentence is from the TRACE mentor guide; follow it.
+Protect the 75-minute build. Do not recap all seven READMEs. If a student asks about HELM or ECHO, point at the project page and return to the wrench. Never let TRACE become a reason to skip mechanical debugging — that sentence is from the TRACE mentor guide; follow it. Combined-stack Hub compile is **not** this session; paper composition-root from [stack-acceptance.md](../../../docs/stack-acceptance.md) is enough.

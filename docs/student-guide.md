@@ -4,7 +4,9 @@ Welcome to FORGE — **Framework for Onboarding, Robotics, Guidance, and Educati
 
 This repository is the season map for The Allsparks. It tells you what we are building this week, what evidence to collect, and when a software feature is allowed to be more than a passenger.
 
-It is **not** the robot code. Robot code lives in the team's FTC project and in the library repositories. That project URL is recorded in [team-robot-project.md](team-robot-project.md) when the team publishes it.
+It is **not** the robot code. Robot code lives in the team's FTC project and in the library repositories. That project URL is recorded in [team-robot-project.md](team-robot-project.md) when the team publishes it. Until then, combined-stack Hub work stays blocked ([stack-acceptance.md](stack-acceptance.md)).
+
+**P0 this season:** being able to install, disable, and roll back optional libraries around a driving robot — not treating seven green GitHub repos as a finished stack.
 
 ## How a meeting works
 
@@ -38,7 +40,7 @@ By the end of a session you should be able to:
 | HELM | Names for goals and fallbacks | Off; vocabulary and shadow only |
 | Pedro Pathing | Chassis movement in autonomous | Conventional auto is required |
 
-If a library is confusing, open its page in `projects/` and follow the links. Those repositories are the source of truth.
+If a library is confusing, open its page in `projects/` and follow the links. Those repositories are the source of truth. How they sit together: [stack-acceptance.md](stack-acceptance.md). How to add, diagnose, and turn one off: [student-install.md](student-install.md).
 
 ## Roles
 
@@ -68,3 +70,4 @@ Every session has a fallback. You still learn the vocabulary, run a simulation o
 2. [Calendar](../season/2026-2027-biobuzz/calendar.yaml)
 3. The session file for today
 4. [Readiness dashboard](../season/2026-2027-biobuzz/readiness-dashboard.md) — update it with a mentor in the last minutes
+5. [Student install](student-install.md) — disable paths you must be able to say out loud

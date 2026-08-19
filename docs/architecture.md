@@ -2,15 +2,20 @@
 
 FORGE is the season layer above seven Allsparks libraries and Pedro Pathing. It sequences learning and integration. It does not compile into the robot.
 
+**Combined-stack acceptance** is a FORGE-owned gate ([FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)): install matrix, OpMode lifecycle ordering, shared conventions, disable/rollback teaching, and (when a robot repo exists) compile-checked fallbacks plus Control Hub evidence. Details: [stack-acceptance.md](stack-acceptance.md), [conventions.md](conventions.md), [student-install.md](student-install.md). The composition root is the team's OpMode, not FORGE and not any single library.
+
 ## Layer map
 
 ```text
 Students and mentors
         │
         ▼
-FORGE  — season sequence, meetings, evidence, enablement, rollback
-        │  (links only; no robot dependency)
+FORGE  — season sequence, meetings, evidence, enablement, rollback,
+         combined-stack acceptance (links only; no robot dependency)
+        │
         ▼
+FTC OpMode / robot application  ← only composition root (TeamCode; not this repo)
+        │
 ┌─────────┬─────────┬─────────┬─────────┬─────────┬─────────┬─────────┐
 │  TRACE  │  AMPER  │  MIMIC  │  ViDAR  │ BEACON  │  ECHO   │  HELM   │
 │ evidence│  power  │  mech   │  vision │  comms  │  audio  │ intent  │
@@ -26,6 +31,7 @@ FTC SDK / Control Hub / Driver Station own official control and stop behavior.
 | FORGE may | FORGE must not |
 | --------- | -------------- |
 | Point to a project phase, example, or gate | Restate that project's API as if FORGE owned it |
+| Own combined-stack **acceptance teaching** (install, lifecycle, conventions, disable) | Contain TeamCode, become a Gradle dependency, or claim Hub evidence from desktop tests |
 | Require evidence before enablement | Treat repository completion as robot readiness |
 | Schedule construction, driving, and labs | Replace driver practice with lectures |
 | Record competition status on the dashboard | Flip a library default to "on" from this repo |
@@ -51,11 +57,15 @@ FTC SDK / Control Hub / Driver Station own official control and stop behavior.
 2. **TRACE is the closeout habit**, not a separate course. See [TRACE student learning path](https://github.com/The-Allsparks/TRACE/blob/main/docs/student-learning-path.md).
 3. **Passive before active.** AMPER, BEACON, MIMIC, ViDAR, ECHO, and HELM follow the [enablement ladder](safety-and-enablement.md).
 4. **Conventional fallbacks.** A teleop and a Pedro autonomous must keep working with optional systems disabled.
-5. **Editable calendar.** Event dates are planning inputs. Verify them if FIRST Nevada publishes a change.
-6. **Stale-link tolerance.** Linked repositories will evolve. Validation checks link shape and, where practical, that GitHub paths still exist. Mentors should re-verify after Kickoff using [maintaining-the-schedule.md](maintaining-the-schedule.md).
+5. **Combined stack is a gate.** Sibling CI and per-library unit tests are not FTC-ready. See [stack-acceptance.md](stack-acceptance.md).
+6. **Editable calendar.** Event dates are planning inputs. Verify them if FIRST Nevada publishes a change.
+7. **Stale-link tolerance.** Linked repositories will evolve. Validation checks link shape and, where practical, that GitHub paths still exist. Mentors should re-verify after Kickoff using [maintaining-the-schedule.md](maintaining-the-schedule.md).
 
 ## Related documents
 
+- [Stack acceptance](stack-acceptance.md)
+- [Shared conventions](conventions.md)
+- [Student install](student-install.md)
 - [Curriculum model](curriculum-model.md)
 - [Safety and enablement](safety-and-enablement.md)
 - [Evidence model](evidence-model.md)

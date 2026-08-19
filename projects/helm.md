@@ -48,3 +48,7 @@ Never directly command motors. Unknown/stale capabilities are unavailable, not "
 - [Responsibility boundaries](https://github.com/The-Allsparks/HELM/blob/main/docs/responsibility-boundaries.md)
 
 Audit: [docs/research-audit.md](../docs/research-audit.md)
+
+## Combined stack
+
+HELM is optional and stays `OFF` for matches. Combined FTC readiness is [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). Sibling P0: [HELM#44](https://github.com/The-Allsparks/HELM/issues/44). See [stack-acceptance.md](../docs/stack-acceptance.md).

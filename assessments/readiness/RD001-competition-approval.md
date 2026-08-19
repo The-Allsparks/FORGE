@@ -17,7 +17,7 @@ Dashboard, evidence records, project README maturity table.
 
 ## Student must not
 
-Treat CI green or "the repo exists" as approval.
+Treat CI green, "the repo exists," or a FORGE session completing as approval. Combined desktop tests are not Control Hub stack acceptance ([stack-acceptance.md](../../docs/stack-acceptance.md)).
 
 ## Evidence required
 

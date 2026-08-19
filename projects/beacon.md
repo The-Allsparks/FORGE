@@ -48,3 +48,7 @@ BEACON must not weaken, replace, or circumvent official watchdog/keepalive. Auto
 - [Assessment](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/assessment.md)
 
 Audit: [docs/research-audit.md](../docs/research-audit.md)
+
+## Combined stack
+
+BEACON is optional and must not replace official stop behavior. Combined FTC readiness is [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). Sibling P0: [BEACON#42](https://github.com/The-Allsparks/BEACON/issues/42). See [stack-acceptance.md](../docs/stack-acceptance.md).

@@ -11,8 +11,9 @@ FIRST Nevada dates in this repository were entered as **planning inputs** on 17 
 1. Follow [kickoff-replan-guide.md](../season/2026-2027-biobuzz/kickoff-replan-guide.md).
 2. Do not delete drivetrain, TRACE, or driver-practice sessions to make room for seven library deep-dives.
 3. Map mechanisms to BIOBUZZ tasks. Drop or delay HELM authority, multi-camera ViDAR, and ECHO match audio if they do not serve the minimum viable robot.
-4. Re-read [ECHO feasibility decision](https://github.com/The-Allsparks/ECHO/blob/main/docs/feasibility-decision.md) against the Kickoff manual, as that document itself requires.
-5. Run `python tools/validation/validate_curriculum.py`.
+4. Do not treat Kickoff as combined-stack Hub acceptance. Re-check [stack-acceptance.md](stack-acceptance.md) pins if FIRST publishes a new season SDK.
+5. Re-read [ECHO feasibility decision](https://github.com/The-Allsparks/ECHO/blob/main/docs/feasibility-decision.md) against the Kickoff manual, as that document itself requires.
+6. Run `python tools/validation/validate_curriculum.py`.
 
 ## When a linked document moves
 

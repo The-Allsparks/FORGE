@@ -32,6 +32,8 @@ Until the 26–27 checklist is posted, practice with the **process** (present th
 | HELM | **off** |
 | Pedro conventional auto | the auto we can explain |
 
+Independent disable commands: [student-install.md](../../docs/student-install.md). Combined acceptance (not claimed by packing): [stack-acceptance.md](../../docs/stack-acceptance.md).
+
 ## Pit rollback (under one minute)
 
 1. DS stop.

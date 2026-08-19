@@ -46,3 +46,7 @@ Standard motion hazards. Blocks or carpet as the session specifies. Disable path
 [ViDAR Pedro integration](https://github.com/The-Allsparks/ViDAR/blob/main/docs/PEDRO_INTEGRATION.md) is optional later. Do not block the first auto on vision.
 
 Audit: [docs/research-audit.md](../docs/research-audit.md)
+
+## Combined stack
+
+Pedro (or the chosen drive layer) owns chassis motion and must keep working with every Allsparks optional independently disabled. Combined FTC readiness of the Allsparks libraries is [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). See [stack-acceptance.md](../docs/stack-acceptance.md).
