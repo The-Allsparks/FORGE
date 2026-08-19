@@ -4,19 +4,21 @@
 
 FORGE does **not** contain BIOBUZZ rules. Use FIRST Kickoff materials and the season Game Manual. This guide only tells the team how to change the schedule without abandoning the robot.
 
-## Timebox (fits SK01)
+## Timebox (fits K001)
 
 Keep construction and a short drive if a robot is on site. Analysis is not a six-hour slide deck.
 
 ## Outputs required before leaving Kickoff
 
-1. Written **minimum viable robot** (drive + one scoring action + place/park as the manual requires).
-2. Mechanism list with owners.
-3. Sensors that are *needed* vs *nice*.
-4. Software that stays **passive/off** unless it serves the MVP.
-5. Edits to [calendar.yaml](calendar.yaml) session titles/dates if meetings must move.
-6. Updated [readiness-dashboard.md](readiness-dashboard.md) next-test column.
-7. If comparing two MVP mechanisms, fill one [decision-record.md](../../templates/decision-record.md).
+1. [Concept brainstorm record](../../templates/concept-brainstorm.md) with **at least three** distinct robot concepts.
+2. Structured **debate notes** on the top two or three concepts (pros, cons, driver workload, build time).
+3. Written **minimum viable robot** (drive + one scoring action + place/park as the manual requires).
+4. [Decision record](../../templates/decision-record.md) if the team compared finalists before MVP lock.
+5. Mechanism list with owners.
+6. Sensors that are *needed* vs *nice*.
+7. Software that stays **passive/off** unless it serves the MVP.
+8. Edits to [calendar.yaml](calendar.yaml) session titles/dates if meetings must move.
+9. Updated [readiness-dashboard.md](readiness-dashboard.md) next-test column.
 
 ## Mapping exercise
 
@@ -46,4 +48,4 @@ If a column is "no" for the MVP, do not schedule a deep-dive that displaces driv
 
 - Invent point values in FORGE
 - Enable AMPER limiting, MIMIC homing, ViDAR drive, BEACON intervention, ECHO match audio, or HELM execute because Kickoff was exciting
-- Delete S007 (Pedro auto) to add a seventh library course
+- Delete S003 (Pedro auto) to add a seventh library course

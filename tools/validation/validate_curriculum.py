@@ -138,7 +138,13 @@ def validate_calendar(calendar: dict, manifest: dict, findings: Findings) -> Non
             findings.err(f"{loc}: duplicate session id {sid}")
         else:
             session_ids.append(sid)
-        parse_date(str(sess.get("date", "")), f"{loc}.date", findings)
+        if sess.get("date_requires_confirmation"):
+            if sess.get("date"):
+                findings.err(
+                    f"{loc}: omit date when date_requires_confirmation is true"
+                )
+        else:
+            parse_date(str(sess.get("date", "")), f"{loc}.date", findings)
         mt = sess.get("meeting_type")
         if mt not in manifest["allowed_meeting_types"]:
             findings.err(f"{loc}: invalid meeting_type {mt!r}")
@@ -167,7 +173,18 @@ def validate_session(path: Path, calendar_row: dict, manifest: dict, findings: F
         findings.err(f"{rel}: front matter id {sid!r} != calendar id {calendar_row.get('id')!r}")
     if fm.get("meeting_type") != calendar_row.get("meeting_type"):
         findings.err(f"{rel}: meeting_type mismatch with calendar")
-    if str(fm.get("date")) != str(calendar_row.get("date")):
+    cal_tbc = calendar_row.get("date_requires_confirmation") is True
+    fm_tbc = fm.get("date_requires_confirmation") is True
+    if cal_tbc or fm_tbc:
+        if not cal_tbc or not fm_tbc:
+            findings.err(
+                f"{rel}: date_requires_confirmation must match between calendar and front matter"
+            )
+        if str(fm.get("date")) != "requires_confirmation":
+            findings.err(
+                f"{rel}: date must be requires_confirmation when date_requires_confirmation is set"
+            )
+    elif str(fm.get("date")) != str(calendar_row.get("date")):
         findings.err(f"{rel}: date mismatch with calendar")
     if fm.get("season_phase") not in manifest["allowed_season_phases"]:
         findings.err(f"{rel}: unknown season_phase {fm.get('season_phase')!r}")

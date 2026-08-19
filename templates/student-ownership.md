@@ -55,7 +55,7 @@ BIOBUZZ V0 uses an **Initial Interview** (not "Structured Interview"):
 | Q&A | remainder | Judges ask questions; at least 10 min total |
 | Minimum students | 2 | More is encouraged (A204) |
 
-### Practice agenda (Meeting B closeout or S018)
+### Practice agenda (Meeting B closeout or S022)
 
 1. Pick one engineering story from a [portfolio candidate](portfolio-candidate.md) or [judging one-pager](judging-one-pager.md).
 2. Owner presents up to 3 minutes — point at robot, photo, or TRACE figure.

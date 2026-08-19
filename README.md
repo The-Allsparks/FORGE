@@ -52,7 +52,7 @@ Do not construct seven independent courses. Teach these as related layers of one
 | Item | Status |
 | ---- | ------ |
 | Season | 2026–2027 BIOBUZZ (game details unknown until Kickoff) |
-| Foundation | Session contract, calendar, complete sessions S001–S019 and SK01 |
+| Foundation | Session contract, calendar, P001–P008, K001, S001–S042, E004/E005 |
 | Combined stack acceptance | **Open P0.** Paper install/lifecycle/conventions done. Compile-checked Hub evidence **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2) |
 | Team robot / TeamCode repository | **BLOCKED.** No published URL. Playbook: [docs/create-robot-project.md](docs/create-robot-project.md) |
 | Competition enablement | All optional advanced features start **disabled** or **passive** |
@@ -92,7 +92,10 @@ Combined FTC stack acceptance ([#4](https://github.com/The-Allsparks/FORGE/issue
 | Student install / disable | [docs/student-install.md](docs/student-install.md) |
 | Robot code (not this repo) | [docs/team-robot-project.md](docs/team-robot-project.md) — **blocked** |
 | Create the robot repo (when ready) | [docs/create-robot-project.md](docs/create-robot-project.md) |
-| First meeting | [season/2026-2027-biobuzz/sessions/S001-system-map-safety-trace.md](season/2026-2027-biobuzz/sessions/S001-system-map-safety-trace.md) |
+| First preseason session | [season/2026-2027-biobuzz/sessions/P001-meeting-a.md](season/2026-2027-biobuzz/sessions/P001-meeting-a.md) |
+| TRACE / system map (preseason) | [season/2026-2027-biobuzz/sessions/P005-meeting-a.md](season/2026-2027-biobuzz/sessions/P005-meeting-a.md) |
+| Kickoff | [season/2026-2027-biobuzz/sessions/K001-meeting-k.md](season/2026-2027-biobuzz/sessions/K001-meeting-k.md) |
+| First season shop meeting | [season/2026-2027-biobuzz/sessions/S001-meeting-a.md](season/2026-2027-biobuzz/sessions/S001-meeting-a.md) |
 | Readiness | [season/2026-2027-biobuzz/readiness-dashboard.md](season/2026-2027-biobuzz/readiness-dashboard.md) |
 | Event dates | [season/2026-2027-biobuzz/calendar.yaml](season/2026-2027-biobuzz/calendar.yaml) |
 
@@ -165,7 +168,7 @@ python tools/validation/validate_curriculum.py
 
 **Can proceed without that repo**
 
-- Unnumbered Tuesdays/Thursdays: [templates/cadence-meeting-a.md](templates/cadence-meeting-a.md) and [templates/cadence-meeting-b.md](templates/cadence-meeting-b.md)
+- Numbered Mon/Fri slots without a dedicated lab use Meeting A/B templates (`S016-meeting-b.md`, etc.); retitle via `calendar.yaml` only
 - Kickoff replan after 12 September 2026: [kickoff-replan-guide.md](season/2026-2027-biobuzz/kickoff-replan-guide.md)
 - Judging story practice: [templates/judging-one-pager.md](templates/judging-one-pager.md)
 - Mechanical/electrical construction and driver practice in the shop (hardware does not wait on GitHub)

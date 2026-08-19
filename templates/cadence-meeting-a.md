@@ -1,6 +1,6 @@
 # Cadence Meeting A — mechanism of the week
 
-Copy into `season/2026-2027-biobuzz/sessions/` only if you need a dated file. For most unnumbered Tuesdays, run this from `templates/` and log the date in the notebook.
+Copy into `season/2026-2027-biobuzz/sessions/` only if you need a dated file. For most unnumbered Mondays, run this from `templates/` and log the date in the notebook.
 
 **Post-event meeting?** If this is the first Meeting A after a scrimmage, league meet, tournament, or state event, fill [event-retrospective.md](event-retrospective.md) in the opening + integration blocks before starting new features. Use construction time for the highest-priority repair from that retrospective.
 
@@ -30,7 +30,7 @@ active_features: []
 | Session ID | CA00 (notebook date if unnumbered) |
 | Title | Cadence A — mechanism of the week |
 | Calendar date | YYYY-MM-DD |
-| Relative week | Unnumbered Tuesday |
+| Relative week | Unnumbered Monday |
 | Meeting type | A |
 | Season phase | from `calendar.yaml` cadence window |
 | Event checkpoint | none or next event id |
@@ -136,7 +136,7 @@ Robot safe; fasteners bagged.
 
 ## Next-session preparation
 
-Thursday cadence B: drive and auto.
+Friday cadence B: drive and auto.
 
 ## Hardware-unavailable fallback
 
@@ -155,4 +155,4 @@ Paper MIMIC snapshot + TRACE desktop events named after the mock.
 
 ## Mentor notes
 
-Protect 75 minutes of build. Do not use unnumbered Tuesdays to “finally add HELM.”
+Protect 75 minutes of build. Do not use unnumbered Mondays to “finally add HELM.”
