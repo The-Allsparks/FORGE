@@ -8,6 +8,8 @@ Ladder levels: 1 desktop · 2 sim/fake · 3 passive robot · 4 controlled hardwa
 
 Competition status: `disabled` · `passive` · `practice-only` · `approved` · `frozen`
 
+**Judging / portfolio readiness** (not a robot enablement flag): `none` · `skeleton` · `candidates mapped` · `draft ready` · `validated`
+
 Opening this file does not approve anything.
 
 **Combined stack (P0):** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). Until a published TeamCode repo exists and Hub evidence is recorded, the Combined stack row stays blocked. Desktop CI is not that evidence.
@@ -28,7 +30,7 @@ Opening this file does not approve anything.
 | ECHO | | 1 | none | match audio not approved | `driverEnabled=false` / no audio flag | S010 desktop, mute path | disabled |
 | Inspection | | 1 | none | rookie first inspect | n/a | S012 checklist | disabled |
 | Pit workflow | | 1 | none | no timed drill | n/a | clinic + S012 | disabled |
-| Judging | | 1 | none | no narrative | n/a | notebook after Kickoff | disabled |
+| Judging | | 1 | none | no narrative | n/a | notebook after Kickoff; portfolio skeleton | disabled |
 | Driver practice | | 1 | none | insufficient reps | n/a | every Meeting B | disabled |
 | Student understanding | | 1 | none | mixed experience | n/a | session explain-backs | disabled |
 

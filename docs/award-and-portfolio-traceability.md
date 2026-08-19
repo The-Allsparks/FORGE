@@ -43,8 +43,8 @@ The PORTFOLIO must include at least **one** of the following engineering topics.
 | ----- | ----- | ----- | ----- | ----- |
 | **A** — Engineering process | Evidence of use of the engineering process | Show the steps you followed: question → idea → build → test → learn → change | Session closeout, TRACE retell, explain-backs | [Evidence record](../templates/evidence-record.md) |
 | **B** — Lessons applied | Lessons learned and applied relating to the design of their ROBOT | Something broke or surprised you, and you changed the robot because of it | Event retrospectives, failure records, reliability tests | [Event retrospective](../templates/event-retrospective.md) |
-| **C** — Comparing choices | Show how you looked at different ideas and explain why you chose one over the other | We tried two options. Here is why we picked one. | Kickoff MVP mapping, mechanism decisions, belt/elevator choices | Decision record (see [#17](https://github.com/The-Allsparks/FORGE/issues/17)) |
-| **D** — Math choices | Show how you used math to make decisions about your ROBOT or programming design | A number helped us decide: travel, torque, speed, force, current, path error | Construction calculations, AMPER observations, auto path analysis | Math evidence (see [#19](https://github.com/The-Allsparks/FORGE/issues/19)) |
+| **C** — Comparing choices | Show how you looked at different ideas and explain why you chose one over the other | We tried two options. Here is why we picked one. | Kickoff MVP mapping, mechanism decisions, belt/elevator choices | [Decision record](../templates/decision-record.md) |
+| **D** — Math choices | Show how you used math to make decisions about your ROBOT or programming design | A number helped us decide: travel, torque, speed, force, current, path error | Construction calculations, AMPER observations, auto path analysis | [Math evidence](../templates/math-evidence.md) |
 
 ### Encouraged 2
 
@@ -98,7 +98,7 @@ The 2026–2027 season uses an **Initial Interview** (not "Structured Interview"
 - Bring a PORTFOLIO copy; robot demo optional
 - One adult silent observer permitted (A208); adults may not coach
 
-Practice this in S018 and cadence Meeting B closeout using the [judging one-pager](../templates/judging-one-pager.md). See [#14](https://github.com/The-Allsparks/FORGE/issues/14) for interview practice and student ownership.
+Practice this in S018 and cadence Meeting B closeout using the [judging one-pager](../templates/judging-one-pager.md) and [student-ownership](../templates/student-ownership.md).
 
 ---
 
@@ -134,7 +134,7 @@ If Kickoff V1 changes these, update this table and check all FORGE templates tha
 
 ## Portfolio-candidate promotion
 
-Every two or three weeks during Meeting B closeout (~10 minutes), review evidence records and pick the strongest items for a shortlist. See [#16](https://github.com/The-Allsparks/FORGE/issues/16).
+Every two or three weeks during Meeting B closeout (~10 minutes), review evidence records and pick the strongest items for a shortlist. Use [portfolio-candidate.md](../templates/portfolio-candidate.md).
 
 Each candidate identifies: engineering story, student explanation, supporting image/diagram/calculation/TRACE graph, Think topic (A/B/C/D), other award criteria, readiness, missing evidence, fit in 15 pages.
 
@@ -142,7 +142,7 @@ Each candidate identifies: engineering story, student explanation, supporting im
 
 ## Portfolio assembly gates
 
-See [#18](https://github.com/The-Allsparks/FORGE/issues/18) for milestones and the A201 validation checklist:
+Use [portfolio-validation.md](../templates/portfolio-validation.md) at each gate. Dates in [season-plan.md](../season/2026-2027-biobuzz/season-plan.md):
 
 1. Early skeleton (cover + 15-page map)
 2. Pre-scrimmage evidence review

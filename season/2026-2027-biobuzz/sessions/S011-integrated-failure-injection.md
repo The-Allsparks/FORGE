@@ -134,7 +134,7 @@ Paragraph complete. Robot restored. MVP still the priority.
 
 ## Portfolio or engineering-notebook artifact
 
-Failure timeline. Link BEACON domains rather than copying the whole spec.
+Failure timeline. Link BEACON domains rather than copying the whole spec. Promote to [failure-record.md](../../../templates/failure-record.md) if the failure will drive a design change.
 
 ## Competition enablement impact
 

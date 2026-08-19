@@ -61,8 +61,12 @@ Do not copy the same paragraph into several systems. Promote by reference (sessi
 | Photos and videos | Robot changes, mechanism tests, pit observations | Team storage; stills printed into portfolio as needed |
 | CAD history | Design iterations | CAD tool or robot repo, not FORGE |
 | Test records | Decision records, math evidence, failure records | Notebook + templates in this repo |
-| Portfolio candidates | Promoted shortlist of strongest evidence | Team storage or notebook index ([#16](https://github.com/The-Allsparks/FORGE/issues/16)) |
-| Final portfolio | Printed or digital 15-page submission | Team storage; validated against [A201 checklist](award-and-portfolio-traceability.md) |
+| Portfolio candidates | Promoted shortlist of strongest evidence | Team storage or notebook index; [portfolio-candidate.md](../templates/portfolio-candidate.md) |
+| Final portfolio | Printed or digital 15-page submission | Team storage; validated against [A201 checklist](award-and-portfolio-traceability.md) and [portfolio-validation.md](../templates/portfolio-validation.md) |
+
+## TRACE → portfolio
+
+When a measurement materially improves a decision, follow [trace-portfolio-workflow.md](trace-portfolio-workflow.md). Not every session needs a graph.
 
 ## Retention
 

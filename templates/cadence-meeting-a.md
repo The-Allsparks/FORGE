@@ -2,6 +2,8 @@
 
 Copy into `season/2026-2027-biobuzz/sessions/` only if you need a dated file. For most unnumbered Tuesdays, run this from `templates/` and log the date in the notebook.
 
+**Post-event meeting?** If this is the first Meeting A after a scrimmage, league meet, tournament, or state event, fill [event-retrospective.md](event-retrospective.md) in the opening + integration blocks before starting new features. Use construction time for the highest-priority repair from that retrospective.
+
 Replace `YYYY-MM-DD` and the mechanism name. Agendas must total **120** minutes (10 + 75 + 25 + 10).
 
 Use the [cadence window intent](../season/2026-2027-biobuzz/calendar.yaml) for this date. Combined Hub composition is **blocked** until [issue #2](https://github.com/The-Allsparks/FORGE/issues/2) has a robot URL.

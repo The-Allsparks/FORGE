@@ -2,6 +2,8 @@
 
 Copy into `season/2026-2027-biobuzz/sessions/` only if you need a dated file. For most unnumbered Thursdays, run this from `templates/` and log the date in the notebook.
 
+**Every 2–3 weeks:** spend ~10 minutes of closeout promoting the strongest evidence to [portfolio-candidate.md](portfolio-candidate.md) instead of a second explain-back.
+
 Replace `YYYY-MM-DD`. Agendas must total **120** minutes (10 + 35 + 55 + 20).
 
 Combined Hub composition is **blocked** until [issue #2](https://github.com/The-Allsparks/FORGE/issues/2) has a robot URL. Driving still happens on whatever robot exists in the shop.
@@ -118,7 +120,7 @@ Reps happened or a written blocker. No new actives.
 
 ## Portfolio or engineering-notebook artifact
 
-Times table. Fill the [evidence record](evidence-record.md) (at least Date, Question, Observation, Decision, Next test). Check award tags if a lesson or comparison happened.
+Times table. Fill the [evidence record](evidence-record.md) (at least Date, Question, Observation, Decision, Next test). Check award tags if a lesson or comparison happened. Every 2–3 weeks: promote best evidence to [portfolio-candidate.md](portfolio-candidate.md).
 
 ## Competition enablement impact
 

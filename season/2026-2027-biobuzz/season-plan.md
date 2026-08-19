@@ -90,3 +90,31 @@ If a Tuesday or Thursday has no `S0xx` row, run:
 - Meeting B: log review + repair + 55 minutes of driver/auto reps + inspection closeout
 
 Use [templates/cadence-meeting-a.md](../../templates/cadence-meeting-a.md) and [templates/cadence-meeting-b.md](../../templates/cadence-meeting-b.md). Copy [templates/session.md](../../templates/session.md) only if you need a new numbered file.
+
+## Event retrospectives
+
+After every match event, run [event-retrospective.md](../../templates/event-retrospective.md) on the first Meeting A back:
+
+| Event | When |
+| ----- | ---- |
+| Clinic (10 Oct) | S013 |
+| League 1S/2S (31 Oct) | First unnumbered or cadence Meeting A after |
+| League 3S/4S (5 Dec) | First Meeting A after |
+| League 5S/6S (9 Jan) | First Meeting A after |
+| Tournament (22–23 Jan) | First Meeting A after |
+| State (19–20 Feb, if advancing) | First Meeting A after |
+
+## Portfolio assembly gates
+
+Track progress with [portfolio-validation.md](../../templates/portfolio-validation.md). Promote candidates every 2–3 weeks via [portfolio-candidate.md](../../templates/portfolio-candidate.md).
+
+| Gate | Target (planning input) |
+| ---- | ----------------------- |
+| Early skeleton | Before Kickoff / early September |
+| Pre-scrimmage review | 10 October 2026 |
+| Post-league-meet revision | After 31 Oct, 5 Dec, 9 Jan |
+| Tournament-ready | 22 January 2027 |
+| State-ready | 19 February 2027 (contingent) |
+| Final A201 validation | Before each submission |
+
+See [award-and-portfolio-traceability.md](../../docs/award-and-portfolio-traceability.md) for criteria mapping.

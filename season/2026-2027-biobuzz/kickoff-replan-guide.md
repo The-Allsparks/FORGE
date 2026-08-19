@@ -16,6 +16,7 @@ Keep construction and a short drive if a robot is on site. Analysis is not a six
 4. Software that stays **passive/off** unless it serves the MVP.
 5. Edits to [calendar.yaml](calendar.yaml) session titles/dates if meetings must move.
 6. Updated [readiness-dashboard.md](readiness-dashboard.md) next-test column.
+7. If comparing two MVP mechanisms, fill one [decision-record.md](../../templates/decision-record.md).
 
 ## Mapping exercise
 

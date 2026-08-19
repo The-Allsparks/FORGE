@@ -71,4 +71,5 @@ FTC SDK / Control Hub / Driver Station own official control and stop behavior.
 - [Safety and enablement](safety-and-enablement.md)
 - [Evidence model](evidence-model.md)
 - [Award and portfolio traceability](award-and-portfolio-traceability.md)
+- [TRACE → portfolio workflow](trace-portfolio-workflow.md)
 - [Research audit](research-audit.md)

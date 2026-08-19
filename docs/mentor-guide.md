@@ -53,7 +53,14 @@ These questions match the TRACE and HELM mentor guides. Project-specific lists:
 
 ## Paperwork budget
 
-The last 10–20 minutes update the [readiness dashboard](../season/2026-2027-biobuzz/readiness-dashboard.md) and one evidence record. If the robot still needs a wrench, finish the wrench. Capture a photo and a TRACE note rather than writing an essay.
+The last 5–10 minutes update the [readiness dashboard](../season/2026-2027-biobuzz/readiness-dashboard.md) and one [evidence record](../templates/evidence-record.md). If the robot still needs a wrench, finish the wrench. Capture a photo and a TRACE note rather than writing an essay.
+
+## Judging and portfolio
+
+- Adults do not write student explanations for the portfolio or Initial Interview.
+- Use [student-ownership.md](../templates/student-ownership.md) for subsystem owners and interview practice.
+- One adult silent observer at the real Initial Interview (A208); adults may not coach during judge–student interaction.
+- Run [portfolio-validation.md](../templates/portfolio-validation.md) before each submission.
 
 ## Kickoff
 
