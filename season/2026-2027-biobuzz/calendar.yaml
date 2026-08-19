@@ -11,7 +11,7 @@ season_name: BIOBUZZ
 team: The Allsparks
 team_number: 36117
 timezone: America/Los_Angeles
-last_reviewed: "2026-08-18"
+last_reviewed: "2026-08-19"
 dates_are_planning_inputs: true
 
 meeting_pattern:
@@ -63,7 +63,37 @@ events:
     verify: true
     contingent: "Only if the team advances."
 
+# Preseason build sessions (PSxxx) precede S001. PS001 date requires mentor confirmation.
 sessions:
+  - id: PS001
+    date_requires_confirmation: true
+    date_note: "Meeting immediately before 2026-08-19; exact date not recorded in repository evidence."
+    meeting_type: S
+    season_phase: preseason
+    event_checkpoint: none
+    file: sessions/PS001-onboarding-parts-safety-sponsors.md
+    title: Onboarding, parts organization, safety, and sponsor stewardship
+  - id: PS002
+    date: "2026-08-19"
+    meeting_type: S
+    season_phase: preseason
+    event_checkpoint: none
+    file: sessions/PS002-chassis-frame-sponsor-cards.md
+    title: Chassis frame assembly and sponsor card delivery prep
+  - id: PS003
+    date: "2026-08-25"
+    meeting_type: A
+    season_phase: preseason
+    event_checkpoint: none
+    file: sessions/PS003-modified-drivetrain-install.md
+    title: Modified Strafer drivetrain installation
+  - id: PS004
+    date: "2026-08-27"
+    meeting_type: B
+    season_phase: preseason
+    event_checkpoint: none
+    file: sessions/PS004-control-system-wiring-prep.md
+    title: Control system installation and powered-test preparation
   - id: S001
     date: "2026-09-01"
     meeting_type: A
@@ -207,9 +237,9 @@ sessions:
 
 cadence_windows:
   - id: preseason
-    start: "2026-08-25"
+    start: "2026-08-19"
     end: "2026-09-11"
-    intent: Drivetrain, driver control, TRACE habit, passive AMPER/MIMIC, intro ViDAR/BEACON/ECHO/HELM without authority.
+    intent: Shop onboarding (PS001 date TBC), Strafer StarterBot build (PS002–PS004), drivetrain corrections and TRACE habit (S001–S004), passive AMPER/MIMIC, intro ViDAR/BEACON/ECHO/HELM without authority.
   - id: kickoff-to-clinic
     start: "2026-09-12"
     end: "2026-10-10"

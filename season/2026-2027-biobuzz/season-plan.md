@@ -17,9 +17,18 @@ Libraries may be treated as **functionally complete for scheduling** after the w
 
 ## Phase map
 
-### Preseason — through 9 September 2026 (sessions S001–S004; last pre-Kickoff meeting 10 September)
+### Preseason — through 9 September 2026 (PS001–PS004 build block, then S001–S004; last pre-Kickoff meeting 10 September)
 
-- Build and wire the drivetrain
+**Preseason build block (PS001–PS004):**
+
+- **PS001** (date requires confirmation): shop onboarding — parts organization, safety presentation, sponsor thank-you card start (stewardship, not outreach)
+- **PS002** (2026-08-19, Wednesday special): finish sponsor cards; Strafer StarterBot chassis frame assembly and square check
+- **PS003** (2026-08-25): modified drivetrain — motors inside rails, mecanum install, layout rationale vs standard StarterBot
+- **PS004** (2026-08-27): Control Hub, battery, switch mount and wiring; individual motor tests or honest blocker before S001
+
+**Numbered preseason sessions (S001–S004):**
+
+- **S001–S002:** assume drivetrain is mechanically assembled and substantially wired from PS003–PS004; use time for corrections, TRACE habit, restrained driver baseline — not first chassis assembly
 - Establish reliable driver control
 - Run a simple Pedro Pathing route when the chassis can move (S007 continues this after Kickoff if not finished)
 - Make TRACE permanent as a closeout habit
@@ -110,7 +119,7 @@ Track progress with [portfolio-validation.md](../../templates/portfolio-validati
 
 | Gate | Target (planning input) |
 | ---- | ----------------------- |
-| Early skeleton | Before Kickoff / early September |
+| Early skeleton | Before Kickoff / early September (PS001–PS004 shop, build, and stewardship evidence) |
 | Pre-scrimmage review | 10 October 2026 |
 | Post-league-meet revision | After 31 Oct, 5 Dec, 9 Jan |
 | Tournament-ready | 22 January 2027 |

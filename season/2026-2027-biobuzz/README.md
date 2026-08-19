@@ -7,7 +7,7 @@ Season folder for The Allsparks. Game details are unknown until Kickoff.
 ## Start this week
 
 1. Read [season-plan.md](season-plan.md)
-2. Open today's file under [sessions/](sessions/)
+2. Open today's file under [sessions/](sessions/) — preseason build block **PS001–PS004** precedes S001
 3. Update [readiness-dashboard.md](readiness-dashboard.md) in the last 10–20 minutes
 
 ## Priority
@@ -29,6 +29,8 @@ working robot → reliable mechanisms → driver practice → conventional auton
 | 2027-02-19 – 2027-02-20 | Nevada State Championship (if advancing) |
 
 ## Written sessions
+
+**Preseason build block:** PS001–PS004 (Strafer StarterBot chassis, modified drivetrain, control wiring). PS001 calendar date **requires confirmation**.
 
 **Complete (run as-is):** S001–S019 and SK01.
 

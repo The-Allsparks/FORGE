@@ -32,18 +32,18 @@ If the robot misbehaves next month, how will we prove what it sensed, what we co
 
 ## Student-facing objective
 
-Students will map The Allsparks software layers onto one robot, complete a shop safety and disable-path walkthrough, begin drivetrain structure, and record a TRACE event sequence they can retell without class names.
+Students will map The Allsparks software layers onto one robot, complete a shop safety and disable-path walkthrough, **correct and finalize** the PS003–PS004 drivetrain and wiring (not first assembly), review the modified StarterBot layout rationale, and record a TRACE event sequence they can retell without class names.
 
 ## Robot outcome
 
-- Drivetrain frame started (or kit inventory complete if assembly cannot finish)
-- Cable-routing path sketched on the chassis
-- TRACE desktop (or robot-event) log from today's integration block
+- Drivetrain corrections complete: retention, cable routing, mount refinement, documented design review of modified layout
+- TRACE desktop (or robot-event) log from today's integration block tied to **real** inspection items
 
 ## Prerequisites
 
+- PS001–PS004 complete or equivalent: chassis built, modified drivetrain installed, control system substantially wired ([PS003](PS003-modified-drivetrain-install.md), [PS004](PS004-control-system-wiring-prep.md))
 - Mentor present for any energized equipment
-- Team FTC project available on at least one laptop (clone may happen during integration if needed)
+- Team FTC project available on at least one laptop (clone may happen during integration if needed) — **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2) until robot URL published
 - TRACE repo clone **or** ability to run TRACE desktop tests ([TRACE README](https://github.com/The-Allsparks/TRACE/blob/main/README.md))
 
 ## Vocabulary
@@ -59,9 +59,9 @@ measurement · decision · command · event · disable path · layer (not "seven
 
 ## Required hardware
 
-- Drivetrain kit / structure, fasteners, tools
+- PS003–PS004 drivetrain and wiring as assembled
 - Safety glasses; known e-stop / DS disable location
-- Optional: unpowered Control Hub for placement discussion
+- Control Hub mounted per PS004 sketch
 
 ## Required software
 
@@ -72,16 +72,16 @@ measurement · decision · command · event · disable path · layer (not "seven
 
 - Print or open the layer map from [docs/architecture.md](../../../docs/architecture.md)
 - Confirm TRACE `.\gradlew.bat test` works on one mentor laptop
-- Stage drivetrain hardware so the 75-minute block is not an unboxing search
+- Bring PS004 inspection/repair list to the opening block
 - Assign mixed pairs (mechanical + programming) before students arrive
 
 ## Exact 120-minute agenda
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Driving question; four vocabulary words; safety: glasses, disable path, no powered drive today unless mentor exception; assignments (pairs + documentation rotator) |
-| 75 | Construction | Inventory drivetrain kit; assemble frame/plates/wheels as far as hardware allows; mark battery and Hub mounting; sketch wire channels; mentors coach fasteners — no lecture on TRACE internals |
-| 25 | Integration | On a laptop at the same table: configure TRACE events (memory sink). Students log `Frame square check`, `Wheel retention check`, `Hub mount sketched` as they finish real inspection items. If TRACE is not cloned, run the same events on paper then type them in the last 10 minutes of this block |
+| 10 | Opening | Driving question; vocabulary; safety: glasses, disable path; review PS004 blockers; assignments |
+| 75 | Construction | **Corrections and finalization** — retention checks, cable routing, mount refinement, wire protection; review modified vs standard StarterBot layout; fix PS004 inspection items; mentors coach — no lecture on TRACE internals |
+| 25 | Integration | On a laptop at the same table: configure TRACE events (memory sink). Students log `Wheel retention check`, `Cable dress verified`, `Layout review complete` as they finish real inspection items. If TRACE is not cloned, run the same events on paper then type them in the last 10 minutes |
 | 10 | Closeout | Export or screenshot the event list; one student retells order; tick TRACE row on the readiness dashboard; cleanup tools; assign S002 prep |
 
 ## Mentor demonstration
@@ -92,15 +92,15 @@ Under five minutes: write a match story on the board as four lines (saw / decide
 
 | Path | Work |
 | ---- | ---- |
-| Mechanical | Frame assembly, wheel retention, square check |
-| Electrical | Battery/Hub placement sketch; strain-relief notes (no live wiring required) |
-| Programming | TRACE configure + events named after real checks |
-| Drive team | Practice picking up DS, pointing to stop; they still help hold structure |
-| Documentation | Photo of frame; copy event list into notebook (redacted) |
+| Mechanical | Retention, square re-check, fastener fixes from PS004 list |
+| Electrical | Final cable dress, strain relief, labeling |
+| Programming | TRACE configure + events named after real checks — **does not replace** mechanical work |
+| Drive team | Practice picking up DS, pointing to stop; verify disable path |
+| Documentation | Photo of corrected drivetrain; copy event list into notebook (redacted); layout rationale summary |
 
 ## Integrated build or test activity
 
-Every TRACE event must correspond to a physical check the pair just performed. A log of fake events with no chassis work fails the session.
+Every TRACE event must correspond to a physical check the pair just performed. A log of fake events with no chassis work fails the session. Software time **cannot** displace the 75-minute construction block.
 
 ## Failure-injection scenario
 
@@ -109,7 +109,8 @@ Scramble the event list (mentor deletes order or shuffles paper cards). Students
 ## Evidence to collect
 
 - TRACE memory-sink export or handwritten ordered log
-- Photo of drivetrain progress
+- Photo of drivetrain after corrections
+- Modified-layout design review note (from PS003, updated if changed today)
 - Dashboard note: TRACE ladder = 1 (desktop) or 2 if they used fake-robot wording only
 
 ## Student explain-back questions
@@ -118,14 +119,15 @@ Scramble the event list (mentor deletes order or shuffles paper cards). Students
 2. Which Allsparks project owns chassis motion? (Pedro Pathing)
 3. How do you turn TRACE off? (`TraceMode.OFF`)
 4. Why is FORGE not a robot library?
+5. What did we change from the standard StarterBot layout and why?
 
 ## Assessment or exit check
 
-Student retells today's chassis work from the event list in order. Mentor marks skills-matrix TRACE foundation.
+Student retells today's correction work from the event list in order. Mentor marks skills-matrix TRACE foundation. PS004 blockers resolved or carried honestly to S002.
 
 ## Portfolio or engineering-notebook artifact
 
-Layer sketch: robot in the center; TRACE/AMPER/MIMIC/ViDAR/BEACON/ECHO/HELM/Pedro as labels with one verb each. Photo of frame.
+Layer sketch: robot in the center; TRACE/AMPER/MIMIC/ViDAR/BEACON/ECHO/HELM/Pedro as labels with one verb each. Photo of drivetrain. PS003 decision record attached or summarized.
 
 ## Competition enablement impact
 
@@ -141,17 +143,18 @@ Tools away; loose fasteners bagged; laptops not left with Hub passwords on scree
 
 ## Next-session preparation
 
-- Finish any remaining wheel hardware at home only if mentors allow take-home parts; otherwise leave staged for S002
+- S002: restrained driver baseline — drivetrain expected ready for blocks-first testing
 - Drivers: bring gamepads
 - Mentors: blocks or crate for wheels-off drive in S002
+- Resolve any PS004 motor-test blockers or document them for S002 honest path
 
 ## Hardware-unavailable fallback
 
-Cardboard or wood mock chassis to scale. Tape wire channels. TRACE events still named after mock inspections (`Corner brace present`).
+Inspect and document whatever structure exists. TRACE events named after mock inspections. Review layout rationale on paper.
 
 ## Robot-unavailable simulation option
 
-If no FTC project exists: run TRACE desktop tests from the TRACE repo and log events for a **simulated** inspection checklist. Construction block becomes kit sort + CAD/print of drivetrain if available, or assembly of any non-robot structure to practice fasteners.
+If no FTC project exists: run TRACE desktop tests from the TRACE repo and log events for a **simulated** inspection checklist. Construction block becomes PS004 repair list on paper plus wire-routing sketch.
 
 ## Links to authoritative project documentation
 
@@ -164,7 +167,9 @@ If no FTC project exists: run TRACE desktop tests from the TRACE repo and log ev
 - [projects/pedro-pathing.md](../../../projects/pedro-pathing.md)
 - [docs/stack-acceptance.md](../../../docs/stack-acceptance.md)
 - [docs/student-install.md](../../../docs/student-install.md)
+- [PS003 modified drivetrain](PS003-modified-drivetrain-install.md)
+- [PS004 control wiring](PS004-control-system-wiring-prep.md)
 
 ## Mentor notes
 
-Protect the 75-minute build. Do not recap all seven READMEs. If a student asks about HELM or ECHO, point at the project page and return to the wrench. Never let TRACE become a reason to skip mechanical debugging — that sentence is from the TRACE mentor guide; follow it. Combined-stack Hub compile is **not** this session; paper composition-root from [stack-acceptance.md](../../../docs/stack-acceptance.md) is enough.
+Protect the 75-minute build. Drivetrain **first assembly happened in PS002–PS004** — S001 is corrections, retention, routing, and documented design review. Do not recap all seven READMEs. Never let TRACE become a reason to skip mechanical debugging. Combined-stack Hub compile is **not** this session; paper composition-root from [stack-acceptance.md](../../../docs/stack-acceptance.md) is enough.
