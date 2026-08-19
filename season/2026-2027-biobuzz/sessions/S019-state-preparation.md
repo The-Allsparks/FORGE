@@ -120,7 +120,7 @@ Lists exist. Robot still conventional-auto capable. No broad unfreeze.
 
 ## Portfolio or engineering-notebook artifact
 
-State plan page: chosen, refused, judging story.
+State plan page: chosen, refused, judging story. Run [portfolio-validation.md](../../../templates/portfolio-validation.md) state-ready gate if advancing.
 
 ## Competition enablement impact
 

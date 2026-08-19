@@ -40,6 +40,10 @@ Combined-stack teaching: [stack-acceptance.md](../../docs/stack-acceptance.md), 
 
 Pit packing, rollback, and clinic test card: [pit-and-inspection.md](pit-and-inspection.md) (not a substitute for the official FIRST checklist).
 
+## Award and portfolio traceability
+
+[docs/award-and-portfolio-traceability.md](../../docs/award-and-portfolio-traceability.md) — maps FORGE activities to Think, Innovate, Control, Design, and other judged-award criteria. Print the Think table and A201 checklist.
+
 ## Kickoff replan
 
 After 12 September 2026: [kickoff-replan-guide.md](kickoff-replan-guide.md).

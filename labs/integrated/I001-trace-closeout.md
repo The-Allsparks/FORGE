@@ -25,7 +25,7 @@ No PII or secrets in exports.
 1. Export or photograph today's events.
 2. One student retells order.
 3. Tick the TRACE dashboard row.
-4. File the [evidence-record](../../templates/evidence-record.md) only if something new was learned — skip if the robot still needs a wrench.
+4. Fill the [evidence record](../../templates/evidence-record.md): at minimum Date, Question, Observation, Decision, Next test. Check award tags (A/B/C/D) if any apply. If time is short because the robot still needs a wrench, fill the four-line minimum — do not skip entirely.
 
 ## Observable result
 

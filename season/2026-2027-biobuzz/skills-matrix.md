@@ -24,5 +24,7 @@ Do not store full student names if the team publishes this repo. Use A, B, C or 
 | Shadow vs conventional auto | | | | | S015 | [HELM student path](https://github.com/The-Allsparks/HELM/blob/main/docs/student-learning-path.md) |
 | Match simulation under faults | | | | | S017 | [season-plan](season-plan.md) |
 | Feature freeze discipline | | | | | S018 | [safety-and-enablement](../../docs/safety-and-enablement.md) |
+| Explain owned subsystem without script | | | | | cadence B / S018 | [student-ownership](../../templates/student-ownership.md) |
+| Portfolio A201 validation | | | | | season gates | [portfolio-validation](../../templates/portfolio-validation.md) |
 
 Cross-training: [learning-paths/cross-training.md](../../learning-paths/cross-training.md).

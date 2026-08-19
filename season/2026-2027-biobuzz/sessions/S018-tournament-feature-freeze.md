@@ -122,7 +122,7 @@ Freeze written. Inspection attempted. Robot still conventional-auto capable.
 
 ## Portfolio or engineering-notebook artifact
 
-Judging one-pager plus freeze tag.
+Judging one-pager plus freeze tag. Run [portfolio-validation.md](../../../templates/portfolio-validation.md) tournament-ready gate.
 
 ## Competition enablement impact
 
