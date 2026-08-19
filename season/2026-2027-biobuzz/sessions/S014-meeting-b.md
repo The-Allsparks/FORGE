@@ -139,7 +139,7 @@ Robot disabled; papers photographed; no execute flags in TeamCode.
 
 ## Next-session preparation
 
-S011 shadow — still no execute. Thursday Meeting B: auto reps.
+S011 shadow — still no execute. Friday Meeting B: auto reps.
 
 ## Hardware-unavailable fallback
 

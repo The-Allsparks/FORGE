@@ -79,7 +79,7 @@ Script on the board, for example: T=0 auto, T=30 cover camera, T=60 missed acqui
 | ---: | --- | --- |
 | 10 | Opening | Script and safety; HELM still not in charge; clinic/league evidence only |
 | 75 | Construction | Fix anything the last meet broke; pit layout; battery swap drill |
-| 25 | Integration | Run the scripted mock (short). If a full mock needs 55 minutes, keep this block as pit reset and move the full mock to Thursday Meeting B |
+| 25 | Integration | Run the scripted mock (short). If a full mock needs 55 minutes, keep this block as pit reset and move the full mock to Friday Meeting B |
 | 10 | Closeout | TRACE evidence, explain-back, dashboard, cleanup |
 
 ## Mentor demonstration
@@ -161,4 +161,4 @@ Driver + programmer at a table with logs. Say this is not Hub loop-time evidence
 
 ## Mentor notes
 
-If the 75-minute build and a full mock cannot both fit, split to Thursday. Do not skip driving. Do not treat a successful mock as AMPER Phase 2, MIMIC actuation, BEACON recovery, HELM execute, ECHO match audio, or ViDAR motion authority.
+If the 75-minute build and a full mock cannot both fit, split to Friday. Do not skip driving. Do not treat a successful mock as AMPER Phase 2, MIMIC actuation, BEACON recovery, HELM execute, ECHO match audio, or ViDAR motion authority.

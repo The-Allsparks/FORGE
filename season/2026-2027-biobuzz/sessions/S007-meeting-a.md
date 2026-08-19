@@ -142,7 +142,7 @@ Mechanisms unpowered and down; no loaded arms left standing.
 
 ## Next-session preparation
 
-S006 ECHO is off-robot. Bring hearing-safety willingness. Keep building Thursday if Meeting B has repair time.
+S006 ECHO is off-robot. Bring hearing-safety willingness. Keep building Friday if Meeting B has repair time.
 
 ## Hardware-unavailable fallback
 

@@ -46,7 +46,7 @@ Students will extract scoring tasks from **official** Kickoff materials, **brain
 
 - Official Kickoff broadcast/materials (FIRST)
 - [kickoff-replan-guide.md](../kickoff-replan-guide.md)
-- P007, P005, P006, P007, P008 robot and evidence as they actually exist
+- P005–P008 robot and evidence as they actually exist
 - [preseason-kickoff-gate.md](../docs/preseason-kickoff-gate.md)
 
 ## Vocabulary

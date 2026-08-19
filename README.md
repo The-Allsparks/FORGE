@@ -168,7 +168,7 @@ python tools/validation/validate_curriculum.py
 
 **Can proceed without that repo**
 
-- Unnumbered Tuesdays/Thursdays: [templates/cadence-meeting-a.md](templates/cadence-meeting-a.md) and [templates/cadence-meeting-b.md](templates/cadence-meeting-b.md)
+- Numbered Mon/Fri slots without a dedicated lab use Meeting A/B templates (`S016-meeting-b.md`, etc.); retitle via `calendar.yaml` only
 - Kickoff replan after 12 September 2026: [kickoff-replan-guide.md](season/2026-2027-biobuzz/kickoff-replan-guide.md)
 - Judging story practice: [templates/judging-one-pager.md](templates/judging-one-pager.md)
 - Mechanical/electrical construction and driver practice in the shop (hardware does not wait on GitHub)

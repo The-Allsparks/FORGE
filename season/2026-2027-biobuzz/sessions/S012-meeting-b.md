@@ -92,7 +92,7 @@ Pit rollback: disable flags in one minute using the printed table. Students repe
 | Mechanical | Inspect and pack |
 | Electrical | Batteries, strain relief, Hub visible |
 | Programming | Config check; no new adapters |
-| Drive team | Short drive only if construction finishes early — otherwise Thursday |
+| Drive team | Short drive only if construction finishes early — otherwise Friday |
 | Documentation | Meet card |
 
 ## Integrated build or test activity
@@ -139,7 +139,7 @@ Pack. Robot safe for transport. Spare battery labeled.
 
 ## Next-session preparation
 
-After meets: unnumbered templates until S013. Use match evidence. Drive Thursday if this Tuesday was too build-heavy.
+After meets: unnumbered templates until S013. Use match evidence. Drive Friday if this Monday was too build-heavy.
 
 ## Hardware-unavailable fallback
 

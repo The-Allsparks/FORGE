@@ -1,6 +1,6 @@
 # Cadence Meeting B — drive, auto, inspect
 
-Copy into `season/2026-2027-biobuzz/sessions/` only if you need a dated file. For most unnumbered Thursdays, run this from `templates/` and log the date in the notebook.
+Copy into `season/2026-2027-biobuzz/sessions/` only if you need a dated file. For most unnumbered Fridays, run this from `templates/` and log the date in the notebook.
 
 **Every 2–3 weeks:** spend ~10 minutes of closeout promoting the strongest evidence to [portfolio-candidate.md](portfolio-candidate.md) instead of a second explain-back.
 
@@ -30,7 +30,7 @@ active_features: []
 | Session ID | CB00 (notebook date if unnumbered) |
 | Title | Cadence B — drive, auto, inspect |
 | Calendar date | YYYY-MM-DD |
-| Relative week | Unnumbered Thursday |
+| Relative week | Unnumbered Friday |
 | Meeting type | B |
 | Season phase | from `calendar.yaml` cadence window |
 | Event checkpoint | none or next event id |
@@ -112,7 +112,7 @@ Rep counts/times; TRACE or paper; inspection notes.
 1. What was the test goal?
 2. Conventional auto still?
 3. Rollback?
-4. What gets repaired next Tuesday?
+4. What gets repaired next Monday?
 
 ## Assessment or exit check
 

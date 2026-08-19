@@ -119,12 +119,7 @@ Every Meeting A keeps 75 minutes of physical work. Every Meeting B keeps 55 minu
 
 ## Unnumbered meetings
 
-If a Tuesday or Thursday has no `S0xx` row, run:
-
-- Meeting A: BIOBUZZ mechanism of the week + 25 minutes of TRACE/AMPER/MIMIC on that mechanism
-- Meeting B: log review + repair + 55 minutes of driver/auto reps + inspection closeout
-
-Use [templates/cadence-meeting-a.md](../../templates/cadence-meeting-a.md) and [templates/cadence-meeting-b.md](../../templates/cadence-meeting-b.md). Copy [templates/session.md](../../templates/session.md) only if you need a new numbered file.
+If a Monday or Friday has no dedicated milestone content, run [templates/cadence-meeting-a.md](../../templates/cadence-meeting-a.md) or [templates/cadence-meeting-b.md](../../templates/cadence-meeting-b.md) using the fixed `{ID}-meeting-{type}.md` file for that date. Change the session **title** in `calendar.yaml` when the week's mechanism changes — do not rename files.
 
 ## Event retrospectives
 

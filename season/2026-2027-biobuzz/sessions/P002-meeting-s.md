@@ -169,4 +169,4 @@ Full-size paper template of chassis rails — students practice fastener order a
 
 ## Mentor notes
 
-Wednesday meetings are exceptions to the Tuesday/Thursday cadence — log the date explicitly. Do not claim Control Hub acceptance. Modified drivetrain layout is a **student design decision** — P002 must document why it differs from the standard StarterBot. Protect the 50-minute assembly block.
+Wednesday meetings are exceptions to the Monday/Friday cadence — log the date explicitly. Do not claim Control Hub acceptance. Modified drivetrain layout is a **student design decision** — P002 must document why it differs from the standard StarterBot. Protect the 50-minute assembly block.
