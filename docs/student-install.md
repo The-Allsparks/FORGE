@@ -7,7 +7,7 @@ Parent epic: [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). Combine
 ## Before you add a library
 
 1. The chassis still drives in team teleop.
-2. Conventional autonomous still exists (Pedro or the S007 fallback).
+2. Conventional autonomous still exists (Pedro or the S011 fallback).
 3. You can name the disable path for the library you are about to add.
 4. You are following **that library’s** install file, not a remembered Gradle snippet.
 

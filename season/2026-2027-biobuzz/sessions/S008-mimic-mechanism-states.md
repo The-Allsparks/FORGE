@@ -1,5 +1,5 @@
 ---
-id: S004
+id: S008
 title: "MIMIC mechanism states using simulated or simple hardware"
 date: 2026-09-10
 meeting_type: B
@@ -11,13 +11,13 @@ projects: [MIMIC, TRACE]
 active_features: []
 ---
 
-# S004 — MIMIC mechanism states using simulated or simple hardware
+# S008 — MIMIC mechanism states using simulated or simple hardware
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S004 |
+| Session ID | S008 |
 | Title | MIMIC mechanism states using simulated or simple hardware |
 | Calendar date | 2026-09-10 (planning input; last meeting before Kickoff) |
 | Relative week | Preseason week 2 |
@@ -42,7 +42,7 @@ Students will inspect or mock a simple mechanism, draw named states, capture a M
 
 ## Prerequisites
 
-- S003 wiring in a known-safe condition
+- S007 wiring in a known-safe condition
 - MIMIC examples/tests available: [examples](https://github.com/The-Allsparks/MIMIC/blob/main/examples/README.md)
 - Elevator hardware is **not** assumed ([MIMIC assessment](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/assessment.md))
 
@@ -79,7 +79,7 @@ snapshot · state · ticks ≠ inches · stale · uncalibrated · fake actuator
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Review S003 sag sentence; today's test goal: **name states, snapshot, then drive**; safety: no homing |
+| 10 | Opening | Review S007 sag sentence; today's test goal: **name states, snapshot, then drive**; safety: no homing |
 | 35 | Repair / tune / program | Repair drivetrain issues from logs; programmers run MIMIC Phase 0 tests; others assemble or mock the mechanism and draft states (`STOWED`, `CLEAR`, `INTAKING`, `FAULTED` — names may change after Kickoff) |
 | 55 | Driving / auto reps | Driver rotations on chassis. Between runs, mechanism pair updates the snapshot from sensors **or** from fake hardware on a laptop at the field table. Do not steal this block for a MIMIC lecture |
 | 20 | Closeout | Inspect mechanism pinch points; log review; explain-back; dashboard MIMIC ladder 1–2; Kickoff reminder for Saturday |
@@ -143,7 +143,7 @@ Unpowered mechanisms; no loaded gravity arms left standing; batteries stored.
 ## Next-session preparation
 
 - Saturday Kickoff: SK01. Bring notebook. Do not pack experimental libraries as if they were game strategy.
-- After Kickoff: webcam for S005 if the team has one; otherwise sim laptops
+- After Kickoff: webcam for S009 if the team has one; otherwise sim laptops
 
 ## Hardware-unavailable fallback
 

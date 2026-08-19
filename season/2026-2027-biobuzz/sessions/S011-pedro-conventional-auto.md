@@ -1,5 +1,5 @@
 ---
-id: S007
+id: S011
 title: "Pedro Pathing conventional autonomous"
 date: 2026-09-22
 meeting_type: A
@@ -11,13 +11,13 @@ projects: [PEDRO, TRACE]
 active_features: []
 ---
 
-# S007 — Pedro Pathing conventional autonomous
+# S011 — Pedro Pathing conventional autonomous
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S007 |
+| Session ID | S011 |
 | Title | Pedro Pathing conventional autonomous |
 | Calendar date | 2026-09-22 (planning input; Tuesday Meeting A) |
 | Relative week | Kickoff-to-clinic week 2 |
@@ -43,7 +43,7 @@ Students continue MVP construction, mount or verify localization, and leave with
 
 ## Prerequisites
 
-- Driveable chassis from S002
+- Driveable chassis from S006
 - Android Studio on at least one mentor laptop ([Pedro does not support OnBot Java or Blocks](https://pedropathing.com/docs/pathing))
 - Team robot project — see [team-robot-project.md](../../../docs/team-robot-project.md). If that URL is still empty, install into the local TeamCode the team is actually flashing
 - [Pedro Quickstart](https://github.com/Pedro-Pathing/Quickstart) or Pedro added per current docs
@@ -156,7 +156,7 @@ Robot disabled; battery stored; tape removed if the venue requires it; laptop of
 ## Next-session preparation
 
 - Continue tuners on Meeting B repair time using [tuning](https://pedropathing.com/docs/pathing/tuning) — do not steal driving block for a tuner marathon
-- S008 only if Kickoff mapped a vision need; otherwise construction and auto reps
+- S012 only if Kickoff mapped a vision need; otherwise construction and auto reps
 - Write the chosen localizer name on the dashboard "next test" cell
 
 ## Hardware-unavailable fallback

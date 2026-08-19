@@ -1,6 +1,6 @@
 # Failure / risk / reliability record
 
-Use after a real failure, an injected test (S011), or when promoting an event retrospective finding. About 5–10 minutes.
+Use after a real failure, an injected test (S015), or when promoting an event retrospective finding. About 5–10 minutes.
 
 **Safety:** Reproduce failures only with a mentor present. Do not energize the robot to demonstrate a hazard students cannot stop quickly.
 

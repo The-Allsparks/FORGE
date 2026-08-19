@@ -1,5 +1,5 @@
 ---
-id: S017
+id: S021
 title: "Full match simulation"
 date: 2026-12-08
 meeting_type: A
@@ -11,13 +11,13 @@ projects: [TRACE, AMPER, MIMIC, ViDAR, BEACON, ECHO, HELM, PEDRO]
 active_features: []
 ---
 
-# S017 — Full match simulation
+# S021 — Full match simulation
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S017 |
+| Session ID | S021 |
 | Title | Full match simulation |
 | Calendar date | 2026-12-08 (planning input; Tuesday Meeting A) |
 | Relative week | Adversity window |
@@ -140,7 +140,7 @@ Healthy pack installed; robot safe; lens cover off the camera for storage.
 
 ## Next-session preparation
 
-Continue adversity window with templates through 9 January. S018 freeze.
+Continue adversity window with templates through 9 January. S022 freeze.
 
 ## Hardware-unavailable fallback
 

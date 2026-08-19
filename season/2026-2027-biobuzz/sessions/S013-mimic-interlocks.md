@@ -1,5 +1,5 @@
 ---
-id: S009
+id: S013
 title: "MIMIC interlocks"
 date: 2026-09-29
 meeting_type: A
@@ -11,13 +11,13 @@ projects: [MIMIC, TRACE]
 active_features: []
 ---
 
-# S009 — MIMIC interlocks
+# S013 — MIMIC interlocks
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S009 |
+| Session ID | S013 |
 | Title | MIMIC interlocks |
 | Calendar date | 2026-09-29 (planning input; Tuesday Meeting A) |
 | Relative week | Kickoff-to-clinic week 3 |
@@ -42,7 +42,7 @@ Students keep building MVP mechanisms and produce a named interlock table (legal
 
 ## Prerequisites
 
-- S004 state names
+- S008 state names
 - [interlocks.md](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/interlocks.md)
 - [safety-model.md](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/safety-model.md)
 - Second mechanism **or** cardboard stand-in. Elevator-specific racking work stays out until hardware exists ([MIMIC assessment](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/assessment.md))
@@ -73,7 +73,7 @@ interlock · reject · defer · clamp · deadlock · hard stop vs software
 ## Preparation required before the meeting
 
 - Photograph current travel
-- Print a blank state×state grid from S004 names (update names if Kickoff changed them)
+- Print a blank state×state grid from S008 names (update names if Kickoff changed them)
 - Read interlocks.md outcomes: reject, defer, clamp, confirmation — do not invent a scheduler
 
 ## Exact 120-minute agenda
@@ -142,7 +142,7 @@ Mechanisms unpowered and down; no loaded arms left standing.
 
 ## Next-session preparation
 
-S010 ECHO is off-robot. Bring hearing-safety willingness. Keep building Thursday if Meeting B has repair time.
+S014 ECHO is off-robot. Bring hearing-safety willingness. Keep building Thursday if Meeting B has repair time.
 
 ## Hardware-unavailable fallback
 

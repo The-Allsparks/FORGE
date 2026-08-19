@@ -1,5 +1,5 @@
 ---
-id: S008
+id: S012
 title: "ViDAR game-relevant detection"
 date: 2026-09-24
 meeting_type: B
@@ -11,13 +11,13 @@ projects: [ViDAR, TRACE]
 active_features: []
 ---
 
-# S008 — ViDAR game-relevant detection
+# S012 — ViDAR game-relevant detection
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S008 |
+| Session ID | S012 |
 | Title | ViDAR game-relevant detection |
 | Calendar date | 2026-09-24 (planning input; Thursday Meeting B) |
 | Relative week | Kickoff-to-clinic week 2 |
@@ -32,7 +32,7 @@ Does BIOBUZZ actually need a detection today, and can we see that thing under sh
 
 ## Student-facing objective
 
-If SK01 mapped a vision need, students run one-camera detection for **that** element and compare to a tape measure. If vision is not MVP, they write the deferral, run sim calibration for 15 minutes of the repair block, and spend the 55-minute block driving and repeating the S007 auto.
+If SK01 mapped a vision need, students run one-camera detection for **that** element and compare to a tape measure. If vision is not MVP, they write the deferral, run sim calibration for 15 minutes of the repair block, and spend the 55-minute block driving and repeating the S011 auto.
 
 ## Robot outcome
 
@@ -42,7 +42,7 @@ If SK01 mapped a vision need, students run one-camera detection for **that** ele
 
 ## Prerequisites
 
-- S005 geometry
+- S009 geometry
 - SK01 mapping table (vision column)
 - [CALIBRATION.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/CALIBRATION.md) and [CALIBRATION_CHECKLIST.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/CALIBRATION_CHECKLIST.md)
 - [TEACHING.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/TEACHING.md)
@@ -80,7 +80,7 @@ game-relevant · HSV · ROI · confidence · stale · deferred
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Review S007 auto log; test goal: detect MVP element **or** confirm vision is deferred; no drive-from-vision |
+| 10 | Opening | Review S011 auto log; test goal: detect MVP element **or** confirm vision is deferred; no drive-from-vision |
 | 35 | Repair / tune / program | If vision is MVP: calibration checklist items that fit. If deferred: 15 min sim Lesson 4, then mechanism/auto repair. Do not multi-cam |
 | 55 | Driving / auto reps | Driver and Pedro/fallback auto repetitions. Vision pair may observe from the sideline — they do not pause driving for HSV debates |
 | 20 | Closeout | Screenshot or deferral paragraph; dashboard ViDAR; explain-back; cleanup |
@@ -145,7 +145,7 @@ Elements stored; camera capped; robot disabled.
 
 ## Next-session preparation
 
-S009 interlocks on whatever mechanisms exist. Keep S007 auto as the competition fallback.
+S013 interlocks on whatever mechanisms exist. Keep S011 auto as the competition fallback.
 
 ## Hardware-unavailable fallback
 

@@ -27,7 +27,7 @@ Local `FTC-test` is **not** the production robot repo until it has a remote and 
 | OpMode | Purpose |
 | ------ | ------- |
 | Team teleop | Sticks drive the chassis with every optional independently disabled |
-| Conventional auto | Pedro or the S007 timed fallback; HELM off |
+| Conventional auto | Pedro or the S011 timed fallback; HELM off |
 
 Do not wait for TRACE/AMPER/ViDAR before those two exist.
 

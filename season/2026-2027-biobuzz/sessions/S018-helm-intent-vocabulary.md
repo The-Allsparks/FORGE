@@ -1,5 +1,5 @@
 ---
-id: S014
+id: S018
 title: "HELM intent-tree vocabulary"
 date: 2026-10-20
 meeting_type: A
@@ -11,13 +11,13 @@ projects: [HELM, PEDRO, TRACE]
 active_features: []
 ---
 
-# S014 — HELM intent-tree vocabulary
+# S018 — HELM intent-tree vocabulary
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S014 |
+| Session ID | S018 |
 | Title | HELM intent-tree vocabulary |
 | Calendar date | 2026-10-20 (planning input; Tuesday Meeting A) |
 | Relative week | Reliability sprint |
@@ -42,7 +42,7 @@ Keep repairing the robot. On paper (and optional desktop `Helm.validate`), descr
 
 ## Prerequisites
 
-- Students can explain the S007 (or later) conventional auto
+- Students can explain the S011 (or later) conventional auto
 - [intent-trees.md](https://github.com/The-Allsparks/HELM/blob/main/docs/intent-trees.md)
 - [mentor-guide.md](https://github.com/The-Allsparks/HELM/blob/main/docs/mentor-guide.md)
 - [readiness-gates.md](https://github.com/The-Allsparks/HELM/blob/main/docs/readiness-gates.md) — treat authority as **not met**
@@ -139,7 +139,7 @@ Robot disabled; papers photographed; no execute flags in TeamCode.
 
 ## Next-session preparation
 
-S015 shadow — still no execute. Thursday Meeting B: auto reps.
+S019 shadow — still no execute. Thursday Meeting B: auto reps.
 
 ## Hardware-unavailable fallback
 

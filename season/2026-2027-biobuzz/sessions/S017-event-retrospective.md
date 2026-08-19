@@ -1,5 +1,5 @@
 ---
-id: S013
+id: S017
 title: "Clinic retrospective and reliability sprint"
 date: 2026-10-13
 meeting_type: A
@@ -11,13 +11,13 @@ projects: [TRACE]
 active_features: []
 ---
 
-# S013 — Clinic retrospective and reliability sprint
+# S017 — Clinic retrospective and reliability sprint
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S013 |
+| Session ID | S017 |
 | Title | Clinic retrospective and reliability sprint |
 | Calendar date | 2026-10-13 (planning input; Tuesday Meeting A) |
 | Relative week | First meeting after clinic |
@@ -138,7 +138,7 @@ Broken parts bagged and labeled; robot safe; Hub not left in a debug OpMode.
 
 ## Next-session preparation
 
-Unnumbered Meeting B: driving and auto reps. S014 HELM vocabulary without stealing repairs.
+Unnumbered Meeting B: driving and auto reps. S018 HELM vocabulary without stealing repairs.
 
 ## Hardware-unavailable fallback
 

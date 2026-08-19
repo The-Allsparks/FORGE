@@ -1,5 +1,5 @@
 ---
-id: PS003
+id: S003
 title: "Modified Strafer drivetrain installation"
 date: 2026-08-25
 meeting_type: A
@@ -11,13 +11,13 @@ projects: []
 active_features: []
 ---
 
-# PS003 — Modified Strafer drivetrain installation
+# S003 — Modified Strafer drivetrain installation
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | PS003 |
+| Session ID | S003 |
 | Title | Modified Strafer drivetrain installation |
 | Calendar date | 2026-08-25 (planning input; Tuesday Meeting A) |
 | Relative week | Preseason week 0 |
@@ -42,7 +42,7 @@ Students will confirm revised front and rear wheel locations, install drivetrain
 
 ## Prerequisites
 
-- PS002 chassis frame assembled and squared
+- S002 chassis frame assembled and squared
 - Strafer StarterBot drivetrain parts pulled and verified
 - Mentors reviewed planned wheel/motor layout before students arrive
 
@@ -59,7 +59,7 @@ mecanum · roller orientation · binding · clearance · design rationale · ins
 
 ## Required hardware
 
-- Completed chassis frame from PS002
+- Completed chassis frame from S002
 - Drivetrain motors, bearings, shafts, mecanum wheels, outside wheel supports
 - Measuring tape or calipers; straightedge
 - Hand tools per kit instructions
@@ -79,10 +79,10 @@ mecanum · roller orientation · binding · clearance · design rationale · ins
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Review PS002 frame; confirm today's layout sketch; safety; roles |
+| 10 | Opening | Review S002 frame; confirm today's layout sketch; safety; roles |
 | 75 | Construction | Confirm wheel locations; install motors inside rails; bearings, shafts, mecanum wheels, outside supports; verify roller orientation |
 | 25 | Integration | Push-test for binding and alignment; measure front-wheel clearance for intake wheel and angled servo mount; write design rationale vs standard StarterBot |
-| 10 | Closeout | Evidence photos; explain-back; cleanup; PS004 prep list |
+| 10 | Closeout | Evidence photos; explain-back; cleanup; S004 prep list |
 
 ## Mentor demonstration
 
@@ -93,7 +93,7 @@ Two minutes: show correct mecanum roller direction on one wheel. Students verify
 | Path | Work |
 | ---- | ---- |
 | Mechanical | Motor mount, bearings, shafts, wheels, supports |
-| Electrical | Route motor leads loosely — no final dress (PS004) |
+| Electrical | Route motor leads loosely — no final dress (S004) |
 | Programming | No code — record motor names and ports planned on paper |
 | Drive team | Push-test each corner; note binding feel |
 | Documentation | Clearance measurements; decision record; photos |
@@ -143,7 +143,7 @@ Robot on blocks or side; motor leads bundled loosely; tools stored; floor swept.
 
 ## Next-session preparation
 
-- PS004 (2026-08-27): mount Control Hub, battery, switch; wire drivetrain; individual motor tests if code ready
+- S004 (2026-08-27): mount Control Hub, battery, switch; wire drivetrain; individual motor tests if code ready
 - Charge batteries
 - Mentors: confirm whether minimal drive OpMode exists (blocked on [#2](https://github.com/The-Allsparks/FORGE/issues/2) for repo — shop laptop sample OK)
 

@@ -19,7 +19,7 @@ FORGE still does **not** contain robot code and must not become a Gradle depende
 | Student install / disable / rollback | **Paper done** ([student-install.md](student-install.md)) |
 | Shared conventions | **Paper done** ([conventions.md](conventions.md)); Hub collision-check still blocked |
 | Sibling P0 epics linked | **Done** (table below) |
-| Combined-stack teaching in sessions | **Paper done** (S001, I002, later sessions refuse Hub claims) |
+| Combined-stack teaching in sessions | **Paper done** (S005, I002, later sessions refuse Hub claims) |
 | Compile-checked combined TeleOp / auto | **BLOCKED** on #2 |
 | Conventional fallbacks demonstrated on a Hub | **BLOCKED** on #2 |
 | Combined Control Hub budgets | **BLOCKED** on #2 |
@@ -97,7 +97,7 @@ Authoritative examples stay in the library repos (AMPER quickstart, ViDAR teachi
 These must run with **every** Allsparks optional independently disabled:
 
 1. Team teleop (sticks drive the chassis).
-2. Conventional autonomous (Pedro or a timed drive-forward fallback from S007).
+2. Conventional autonomous (Pedro or a timed drive-forward fallback from S011).
 
 Failure of TRACE, AMPER, ViDAR, BEACON, MIMIC observation, HELM, or ECHO must not prevent those two modes unless a **required** safety stop from FIRST/REV already would.
 

@@ -1,5 +1,5 @@
 ---
-id: S006
+id: S010
 title: "BEACON communications freshness and recovery"
 date: 2026-09-17
 meeting_type: B
@@ -11,13 +11,13 @@ projects: [BEACON, TRACE]
 active_features: []
 ---
 
-# S006 — BEACON communications freshness and recovery
+# S010 — BEACON communications freshness and recovery
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S006 |
+| Session ID | S010 |
 | Title | BEACON communications freshness and recovery |
 | Calendar date | 2026-09-17 (planning input) |
 | Relative week | First Meeting B after Kickoff |
@@ -42,7 +42,7 @@ Students will classify freshness vs stale stick values, practice official disabl
 
 ## Prerequisites
 
-- Driveable chassis from S002+
+- Driveable chassis from S006+
 - BEACON exercises doc open
 - [driver-link.md](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/driver-link.md) — mentors must have read this
 
@@ -79,7 +79,7 @@ fresh · stale · connected (ambiguous) · official stop · recovery inhibit · 
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Review S005 tape-vs-vision note; test goal: **drive reps + classify a stale stick**; safety: official stop only |
+| 10 | Opening | Review S009 tape-vs-vision note; test goal: **drive reps + classify a stale stick**; safety: official stop only |
 | 35 | Repair / tune / program | Fix camera-mount or drive bugs; complete BEACON exercises 1–2 on laptop or paper; optional passive health monitor read-through |
 | 55 | Driving / auto reps | Normal driver rotations. Once per driver: mentor announces a simulated comms story (DS stop, or restrained gamepad unplug). After stop, students write whether they have evidence for "jammed" vs "we stopped" |
 | 20 | Closeout | Domain matching (exercise 2); log review; explain-back; dashboard BEACON ladder 1–2; cleanup |
@@ -92,7 +92,7 @@ Hold a stick forward on a **stopped** OpMode or on paper: `y = -1` with `lastVal
 
 | Path | Work |
 | ---- | ---- |
-| Mechanical | Repair anything that failed S005/S002 inspection |
+| Mechanical | Repair anything that failed S009/S006 inspection |
 | Electrical | DS cable strain relief; Hub placement |
 | Programming | Paper/unit freshness; no intervention flags |
 | Drive team | Reps + honest "I don't know" when evidence is insufficient |
@@ -141,7 +141,7 @@ Gamepad reconnection verified; robot disabled; batteries stored.
 
 ## Next-session preparation
 
-- S007 Pedro conventional auto — install/tune docs from [pedropathing.com](https://pedropathing.com/docs/pathing) on one laptop
+- S011 Pedro conventional auto — install/tune docs from [pedropathing.com](https://pedropathing.com/docs/pathing) on one laptop
 - Keep MVP build list from Kickoff visible
 
 ## Hardware-unavailable fallback

@@ -1,5 +1,5 @@
 ---
-id: S010
+id: S014
 title: "ECHO cue vocabulary and off-robot driver lab"
 date: 2026-10-01
 meeting_type: B
@@ -11,13 +11,13 @@ projects: [ECHO, TRACE]
 active_features: []
 ---
 
-# S010 — ECHO cue vocabulary and off-robot driver lab
+# S014 — ECHO cue vocabulary and off-robot driver lab
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S010 |
+| Session ID | S014 |
 | Title | ECHO cue vocabulary and off-robot driver lab |
 | Calendar date | 2026-10-01 (planning input; Thursday Meeting B) |
 | Relative week | Kickoff-to-clinic week 3 |
@@ -145,7 +145,7 @@ OS volume down; headphones away; robot disabled.
 
 ## Next-session preparation
 
-S011: pick **one** injected fault in advance. Print [pit-and-inspection.md](../pit-and-inspection.md) clinic test card for awareness.
+S015: pick **one** injected fault in advance. Print [pit-and-inspection.md](../pit-and-inspection.md) clinic test card for awareness.
 
 ## Hardware-unavailable fallback
 

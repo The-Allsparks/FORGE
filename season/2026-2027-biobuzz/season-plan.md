@@ -17,28 +17,28 @@ Libraries may be treated as **functionally complete for scheduling** after the w
 
 ## Phase map
 
-### Preseason — through 9 September 2026 (PS001–PS004 build block, then S001–S004; last pre-Kickoff meeting 10 September)
+### Preseason — through 10 September 2026 (S001–S008; last meeting before Kickoff)
 
-**Preseason build block (PS001–PS004):**
+**S001–S004 — Strafer StarterBot build and onboarding:**
 
-- **PS001** (2026-08-17, Monday special): shop onboarding — parts organization, safety presentation, sponsor thank-you card start (stewardship, not outreach)
-- **PS002** (2026-08-19, Wednesday special): finish sponsor cards; Strafer StarterBot chassis frame assembly and square check
-- **PS003** (2026-08-25): modified drivetrain — motors inside rails, mecanum install, layout rationale vs standard StarterBot
-- **PS004** (2026-08-27): Control Hub, battery, switch mount and wiring; individual motor tests or honest blocker before S001
+- **S001** (2026-08-17, Monday special): shop onboarding — parts organization, safety presentation, sponsor thank-you card start (stewardship, not outreach)
+- **S002** (2026-08-19, Wednesday special): finish sponsor cards; Strafer StarterBot chassis frame assembly and square check
+- **S003** (2026-08-25): modified drivetrain — motors inside rails, mecanum install, layout rationale vs standard StarterBot
+- **S004** (2026-08-27): Control Hub, battery, switch mount and wiring; individual motor tests or honest blocker before S005
 
-**Numbered preseason sessions (S001–S004):**
+**S005–S008 — integration preseason (still before Kickoff):**
 
-- **S001–S002:** assume drivetrain is mechanically assembled and substantially wired from PS003–PS004; use time for corrections, TRACE habit, restrained driver baseline — not first chassis assembly
+- **S005–S006:** assume drivetrain is mechanically assembled and substantially wired from S003–S004; use time for corrections, TRACE habit, restrained driver baseline — not first chassis assembly
 - Establish reliable driver control
-- Run a simple Pedro Pathing route when the chassis can move (S007 continues this after Kickoff if not finished)
+- Run a simple Pedro Pathing route when the chassis can move (S011 continues this after Kickoff if not finished)
 - Make TRACE permanent as a closeout habit
 - Use AMPER passively
 - Introduce MIMIC snapshots
-- Mention ViDAR/BEACON/ECHO/HELM so vocabulary exists; dedicated labs are S005–S006 and later
+- Mention ViDAR/BEACON/ECHO/HELM so vocabulary exists; dedicated labs are S009–S010 and later
 - Teach composition root = OpMode ([student-install.md](../../docs/student-install.md)); paper path of [lab I002](../../labs/integrated/I002-stack-install-diagnosis.md) until the robot repo exists
 - HELM has **no** authority
 
-S005–S006 fall after Kickoff because a four-hour week cannot also finish a scoring robot. They remain **introduction** sessions, not competition enablement.
+S009–S010 fall after Kickoff because a four-hour week cannot also finish a scoring robot. They remain **introduction** sessions, not competition enablement.
 
 ### Kickoff — 12 September 2026 (SK01)
 
@@ -49,7 +49,7 @@ S005–S006 fall after Kickoff because a four-hour week cannot also finish a sco
 - Revise remaining FORGE dates in `calendar.yaml`
 - Preserve build and driver-practice time
 
-### Kickoff through 10 October (S005–S012)
+### Kickoff through 10 October (S009–S016)
 
 - Prioritize the minimum viable BIOBUZZ robot
 - TRACE active as recorder
@@ -67,7 +67,7 @@ Treat as **data collection and systems validation**, not as a feature debut.
 
 Test: mechanisms under load, ViDAR under field lighting, communications recovery, battery sag, driver workload, ECHO cue clarity **if** it was used in a drill, conventional auto, inspection and pit.
 
-### 12–31 October (S013–S016 + unnumbered Meeting B practice)
+### 12–31 October (S017–S020 + unnumbered Meeting B practice)
 
 Reliability sprint: repairs, auto repetitions, driver practice. TRACE on. AMPER and BEACON passive. Only tested MIMIC protections. ECHO competition-disabled unless controlled evidence demonstrates benefit. HELM observe-only or static-only. Conventional auto fallback preserved.
 
@@ -75,15 +75,15 @@ Reliability sprint: repairs, auto repetitions, driver practice. TRACE on. AMPER 
 
 Use match evidence. Deeper ViDAR calibration, MIMIC lifecycle, AMPER envelope, BEACON recovery exercises, ECHO experiments, HELM shadow. **Drive and auto every week.** Do not treat sibling CI or desktop tests as combined Hub acceptance.
 
-### 7 December – 9 January (S017 + templates)
+### 7 December – 9 January (S021 + templates)
 
 Full match simulations: depleted battery, missed acquisition, obstructed camera, stale sensors, mechanism failures, comms failures, ambiguous ECHO cues, pit and inspection. Only narrowly bounded validated active behavior. Immediate rollback.
 
-### 11–23 January (S018)
+### 11–23 January (S022)
 
 Feature freeze. Full mock competitions. Inspection, judging, pit, driver communication, auto reps. No new active features unless a critical demonstrated problem.
 
-### 25 January – 20 February (S019, contingent)
+### 25 January – 20 February (S023, contingent)
 
 If advancing to State: two or three evidence-supported improvements. Prioritize driver practice, auto tuning, reliability, judging. Avoid broad architectural changes.
 
@@ -106,7 +106,7 @@ After every match event, run [event-retrospective.md](../../templates/event-retr
 
 | Event | When |
 | ----- | ---- |
-| Clinic (10 Oct) | S013 |
+| Clinic (10 Oct) | S017 |
 | League 1S/2S (31 Oct) | First unnumbered or cadence Meeting A after |
 | League 3S/4S (5 Dec) | First Meeting A after |
 | League 5S/6S (9 Jan) | First Meeting A after |
@@ -119,7 +119,7 @@ Track progress with [portfolio-validation.md](../../templates/portfolio-validati
 
 | Gate | Target (planning input) |
 | ---- | ----------------------- |
-| Early skeleton | Before Kickoff / early September (PS001–PS004 shop, build, and stewardship evidence) |
+| Early skeleton | Before Kickoff / early September (S001–S008 preseason evidence) |
 | Pre-scrimmage review | 10 October 2026 |
 | Post-league-meet revision | After 31 Oct, 5 Dec, 9 Jan |
 | Tournament-ready | 22 January 2027 |

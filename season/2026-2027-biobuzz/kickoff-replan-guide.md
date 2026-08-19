@@ -46,4 +46,4 @@ If a column is "no" for the MVP, do not schedule a deep-dive that displaces driv
 
 - Invent point values in FORGE
 - Enable AMPER limiting, MIMIC homing, ViDAR drive, BEACON intervention, ECHO match audio, or HELM execute because Kickoff was exciting
-- Delete S007 (Pedro auto) to add a seventh library course
+- Delete S011 (Pedro auto) to add a seventh library course

@@ -44,7 +44,7 @@ Students will extract scoring tasks from **official** Kickoff materials, choose 
 
 - Official Kickoff broadcast/materials (FIRST)
 - [kickoff-replan-guide.md](../kickoff-replan-guide.md)
-- S001–S004 robot as it actually exists
+- S005–S008 robot as it actually exists
 
 ## Vocabulary
 
@@ -80,7 +80,7 @@ minimum viable robot · scoring task · fallback · planning-input date
 | 40 | Game analysis | Watch/read scoring; students list tasks on sticky notes; no software debate yet |
 | 30 | MVP selection | Vote constraints: must drive, must be buildable in remaining weeks, must leave Meeting B driving time |
 | 20 | Layer mapping | Fill replan table: which tasks need ViDAR/MIMIC/ECHO/HELM **this season** vs never |
-| 15 | Closeout | TRACE-style event list of decisions; assign S005 owners; note calendar edits; cleanup |
+| 15 | Closeout | TRACE-style event list of decisions; assign S009 owners; note calendar edits; cleanup |
 
 ## Mentor demonstration
 
@@ -139,7 +139,7 @@ Recycle printouts with game spoilers if the team cares; pack robot if present.
 
 ## Next-session preparation
 
-- S005 is vision **only if** MVP needs it; otherwise construction-heavy with sim geometry
+- S009 is vision **only if** MVP needs it; otherwise construction-heavy with sim geometry
 - Order parts for MVP immediately
 
 ## Hardware-unavailable fallback
@@ -160,4 +160,4 @@ Same as fallback — Kickoff is analysis. Use photos of the current drivetrain.
 
 ## Mentor notes
 
-Do not let programmers dominate. Drive team has veto on cue/planner cognitive load. Preserve S007 Pedro time.
+Do not let programmers dominate. Drive team has veto on cue/planner cognitive load. Preserve S011 Pedro time.

@@ -1,5 +1,5 @@
 ---
-id: S015
+id: S019
 title: "HELM shadow recommendations"
 date: 2026-10-22
 meeting_type: B
@@ -11,13 +11,13 @@ projects: [HELM, PEDRO, TRACE]
 active_features: []
 ---
 
-# S015 — HELM shadow recommendations
+# S019 — HELM shadow recommendations
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S015 |
+| Session ID | S019 |
 | Title | HELM shadow recommendations |
 | Calendar date | 2026-10-22 (planning input; Thursday Meeting B) |
 | Relative week | Reliability sprint |
@@ -32,7 +32,7 @@ If a selector suggested a different step, would we notice — without letting it
 
 ## Student-facing objective
 
-Spend 55 minutes on conventional auto and driver reps. Between reps, compare a **shadow** recommendation to what Pedro (or the fallback auto) actually did. If the HELM shadow API refuses — expected — do the comparison on paper from the S014 tree. HELM does not command motors. Combined-stack Hub evidence is still [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4), not this session.
+Spend 55 minutes on conventional auto and driver reps. Between reps, compare a **shadow** recommendation to what Pedro (or the fallback auto) actually did. If the HELM shadow API refuses — expected — do the comparison on paper from the S018 tree. HELM does not command motors. Combined-stack Hub evidence is still [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4), not this session.
 
 ## Robot outcome
 
@@ -43,7 +43,7 @@ Spend 55 minutes on conventional auto and driver reps. Between reps, compare a *
 
 ## Prerequisites
 
-- S014 paper tree exists
+- S018 paper tree exists
 - Students can explain the conventional auto
 - [HELM student path](https://github.com/The-Allsparks/HELM/blob/main/docs/student-learning-path.md) — Phase 4 shadow may be unimplemented; paper is valid
 - [responsibility-boundaries.md](https://github.com/The-Allsparks/HELM/blob/main/docs/responsibility-boundaries.md)
@@ -70,7 +70,7 @@ Pedro/fallback auto. Optional `Helm.observe` if present **and** compile-safe wit
 
 ## Preparation required before the meeting
 
-Bring the S014 tree. One laptop with HELM tests if time. Printed disable: mode `OFF`; run Pedro auto.
+Bring the S018 tree. One laptop with HELM tests if time. Printed disable: mode `OFF`; run Pedro auto.
 
 ## Exact 120-minute agenda
 
@@ -139,11 +139,11 @@ Robot disabled; healthy pack if a weak pack was used; no HELM in the match OpMod
 
 ## Next-session preparation
 
-S016 league prep. Unnumbered days: drive.
+S020 league prep. Unnumbered days: drive.
 
 ## Hardware-unavailable fallback
 
-Paper autos walked. Diff table from a walked route vs the S014 tree.
+Paper autos walked. Diff table from a walked route vs the S018 tree.
 
 ## Robot-unavailable simulation option
 

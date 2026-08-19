@@ -1,6 +1,6 @@
 # Event retrospective
 
-Fill after every scrimmage, league meet, tournament, or championship. About 15–20 minutes in the opening + integration block of the **first Meeting A** after the event. S013 is the clinic instance; reuse this template for later events.
+Fill after every scrimmage, league meet, tournament, or championship. About 15–20 minutes in the opening + integration block of the **first Meeting A** after the event. S017 is the clinic instance; reuse this template for later events.
 
 | Field | Value |
 | ----- | ----- |
@@ -74,7 +74,7 @@ Write "off / no data" instead of a long paragraph when a library was not used at
 
 | Event | Calendar id | First retrospective meeting |
 | ----- | ----------- | --------------------------- |
-| Clinic / scrimmage | `clinic` | **S013** (2026-10-13) |
+| Clinic / scrimmage | `clinic` | **S017** (2026-10-13) |
 | League 1S/2S | `league-1s-2s` | First Meeting A after 2026-10-31 |
 | League 3S/4S | `league-3s-4s` | First Meeting A after 2026-12-05 |
 | League 5S/6S | `league-5s-6s` | First Meeting A after 2027-01-09 |

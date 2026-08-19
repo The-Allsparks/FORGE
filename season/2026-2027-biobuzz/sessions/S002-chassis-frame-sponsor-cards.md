@@ -1,5 +1,5 @@
 ---
-id: PS002
+id: S002
 title: "Chassis frame assembly and sponsor card delivery prep"
 date: 2026-08-19
 meeting_type: S
@@ -11,13 +11,13 @@ projects: []
 active_features: []
 ---
 
-# PS002 — Chassis frame assembly and sponsor card delivery prep
+# S002 — Chassis frame assembly and sponsor card delivery prep
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | PS002 |
+| Session ID | S002 |
 | Title | Chassis frame assembly and sponsor card delivery prep |
 | Calendar date | 2026-08-19 (Wednesday special preseason meeting) |
 | Relative week | Preseason week 0 |
@@ -38,12 +38,12 @@ Students will finish, sign, and prepare first-wave sponsor thank-you cards; pull
 
 - First-wave sponsor cards ready for delivery or mailing
 - Main chassis frame substantially assembled, squared, and photographed
-- Dimensional and rigidity notes recorded for PS003 drivetrain layout
+- Dimensional and rigidity notes recorded for S003 drivetrain layout
 
 ## Prerequisites
 
-- PS001 parts organization complete (or equivalent inventory)
-- Sponsor card drafts from PS001 or fresh start today
+- S001 parts organization complete (or equivalent inventory)
+- Sponsor card drafts from S001 or fresh start today
 - goBILDA Strafer StarterBot chassis hardware staged
 - Mentors present for tool use and square-check coaching
 
@@ -60,7 +60,7 @@ square · rigidity · fastener engagement · stewardship · chassis rail · buil
 
 ## Required hardware
 
-- Strafer StarterBot chassis kit parts (from PS001 organizers)
+- Strafer StarterBot chassis kit parts (from S001 organizers)
 - Square, measuring tape or calipers, level surface
 - Hand tools per kit instructions
 - Card materials, pens, envelopes, stamps (mentor-held)
@@ -73,19 +73,19 @@ square · rigidity · fastener engagement · stewardship · chassis rail · buil
 ## Preparation required before the meeting
 
 - Pull list of chassis frame parts verified against kit BOM
-- Card drafts from PS001 on table
+- Card drafts from S001 on table
 - Assign: card team, frame team lead, documentation photographer, square-check pair
 
 ## Exact 120-minute agenda
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Safety, goals, roles; review PS001 organizer map |
+| 10 | Opening | Safety, goals, roles; review S001 organizer map |
 | 20 | Sponsor stewardship | Finish, sign, and prepare first-wave thank-you cards for delivery or mailing |
 | 15 | Parts pull | Retrieve and verify chassis frame parts from organizers; flag missing or damaged items |
 | 50 | Frame assembly | Assemble main chassis frame; square corners; tighten in star pattern; mentor coaches — no lecture |
 | 15 | Inspection | Dimensional, rigidity, and fastener-engagement checks; record measurements |
-| 10 | Closeout | Evidence photos; explain-back; cleanup; PS003 prep (drivetrain layout review) |
+| 10 | Closeout | Evidence photos; explain-back; cleanup; S003 prep (drivetrain layout review) |
 
 ## Mentor demonstration
 
@@ -121,7 +121,7 @@ Mentor loosens one corner brace without announcing which. Square-check pair must
 1. How did you verify the frame was square?
 2. What is still missing before drivetrain motors can mount?
 3. Why is sponsor thank-you work **stewardship** evidence?
-4. Where are oversized parts stored (from PS001)?
+4. Where are oversized parts stored (from S001)?
 
 ## Assessment or exit check
 
@@ -145,7 +145,7 @@ Tools returned; loose fasteners bagged; frame on stable surface; card materials 
 
 ## Next-session preparation
 
-- PS003 (2026-08-25): modified drivetrain — motors inside rails, mecanum orientation, front wheel clearance for intake
+- S003 (2026-08-25): modified drivetrain — motors inside rails, mecanum orientation, front wheel clearance for intake
 - Review goBILDA Strafer docs for standard vs planned wheel locations
 - Mentors: bearings, shafts, mecanum wheels staged
 
@@ -166,4 +166,4 @@ Full-size paper template of chassis rails — students practice fastener order a
 
 ## Mentor notes
 
-Wednesday meetings are exceptions to the Tuesday/Thursday cadence — log the date explicitly. Do not claim Control Hub acceptance. Modified drivetrain layout is a **student design decision** — PS003 must document why it differs from the standard StarterBot. Protect the 50-minute assembly block.
+Wednesday meetings are exceptions to the Tuesday/Thursday cadence — log the date explicitly. Do not claim Control Hub acceptance. Modified drivetrain layout is a **student design decision** — S003 must document why it differs from the standard StarterBot. Protect the 50-minute assembly block.

@@ -1,5 +1,5 @@
 ---
-id: S002
+id: S006
 title: "Drivetrain inspection, driver baseline, and log review"
 date: 2026-09-03
 meeting_type: B
@@ -11,13 +11,13 @@ projects: [TRACE, PEDRO]
 active_features: []
 ---
 
-# S002 — Drivetrain inspection, driver baseline, and log review
+# S006 — Drivetrain inspection, driver baseline, and log review
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S002 |
+| Session ID | S006 |
 | Title | Drivetrain inspection, driver baseline, and log review |
 | Calendar date | 2026-09-03 (planning input; Thursday Meeting B) |
 | Relative week | Preseason week 1 |
@@ -32,18 +32,18 @@ Can we drive in a straight line, stop on command, and then tell the story of tha
 
 ## Student-facing objective
 
-Students will inspect the **PS003–PS004** drivetrain, collect a driver baseline (blocks first, then restrained carpet if mentor OK), and review TRACE (or paper) logs from S001 plus today's runs. If the robot is not ready to drive, students will document the blocker honestly and use the repair block productively.
+Students will inspect the **S003–S004** drivetrain, collect a driver baseline (blocks first, then restrained carpet if mentor OK), and review TRACE (or paper) logs from S005 plus today's runs. If the robot is not ready to drive, students will document the blocker honestly and use the repair block productively.
 
 ## Robot outcome
 
-- Drivetrain inspection checklist complete (post-PS004 wiring)
+- Drivetrain inspection checklist complete (post-S004 wiring)
 - Wheels-off or restrained teleop baseline **or** documented blocker with repair plan
 - At least one TRACE event around `Drive/Baseline start` and `Drive/Baseline stop` if software is ready; otherwise paper log
 - Emergency-disable test recorded
 
 ## Prerequisites
 
-- PS003–PS004 drivetrain installed and wired; S001 corrections applied
+- S003–S004 drivetrain installed and wired; S005 corrections applied
 - Mentor present for any powered motors
 - Gamepads; Driver Station
 - Blocks, crate, or known restraint
@@ -62,7 +62,7 @@ baseline · loop · disable · inspection · input (driver stick) vs event · bl
 
 ## Required hardware
 
-- Drivetrain as assembled in PS003–PS004; battery; Control Hub
+- Drivetrain as assembled in S003–S004; battery; Control Hub
 - Blocks/restraint; safety glasses
 
 ## Required software
@@ -76,14 +76,14 @@ baseline · loop · disable · inspection · input (driver stick) vs event · bl
 - Charge batteries
 - Confirm a teleop OpMode deploys (mentor laptop + Hub) **or** pre-write blocker path
 - Print inspection checklist (fasteners, wires, wheel screws, mecanum orientation)
-- Open S001 event export
+- Open S005 event export
 
 ## Exact 120-minute agenda
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Review S001 events and PS004 motor-test notes; today's test goal: **straight, stop, log**; safety: blocks first |
-| 35 | Repair / tune / program | Inspection repair from S001/PS004 lists; if teleop missing, programmers finish minimal drive OpMode while others inspect — **if still blocked, document and continue mechanical/electrical repair** |
+| 10 | Opening | Review S005 events and S004 motor-test notes; today's test goal: **straight, stop, log**; safety: blocks first |
+| 35 | Repair / tune / program | Inspection repair from S005/S004 lists; if teleop missing, programmers finish minimal drive OpMode while others inspect — **if still blocked, document and continue mechanical/electrical repair** |
 | 55 | Driving / auto reps | **If ready:** wheels-off stick mapping 10 min; emergency-disable test; individual wheel-direction check; forward/reverse, strafe, rotation; short straight-line baselines on restraint/carpet with mentor OK. **If not ready:** wheels-off inspection drills, gamepad mapping on blocks, paper event log — no fake drive success |
 | 20 | Closeout | Inspection sign-off or blocker record; log review; explain-back; dashboard: Driver-control + mechanical; cleanup |
 
@@ -125,12 +125,12 @@ Mentor calls "disable" at a random time during a restrained test. Robot must sto
 2. Is a stick value an input or an event?
 3. What happens if TRACE is off — can you still drive?
 4. Name one mechanical defect inspection found (or "none, and here is how we looked").
-5. If we could not drive today, what is the blocker and what happens in S003?
+5. If we could not drive today, what is the blocker and what happens in S007?
 
 ## Assessment or exit check
 
 **Path A:** Driver enables, drives baseline, disables without mentor hands on sticks; programmer retells run from log.  
-**Path B:** Blocker written with owner and date; inspection complete; repair plan for S003 — no exaggerated claims.
+**Path B:** Blocker written with owner and date; inspection complete; repair plan for S007 — no exaggerated claims.
 
 ## Portfolio or engineering-notebook artifact
 
@@ -150,9 +150,9 @@ Battery off and stored; robot on blocks; gamepads away; cables un-trip-hazarded.
 
 ## Next-session preparation
 
-- Label two batteries "A" and "B" if possible for S003
-- Install AMPER into the FTC project **passively** if mentors completed [AMPER install](https://github.com/The-Allsparks/AMPER/blob/main/docs/install.md); otherwise S003 uses graphs of DS voltage or a desktop walkthrough
-- Clear any S002 blockers before AMPER passive work
+- Label two batteries "A" and "B" if possible for S007
+- Install AMPER into the FTC project **passively** if mentors completed [AMPER install](https://github.com/The-Allsparks/AMPER/blob/main/docs/install.md); otherwise S007 uses graphs of DS voltage or a desktop walkthrough
+- Clear any S006 blockers before AMPER passive work
 
 ## Hardware-unavailable fallback
 
@@ -160,7 +160,7 @@ Push-bot or unpowered roll on carpet while a partner logs paper events. Inspecti
 
 ## Robot-unavailable simulation option
 
-Driver practice on gamepad-to-telemetry dummy OpMode if a Hub exists without drivebase. If no Hub: gamepad drills + paper event log; construction students finish PS004 repair list items.
+Driver practice on gamepad-to-telemetry dummy OpMode if a Hub exists without drivebase. If no Hub: gamepad drills + paper event log; construction students finish S004 repair list items.
 
 ## Links to authoritative project documentation
 
@@ -170,9 +170,9 @@ Driver practice on gamepad-to-telemetry dummy OpMode if a Hub exists without dri
 - [Pedro Pathing introduction](https://pedropathing.com/docs/pathing) (read for later; do not install during driving block)
 - [projects/trace.md](../../../projects/trace.md)
 - [projects/pedro-pathing.md](../../../projects/pedro-pathing.md)
-- [PS003 modified drivetrain](PS003-modified-drivetrain-install.md)
-- [PS004 control wiring](PS004-control-system-wiring-prep.md)
+- [S003 modified drivetrain](S003-modified-drivetrain-install.md)
+- [S004 control wiring](S004-control-system-wiring-prep.md)
 
 ## Mentor notes
 
-Drivetrain construction **started in PS002–PS004**, not today. If teleop is not ready, the 35-minute block finishes it — not the 55-minute drive block. Do not skip restraint. Do not skip the honest blocker path. Hardware validation of TRACE on a Control Hub is still **unclaimed** by the TRACE project.
+Drivetrain construction **started in S002–S004**, not today. If teleop is not ready, the 35-minute block finishes it — not the 55-minute drive block. Do not skip restraint. Do not skip the honest blocker path. Hardware validation of TRACE on a Control Hub is still **unclaimed** by the TRACE project.

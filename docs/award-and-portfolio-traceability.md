@@ -98,7 +98,7 @@ The 2026–2027 season uses an **Initial Interview** (not "Structured Interview"
 - Bring a PORTFOLIO copy; robot demo optional
 - One adult silent observer permitted (A208); adults may not coach
 
-Practice this in S018 and cadence Meeting B closeout using the [judging one-pager](../templates/judging-one-pager.md) and [student-ownership](../templates/student-ownership.md).
+Practice this in S022 and cadence Meeting B closeout using the [judging one-pager](../templates/judging-one-pager.md) and [student-ownership](../templates/student-ownership.md).
 
 ---
 

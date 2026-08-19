@@ -1,5 +1,5 @@
 ---
-id: S012
+id: S016
 title: "Clinic and scrimmage preparation"
 date: 2026-10-08
 meeting_type: B
@@ -11,13 +11,13 @@ projects: [TRACE, AMPER, ViDAR, BEACON, ECHO, PEDRO]
 active_features: []
 ---
 
-# S012 — Clinic and scrimmage preparation
+# S016 — Clinic and scrimmage preparation
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S012 |
+| Session ID | S016 |
 | Title | Clinic and scrimmage preparation |
 | Calendar date | 2026-10-08 (planning input; Thursday Meeting B) |
 | Relative week | Last meeting before clinic |
@@ -140,7 +140,7 @@ Pack robot; batteries safe; tools inventoried.
 
 ## Next-session preparation
 
-Saturday clinic. Sunday/Monday: copy logs off the Hub before overwrite. S013 retrospective.
+Saturday clinic. Sunday/Monday: copy logs off the Hub before overwrite. S017 retrospective.
 
 ## Hardware-unavailable fallback
 

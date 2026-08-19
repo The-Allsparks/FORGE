@@ -1,5 +1,5 @@
 ---
-id: S005
+id: S009
 title: "ViDAR camera geometry and one-camera observation"
 date: 2026-09-15
 meeting_type: A
@@ -11,13 +11,13 @@ projects: [ViDAR, TRACE]
 active_features: []
 ---
 
-# S005 — ViDAR camera geometry and one-camera observation
+# S009 — ViDAR camera geometry and one-camera observation
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S005 |
+| Session ID | S009 |
 | Title | ViDAR camera geometry and one-camera observation |
 | Calendar date | 2026-09-15 (planning input) |
 | Relative week | First Meeting A after Kickoff |
@@ -142,7 +142,7 @@ Camera capped; USB unstrained; robot unpowered.
 ## Next-session preparation
 
 - Keep camera mount removable
-- S006 will need a Driver Station and a willingness to unplug a gamepad in a **safe** test
+- S010 will need a Driver Station and a willingness to unplug a gamepad in a **safe** test
 
 ## Hardware-unavailable fallback
 

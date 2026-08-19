@@ -52,7 +52,7 @@ Do not construct seven independent courses. Teach these as related layers of one
 | Item | Status |
 | ---- | ------ |
 | Season | 2026–2027 BIOBUZZ (game details unknown until Kickoff) |
-| Foundation | Session contract, calendar, complete sessions S001–S019 and SK01 |
+| Foundation | Session contract, calendar, complete sessions S001–S023 and SK01 |
 | Combined stack acceptance | **Open P0.** Paper install/lifecycle/conventions done. Compile-checked Hub evidence **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2) |
 | Team robot / TeamCode repository | **BLOCKED.** No published URL. Playbook: [docs/create-robot-project.md](docs/create-robot-project.md) |
 | Competition enablement | All optional advanced features start **disabled** or **passive** |
@@ -92,7 +92,8 @@ Combined FTC stack acceptance ([#4](https://github.com/The-Allsparks/FORGE/issue
 | Student install / disable | [docs/student-install.md](docs/student-install.md) |
 | Robot code (not this repo) | [docs/team-robot-project.md](docs/team-robot-project.md) — **blocked** |
 | Create the robot repo (when ready) | [docs/create-robot-project.md](docs/create-robot-project.md) |
-| First numbered session | [season/2026-2027-biobuzz/sessions/S001-system-map-safety-trace.md](season/2026-2027-biobuzz/sessions/S001-system-map-safety-trace.md) (after PS001–PS004 build block) |
+| First preseason session | [season/2026-2027-biobuzz/sessions/S001-onboarding-parts-safety-sponsors.md](season/2026-2027-biobuzz/sessions/S001-onboarding-parts-safety-sponsors.md) |
+| TRACE / system map (preseason) | [season/2026-2027-biobuzz/sessions/S005-system-map-safety-trace.md](season/2026-2027-biobuzz/sessions/S005-system-map-safety-trace.md) |
 | Readiness | [season/2026-2027-biobuzz/readiness-dashboard.md](season/2026-2027-biobuzz/readiness-dashboard.md) |
 | Event dates | [season/2026-2027-biobuzz/calendar.yaml](season/2026-2027-biobuzz/calendar.yaml) |
 

@@ -1,5 +1,5 @@
 ---
-id: S001
+id: S005
 title: "System map, safety, and TRACE evidence"
 date: 2026-09-01
 meeting_type: A
@@ -11,13 +11,13 @@ projects: [TRACE]
 active_features: []
 ---
 
-# S001 — System map, safety, and TRACE evidence
+# S005 — System map, safety, and TRACE evidence
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S001 |
+| Session ID | S005 |
 | Title | System map, safety, and TRACE evidence |
 | Calendar date | 2026-09-01 (planning input; Tuesday Meeting A) |
 | Relative week | Preseason week 1 |
@@ -32,7 +32,7 @@ If the robot misbehaves next month, how will we prove what it sensed, what we co
 
 ## Student-facing objective
 
-Students will map The Allsparks software layers onto one robot, complete a shop safety and disable-path walkthrough, **correct and finalize** the PS003–PS004 drivetrain and wiring (not first assembly), review the modified StarterBot layout rationale, and record a TRACE event sequence they can retell without class names.
+Students will map The Allsparks software layers onto one robot, complete a shop safety and disable-path walkthrough, **correct and finalize** the S003–S004 drivetrain and wiring (not first assembly), review the modified StarterBot layout rationale, and record a TRACE event sequence they can retell without class names.
 
 ## Robot outcome
 
@@ -41,7 +41,7 @@ Students will map The Allsparks software layers onto one robot, complete a shop 
 
 ## Prerequisites
 
-- PS001–PS004 complete or equivalent: chassis built, modified drivetrain installed, control system substantially wired ([PS003](PS003-modified-drivetrain-install.md), [PS004](PS004-control-system-wiring-prep.md))
+- S001–S004 complete or equivalent: chassis built, modified drivetrain installed, control system substantially wired ([S003](S003-modified-drivetrain-install.md), [S004](S004-control-system-wiring-prep.md))
 - Mentor present for any energized equipment
 - Team FTC project available on at least one laptop (clone may happen during integration if needed) — **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2) until robot URL published
 - TRACE repo clone **or** ability to run TRACE desktop tests ([TRACE README](https://github.com/The-Allsparks/TRACE/blob/main/README.md))
@@ -59,9 +59,9 @@ measurement · decision · command · event · disable path · layer (not "seven
 
 ## Required hardware
 
-- PS003–PS004 drivetrain and wiring as assembled
+- S003–S004 drivetrain and wiring as assembled
 - Safety glasses; known e-stop / DS disable location
-- Control Hub mounted per PS004 sketch
+- Control Hub mounted per S004 sketch
 
 ## Required software
 
@@ -72,17 +72,17 @@ measurement · decision · command · event · disable path · layer (not "seven
 
 - Print or open the layer map from [docs/architecture.md](../../../docs/architecture.md)
 - Confirm TRACE `.\gradlew.bat test` works on one mentor laptop
-- Bring PS004 inspection/repair list to the opening block
+- Bring S004 inspection/repair list to the opening block
 - Assign mixed pairs (mechanical + programming) before students arrive
 
 ## Exact 120-minute agenda
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Driving question; vocabulary; safety: glasses, disable path; review PS004 blockers; assignments |
-| 75 | Construction | **Corrections and finalization** — retention checks, cable routing, mount refinement, wire protection; review modified vs standard StarterBot layout; fix PS004 inspection items; mentors coach — no lecture on TRACE internals |
+| 10 | Opening | Driving question; vocabulary; safety: glasses, disable path; review S004 blockers; assignments |
+| 75 | Construction | **Corrections and finalization** — retention checks, cable routing, mount refinement, wire protection; review modified vs standard StarterBot layout; fix S004 inspection items; mentors coach — no lecture on TRACE internals |
 | 25 | Integration | On a laptop at the same table: configure TRACE events (memory sink). Students log `Wheel retention check`, `Cable dress verified`, `Layout review complete` as they finish real inspection items. If TRACE is not cloned, run the same events on paper then type them in the last 10 minutes |
-| 10 | Closeout | Export or screenshot the event list; one student retells order; tick TRACE row on the readiness dashboard; cleanup tools; assign S002 prep |
+| 10 | Closeout | Export or screenshot the event list; one student retells order; tick TRACE row on the readiness dashboard; cleanup tools; assign S006 prep |
 
 ## Mentor demonstration
 
@@ -92,7 +92,7 @@ Under five minutes: write a match story on the board as four lines (saw / decide
 
 | Path | Work |
 | ---- | ---- |
-| Mechanical | Retention, square re-check, fastener fixes from PS004 list |
+| Mechanical | Retention, square re-check, fastener fixes from S004 list |
 | Electrical | Final cable dress, strain relief, labeling |
 | Programming | TRACE configure + events named after real checks — **does not replace** mechanical work |
 | Drive team | Practice picking up DS, pointing to stop; verify disable path |
@@ -110,7 +110,7 @@ Scramble the event list (mentor deletes order or shuffles paper cards). Students
 
 - TRACE memory-sink export or handwritten ordered log
 - Photo of drivetrain after corrections
-- Modified-layout design review note (from PS003, updated if changed today)
+- Modified-layout design review note (from S003, updated if changed today)
 - Dashboard note: TRACE ladder = 1 (desktop) or 2 if they used fake-robot wording only
 
 ## Student explain-back questions
@@ -123,11 +123,11 @@ Scramble the event list (mentor deletes order or shuffles paper cards). Students
 
 ## Assessment or exit check
 
-Student retells today's correction work from the event list in order. Mentor marks skills-matrix TRACE foundation. PS004 blockers resolved or carried honestly to S002.
+Student retells today's correction work from the event list in order. Mentor marks skills-matrix TRACE foundation. S004 blockers resolved or carried honestly to S006.
 
 ## Portfolio or engineering-notebook artifact
 
-Layer sketch: robot in the center; TRACE/AMPER/MIMIC/ViDAR/BEACON/ECHO/HELM/Pedro as labels with one verb each. Photo of drivetrain. PS003 decision record attached or summarized.
+Layer sketch: robot in the center; TRACE/AMPER/MIMIC/ViDAR/BEACON/ECHO/HELM/Pedro as labels with one verb each. Photo of drivetrain. S003 decision record attached or summarized.
 
 ## Competition enablement impact
 
@@ -143,10 +143,10 @@ Tools away; loose fasteners bagged; laptops not left with Hub passwords on scree
 
 ## Next-session preparation
 
-- S002: restrained driver baseline — drivetrain expected ready for blocks-first testing
+- S006: restrained driver baseline — drivetrain expected ready for blocks-first testing
 - Drivers: bring gamepads
-- Mentors: blocks or crate for wheels-off drive in S002
-- Resolve any PS004 motor-test blockers or document them for S002 honest path
+- Mentors: blocks or crate for wheels-off drive in S006
+- Resolve any S004 motor-test blockers or document them for S006 honest path
 
 ## Hardware-unavailable fallback
 
@@ -154,7 +154,7 @@ Inspect and document whatever structure exists. TRACE events named after mock in
 
 ## Robot-unavailable simulation option
 
-If no FTC project exists: run TRACE desktop tests from the TRACE repo and log events for a **simulated** inspection checklist. Construction block becomes PS004 repair list on paper plus wire-routing sketch.
+If no FTC project exists: run TRACE desktop tests from the TRACE repo and log events for a **simulated** inspection checklist. Construction block becomes S004 repair list on paper plus wire-routing sketch.
 
 ## Links to authoritative project documentation
 
@@ -167,9 +167,9 @@ If no FTC project exists: run TRACE desktop tests from the TRACE repo and log ev
 - [projects/pedro-pathing.md](../../../projects/pedro-pathing.md)
 - [docs/stack-acceptance.md](../../../docs/stack-acceptance.md)
 - [docs/student-install.md](../../../docs/student-install.md)
-- [PS003 modified drivetrain](PS003-modified-drivetrain-install.md)
-- [PS004 control wiring](PS004-control-system-wiring-prep.md)
+- [S003 modified drivetrain](S003-modified-drivetrain-install.md)
+- [S004 control wiring](S004-control-system-wiring-prep.md)
 
 ## Mentor notes
 
-Protect the 75-minute build. Drivetrain **first assembly happened in PS002–PS004** — S001 is corrections, retention, routing, and documented design review. Do not recap all seven READMEs. Never let TRACE become a reason to skip mechanical debugging. Combined-stack Hub compile is **not** this session; paper composition-root from [stack-acceptance.md](../../../docs/stack-acceptance.md) is enough.
+Protect the 75-minute build. Drivetrain **first assembly happened in S002–S004** — S005 is corrections, retention, routing, and documented design review. Do not recap all seven READMEs. Never let TRACE become a reason to skip mechanical debugging. Combined-stack Hub compile is **not** this session; paper composition-root from [stack-acceptance.md](../../../docs/stack-acceptance.md) is enough.

@@ -1,5 +1,5 @@
 ---
-id: S011
+id: S015
 title: "Integrated failure injection"
 date: 2026-10-06
 meeting_type: A
@@ -11,13 +11,13 @@ projects: [TRACE, AMPER, MIMIC, ViDAR, BEACON]
 active_features: []
 ---
 
-# S011 — Integrated failure injection
+# S015 — Integrated failure injection
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S011 |
+| Session ID | S015 |
 | Title | Integrated failure injection |
 | Calendar date | 2026-10-06 (planning input; Tuesday Meeting A) |
 | Relative week | Week before clinic |
@@ -42,7 +42,7 @@ Finish clinic-critical construction. In the integration block, inject **one** pl
 
 ## Prerequisites
 
-- S003–S006 vocabulary
+- S007–S010 vocabulary
 - [BEACON exercises](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/exercises.md) especially 3
 - [failure-domains.md](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/failure-domains.md)
 - [AMPER hardware test card](https://github.com/The-Allsparks/AMPER/blob/main/docs/validation/hardware-test-card.md) — no uncontrolled brownout
@@ -98,7 +98,7 @@ Show a bad diagnosis: "we were jammed" from mixed symptoms. Point at BEACON exer
 | Mechanical | Clinic-critical fasteners and mechanism freedom |
 | Electrical | Connector check; battery labeling |
 | Programming | Export or copy a short timeline |
-| Drive team | If time after construction, a short restrained run — otherwise wait for S012 |
+| Drive team | If time after construction, a short restrained run — otherwise wait for S016 |
 | Documentation | Timeline paragraph |
 
 ## Integrated build or test activity
@@ -150,7 +150,7 @@ Healthy pack installed; lens uncovered; robot safe; no weaker pack left in the r
 
 ## Next-session preparation
 
-S012 clinic prep. Print [pit-and-inspection.md](../pit-and-inspection.md) and a blank retrospective.
+S016 clinic prep. Print [pit-and-inspection.md](../pit-and-inspection.md) and a blank retrospective.
 
 ## Hardware-unavailable fallback
 

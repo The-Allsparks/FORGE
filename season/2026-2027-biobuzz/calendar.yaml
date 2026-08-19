@@ -63,63 +63,63 @@ events:
     verify: true
     contingent: "Only if the team advances."
 
-# Preseason build sessions (PSxxx) precede S001.
+# Preseason S001–S008 precede Kickoff (SK01).
 sessions:
-  - id: PS001
+  - id: S001
     date: "2026-08-17"
     meeting_type: S
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/PS001-onboarding-parts-safety-sponsors.md
+    file: sessions/S001-onboarding-parts-safety-sponsors.md
     title: Onboarding, parts organization, safety, and sponsor stewardship
-  - id: PS002
+  - id: S002
     date: "2026-08-19"
     meeting_type: S
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/PS002-chassis-frame-sponsor-cards.md
+    file: sessions/S002-chassis-frame-sponsor-cards.md
     title: Chassis frame assembly and sponsor card delivery prep
-  - id: PS003
+  - id: S003
     date: "2026-08-25"
     meeting_type: A
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/PS003-modified-drivetrain-install.md
+    file: sessions/S003-modified-drivetrain-install.md
     title: Modified Strafer drivetrain installation
-  - id: PS004
+  - id: S004
     date: "2026-08-27"
     meeting_type: B
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/PS004-control-system-wiring-prep.md
+    file: sessions/S004-control-system-wiring-prep.md
     title: Control system installation and powered-test preparation
-  - id: S001
+  - id: S005
     date: "2026-09-01"
     meeting_type: A
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/S001-system-map-safety-trace.md
+    file: sessions/S005-system-map-safety-trace.md
     title: System map, safety, and TRACE evidence
-  - id: S002
+  - id: S006
     date: "2026-09-03"
     meeting_type: B
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/S002-drivetrain-driver-baseline.md
+    file: sessions/S006-drivetrain-driver-baseline.md
     title: Drivetrain inspection, driver baseline, and log review
-  - id: S003
+  - id: S007
     date: "2026-09-08"
     meeting_type: A
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/S003-amper-passive-power.md
+    file: sessions/S007-amper-passive-power.md
     title: AMPER passive battery and power observations
-  - id: S004
+  - id: S008
     date: "2026-09-10"
     meeting_type: B
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/S004-mimic-mechanism-states.md
+    file: sessions/S008-mimic-mechanism-states.md
     title: MIMIC mechanism states using simulated or simple hardware
   - id: SK01
     date: "2026-09-12"
@@ -128,117 +128,117 @@ sessions:
     event_checkpoint: kickoff
     file: sessions/SK01-kickoff-biobuzz.md
     title: BIOBUZZ Kickoff analysis and minimum viable robot
-  - id: S005
+  - id: S009
     date: "2026-09-15"
     meeting_type: A
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S005-vidar-one-camera.md
+    file: sessions/S009-vidar-one-camera.md
     title: ViDAR camera geometry and one-camera observation
-  - id: S006
+  - id: S010
     date: "2026-09-17"
     meeting_type: B
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S006-beacon-freshness-recovery.md
+    file: sessions/S010-beacon-freshness-recovery.md
     title: BEACON communications freshness and recovery
-  - id: S007
+  - id: S011
     date: "2026-09-22"
     meeting_type: A
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S007-pedro-conventional-auto.md
+    file: sessions/S011-pedro-conventional-auto.md
     title: Pedro Pathing conventional autonomous
-  - id: S008
+  - id: S012
     date: "2026-09-24"
     meeting_type: B
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S008-vidar-game-detection.md
+    file: sessions/S012-vidar-game-detection.md
     title: ViDAR game-relevant detection
-  - id: S009
+  - id: S013
     date: "2026-09-29"
     meeting_type: A
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S009-mimic-interlocks.md
+    file: sessions/S013-mimic-interlocks.md
     title: MIMIC interlocks
-  - id: S010
+  - id: S014
     date: "2026-10-01"
     meeting_type: B
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S010-echo-cue-vocabulary.md
+    file: sessions/S014-echo-cue-vocabulary.md
     title: ECHO cue vocabulary and off-robot driver lab
-  - id: S011
+  - id: S015
     date: "2026-10-06"
     meeting_type: A
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S011-integrated-failure-injection.md
+    file: sessions/S015-integrated-failure-injection.md
     title: Integrated failure injection
-  - id: S012
+  - id: S016
     date: "2026-10-08"
     meeting_type: B
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S012-clinic-scrimmage-prep.md
+    file: sessions/S016-clinic-scrimmage-prep.md
     title: Clinic and scrimmage preparation
-  - id: S013
+  - id: S017
     date: "2026-10-13"
     meeting_type: A
     season_phase: reliability-sprint
     event_checkpoint: clinic
-    file: sessions/S013-event-retrospective.md
+    file: sessions/S017-event-retrospective.md
     title: Clinic retrospective and reliability sprint
-  - id: S014
+  - id: S018
     date: "2026-10-20"
     meeting_type: A
     season_phase: reliability-sprint
     event_checkpoint: league-1s-2s
-    file: sessions/S014-helm-intent-vocabulary.md
+    file: sessions/S018-helm-intent-vocabulary.md
     title: HELM intent-tree vocabulary
-  - id: S015
+  - id: S019
     date: "2026-10-22"
     meeting_type: B
     season_phase: reliability-sprint
     event_checkpoint: league-1s-2s
-    file: sessions/S015-helm-shadow.md
+    file: sessions/S019-helm-shadow.md
     title: HELM shadow recommendations
-  - id: S016
+  - id: S020
     date: "2026-10-27"
     meeting_type: A
     season_phase: reliability-sprint
     event_checkpoint: league-1s-2s
-    file: sessions/S016-league-meet-prep.md
+    file: sessions/S020-league-meet-prep.md
     title: League meet 1S/2S preparation
-  - id: S017
+  - id: S021
     date: "2026-12-08"
     meeting_type: A
     season_phase: adversity-simulations
     event_checkpoint: league-5s-6s
-    file: sessions/S017-full-match-simulation.md
+    file: sessions/S021-full-match-simulation.md
     title: Full match simulation
-  - id: S018
+  - id: S022
     date: "2027-01-13"
     meeting_type: A
     season_phase: feature-freeze
     event_checkpoint: league-tournament
-    file: sessions/S018-tournament-feature-freeze.md
+    file: sessions/S022-tournament-feature-freeze.md
     title: Tournament feature freeze
-  - id: S019
+  - id: S023
     date: "2027-01-26"
     meeting_type: A
     season_phase: state-prep
     event_checkpoint: state-championship
-    file: sessions/S019-state-preparation.md
+    file: sessions/S023-state-preparation.md
     title: State preparation
 
 cadence_windows:
   - id: preseason
     start: "2026-08-17"
     end: "2026-09-11"
-    intent: Shop onboarding (PS001), Strafer StarterBot build (PS002–PS004), drivetrain corrections and TRACE habit (S001–S004), passive AMPER/MIMIC, intro ViDAR/BEACON/ECHO/HELM without authority.
+    intent: Preseason S001–S008 — shop onboarding, Strafer StarterBot build, TRACE/AMPER/MIMIC intro, passive advanced libraries without authority.
   - id: kickoff-to-clinic
     start: "2026-09-12"
     end: "2026-10-10"

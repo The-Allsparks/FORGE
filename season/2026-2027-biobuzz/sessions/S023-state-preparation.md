@@ -1,5 +1,5 @@
 ---
-id: S019
+id: S023
 title: "State preparation"
 date: 2027-01-26
 meeting_type: A
@@ -11,13 +11,13 @@ projects: [TRACE, PEDRO]
 active_features: []
 ---
 
-# S019 — State preparation
+# S023 — State preparation
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S019 |
+| Session ID | S023 |
 | Title | State preparation |
 | Calendar date | 2027-01-26 (planning input; Tuesday Meeting A) |
 | Relative week | If advancing; 25 January–20 February |

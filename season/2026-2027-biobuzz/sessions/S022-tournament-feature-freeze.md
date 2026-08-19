@@ -1,5 +1,5 @@
 ---
-id: S018
+id: S022
 title: "Tournament feature freeze"
 date: 2027-01-13
 meeting_type: A
@@ -11,13 +11,13 @@ projects: [TRACE, PEDRO]
 active_features: []
 ---
 
-# S018 — Tournament feature freeze
+# S022 — Tournament feature freeze
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S018 |
+| Session ID | S022 |
 | Title | Tournament feature freeze |
 | Calendar date | 2027-01-13 (planning input; Meeting A) |
 | Relative week | 11–23 January window |

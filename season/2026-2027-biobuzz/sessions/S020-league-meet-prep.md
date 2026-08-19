@@ -1,5 +1,5 @@
 ---
-id: S016
+id: S020
 title: "League meet 1S/2S preparation"
 date: 2026-10-27
 meeting_type: A
@@ -11,13 +11,13 @@ projects: [TRACE, PEDRO, AMPER, BEACON]
 active_features: []
 ---
 
-# S016 — League meet 1S/2S preparation
+# S020 — League meet 1S/2S preparation
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S016 |
+| Session ID | S020 |
 | Title | League meet 1S/2S preparation |
 | Calendar date | 2026-10-27 (planning input; Tuesday Meeting A) |
 | Relative week | Week of first league meets |
@@ -139,7 +139,7 @@ Pack. Robot safe for transport. Spare battery labeled.
 
 ## Next-session preparation
 
-After meets: unnumbered templates until S017. Use match evidence. Drive Thursday if this Tuesday was too build-heavy.
+After meets: unnumbered templates until S021. Use match evidence. Drive Thursday if this Tuesday was too build-heavy.
 
 ## Hardware-unavailable fallback
 

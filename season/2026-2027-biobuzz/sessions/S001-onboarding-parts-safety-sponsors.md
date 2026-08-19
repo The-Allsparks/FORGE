@@ -1,5 +1,5 @@
 ---
-id: PS001
+id: S001
 title: "Onboarding, parts organization, safety, and sponsor stewardship"
 date: 2026-08-17
 meeting_type: S
@@ -11,13 +11,13 @@ projects: []
 active_features: []
 ---
 
-# PS001 — Onboarding, parts organization, safety, and sponsor stewardship
+# S001 — Onboarding, parts organization, safety, and sponsor stewardship
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | PS001 |
+| Session ID | S001 |
 | Title | Onboarding, parts organization, safety, and sponsor stewardship |
 | Calendar date | 2026-08-17 (Monday special preseason meeting) |
 | Relative week | Preseason week 0 (completed) |
@@ -37,8 +37,8 @@ Students will organize team parts into labeled organizers, begin first-wave spon
 ## Robot outcome
 
 - Parts that fit are sorted into organizers; oversized or unsuitable parts remain outside organizers with a labeled reason
-- Strafer StarterBot kit parts are identifiable for PS002 pull list
-- Shop is ready for chassis assembly (PS002)
+- Strafer StarterBot kit parts are identifiable for S002 pull list
+- Shop is ready for chassis assembly (S002)
 
 ## Prerequisites
 
@@ -84,7 +84,7 @@ onboarding · organizer · stewardship · pinch point · exclusion zone · expla
 | 45 | Parts organization | Sort kit and loose parts into organizers; keep oversized or unsuitable parts outside with a note; label bins |
 | 25 | Sponsor stewardship | Begin first-wave sponsor thank-you cards — draft message, team signature plan, addressing prep |
 | 30 | Safety onboarding | Watch general workplace/HR-style safety presentation; mentor adds FTC shop rules (glasses, mentor present for power, DS disable) |
-| 10 | Closeout | Photograph organizers; capture attendance or presentation reference; explain-back; assign PS002 prep |
+| 10 | Closeout | Photograph organizers; capture attendance or presentation reference; explain-back; assign S002 prep |
 
 ## Mentor demonstration
 
@@ -144,7 +144,7 @@ Floor clear; organizers closed; card materials stored; no loose screws on work s
 
 ## Next-session preparation
 
-- PS002 (2026-08-19): finish and mail cards; pull chassis parts; begin frame assembly
+- S002 (2026-08-19): finish and mail cards; pull chassis parts; begin frame assembly
 - Confirm Strafer StarterBot build instructions accessible (goBILDA docs — link in notebook, not invented URLs)
 - Mentors: print chassis fastener checklist
 

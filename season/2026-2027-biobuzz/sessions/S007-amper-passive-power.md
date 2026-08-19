@@ -1,5 +1,5 @@
 ---
-id: S003
+id: S007
 title: "AMPER passive battery and power observations"
 date: 2026-09-08
 meeting_type: A
@@ -11,13 +11,13 @@ projects: [AMPER, TRACE]
 active_features: []
 ---
 
-# S003 — AMPER passive battery and power observations
+# S007 — AMPER passive battery and power observations
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S003 |
+| Session ID | S007 |
 | Title | AMPER passive battery and power observations |
 | Calendar date | 2026-09-08 (planning input) |
 | Relative week | Preseason week 2 |
@@ -42,7 +42,7 @@ Students will continue drivetrain electrical construction, enable **passive** AM
 
 ## Prerequisites
 
-- S002 inspection baseline
+- S006 inspection baseline
 - Mentor for powered tests
 - AMPER install docs if integrating: [install.md](https://github.com/The-Allsparks/AMPER/blob/main/docs/install.md), [quickstart.md](https://github.com/The-Allsparks/AMPER/blob/main/docs/quickstart.md)
 
@@ -79,7 +79,7 @@ voltage · sag · current (optional) · passive · XT30 · loop time
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
 | 10 | Opening | Sag vs bind vs empty pack; safety: wheels off, no brownout games; assignment: electrical pair owns connectors, programming pair owns passive observe |
-| 75 | Construction | Battery retention, Hub power wiring, strain relief, dress cables along S001 channels; continue drivetrain remaining structure |
+| 75 | Construction | Battery retention, Hub power wiring, strain relief, dress cables along S005 channels; continue drivetrain remaining structure |
 | 25 | Integration | Add passive AMPER observe once per loop **or** log DS voltage by hand each run. TRACE event when drivers punch forward on blocks. Compare two batteries if labeled |
 | 10 | Closeout | Circle the largest drop on CSV or notebook graph; explain-back; dashboard AMPER = ladder 3 if robot-passive else 1; cleanup |
 
@@ -141,7 +141,7 @@ Batteries stored at safe charge practice; connectors capped; CSV copied off Hub 
 
 ## Next-session preparation
 
-- Bring any simple mechanism (intake roller, servo claw, or even a dummy arm) for S004 snapshots
+- Bring any simple mechanism (intake roller, servo claw, or even a dummy arm) for S008 snapshots
 - If no mechanism, use MIMIC fake hardware on laptops
 
 ## Hardware-unavailable fallback
