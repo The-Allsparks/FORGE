@@ -46,7 +46,7 @@ python tools/validation/validate_curriculum.py
 ## Adding a session
 
 1. Copy [templates/session.md](templates/session.md).
-2. Name it `season/2026-2027-biobuzz/sessions/P0XX-short-title.md`, `K001-…`, `S0XX-short-title.md`, or `E0XX-short-title.md`. **P001–P008** are preseason; **K001** is Kickoff; **S001+** is official season.
+2. Name sessions `season/2026-2027-biobuzz/sessions/{ID}-meeting-{a|b|s|k|e}.md` — **filenames are fixed** for the season. Change the `title` in front matter and [calendar.yaml](season/2026-2027-biobuzz/calendar.yaml), not the filename, when the week's topic shifts.
 3. Add the session to `calendar.yaml` and `tools/curriculum-manifest.json`.
 4. Keep Meeting A and Meeting B block times exact. Meeting **S** (special weekday) agendas must sum to 120 minutes but may use custom blocks.
 5. Include hardware-unavailable and robot-unavailable fallbacks.

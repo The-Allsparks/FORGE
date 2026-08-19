@@ -3,6 +3,7 @@
 # PLANNING INPUTS — verify if the FIRST Nevada calendar changes.
 # All regular shop meetings: 4:00–6:00 PM local (America/Los_Angeles).
 # Numbering: P001–P008 preseason · K001 Kickoff · S001+ official season · E### event days.
+# Session files: sessions/{ID}-meeting-{a|b|s|k|e}.md — fixed paths; edit title in calendar when topics change.
 
 season: "2026-2027"
 season_name: BIOBUZZ
@@ -70,364 +71,364 @@ sessions:
     meeting_type: A
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/P001-onboarding-parts-safety-sponsors.md
+    file: sessions/P001-meeting-a.md
     title: Onboarding, parts organization, safety, and sponsor stewardship
   - id: P002
     date: "2026-08-19"
     meeting_type: S
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/P002-chassis-sponsor-cards.md
+    file: sessions/P002-meeting-s.md
     title: Sponsor stewardship and chassis foundation
   - id: P003
     date: "2026-08-24"
     meeting_type: A
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/P003-modified-drivetrain-install.md
+    file: sessions/P003-meeting-a.md
     title: Modified Strafer drivetrain installation
   - id: P004
     date: "2026-08-26"
     meeting_type: S
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/P004-electrical-foundation.md
+    file: sessions/P004-meeting-s.md
     title: Electrical foundation and power path
   - id: P005
     date: "2026-08-31"
     meeting_type: A
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/P005-bring-up-system-map-evidence.md
+    file: sessions/P005-meeting-a.md
     title: Bring-up, system map, and evidence
   - id: P006
     date: "2026-09-04"
     meeting_type: B
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/P006-driver-baseline.md
+    file: sessions/P006-meeting-b.md
     title: Driver baseline and chassis reliability
   - id: P007
     date: "2026-09-07"
     meeting_type: A
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/P007-mechanism-laboratory.md
+    file: sessions/P007-meeting-a.md
     title: Reusable mechanism laboratory
   - id: P008
     date: "2026-09-11"
     meeting_type: B
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/P008-kickoff-readiness-review.md
+    file: sessions/P008-meeting-b.md
     title: Kickoff readiness review
   - id: K001
     date: "2026-09-12"
     meeting_type: K
     season_phase: kickoff
     event_checkpoint: kickoff
-    file: sessions/K001-kickoff-biobuzz.md
+    file: sessions/K001-meeting-k.md
     title: BIOBUZZ Kickoff analysis and minimum viable robot
   - id: S001
     date: "2026-09-14"
     meeting_type: A
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S001-vidar-one-camera.md
-    title: ViDAR camera geometry and one-camera observation
+    file: sessions/S001-meeting-a.md
+    title: Post-Kickoff MVP build and season execution
   - id: S002
     date: "2026-09-18"
     meeting_type: B
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S002-beacon-freshness-recovery.md
-    title: BEACON communications freshness and recovery
+    file: sessions/S002-meeting-b.md
+    title: MVP teleop tuning and driver reps
   - id: S003
     date: "2026-09-21"
     meeting_type: A
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S003-pedro-conventional-auto.md
+    file: sessions/S003-meeting-a.md
     title: Pedro Pathing conventional autonomous
   - id: S004
     date: "2026-09-25"
     meeting_type: B
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S004-vidar-game-detection.md
-    title: ViDAR game-relevant detection
+    file: sessions/S004-meeting-b.md
+    title: ViDAR camera geometry and one-camera observation
   - id: S005
     date: "2026-09-28"
     meeting_type: A
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S005-mimic-interlocks.md
-    title: MIMIC interlocks
+    file: sessions/S005-meeting-a.md
+    title: BEACON communications freshness and recovery
   - id: S006
     date: "2026-10-02"
     meeting_type: B
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S006-echo-cue-vocabulary.md
-    title: ECHO cue vocabulary and off-robot driver lab
+    file: sessions/S006-meeting-b.md
+    title: ViDAR game-relevant detection
   - id: S007
     date: "2026-10-05"
     meeting_type: A
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S007-integrated-failure-injection.md
-    title: Integrated failure injection
+    file: sessions/S007-meeting-a.md
+    title: MIMIC interlocks
   - id: S008
     date: "2026-10-09"
     meeting_type: B
     season_phase: kickoff-to-clinic
     event_checkpoint: clinic
-    file: sessions/S008-clinic-scrimmage-prep.md
+    file: sessions/S008-meeting-b.md
     title: Clinic and scrimmage preparation
   - id: S009
     date: "2026-10-12"
     meeting_type: A
     season_phase: reliability-sprint
     event_checkpoint: clinic
-    file: sessions/S009-event-retrospective.md
+    file: sessions/S009-meeting-a.md
     title: Clinic retrospective and reliability sprint
   - id: S010
     date: "2026-10-16"
     meeting_type: B
     season_phase: reliability-sprint
     event_checkpoint: league-1s-2s
-    file: sessions/S010-helm-intent-vocabulary.md
-    title: HELM intent-tree vocabulary
+    file: sessions/S010-meeting-b.md
+    title: ECHO cue vocabulary and off-robot driver lab
   - id: S011
     date: "2026-10-19"
     meeting_type: A
     season_phase: reliability-sprint
     event_checkpoint: league-1s-2s
-    file: sessions/S011-helm-shadow.md
-    title: HELM shadow recommendations
+    file: sessions/S011-meeting-a.md
+    title: Integrated failure injection
   - id: S012
     date: "2026-10-23"
     meeting_type: B
     season_phase: reliability-sprint
     event_checkpoint: league-1s-2s
-    file: sessions/S012-league-meet-prep.md
+    file: sessions/S012-meeting-b.md
     title: League meet 1S/2S preparation
   - id: S013
     date: "2026-10-26"
     meeting_type: A
     season_phase: reliability-sprint
     event_checkpoint: league-1s-2s
-    file: sessions/S013-full-match-simulation.md
+    file: sessions/S013-meeting-a.md
     title: Full match simulation
   - id: S014
     date: "2026-10-30"
     meeting_type: B
     season_phase: reliability-sprint
     event_checkpoint: league-1s-2s
-    file: sessions/S014-cadence-meeting-b.md
-    title: Cadence Meeting B — reliability reps
+    file: sessions/S014-meeting-b.md
+    title: HELM intent-tree vocabulary
   - id: S015
     date: "2026-11-02"
     meeting_type: A
     season_phase: league-development
     event_checkpoint: league-1s-2s
-    file: sessions/S015-cadence-meeting-a.md
-    title: Cadence Meeting A — mechanism of the week
+    file: sessions/S015-meeting-a.md
+    title: HELM shadow recommendations
   - id: S016
     date: "2026-11-06"
     meeting_type: B
     season_phase: league-development
     event_checkpoint: league-1s-2s
-    file: sessions/S016-cadence-meeting-b.md
-    title: Cadence Meeting B — driver and auto reps
+    file: sessions/S016-meeting-b.md
+    title: Meeting B — driver and auto reps
   - id: S017
     date: "2026-11-09"
     meeting_type: A
     season_phase: league-development
     event_checkpoint: league-3s-4s
-    file: sessions/S017-cadence-meeting-a.md
-    title: Cadence Meeting A — mechanism of the week
+    file: sessions/S017-meeting-a.md
+    title: Meeting A — mechanism of the week
   - id: S018
     date: "2026-11-13"
     meeting_type: B
     season_phase: league-development
     event_checkpoint: league-3s-4s
-    file: sessions/S018-cadence-meeting-b.md
-    title: Cadence Meeting B — driver and auto reps
+    file: sessions/S018-meeting-b.md
+    title: Meeting B — driver and auto reps
   - id: S019
     date: "2026-11-16"
     meeting_type: A
     season_phase: league-development
     event_checkpoint: league-3s-4s
-    file: sessions/S019-cadence-meeting-a.md
-    title: Cadence Meeting A — mechanism of the week
+    file: sessions/S019-meeting-a.md
+    title: Meeting A — mechanism of the week
   - id: S020
     date: "2026-11-20"
     meeting_type: B
     season_phase: league-development
     event_checkpoint: league-3s-4s
-    file: sessions/S020-cadence-meeting-b.md
-    title: Cadence Meeting B — driver and auto reps
+    file: sessions/S020-meeting-b.md
+    title: Meeting B — driver and auto reps
   - id: S021
     date: "2026-11-23"
     meeting_type: A
     season_phase: league-development
     event_checkpoint: league-3s-4s
-    file: sessions/S021-cadence-meeting-a.md
-    title: Cadence Meeting A — mechanism of the week
+    file: sessions/S021-meeting-a.md
+    title: Meeting A — mechanism of the week
   - id: S022
     date: "2026-11-30"
     meeting_type: A
     season_phase: league-development
     event_checkpoint: league-3s-4s
-    file: sessions/S022-cadence-meeting-a.md
-    title: Cadence Meeting A — mechanism of the week
+    file: sessions/S022-meeting-a.md
+    title: Meeting A — mechanism of the week
   - id: S023
     date: "2026-12-04"
     meeting_type: B
     season_phase: league-development
     event_checkpoint: league-3s-4s
-    file: sessions/S023-cadence-meeting-b.md
-    title: Cadence Meeting B — driver and auto reps
+    file: sessions/S023-meeting-b.md
+    title: Meeting B — driver and auto reps
   - id: S024
     date: "2026-12-07"
     meeting_type: A
     season_phase: adversity-simulations
     event_checkpoint: league-3s-4s
-    file: sessions/S024-cadence-meeting-a.md
-    title: Cadence Meeting A — adversity drill
+    file: sessions/S024-meeting-a.md
+    title: Meeting A — adversity drill
   - id: S025
     date: "2026-12-11"
     meeting_type: B
     season_phase: adversity-simulations
     event_checkpoint: league-3s-4s
-    file: sessions/S025-cadence-meeting-b.md
-    title: Cadence Meeting B — driver and auto reps
+    file: sessions/S025-meeting-b.md
+    title: Meeting B — driver and auto reps
   - id: S026
     date: "2026-12-14"
     meeting_type: A
     season_phase: adversity-simulations
     event_checkpoint: league-5s-6s
-    file: sessions/S026-cadence-meeting-a.md
-    title: Cadence Meeting A — adversity drill
+    file: sessions/S026-meeting-a.md
+    title: Meeting A — adversity drill
   - id: S027
     date: "2026-12-18"
     meeting_type: B
     season_phase: adversity-simulations
     event_checkpoint: league-5s-6s
-    file: sessions/S027-cadence-meeting-b.md
-    title: Cadence Meeting B — driver and auto reps
+    file: sessions/S027-meeting-b.md
+    title: Meeting B — driver and auto reps
   - id: S028
     date: "2026-12-21"
     meeting_type: A
     season_phase: adversity-simulations
     event_checkpoint: league-5s-6s
-    file: sessions/S028-cadence-meeting-a.md
-    title: Cadence Meeting A — adversity drill
+    file: sessions/S028-meeting-a.md
+    title: Meeting A — adversity drill
   - id: S029
     date: "2026-12-28"
     meeting_type: A
     season_phase: adversity-simulations
     event_checkpoint: league-5s-6s
-    file: sessions/S029-cadence-meeting-a.md
-    title: Cadence Meeting A — adversity drill
+    file: sessions/S029-meeting-a.md
+    title: Meeting A — adversity drill
   - id: S030
     date: "2027-01-04"
     meeting_type: A
     season_phase: adversity-simulations
     event_checkpoint: league-5s-6s
-    file: sessions/S030-cadence-meeting-a.md
-    title: Cadence Meeting A — adversity drill
+    file: sessions/S030-meeting-a.md
+    title: Meeting A — adversity drill
   - id: S031
     date: "2027-01-08"
     meeting_type: B
     season_phase: adversity-simulations
     event_checkpoint: league-5s-6s
-    file: sessions/S031-cadence-meeting-b.md
-    title: Cadence Meeting B — driver and auto reps
+    file: sessions/S031-meeting-b.md
+    title: Meeting B — driver and auto reps
   - id: S032
     date: "2027-01-11"
     meeting_type: A
     season_phase: feature-freeze
     event_checkpoint: league-tournament
-    file: sessions/S032-cadence-meeting-a.md
-    title: Cadence Meeting A — pre-tournament build
+    file: sessions/S032-meeting-a.md
+    title: Meeting A — pre-tournament build
   - id: S033
     date: "2027-01-15"
     meeting_type: B
     season_phase: feature-freeze
     event_checkpoint: league-tournament
-    file: sessions/S033-cadence-meeting-b.md
-    title: Cadence Meeting B — mock match reps
+    file: sessions/S033-meeting-b.md
+    title: Meeting B — mock match reps
   - id: S034
     date: "2027-01-18"
     meeting_type: A
     season_phase: feature-freeze
     event_checkpoint: league-tournament
-    file: sessions/S034-tournament-feature-freeze.md
+    file: sessions/S034-meeting-a.md
     title: Tournament feature freeze
   - id: E004
     date: "2027-01-22"
     meeting_type: E
     season_phase: feature-freeze
     event_checkpoint: league-tournament
-    file: sessions/E004-league-tournament-day1.md
+    file: sessions/E004-meeting-e.md
     title: League Tournament — day 1 (no regular meeting)
   - id: S036
     date: "2027-01-25"
     meeting_type: A
     season_phase: feature-freeze
     event_checkpoint: league-tournament
-    file: sessions/S036-cadence-meeting-a.md
-    title: Cadence Meeting A — post-tournament repair
+    file: sessions/S036-meeting-a.md
+    title: Meeting A — post-tournament repair
   - id: S037
     date: "2027-01-29"
     meeting_type: B
     season_phase: state-prep
     event_checkpoint: state-championship
-    file: sessions/S037-cadence-meeting-b.md
-    title: Cadence Meeting B — driver and auto reps
+    file: sessions/S037-meeting-b.md
+    title: Meeting B — driver and auto reps
   - id: S038
     date: "2027-02-01"
     meeting_type: A
     season_phase: state-prep
     event_checkpoint: state-championship
-    file: sessions/S038-cadence-meeting-a.md
-    title: Cadence Meeting A — state prep build
+    file: sessions/S038-meeting-a.md
+    title: Meeting A — state prep build
   - id: S039
     date: "2027-02-05"
     meeting_type: B
     season_phase: state-prep
     event_checkpoint: state-championship
-    file: sessions/S039-cadence-meeting-b.md
-    title: Cadence Meeting B — mock match reps
+    file: sessions/S039-meeting-b.md
+    title: Meeting B — mock match reps
   - id: S040
     date: "2027-02-08"
     meeting_type: A
     season_phase: state-prep
     event_checkpoint: state-championship
-    file: sessions/S040-state-preparation.md
+    file: sessions/S040-meeting-a.md
     title: State preparation
   - id: S041
     date: "2027-02-12"
     meeting_type: B
     season_phase: state-prep
     event_checkpoint: state-championship
-    file: sessions/S041-cadence-meeting-b.md
-    title: Cadence Meeting B — final reps
+    file: sessions/S041-meeting-b.md
+    title: Meeting B — final reps
   - id: S042
     date: "2027-02-15"
     meeting_type: A
     season_phase: state-prep
     event_checkpoint: state-championship
-    file: sessions/S042-cadence-meeting-a.md
-    title: Cadence Meeting A — final build window
+    file: sessions/S042-meeting-a.md
+    title: Meeting A — final build window
   - id: E005
     date: "2027-02-19"
     meeting_type: E
     season_phase: state-prep
     event_checkpoint: state-championship
-    file: sessions/E005-state-championship-day1.md
+    file: sessions/E005-meeting-e.md
     title: Nevada State Championship — day 1 (contingent)
 
 cadence_windows:

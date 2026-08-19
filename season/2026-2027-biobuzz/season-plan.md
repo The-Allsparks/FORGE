@@ -70,7 +70,7 @@ Preseason succeeds when:
 - No advanced software is treated as competition-ready without robot evidence
 - The team is prepared to choose a minimum viable robot immediately after Kickoff
 
-S001–S008 fall after Kickoff because a four-hour week cannot also finish a scoring robot. They remain **introduction** sessions, not competition enablement.
+S001–S008 fall after Kickoff: **S001–S002** MVP build and teleop; **S003** Pedro; library intros (**S004–S007**) only as the MVP mapping requires; **S008** clinic prep. Retitle sessions in `calendar.yaml` without renaming files.
 
 ### Kickoff — 12 September 2026 (K001)
 
@@ -84,15 +84,8 @@ S001–S008 fall after Kickoff because a four-hour week cannot also finish a sco
 
 ### Kickoff through 10 October (S001–S008)
 
-- Prioritize the minimum viable BIOBUZZ robot
-- TRACE active as recorder
-- AMPER records voltage/current passively
-- MIMIC defines mechanism states and limits on paper / snapshots; protections off unless tested
-- ViDAR begins relevant detection work without stealing construction
-- BEACON observes communications health
-- ECHO simulation or controlled drills
-- HELM describes or simulates autonomous intent
-- Conventional teleop and autonomous fallbacks exist
+- **S001–S002:** execute the K001 MVP — build, then teleop/driver reps (not a library-first week)
+- **S003 onward:** Pedro, then optional libraries **only if** the K001 mapping table says yes
 
 ### 10 October clinic / scrimmage
 

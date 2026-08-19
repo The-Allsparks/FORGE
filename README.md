@@ -92,9 +92,10 @@ Combined FTC stack acceptance ([#4](https://github.com/The-Allsparks/FORGE/issue
 | Student install / disable | [docs/student-install.md](docs/student-install.md) |
 | Robot code (not this repo) | [docs/team-robot-project.md](docs/team-robot-project.md) — **blocked** |
 | Create the robot repo (when ready) | [docs/create-robot-project.md](docs/create-robot-project.md) |
-| First preseason session | [season/2026-2027-biobuzz/sessions/P001-onboarding-parts-safety-sponsors.md](season/2026-2027-biobuzz/sessions/P001-onboarding-parts-safety-sponsors.md) |
-| TRACE / system map (preseason) | [season/2026-2027-biobuzz/sessions/P005-bring-up-system-map-evidence.md](season/2026-2027-biobuzz/sessions/P005-bring-up-system-map-evidence.md) |
-| Kickoff | [season/2026-2027-biobuzz/sessions/K001-kickoff-biobuzz.md](season/2026-2027-biobuzz/sessions/K001-kickoff-biobuzz.md) |
+| First preseason session | [season/2026-2027-biobuzz/sessions/P001-meeting-a.md](season/2026-2027-biobuzz/sessions/P001-meeting-a.md) |
+| TRACE / system map (preseason) | [season/2026-2027-biobuzz/sessions/P005-meeting-a.md](season/2026-2027-biobuzz/sessions/P005-meeting-a.md) |
+| Kickoff | [season/2026-2027-biobuzz/sessions/K001-meeting-k.md](season/2026-2027-biobuzz/sessions/K001-meeting-k.md) |
+| First season shop meeting | [season/2026-2027-biobuzz/sessions/S001-meeting-a.md](season/2026-2027-biobuzz/sessions/S001-meeting-a.md) |
 | Readiness | [season/2026-2027-biobuzz/readiness-dashboard.md](season/2026-2027-biobuzz/readiness-dashboard.md) |
 | Event dates | [season/2026-2027-biobuzz/calendar.yaml](season/2026-2027-biobuzz/calendar.yaml) |
 
