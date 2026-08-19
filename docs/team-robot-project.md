@@ -2,7 +2,9 @@
 
 FORGE does not contain robot code. Students and mentors still need a real FTC SDK / TeamCode project for S002 onward.
 
-## Status (18 August 2026)
+## Status: BLOCKED (18 August 2026)
+
+**Blocked on a team decision to publish or name the robot repository.** Tracking: [FORGE#2](https://github.com/The-Allsparks/FORGE/issues/2). When you are ready to create it, use [create-robot-project.md](create-robot-project.md). Do not invent a GitHub URL.
 
 Re-checked [The-Allsparks](https://github.com/The-Allsparks) public and listed-private repositories. There is **no** published TeamCode / `FtcRobotController` robot project.
 
@@ -31,11 +33,12 @@ Android Studio:       required for Pedro Pathing
 
 Install libraries into **that** project using each library's own install docs (AMPER, TRACE, ViDAR, and so on). FORGE only links those docs. Combined order, lifecycle, and disable paths: [stack-acceptance.md](stack-acceptance.md), [student-install.md](student-install.md). AMPER’s multi-module packaging is the starting Gradle reference, not something to copy into FORGE.
 
-Until this URL exists, [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) cannot check compile-checked TeleOp/auto or Control Hub budgets. Keep this issue and [#2](https://github.com/The-Allsparks/FORGE/issues/2) open.
+Until this URL exists, [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) cannot check compile-checked TeleOp/auto or Control Hub budgets. Keep [#2](https://github.com/The-Allsparks/FORGE/issues/2) open and labeled **blocked**.
 
 ## Related
 
-- Tracking issue: [The-Allsparks/FORGE#2](https://github.com/The-Allsparks/FORGE/issues/2)
+- Tracking issue: [The-Allsparks/FORGE#2](https://github.com/The-Allsparks/FORGE/issues/2) (**blocked**)
+- Create-when-ready playbook: [create-robot-project.md](create-robot-project.md)
 - Combined stack epic: [The-Allsparks/FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)
 - Pedro Quickstart (if starting from Pedro's template): [Pedro-Pathing/Quickstart](https://github.com/Pedro-Pathing/Quickstart)
 - Official SDK: [FIRST-Tech-Challenge/FtcRobotController](https://github.com/FIRST-Tech-Challenge/FtcRobotController)

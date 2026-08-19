@@ -89,4 +89,4 @@ If a Tuesday or Thursday has no `S0xx` row, run:
 - Meeting A: BIOBUZZ mechanism of the week + 25 minutes of TRACE/AMPER/MIMIC on that mechanism
 - Meeting B: log review + repair + 55 minutes of driver/auto reps + inspection closeout
 
-Use [templates/session.md](../../templates/session.md).
+Use [templates/cadence-meeting-a.md](../../templates/cadence-meeting-a.md) and [templates/cadence-meeting-b.md](../../templates/cadence-meeting-b.md). Copy [templates/session.md](../../templates/session.md) only if you need a new numbered file.

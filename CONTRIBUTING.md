@@ -10,7 +10,7 @@ Curriculum, meeting plans, integration labs, readiness tracking, and student lea
 
 ## What this repository is not
 
-A runtime robot library. Do not add Java/Gradle robot code here. Do not make robot projects depend on FORGE. The TeamCode project is tracked in [docs/team-robot-project.md](docs/team-robot-project.md) — fill the URL there; do not invent one. Combined-stack acceptance teaching lives in [docs/stack-acceptance.md](docs/stack-acceptance.md); compile-checked examples belong in the robot repo ([FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)).
+A runtime robot library. Do not add Java/Gradle robot code here. Do not make robot projects depend on FORGE. The TeamCode project is tracked in [docs/team-robot-project.md](docs/team-robot-project.md) — fill the URL there; do not invent one. When the team is ready to create that repo, follow [docs/create-robot-project.md](docs/create-robot-project.md). Combined-stack acceptance teaching lives in [docs/stack-acceptance.md](docs/stack-acceptance.md); compile-checked examples belong in the robot repo ([FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)).
 
 ## Setup
 

@@ -14,7 +14,7 @@ Opening this file does not approve anything.
 
 | Capability | Owner / pair | Ladder | Latest evidence | Known risks | Rollback method | Next required test | Competition status |
 | ---------- | ------------ | ------ | --------------- | ----------- | --------------- | ------------------ | ------------------ |
-| Combined stack | | 1 | paper install matrix only ([stack-acceptance.md](../../docs/stack-acceptance.md)) | no published robot repo (#2); Hub budgets unmeasured | disable each optional independently ([student-install.md](../../docs/student-install.md)) | publish/link TeamCode; compile-checked TeleOp/auto | disabled |
+| Combined stack | | 1 | paper only; **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2) | no published robot repo; Hub budgets unmeasured | disable each optional independently ([student-install.md](../../docs/student-install.md)) | **blocked** — publish/link TeamCode, then compile-checked TeleOp/auto | disabled |
 | Robot mechanical | | 1 | none | unfinished drivetrain | n/a | S001–S002 construction | disabled |
 | Electrical | | 1 | none | unvalidated wiring | power disconnect | first power-up with mentor | disabled |
 | Driver-control | | 1 | none | no baseline | DS stop | S002 blocks then carpet | disabled |
@@ -36,6 +36,7 @@ Opening this file does not approve anything.
 
 | Date | Session | What changed |
 | ---- | ------- | ------------ |
+| 2026-08-18 | — | Combined stack and team robot repo marked **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2). |
 | 2026-08-18 | — | Combined stack row added as first acceptance priority ([FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)); still blocked on robot repo. |
 | 2026-08-17 | — | Dashboard created; all optional systems start disabled or TRACE-passive-as-goal. |
 

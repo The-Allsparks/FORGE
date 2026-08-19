@@ -4,7 +4,7 @@ Welcome to FORGE — **Framework for Onboarding, Robotics, Guidance, and Educati
 
 This repository is the season map for The Allsparks. It tells you what we are building this week, what evidence to collect, and when a software feature is allowed to be more than a passenger.
 
-It is **not** the robot code. Robot code lives in the team's FTC project and in the library repositories. That project URL is recorded in [team-robot-project.md](team-robot-project.md) when the team publishes it. Until then, combined-stack Hub work stays blocked ([stack-acceptance.md](stack-acceptance.md)).
+It is **not** the robot code. Robot code lives in the team's FTC project and in the library repositories. That project URL is recorded in [team-robot-project.md](team-robot-project.md) when the team publishes it. Until then, combined-stack Hub work stays **blocked** ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)). Building and driving in the shop still happen.
 
 **P0 this season:** being able to install, disable, and roll back optional libraries around a driving robot — not treating seven green GitHub repos as a finished stack.
 

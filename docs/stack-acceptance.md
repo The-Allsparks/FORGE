@@ -8,17 +8,22 @@ FORGE still does **not** contain robot code and must not become a Gradle depende
 
 ## Status (18 August 2026)
 
+**Blocked by [FORGE#2](https://github.com/The-Allsparks/FORGE/issues/2):** no published robot / TeamCode repository. Paper teaching in this file is not Hub evidence. Playbook when the team is ready: [create-robot-project.md](create-robot-project.md).
+
 | Gate | Status |
 | ---- | ------ |
-| Canonical robot / TeamCode repository | **Missing.** No published Allsparks robot repo. Do not invent a URL. |
-| Pinned install matrix (this file) | Documented from sibling READMEs; re-verify at Kickoff if the season SDK changes |
-| Lifecycle ordering | Documented below; not Hub-timed |
-| Compile-checked combined TeleOp / auto | **Blocked** on the robot project (#2 / #4) |
-| Conventional fallbacks with all optionals off | Required; not demonstrated in FORGE |
-| Shared conventions | Documented in [conventions.md](conventions.md) |
-| Acyclic dependencies | Required; FORGE is links-only |
-| Combined Control Hub budgets | **Not measured** |
-| Combined “FTC-ready” claim | **Forbidden** until #4 acceptance is checked |
+| Canonical robot / TeamCode repository | **BLOCKED** on #2. No published Allsparks robot repo. Do not invent a URL. |
+| Pinned install matrix (this file) | **Paper done.** Re-verify at Kickoff if the season SDK changes |
+| Lifecycle ordering | **Paper done** below; not Hub-timed |
+| Composition root = OpMode | **Paper done** |
+| Student install / disable / rollback | **Paper done** ([student-install.md](student-install.md)) |
+| Shared conventions | **Paper done** ([conventions.md](conventions.md)); Hub collision-check still blocked |
+| Sibling P0 epics linked | **Done** (table below) |
+| Combined-stack teaching in sessions | **Paper done** (S001, I002, later sessions refuse Hub claims) |
+| Compile-checked combined TeleOp / auto | **BLOCKED** on #2 |
+| Conventional fallbacks demonstrated on a Hub | **BLOCKED** on #2 |
+| Combined Control Hub budgets | **BLOCKED** on #2 |
+| Combined “FTC-ready” claim | **Forbidden** until #4 Hub acceptance is checked |
 
 ## Sibling P0 epics
 

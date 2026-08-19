@@ -53,6 +53,23 @@ Library A ↛ Library B compile dependency unless a published adapter exists
 
 TRACE Phase 4 adapters are a **TRACE approval gate**, not a FORGE default.
 
+## Paper telemetry prefixes (not Hub-checked)
+
+Authoritative TRACE names: [TRACE schema](https://github.com/The-Allsparks/TRACE/blob/main/docs/schema.md). AMPER Driver Station lines in the quickstart are `AMPER` and `AMPER.V` ([AMPER quickstart](https://github.com/The-Allsparks/AMPER/blob/main/docs/quickstart.md)). Prefer TRACE hierarchical names when recording.
+
+| Prefix / example | Owner | Notes |
+| ---------------- | ----- | ----- |
+| `TRACE/Loop/Duration` | TRACE | Loop timing |
+| `Drive/Pose`, `Drive/Command` | Team / Pedro | Chassis; not HELM |
+| `AMPER/Battery/Voltage`, `AMPER/Intervention/Active` | AMPER | Intervention stays off until gated |
+| `AMPER`, `AMPER.V` | AMPER DS | Distinct from TRACE names; do not overload `Battery/Voltage` without a source segment |
+| `ViDAR/Camera/Front/FrameAge`, `ViDAR/Fusion/TargetCount` | ViDAR | Observe-only in teaching OpModes |
+| `MIMIC/Arm/Position`, `MIMIC/Arm/Goal` | MIMIC | Rename `Arm` to the real mechanism |
+| `BEACON/DriverStation/Health`, `BEACON/SafeState/Active` | BEACON | Advisory; not a watchdog replacement |
+| HELM / ECHO | off | Do not add match keys until gated |
+
+This table is a **paper** collision plan. Listing keys on a Control Hub is **blocked** on [#2](https://github.com/The-Allsparks/FORGE/issues/2).
+
 ## Telemetry collision check (when the robot project exists)
 
 Before claiming a combined TeleOp:
