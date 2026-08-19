@@ -30,7 +30,7 @@ working robot → reliable mechanisms → driver practice → conventional auton
 
 ## Written sessions
 
-**Preseason build block:** PS001–PS004 (Strafer StarterBot chassis, modified drivetrain, control wiring). PS001 calendar date **requires confirmation**.
+**Preseason build block:** PS001–PS004 (Strafer StarterBot chassis, modified drivetrain, control wiring). PS001 was 2026-08-17 (Monday).
 
 **Complete (run as-is):** S001–S019 and SK01.
 

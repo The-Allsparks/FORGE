@@ -1,8 +1,7 @@
 ---
 id: PS001
 title: "Onboarding, parts organization, safety, and sponsor stewardship"
-date: requires_confirmation
-date_requires_confirmation: true
+date: 2026-08-17
 meeting_type: S
 season_phase: preseason
 event_checkpoint: none
@@ -20,7 +19,7 @@ active_features: []
 | ----- | ----- |
 | Session ID | PS001 |
 | Title | Onboarding, parts organization, safety, and sponsor stewardship |
-| Calendar date | **Requires confirmation** — meeting immediately before 2026-08-19; exact date not yet recorded in repository evidence |
+| Calendar date | 2026-08-17 (Monday special preseason meeting) |
 | Relative week | Preseason week 0 (completed) |
 | Meeting type | S (special preseason) |
 | Season phase | preseason |
@@ -166,4 +165,4 @@ Paper kit inventory: students write part names on index cards and sort into labe
 
 ## Mentor notes
 
-This is real onboarding, not admin filler. Capture the **exact meeting date** in the notebook when confirmed, then update `calendar.yaml` PS001 `date` and remove `date_requires_confirmation`. Do not invent a date in FORGE until a mentor verifies it. Thank-you cards are **Sustain/stewardship** evidence — do not label them as Reach outreach unless the team actually ran a public outreach event.
+This is real onboarding, not admin filler. Thank-you cards are **Sustain/stewardship** evidence — do not label them as Reach outreach unless the team actually ran a public outreach event.

@@ -21,7 +21,7 @@ Libraries may be treated as **functionally complete for scheduling** after the w
 
 **Preseason build block (PS001–PS004):**
 
-- **PS001** (date requires confirmation): shop onboarding — parts organization, safety presentation, sponsor thank-you card start (stewardship, not outreach)
+- **PS001** (2026-08-17, Monday special): shop onboarding — parts organization, safety presentation, sponsor thank-you card start (stewardship, not outreach)
 - **PS002** (2026-08-19, Wednesday special): finish sponsor cards; Strafer StarterBot chassis frame assembly and square check
 - **PS003** (2026-08-25): modified drivetrain — motors inside rails, mecanum install, layout rationale vs standard StarterBot
 - **PS004** (2026-08-27): Control Hub, battery, switch mount and wiring; individual motor tests or honest blocker before S001

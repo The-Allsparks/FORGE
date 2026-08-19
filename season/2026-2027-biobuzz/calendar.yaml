@@ -63,11 +63,10 @@ events:
     verify: true
     contingent: "Only if the team advances."
 
-# Preseason build sessions (PSxxx) precede S001. PS001 date requires mentor confirmation.
+# Preseason build sessions (PSxxx) precede S001.
 sessions:
   - id: PS001
-    date_requires_confirmation: true
-    date_note: "Meeting immediately before 2026-08-19; exact date not recorded in repository evidence."
+    date: "2026-08-17"
     meeting_type: S
     season_phase: preseason
     event_checkpoint: none
@@ -237,9 +236,9 @@ sessions:
 
 cadence_windows:
   - id: preseason
-    start: "2026-08-19"
+    start: "2026-08-17"
     end: "2026-09-11"
-    intent: Shop onboarding (PS001 date TBC), Strafer StarterBot build (PS002–PS004), drivetrain corrections and TRACE habit (S001–S004), passive AMPER/MIMIC, intro ViDAR/BEACON/ECHO/HELM without authority.
+    intent: Shop onboarding (PS001), Strafer StarterBot build (PS002–PS004), drivetrain corrections and TRACE habit (S001–S004), passive AMPER/MIMIC, intro ViDAR/BEACON/ECHO/HELM without authority.
   - id: kickoff-to-clinic
     start: "2026-09-12"
     end: "2026-10-10"

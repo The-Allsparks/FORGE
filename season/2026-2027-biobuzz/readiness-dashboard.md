@@ -38,7 +38,7 @@ Opening this file does not approve anything.
 
 | Date | Session | What changed |
 | ---- | ------- | ------------ |
-| 2026-08-19 | — | Preseason build block PS001–PS004 added; Strafer StarterBot schedule reflected; PS001 date requires confirmation. |
+| 2026-08-19 | — | PS001 date set to 2026-08-17 (Monday). Preseason build block PS001–PS004 on calendar. |
 | 2026-08-18 | — | Combined stack and team robot repo marked **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2). |
 | 2026-08-18 | — | Combined stack row added as first acceptance priority ([FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)); still blocked on robot repo. |
 | 2026-08-17 | — | Dashboard created; all optional systems start disabled or TRACE-passive-as-goal. |
