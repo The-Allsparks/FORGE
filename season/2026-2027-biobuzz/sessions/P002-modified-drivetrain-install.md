@@ -1,5 +1,5 @@
 ---
-id: S003
+id: P002
 title: "Modified Strafer drivetrain installation"
 date: 2026-08-25
 meeting_type: A
@@ -11,13 +11,13 @@ projects: []
 active_features: []
 ---
 
-# S003 — Modified Strafer drivetrain installation
+# P002 — Modified Strafer drivetrain installation
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
-| Session ID | S003 |
+| Session ID | P002 |
 | Title | Modified Strafer drivetrain installation |
 | Calendar date | 2026-08-25 (planning input; Tuesday Meeting A) |
 | Relative week | Preseason week 0 |
@@ -42,7 +42,7 @@ Students will confirm revised front and rear wheel locations, install drivetrain
 
 ## Prerequisites
 
-- S002 chassis frame assembled and squared
+- P001 chassis frame assembled and squared
 - Strafer StarterBot drivetrain parts pulled and verified
 - Mentors reviewed planned wheel/motor layout before students arrive
 
@@ -59,7 +59,7 @@ mecanum · roller orientation · binding · clearance · design rationale · ins
 
 ## Required hardware
 
-- Completed chassis frame from S002
+- Completed chassis frame from P001
 - Drivetrain motors, bearings, shafts, mecanum wheels, outside wheel supports
 - Measuring tape or calipers; straightedge
 - Hand tools per kit instructions
@@ -67,7 +67,7 @@ mecanum · roller orientation · binding · clearance · design rationale · ins
 ## Required software
 
 - Team notebook
-- Onshape (`36117-preseason` — update layout from S002)
+- Onshape (`36117-preseason` — update layout from P001)
 - [templates/decision-record.md](../../../templates/decision-record.md) (paper) for layout rationale
 
 ## Preparation required before the meeting
@@ -80,10 +80,10 @@ mecanum · roller orientation · binding · clearance · design rationale · ins
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Review S002 frame; confirm today's layout sketch; safety; roles |
+| 10 | Opening | Review P001 frame; confirm today's layout sketch; safety; roles |
 | 75 | Construction | Confirm wheel locations; install motors inside rails; bearings, shafts, mecanum wheels, outside supports; verify roller orientation |
 | 25 | Integration | Push-test for binding; measure front-wheel clearance; **update Onshape layout** with as-built wheel/motor positions; write design rationale vs standard StarterBot |
-| 10 | Closeout | Evidence photos; explain-back; cleanup; S004 prep list |
+| 10 | Closeout | Evidence photos; explain-back; cleanup; P003 prep list |
 
 ## Mentor demonstration
 
@@ -94,7 +94,7 @@ Two minutes: show correct mecanum roller direction on one wheel. Students verify
 | Path | Work |
 | ---- | ---- |
 | Mechanical | Motor mount, bearings, shafts, wheels, supports |
-| Electrical | Route motor leads loosely — no final dress (S004) |
+| Electrical | Route motor leads loosely — no final dress (P003) |
 | Programming | No code — record motor names and ports planned on paper |
 | Drive team | Push-test each corner; note binding feel |
 | Documentation | Clearance measurements; decision record; photos; Onshape layout revision |
@@ -144,7 +144,7 @@ Robot on blocks or side; motor leads bundled loosely; tools stored; floor swept.
 
 ## Next-session preparation
 
-- S004 (2026-08-27): mount Control Hub, battery, switch; wire drivetrain; individual motor tests if code ready
+- P003 (2026-08-27): mount Control Hub, battery, switch; wire drivetrain; individual motor tests if code ready
 - Charge batteries
 - Mentors: confirm whether minimal drive OpMode exists (blocked on [#2](https://github.com/The-Allsparks/FORGE/issues/2) for repo — shop laptop sample OK)
 

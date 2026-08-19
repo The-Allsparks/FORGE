@@ -7,7 +7,7 @@ Season folder for The Allsparks. Game details are unknown until Kickoff.
 ## Start this week
 
 1. Read [season-plan.md](season-plan.md)
-2. Open today's file under [sessions/](sessions/) — **S001–S008** are preseason; **SK01** is Kickoff
+2. Open today's file under [sessions/](sessions/) — **P000–P005** and **S001–S002** are preseason; **SK01** is Kickoff
 3. Update [readiness-dashboard.md](readiness-dashboard.md) in the last 10–20 minutes
 
 ## Priority
@@ -30,9 +30,9 @@ working robot → reliable mechanisms → driver practice → conventional auton
 
 ## Written sessions
 
-**Preseason (before Kickoff):** S001–S008 — shop onboarding, Strafer StarterBot build, TRACE/AMPER/MIMIC intro. S001 was 2026-08-17 (Monday).
+**Preseason (before Kickoff):** P000–P003 (Strafer build), S001–S002 (bring-up and driver baseline), P004–P005 (mechanism lab and Kickoff readiness). P000 date requires confirmation.
 
-**Complete (run as-is):** S001–S023 and SK01.
+**Complete (run as-is):** P000–P005, S001–S023, and SK01.
 
 Unnumbered Tuesdays/Thursdays: [cadence Meeting A](../../templates/cadence-meeting-a.md) and [cadence Meeting B](../../templates/cadence-meeting-b.md).
 

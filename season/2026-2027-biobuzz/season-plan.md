@@ -17,28 +17,58 @@ Libraries may be treated as **functionally complete for scheduling** after the w
 
 ## Phase map
 
-### Preseason — through 10 September 2026 (S001–S008; last meeting before Kickoff)
+### Preseason — through 10 September 2026 (P000–P003, S001–S002, P004–P005; last meeting before Kickoff)
 
-**S001–S004 — Strafer StarterBot build, onboarding, and Onshape foundations:**
+**Revised preseason goal:** By Kickoff on 12 September 2026, The Allsparks will have a reliable Strafer drivetrain, safe and organized build practices, basic driver-control proficiency, a repeatable code deployment and robot bring-up process, measured experiments for capstan/lift/ball-transport concepts, engineering evidence for rapid post-Kickoff decisions, and a prepared process for selecting the minimum viable BIOBUZZ robot. The team will **not** fabricate a final tower, hopper, or game-piece system before learning actual game requirements.
 
-- **S001** (2026-08-17, Monday special): shop onboarding; safety; sponsor cards; **Onshape accounts and first sketch**
-- **S002** (2026-08-19, Wednesday special): sponsor cards; chassis frame; **measured dimensions in Onshape**
-- **S003** (2026-08-25): modified drivetrain; **layout modeled in Onshape**
-- **S004** (2026-08-27): control wiring; **mount plate concept in Onshape**
+**Preseason priorities (in order):**
 
-See [learning-paths/onshape-cad.md](../../learning-paths/onshape-cad.md) for the full S001–S006 CAD progression.
+1. Safe students and an organized workspace
+2. Reliable driving chassis
+3. Electrical installation and diagnosis
+4. Driver practice
+5. Reusable mechanism experiments
+6. Evidence and engineering-notebook habits
+7. Minimal supporting software
+8. Advanced software only when it directly supports current hardware
 
-**S005–S008 — integration preseason (still before Kickoff):**
+#### Meetings
 
-- **S005–S006:** drivetrain corrections, **custom part export/print order**, TRACE habit, restrained driver baseline
-- Establish reliable driver control
-- Run a simple Pedro Pathing route when the chassis can move (S011 continues this after Kickoff if not finished)
-- Make TRACE permanent as a closeout habit
-- Use AMPER passively
-- Introduce MIMIC snapshots
-- Mention ViDAR/BEACON/ECHO/HELM so vocabulary exists; dedicated labs are S009–S010 and later
-- Teach composition root = OpMode ([student-install.md](../../docs/student-install.md)); paper path of [lab I002](../../labs/integrated/I002-stack-install-diagnosis.md) until the robot repo exists
-- HELM has **no** authority
+| ID | Date | Primary goal |
+| -- | ---- | ------------ |
+| **P000** | Requires confirmation | Completed prep: parts organization, safety, sponsor cards started |
+| **P001** | 2026-08-19 | Finish sponsor cards; begin Strafer chassis frame |
+| **P002** | 2026-08-25 | Mechanically complete rolling chassis (modified drivetrain) |
+| **P003** | 2026-08-27 | Safe, serviceable control and power system |
+| **S001** | 2026-09-01 | Bring-up one motor at a time; system map; TRACE habit — **not** first assembly |
+| **S002** | 2026-09-03 | Driver baseline in all mecanum directions |
+| **P004** | 2026-09-08 | Reusable mechanism lab: capstan, tower slide, transport |
+| **P005** | 2026-09-10 | Kickoff readiness review; evidence consolidation |
+
+See [learning-paths/onshape-cad.md](../../learning-paths/onshape-cad.md) for optional CAD tied to P001–P003 and S001–S002.
+
+#### Software allocation before Kickoff
+
+Direct software work is limited to about **30 minutes per week** (excluding brief evidence capture). Details: [preseason-software-allocation.md](docs/preseason-software-allocation.md).
+
+#### Kickoff decision gate
+
+Tower/capstan/transport proceeds only if official BIOBUZZ requirements justify it. Details: [preseason-kickoff-gate.md](docs/preseason-kickoff-gate.md).
+
+#### Preseason definition of done
+
+Preseason succeeds when:
+
+- The Strafer drives reliably in all mecanum directions
+- Every student can safely enable, drive, and disable it
+- Every student can identify drivetrain and power-path components
+- Wiring is labeled, retained, and serviceable
+- The team has measured capstan, slide, and transport behavior
+- Students can distinguish evidence from assumptions
+- Prototype components remain reusable
+- The notebook captures safety, organization, sponsor stewardship, construction, failures, and decisions
+- No advanced software is treated as competition-ready without robot evidence
+- The team is prepared to choose a minimum viable robot immediately after Kickoff
 
 S009–S010 fall after Kickoff because a four-hour week cannot also finish a scoring robot. They remain **introduction** sessions, not competition enablement.
 
@@ -122,7 +152,7 @@ Track progress with [portfolio-validation.md](../../templates/portfolio-validati
 
 | Gate | Target (planning input) |
 | ---- | ----------------------- |
-| Early skeleton | Before Kickoff / early September (S001–S008 preseason evidence) |
+| Early skeleton | Before Kickoff / early September (P000–P005 preseason evidence) |
 | Pre-scrimmage review | 10 October 2026 |
 | Post-league-meet revision | After 31 Oct, 5 Dec, 9 Jan |
 | Tournament-ready | 22 January 2027 |

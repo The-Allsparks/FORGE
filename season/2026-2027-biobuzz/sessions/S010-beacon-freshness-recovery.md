@@ -42,7 +42,7 @@ Students will classify freshness vs stale stick values, practice official disabl
 
 ## Prerequisites
 
-- Driveable chassis from S006+
+- Driveable chassis from S002+
 - BEACON exercises doc open
 - [driver-link.md](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/driver-link.md) — mentors must have read this
 
@@ -92,7 +92,7 @@ Hold a stick forward on a **stopped** OpMode or on paper: `y = -1` with `lastVal
 
 | Path | Work |
 | ---- | ---- |
-| Mechanical | Repair anything that failed S009/S006 inspection |
+| Mechanical | Repair anything that failed S009/S002 inspection |
 | Electrical | DS cable strain relief; Hub placement |
 | Programming | Paper/unit freshness; no intervention flags |
 | Drive team | Reps + honest "I don't know" when evidence is insufficient |

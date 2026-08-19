@@ -92,8 +92,8 @@ Combined FTC stack acceptance ([#4](https://github.com/The-Allsparks/FORGE/issue
 | Student install / disable | [docs/student-install.md](docs/student-install.md) |
 | Robot code (not this repo) | [docs/team-robot-project.md](docs/team-robot-project.md) — **blocked** |
 | Create the robot repo (when ready) | [docs/create-robot-project.md](docs/create-robot-project.md) |
-| First preseason session | [season/2026-2027-biobuzz/sessions/S001-onboarding-parts-safety-sponsors.md](season/2026-2027-biobuzz/sessions/S001-onboarding-parts-safety-sponsors.md) |
-| TRACE / system map (preseason) | [season/2026-2027-biobuzz/sessions/S005-system-map-safety-trace.md](season/2026-2027-biobuzz/sessions/S005-system-map-safety-trace.md) |
+| First preseason session | [season/2026-2027-biobuzz/sessions/P000-onboarding-parts-safety-sponsors.md](season/2026-2027-biobuzz/sessions/P000-onboarding-parts-safety-sponsors.md) |
+| TRACE / system map (preseason) | [season/2026-2027-biobuzz/sessions/S001-bring-up-system-map-evidence.md](season/2026-2027-biobuzz/sessions/S001-bring-up-system-map-evidence.md) |
 | Readiness | [season/2026-2027-biobuzz/readiness-dashboard.md](season/2026-2027-biobuzz/readiness-dashboard.md) |
 | Event dates | [season/2026-2027-biobuzz/calendar.yaml](season/2026-2027-biobuzz/calendar.yaml) |
 

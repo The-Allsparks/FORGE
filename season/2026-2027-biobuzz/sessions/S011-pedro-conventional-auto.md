@@ -43,7 +43,7 @@ Students continue MVP construction, mount or verify localization, and leave with
 
 ## Prerequisites
 
-- Driveable chassis from S006
+- Driveable chassis from S002
 - Android Studio on at least one mentor laptop ([Pedro does not support OnBot Java or Blocks](https://pedropathing.com/docs/pathing))
 - Team robot project — see [team-robot-project.md](../../../docs/team-robot-project.md). If that URL is still empty, install into the local TeamCode the team is actually flashing
 - [Pedro Quickstart](https://github.com/Pedro-Pathing/Quickstart) or Pedro added per current docs

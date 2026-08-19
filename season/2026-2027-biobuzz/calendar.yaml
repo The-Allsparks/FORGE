@@ -24,6 +24,7 @@ assumptions:
   - "Functional completeness for scheduling is not combined Control Hub acceptance. FORGE#4 remains the integration gate."
   - "Remaining season work is onboarding, integration, calibration, testing, and field validation — not greenfield library invention."
   - "BIOBUZZ game details are unknown until Kickoff 2026-09-12."
+  - "Preseason builds a capable team and reusable mechanism evidence — not a speculative BIOBUZZ tower or hopper."
 
 events:
   - id: kickoff
@@ -63,64 +64,64 @@ events:
     verify: true
     contingent: "Only if the team advances."
 
-# Preseason S001–S008 precede Kickoff (SK01).
+# Preseason P000–P003, S001–S002, P004–P005 precede Kickoff (SK01).
 sessions:
-  - id: S001
-    date: "2026-08-17"
+  - id: P000
+    date_requires_confirmation: true
     meeting_type: S
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/S001-onboarding-parts-safety-sponsors.md
-    title: Onboarding, parts organization, safety, and sponsor stewardship
-  - id: S002
+    file: sessions/P000-onboarding-parts-safety-sponsors.md
+    title: Completed preparation — onboarding, parts organization, safety, sponsor stewardship
+  - id: P001
     date: "2026-08-19"
     meeting_type: S
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/S002-chassis-frame-sponsor-cards.md
-    title: Chassis frame assembly and sponsor card delivery prep
-  - id: S003
+    file: sessions/P001-chassis-sponsor-cards.md
+    title: Sponsor stewardship and chassis foundation
+  - id: P002
     date: "2026-08-25"
     meeting_type: A
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/S003-modified-drivetrain-install.md
+    file: sessions/P002-modified-drivetrain-install.md
     title: Modified Strafer drivetrain installation
-  - id: S004
+  - id: P003
     date: "2026-08-27"
     meeting_type: B
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/S004-control-system-wiring-prep.md
-    title: Control system installation and powered-test preparation
-  - id: S005
+    file: sessions/P003-electrical-foundation.md
+    title: Electrical foundation and power path
+  - id: S001
     date: "2026-09-01"
     meeting_type: A
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/S005-system-map-safety-trace.md
-    title: System map, safety, and TRACE evidence
-  - id: S006
+    file: sessions/S001-bring-up-system-map-evidence.md
+    title: Bring-up, system map, and evidence
+  - id: S002
     date: "2026-09-03"
     meeting_type: B
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/S006-drivetrain-driver-baseline.md
-    title: Drivetrain inspection, driver baseline, and log review
-  - id: S007
+    file: sessions/S002-driver-baseline.md
+    title: Driver baseline and chassis reliability
+  - id: P004
     date: "2026-09-08"
     meeting_type: A
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/S007-amper-passive-power.md
-    title: AMPER passive battery and power observations
-  - id: S008
+    file: sessions/P004-mechanism-laboratory.md
+    title: Reusable mechanism laboratory
+  - id: P005
     date: "2026-09-10"
     meeting_type: B
     season_phase: preseason
     event_checkpoint: none
-    file: sessions/S008-mimic-mechanism-states.md
-    title: MIMIC mechanism states using simulated or simple hardware
+    file: sessions/P005-kickoff-readiness-review.md
+    title: Kickoff readiness review
   - id: SK01
     date: "2026-09-12"
     meeting_type: K
@@ -236,9 +237,9 @@ sessions:
 
 cadence_windows:
   - id: preseason
-    start: "2026-08-17"
+    start: "2026-08-19"
     end: "2026-09-11"
-    intent: Preseason S001–S008 — shop onboarding, Strafer StarterBot build, TRACE/AMPER/MIMIC intro, passive advanced libraries without authority.
+    intent: Preseason P000–P003, S001–S002, P004–P005 — capable team, Strafer drivetrain, reusable mechanism experiments, ~30 min/week software cap; no speculative BIOBUZZ tower or hopper.
   - id: kickoff-to-clinic
     start: "2026-09-12"
     end: "2026-10-10"

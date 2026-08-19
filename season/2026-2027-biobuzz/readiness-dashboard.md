@@ -17,13 +17,13 @@ Opening this file does not approve anything.
 | Capability | Owner / pair | Ladder | Latest evidence | Known risks | Rollback method | Next required test | Competition status |
 | ---------- | ------------ | ------ | --------------- | ----------- | --------------- | ------------------ | ------------------ |
 | Combined stack | | 1 | paper only; **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2) | no published robot repo; Hub budgets unmeasured | disable each optional independently ([student-install.md](../../docs/student-install.md)) | **blocked** — publish/link TeamCode, then compile-checked TeleOp/auto | disabled |
-| Robot mechanical | | 1 | S001–S004 planned / in progress | unfinished drivetrain | n/a | S003–S004 build, then S005 corrections | disabled |
-| Electrical | | 1 | none | unvalidated wiring | power disconnect | S004 wiring, then S005 dress | disabled |
-| Driver-control | | 1 | none | no baseline | DS stop | S006 blocks then carpet | disabled |
+| Robot mechanical | | 1 | P001–P003 planned / in progress | unfinished drivetrain | n/a | P002 drivetrain, S001 bring-up | disabled |
+| Electrical | | 1 | none | unvalidated wiring | power disconnect | P003 wiring, then S001 verify | disabled |
+| Driver-control | | 1 | none | no baseline | DS stop | S002 blocks then carpet | disabled |
 | Conventional autonomous | | 1 | none | no path yet | run teleop only | S011 simple Pedro path | disabled |
-| TRACE | | 1 | none | not Hub-tested | `TraceMode.OFF` | S005 desktop events | passive (goal) |
-| AMPER | | 1 | none | not Hub-tested | `AmperPolicies.disabled()` | S007 wheels-off voltage | disabled |
-| MIMIC | | 1 | none | Phase 0 only; elevator unknown | flags default / no actuation | S008 fake snapshots | disabled |
+| TRACE | | 1 | none | not Hub-tested | `TraceMode.OFF` | S001 desktop events | passive (goal) |
+| AMPER | | 1 | none | not Hub-tested | `AmperPolicies.disabled()` | passive voltage in S001+ if useful | disabled |
+| MIMIC | | 1 | none | Phase 0 only | flags default / no actuation | paper states in P004 if time | disabled |
 | ViDAR | | 1 | none | 4-cam unvalidated | do not consume detections in drive | S009 sim or one camera | disabled |
 | BEACON | | 1 | none | no DS early-stop API | omit reports; official stop remains | S010 exercises | disabled |
 | HELM | | 1 | none | gates unmet | mode `OFF` | S018 paper trees | disabled |
@@ -38,7 +38,7 @@ Opening this file does not approve anything.
 
 | Date | Session | What changed |
 | ---- | ------- | ------------ |
-| 2026-08-19 | — | Unified preseason numbering S001–S008 before SK01; former PS and S001–S019 shifted to S001–S023. |
+| 2026-08-19 | — | Preseason reframe: P000–P005 + S001–S002 before SK01; mechanism lab replaces dedicated AMPER/MIMIC preseason sessions. |
 | 2026-08-18 | — | Combined stack and team robot repo marked **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2). |
 | 2026-08-18 | — | Combined stack row added as first acceptance priority ([FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)); still blocked on robot repo. |
 | 2026-08-17 | — | Dashboard created; all optional systems start disabled or TRACE-passive-as-goal. |

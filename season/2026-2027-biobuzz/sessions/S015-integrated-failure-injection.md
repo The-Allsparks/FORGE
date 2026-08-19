@@ -42,7 +42,7 @@ Finish clinic-critical construction. In the integration block, inject **one** pl
 
 ## Prerequisites
 
-- S007–S010 vocabulary
+- S009–S010 vocabulary
 - [BEACON exercises](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/exercises.md) especially 3
 - [failure-domains.md](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/failure-domains.md)
 - [AMPER hardware test card](https://github.com/The-Allsparks/AMPER/blob/main/docs/validation/hardware-test-card.md) — no uncontrolled brownout

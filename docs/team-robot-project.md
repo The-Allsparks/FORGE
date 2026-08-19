@@ -1,6 +1,6 @@
 # Team robot project
 
-FORGE does not contain robot code. Students and mentors still need a real FTC SDK / TeamCode project for S006 onward.
+FORGE does not contain robot code. Students and mentors still need a real FTC SDK / TeamCode project for S002 onward.
 
 ## Status: BLOCKED (18 August 2026)
 

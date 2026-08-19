@@ -8,7 +8,7 @@ Mechanical work is the default Meeting A occupation. Software layers describe th
 - Drivetrain assembly and wheel retention
 - Cable routing channels and strain relief (work with electrical)
 - Hard stops and pinch points before any MIMIC limit discussion
-- **Onshape:** accounts, sketches, extrude, layout — spread across preseason S001–S006 ([onshape-cad.md](onshape-cad.md))
+- **Onshape:** accounts, sketches, extrude, layout — spread across preseason P001–P003 and S001–S002 ([onshape-cad.md](onshape-cad.md))
 
 ## Developing
 

@@ -14,7 +14,7 @@ Find mechanical defects before they become "software bugs."
 
 ## Prerequisites
 
-S005 structure. Mentor for later power.
+S001 structure. Mentor for later power.
 
 ## Safety
 

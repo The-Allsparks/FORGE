@@ -42,7 +42,7 @@ Students keep building MVP mechanisms and produce a named interlock table (legal
 
 ## Prerequisites
 
-- S008 state names
+- Paper mechanism state names from P004 or post-Kickoff MIMIC work
 - [interlocks.md](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/interlocks.md)
 - [safety-model.md](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/safety-model.md)
 - Second mechanism **or** cardboard stand-in. Elevator-specific racking work stays out until hardware exists ([MIMIC assessment](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/assessment.md))
@@ -73,7 +73,7 @@ interlock · reject · defer · clamp · deadlock · hard stop vs software
 ## Preparation required before the meeting
 
 - Photograph current travel
-- Print a blank state×state grid from S008 names (update names if Kickoff changed them)
+- Print a blank state×state grid from mechanism state names (update names if Kickoff changed them)
 - Read interlocks.md outcomes: reject, defer, clamp, confirmation — do not invent a scheduler
 
 ## Exact 120-minute agenda
