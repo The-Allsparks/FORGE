@@ -118,7 +118,7 @@ Reps happened or a written blocker. No new actives.
 
 ## Portfolio or engineering-notebook artifact
 
-Times table.
+Times table. Fill the [evidence record](evidence-record.md) (at least Date, Question, Observation, Decision, Next test). Check award tags if a lesson or comparison happened.
 
 ## Competition enablement impact
 

@@ -118,7 +118,7 @@ Mechanism progressed. Observation exists. No new actives.
 
 ## Portfolio or engineering-notebook artifact
 
-Photo and state name.
+Photo and state name. Fill the [evidence record](evidence-record.md) (at least Date, Question, Observation, Decision, Next test). Check award tags if a choice or calculation happened.
 
 ## Competition enablement impact
 

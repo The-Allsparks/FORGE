@@ -16,15 +16,18 @@ FORGE uses evidence so students can explain the robot and so mentors can refuse 
 
 TRACE is the default recorder. It must not become a second control system. See [TRACE data model](https://github.com/The-Allsparks/TRACE/blob/main/docs/data-model.md) and [TRACE architecture](https://github.com/The-Allsparks/TRACE/blob/main/docs/architecture.md).
 
-## Session closeout (10–20 minutes)
+## Session closeout (about 5–10 minutes)
 
 1. Export or photograph the log (no PII, no secrets).
 2. One student retells what happened in order.
-3. Update one row on the [readiness dashboard](../season/2026-2027-biobuzz/readiness-dashboard.md).
-4. File or photograph the notebook artifact.
-5. Name the rollback if anything new was enabled.
+3. Fill the [evidence record](../templates/evidence-record.md) — at minimum: Date, Question, Observation, Decision, Next test. Check any award tags (A/B/C/D) that apply.
+4. Update one row on the [readiness dashboard](../season/2026-2027-biobuzz/readiness-dashboard.md).
+5. File or photograph the notebook artifact.
+6. Name the rollback if anything new was enabled.
 
-Use [templates/evidence-record.md](../templates/evidence-record.md). Do not create a parallel logging standard.
+If the robot still needs a wrench, fill the four-line minimum and take a photo. Do not skip the record entirely — a short note is better than nothing for later portfolio assembly.
+
+Do not create a parallel logging standard.
 
 ## Privacy
 
@@ -45,6 +48,21 @@ Follow [TRACE SECURITY.md](https://github.com/The-Allsparks/TRACE/blob/main/SECU
 Later in the season, students should be able to lay AMPER sag, MIMIC state, ViDAR staleness, and BEACON freshness on the same TRACE timeline. That adapter work is a **TRACE Phase 4 approval gate** in the TRACE repo. FORGE may *ask* for correlated stories using whatever exports exist; it must not claim unified adapters until TRACE says they exist.
 
 Gap recorded in [research-audit.md](research-audit.md).
+
+## Where information lives
+
+Do not copy the same paragraph into several systems. Promote by reference (session date + photo filename + TRACE export id), then rewrite once into the portfolio.
+
+| Store | What goes here | System of record? |
+| ----- | -------------- | ----------------- |
+| Evidence record / paper notebook | Session notes, sketches, decisions, award tags | **Yes** for daily engineering story |
+| GitHub issues | Curriculum / process bugs, feature requests | Yes for FORGE process |
+| TRACE exports | `.tlog`, CSV, AdvantageScope-compatible files | Team storage (not git); redacted snippets in notebook |
+| Photos and videos | Robot changes, mechanism tests, pit observations | Team storage; stills printed into portfolio as needed |
+| CAD history | Design iterations | CAD tool or robot repo, not FORGE |
+| Test records | Decision records, math evidence, failure records | Notebook + templates in this repo |
+| Portfolio candidates | Promoted shortlist of strongest evidence | Team storage or notebook index ([#16](https://github.com/The-Allsparks/FORGE/issues/16)) |
+| Final portfolio | Printed or digital 15-page submission | Team storage; validated against [A201 checklist](award-and-portfolio-traceability.md) |
 
 ## Retention
 
