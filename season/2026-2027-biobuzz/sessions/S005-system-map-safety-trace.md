@@ -67,6 +67,7 @@ measurement · decision · command · event · disable path · layer (not "seven
 
 - TRACE (desktop tests acceptable)
 - Team notebook (paper or digital)
+- Onshape — export one custom part for print or order
 
 ## Preparation required before the meeting
 
@@ -80,9 +81,9 @@ measurement · decision · command · event · disable path · layer (not "seven
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
 | 10 | Opening | Driving question; vocabulary; safety: glasses, disable path; review S004 blockers; assignments |
-| 75 | Construction | **Corrections and finalization** — retention checks, cable routing, mount refinement, wire protection; review modified vs standard StarterBot layout; fix S004 inspection items; mentors coach — no lecture on TRACE internals |
-| 25 | Integration | On a laptop at the same table: configure TRACE events (memory sink). Students log `Wheel retention check`, `Cable dress verified`, `Layout review complete` as they finish real inspection items. If TRACE is not cloned, run the same events on paper then type them in the last 10 minutes |
-| 10 | Closeout | Export or screenshot the event list; one student retells order; tick TRACE row on the readiness dashboard; cleanup tools; assign S006 prep |
+| 75 | Construction | **Corrections and finalization** (≈60 min) — retention, cable routing, mount refinement; then **≈15 min Onshape export** for one custom part (print/order checklist). Fix S004 inspection items |
+| 25 | Integration | Configure TRACE events (memory sink) tied to real inspection items; export or screenshot event list |
+| 10 | Closeout | One student retells order; tick TRACE row on readiness dashboard; cleanup; assign S006 prep |
 
 ## Mentor demonstration
 
@@ -96,7 +97,7 @@ Under five minutes: write a match story on the board as four lines (saw / decide
 | Electrical | Final cable dress, strain relief, labeling |
 | Programming | TRACE configure + events named after real checks — **does not replace** mechanical work |
 | Drive team | Practice picking up DS, pointing to stop; verify disable path |
-| Documentation | Photo of corrected drivetrain; copy event list into notebook (redacted); layout rationale summary |
+| Documentation | Photo of corrected drivetrain; print/order checklist; copy event list into notebook (redacted) |
 
 ## Integrated build or test activity
 
@@ -110,7 +111,7 @@ Scramble the event list (mentor deletes order or shuffles paper cards). Students
 
 - TRACE memory-sink export or handwritten ordered log
 - Photo of drivetrain after corrections
-- Modified-layout design review note (from S003, updated if changed today)
+- Print/order checklist for one custom part (owner, material, due date)
 - Dashboard note: TRACE ladder = 1 (desktop) or 2 if they used fake-robot wording only
 
 ## Student explain-back questions
@@ -167,9 +168,10 @@ If no FTC project exists: run TRACE desktop tests from the TRACE repo and log ev
 - [projects/pedro-pathing.md](../../../projects/pedro-pathing.md)
 - [docs/stack-acceptance.md](../../../docs/stack-acceptance.md)
 - [docs/student-install.md](../../../docs/student-install.md)
+- [learning-paths/onshape-cad.md](../../../learning-paths/onshape-cad.md)
 - [S003 modified drivetrain](S003-modified-drivetrain-install.md)
 - [S004 control wiring](S004-control-system-wiring-prep.md)
 
 ## Mentor notes
 
-Protect the 75-minute build. Drivetrain **first assembly happened in S002–S004** — S005 is corrections, retention, routing, and documented design review. Do not recap all seven READMEs. Never let TRACE become a reason to skip mechanical debugging. Combined-stack Hub compile is **not** this session; paper composition-root from [stack-acceptance.md](../../../docs/stack-acceptance.md) is enough.
+Protect the 60-minute construction block and the 15-minute Onshape export — both are required. Drivetrain **first assembly happened in S002–S004** — S005 is corrections, export, and TRACE. Never let software displace mechanical debugging.

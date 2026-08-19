@@ -67,6 +67,7 @@ mecanum · roller orientation · binding · clearance · design rationale · ins
 ## Required software
 
 - Team notebook
+- Onshape (`36117-preseason` — update layout from S002)
 - [templates/decision-record.md](../../../templates/decision-record.md) (paper) for layout rationale
 
 ## Preparation required before the meeting
@@ -81,7 +82,7 @@ mecanum · roller orientation · binding · clearance · design rationale · ins
 | ---: | --- | --- |
 | 10 | Opening | Review S002 frame; confirm today's layout sketch; safety; roles |
 | 75 | Construction | Confirm wheel locations; install motors inside rails; bearings, shafts, mecanum wheels, outside supports; verify roller orientation |
-| 25 | Integration | Push-test for binding and alignment; measure front-wheel clearance for intake wheel and angled servo mount; write design rationale vs standard StarterBot |
+| 25 | Integration | Push-test for binding; measure front-wheel clearance; **update Onshape layout** with as-built wheel/motor positions; write design rationale vs standard StarterBot |
 | 10 | Closeout | Evidence photos; explain-back; cleanup; S004 prep list |
 
 ## Mentor demonstration
@@ -96,7 +97,7 @@ Two minutes: show correct mecanum roller direction on one wheel. Students verify
 | Electrical | Route motor leads loosely — no final dress (S004) |
 | Programming | No code — record motor names and ports planned on paper |
 | Drive team | Push-test each corner; note binding feel |
-| Documentation | Clearance measurements; decision record; photos |
+| Documentation | Clearance measurements; decision record; photos; Onshape layout revision |
 
 ## Integrated build or test activity
 
@@ -111,7 +112,7 @@ Mentor rotates one mecanum wheel to wrong roller direction. Push-test pair must 
 - Photos of installed drivetrain (motor inside rails visible)
 - Mecanum roller orientation checklist (four wheels)
 - Front-wheel clearance measurements for intake/servo mount
-- Design rationale document: modified vs standard StarterBot layout
+- Onshape layout revision (wheel/motor/clearance zones)
 - Push-test notes (binding yes/no, which corner)
 
 ## Student explain-back questions
@@ -157,6 +158,7 @@ Scale drawing of chassis — students mark motor and wheel positions and defend 
 
 ## Links to authoritative project documentation
 
+- [learning-paths/onshape-cad.md](../../../learning-paths/onshape-cad.md)
 - [docs/safety-and-enablement.md](../../../docs/safety-and-enablement.md)
 - [docs/award-and-portfolio-traceability.md](../../../docs/award-and-portfolio-traceability.md)
 - [templates/decision-record.md](../../../templates/decision-record.md)

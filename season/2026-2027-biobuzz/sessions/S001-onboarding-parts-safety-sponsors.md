@@ -32,7 +32,7 @@ Before we bolt metal together, is the shop organized, are students safe, and do 
 
 ## Student-facing objective
 
-Students will organize team parts into labeled organizers, begin first-wave sponsor thank-you cards, complete a general workplace safety presentation, and explain safe conduct and where parts belong.
+Students will organize team parts into labeled organizers, begin first-wave sponsor thank-you cards, complete a general workplace safety presentation, **create team Onshape access and a first practice sketch**, and explain safe conduct and where parts belong.
 
 ## Robot outcome
 
@@ -48,7 +48,7 @@ Students will organize team parts into labeled organizers, begin first-wave spon
 
 ## Vocabulary
 
-onboarding · organizer · stewardship · pinch point · exclusion zone · explain-back
+onboarding · organizer · stewardship · Onshape · sketch · extrude · pinch point · exclusion zone · explain-back
 
 ## Safety concerns
 
@@ -68,23 +68,25 @@ onboarding · organizer · stewardship · pinch point · exclusion zone · expla
 
 - Team notebook (paper or digital)
 - Camera for parts-organization photograph
+- Onshape student accounts ([Learning Center](https://learn.onshape.com/) — mentors assign workspace policy)
 
 ## Preparation required before the meeting
 
 - Print sponsor list for card writers (mentor copy only)
 - Stage organizers and label slots before students arrive
 - Confirm safety presentation source and attendance record method
-- Assign roles: mechanical sorters, documentation photographer, card writers
+- Assign roles: mechanical sorters, documentation photographer, card writers, **CAD pair** (Onshape laptops)
 
 ## Exact 120-minute agenda
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
 | 10 | Opening | Welcome; shop tour; safety glasses; exclusion zones; goals and role assignments |
-| 45 | Parts organization | Sort kit and loose parts into organizers; keep oversized or unsuitable parts outside with a note; label bins |
-| 25 | Sponsor stewardship | Begin first-wave sponsor thank-you cards — draft message, team signature plan, addressing prep |
-| 30 | Safety onboarding | Watch general workplace/HR-style safety presentation; mentor adds FTC shop rules (glasses, mentor present for power, DS disable) |
-| 10 | Closeout | Photograph organizers; capture attendance or presentation reference; explain-back; assign S002 prep |
+| 40 | Parts organization | Sort kit and loose parts into organizers; keep oversized or unsuitable parts outside with a note; label bins |
+| 20 | Sponsor stewardship | Begin first-wave sponsor thank-you cards — draft message, team signature plan, addressing prep |
+| 25 | Safety onboarding | Watch general workplace/HR-style safety presentation; mentor adds FTC shop rules (glasses, mentor present for power, DS disable) |
+| 15 | Onshape intro | Team accounts; mm units; create `36117-preseason` document; sketch + extrude one **practice** part (not robot yet) per [onshape-cad.md](../../../learning-paths/onshape-cad.md) |
+| 10 | Closeout | Photograph organizers; capture attendance or presentation reference; Onshape screenshot; explain-back; assign S002 prep |
 
 ## Mentor demonstration
 
@@ -96,9 +98,9 @@ Two minutes: show one organizer label and one part that stays **outside** becaus
 | ---- | ---- |
 | Mechanical | Sort, label, and verify parts against kit list |
 | Electrical | Identify Control Hub, battery, and switch in kit — store in known bin |
-| Programming | No code — help inventory and photograph |
+| Programming | No code — help inventory; CAD pair runs Onshape intro |
 | Drive team | Learn shop layout and safe walking paths |
-| Documentation | Parts photo; safety attendance note; card draft photo |
+| Documentation | Parts photo; safety attendance note; card draft photo; Onshape screenshot |
 
 ## Integrated build or test activity
 
@@ -113,6 +115,7 @@ Mentor asks: "Where does this oversized plate go?" Correct answer: outside organ
 - Parts-organization photograph (organizers + labeled overflow area)
 - Safety-presentation reference or attendance record (title, date, presenter — no student full names in git)
 - Thank-you-card draft or photograph (redact addresses before git)
+- Onshape screenshot (first extruded practice part)
 - Student explain-back covering safe conduct and where parts belong
 
 ## Student explain-back questions
@@ -158,6 +161,7 @@ Paper kit inventory: students write part names on index cards and sort into labe
 
 ## Links to authoritative project documentation
 
+- [learning-paths/onshape-cad.md](../../../learning-paths/onshape-cad.md)
 - [docs/safety-and-enablement.md](../../../docs/safety-and-enablement.md)
 - [docs/award-and-portfolio-traceability.md](../../../docs/award-and-portfolio-traceability.md)
 - [season-plan.md](../season-plan.md)
@@ -165,4 +169,4 @@ Paper kit inventory: students write part names on index cards and sort into labe
 
 ## Mentor notes
 
-This is real onboarding, not admin filler. Thank-you cards are **Sustain/stewardship** evidence — do not label them as Reach outreach unless the team actually ran a public outreach event.
+This is real onboarding, not admin filler. Thank-you cards are **Sustain/stewardship** evidence — do not label them as Reach outreach unless the team actually ran a public outreach event. **If S001 already ran without Onshape,** run the 15-minute intro block at the start of S002.

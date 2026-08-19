@@ -70,6 +70,7 @@ strain relief · wire dress · retention · blocker · individual motor test · 
 - Driver Station (if testing)
 - Minimal motor test or teleop OpMode if deployed — otherwise manual DS motor test channel
 - Team notebook
+- Onshape — Hub/battery/switch mount plate concept
 
 ## Preparation required before the meeting
 
@@ -83,7 +84,7 @@ strain relief · wire dress · retention · blocker · individual motor test · 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
 | 10 | Opening | Review S003 layout and clearance notes; safety: mentor OK for power; goals |
-| 35 | Repair / tune / program | Choose and document Hub/battery/switch locations; mount securely; route motor and power wiring; strain relief; wire protection from wheels |
+| 35 | Repair / tune / program | Mount Hub/battery/switch; route and dress wiring; **CAD pair models mount plate** (print vs order note); strain relief |
 | 55 | Test prep | Inspect fasteners, shafts, wheel retention; if minimal drive code ready — elevate/restrain chassis and test **each motor individually**; otherwise complete dress and document blocker |
 | 20 | Closeout | Record defects and unfinished work; inspection/repair list for S005; explain-back; cleanup |
 
@@ -99,7 +100,7 @@ Two minutes: show acceptable vs unacceptable wire routing near a spinning wheel.
 | Electrical | Motor and power wiring, strain relief, labeling |
 | Programming | Deploy minimal test OpMode if repo exists; otherwise document blocker for [#2](https://github.com/The-Allsparks/FORGE/issues/2) |
 | Drive team | Call out pinch points during wire dress; assist restraint setup |
-| Documentation | Mount location sketch; motor test table or blocker note; inspection list |
+| Documentation | Mount location sketch; Onshape plate concept; motor test table or blocker note; inspection list |
 
 ## Integrated build or test activity
 
@@ -111,7 +112,7 @@ Mentor disconnects one motor wire before a test. Electrical pair must find open 
 
 ## Evidence to collect
 
-- Hub/battery/switch location sketch with rationale
+- Onshape mount-plate concept (Hub/battery/switch)
 - Wire routing photos (strain relief visible)
 - Individual motor test results (direction, port, mentor initials) **or** blocker note: "No TeamCode repo / no test OpMode — wiring complete, tests deferred to S005"
 - Inspection and repair list for S005
@@ -160,6 +161,7 @@ Paper wiring diagram with color codes. Students explain motor port map and disab
 
 ## Links to authoritative project documentation
 
+- [learning-paths/onshape-cad.md](../../../learning-paths/onshape-cad.md)
 - [docs/safety-and-enablement.md](../../../docs/safety-and-enablement.md)
 - [docs/stack-acceptance.md](../../../docs/stack-acceptance.md)
 - [docs/student-install.md](../../../docs/student-install.md)

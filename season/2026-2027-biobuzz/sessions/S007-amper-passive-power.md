@@ -164,4 +164,4 @@ Read AMPER Phase 0–1 docs and complete a table of "observes / controls / canno
 
 ## Mentor notes
 
-Allsparks had **no on-robot AMPER dataset** at audit. Do not quote FRC brownout firmware as FTC behavior. If install fails, teach the idea with DS voltage — do not burn the construction block on Gradle.
+Allsparks had **no on-robot AMPER dataset** at audit. Do not quote FRC brownout firmware as FTC behavior. If install fails, teach the idea with DS voltage — do not burn the construction block on Gradle. Optional: model battery retention bracket in Onshape during construction ([onshape-cad.md](../../../learning-paths/onshape-cad.md)).

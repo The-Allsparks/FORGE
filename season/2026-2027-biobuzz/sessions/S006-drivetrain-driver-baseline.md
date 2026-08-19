@@ -83,7 +83,7 @@ baseline · loop · disable · inspection · input (driver stick) vs event · bl
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
 | 10 | Opening | Review S005 events and S004 motor-test notes; today's test goal: **straight, stop, log**; safety: blocks first |
-| 35 | Repair / tune / program | Inspection repair from S005/S004 lists; if teleop missing, programmers finish minimal drive OpMode while others inspect — **if still blocked, document and continue mechanical/electrical repair** |
+| 35 | Repair / tune / program | Inspection repair from S005/S004 lists; **update Onshape as-built** if measurements differ; if teleop missing, programmers finish minimal drive OpMode — **if blocked, document and continue repair** |
 | 55 | Driving / auto reps | **If ready:** wheels-off stick mapping 10 min; emergency-disable test; individual wheel-direction check; forward/reverse, strafe, rotation; short straight-line baselines on restraint/carpet with mentor OK. **If not ready:** wheels-off inspection drills, gamepad mapping on blocks, paper event log — no fake drive success |
 | 20 | Closeout | Inspection sign-off or blocker record; log review; explain-back; dashboard: Driver-control + mechanical; cleanup |
 
@@ -170,6 +170,7 @@ Driver practice on gamepad-to-telemetry dummy OpMode if a Hub exists without dri
 - [Pedro Pathing introduction](https://pedropathing.com/docs/pathing) (read for later; do not install during driving block)
 - [projects/trace.md](../../../projects/trace.md)
 - [projects/pedro-pathing.md](../../../projects/pedro-pathing.md)
+- [learning-paths/onshape-cad.md](../../../learning-paths/onshape-cad.md)
 - [S003 modified drivetrain](S003-modified-drivetrain-install.md)
 - [S004 control wiring](S004-control-system-wiring-prep.md)
 

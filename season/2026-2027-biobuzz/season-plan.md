@@ -19,16 +19,18 @@ Libraries may be treated as **functionally complete for scheduling** after the w
 
 ### Preseason — through 10 September 2026 (S001–S008; last meeting before Kickoff)
 
-**S001–S004 — Strafer StarterBot build and onboarding:**
+**S001–S004 — Strafer StarterBot build, onboarding, and Onshape foundations:**
 
-- **S001** (2026-08-17, Monday special): shop onboarding — parts organization, safety presentation, sponsor thank-you card start (stewardship, not outreach)
-- **S002** (2026-08-19, Wednesday special): finish sponsor cards; Strafer StarterBot chassis frame assembly and square check
-- **S003** (2026-08-25): modified drivetrain — motors inside rails, mecanum install, layout rationale vs standard StarterBot
-- **S004** (2026-08-27): Control Hub, battery, switch mount and wiring; individual motor tests or honest blocker before S005
+- **S001** (2026-08-17, Monday special): shop onboarding; safety; sponsor cards; **Onshape accounts and first sketch**
+- **S002** (2026-08-19, Wednesday special): sponsor cards; chassis frame; **measured dimensions in Onshape**
+- **S003** (2026-08-25): modified drivetrain; **layout modeled in Onshape**
+- **S004** (2026-08-27): control wiring; **mount plate concept in Onshape**
+
+See [learning-paths/onshape-cad.md](../../learning-paths/onshape-cad.md) for the full S001–S006 CAD progression.
 
 **S005–S008 — integration preseason (still before Kickoff):**
 
-- **S005–S006:** assume drivetrain is mechanically assembled and substantially wired from S003–S004; use time for corrections, TRACE habit, restrained driver baseline — not first chassis assembly
+- **S005–S006:** drivetrain corrections, **custom part export/print order**, TRACE habit, restrained driver baseline
 - Establish reliable driver control
 - Run a simple Pedro Pathing route when the chassis can move (S011 continues this after Kickoff if not finished)
 - Make TRACE permanent as a closeout habit
@@ -43,6 +45,7 @@ S009–S010 fall after Kickoff because a four-hour week cannot also finish a sco
 ### Kickoff — 12 September 2026 (SK01)
 
 - Analyze BIOBUZZ from the official Kickoff materials (do not use FORGE as a rules source)
+- **Brainstorm ≥3 robot concepts** and **debate** finalists before MVP lock
 - Identify scoring tasks
 - Select the minimum viable competition robot
 - Map mechanisms, sensors, and software capabilities to the game

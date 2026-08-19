@@ -10,13 +10,15 @@ Keep construction and a short drive if a robot is on site. Analysis is not a six
 
 ## Outputs required before leaving Kickoff
 
-1. Written **minimum viable robot** (drive + one scoring action + place/park as the manual requires).
-2. Mechanism list with owners.
-3. Sensors that are *needed* vs *nice*.
-4. Software that stays **passive/off** unless it serves the MVP.
-5. Edits to [calendar.yaml](calendar.yaml) session titles/dates if meetings must move.
-6. Updated [readiness-dashboard.md](readiness-dashboard.md) next-test column.
-7. If comparing two MVP mechanisms, fill one [decision-record.md](../../templates/decision-record.md).
+1. [Concept brainstorm record](../../templates/concept-brainstorm.md) with **at least three** distinct robot concepts.
+2. Structured **debate notes** on the top two or three concepts (pros, cons, driver workload, build time).
+3. Written **minimum viable robot** (drive + one scoring action + place/park as the manual requires).
+4. [Decision record](../../templates/decision-record.md) if the team compared finalists before MVP lock.
+5. Mechanism list with owners.
+6. Sensors that are *needed* vs *nice*.
+7. Software that stays **passive/off** unless it serves the MVP.
+8. Edits to [calendar.yaml](calendar.yaml) session titles/dates if meetings must move.
+9. Updated [readiness-dashboard.md](readiness-dashboard.md) next-test column.
 
 ## Mapping exercise
 

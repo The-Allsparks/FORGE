@@ -32,13 +32,14 @@ Can we deliver gratitude to sponsors **and** leave with a square, rigid chassis 
 
 ## Student-facing objective
 
-Students will finish, sign, and prepare first-wave sponsor thank-you cards; pull organized Strafer StarterBot chassis parts; assemble and square the main frame; check fastener engagement, rigidity, and dimensions; and capture build evidence.
+Students will finish, sign, and prepare first-wave sponsor thank-you cards; pull organized Strafer StarterBot chassis parts; assemble and square the main frame; **enter key frame dimensions into Onshape**; check fastener engagement, rigidity, and dimensions; and capture build evidence.
 
 ## Robot outcome
 
 - First-wave sponsor cards ready for delivery or mailing
 - Main chassis frame substantially assembled, squared, and photographed
 - Dimensional and rigidity notes recorded for S003 drivetrain layout
+- Onshape chassis sketch updated with measured rail spacing (or S001 catch-up block completed first)
 
 ## Prerequisites
 
@@ -69,27 +70,28 @@ square · rigidity · fastener engagement · stewardship · chassis rail · buil
 
 - Team notebook
 - Camera for progress photos
+- Onshape (`36117-preseason` document from S001)
 
 ## Preparation required before the meeting
 
 - Pull list of chassis frame parts verified against kit BOM
 - Card drafts from S001 on table
-- Assign: card team, frame team lead, documentation photographer, square-check pair
+- Assign: card team, frame team lead, documentation photographer, square-check pair, **CAD pair**
 
 ## Exact 120-minute agenda
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Safety, goals, roles; review S001 organizer map |
+| 10 | Opening | Safety, goals, roles; review S001 organizer map; **S001 Onshape catch-up** here if S001 skipped CAD |
 | 20 | Sponsor stewardship | Finish, sign, and prepare first-wave thank-you cards for delivery or mailing |
 | 15 | Parts pull | Retrieve and verify chassis frame parts from organizers; flag missing or damaged items |
-| 50 | Frame assembly | Assemble main chassis frame; square corners; tighten in star pattern; mentor coaches — no lecture |
-| 15 | Inspection | Dimensional, rigidity, and fastener-engagement checks; record measurements |
-| 10 | Closeout | Evidence photos; explain-back; cleanup; S003 prep (drivetrain layout review) |
+| 45 | Frame assembly | Assemble main chassis frame; square corners; tighten in star pattern; mentor coaches — no lecture |
+| 20 | Inspection + CAD | Dimensional and rigidity checks; enter measured rail spacing into Onshape; top-down layout sketch for S003 |
+| 10 | Closeout | Evidence photos; explain-back; cleanup; S003 prep |
 
 ## Mentor demonstration
 
-Three minutes: demonstrate square check on one corner (measure diagonals or use a square tool). Students repeat on their frame before the 15-minute inspection block.
+Three minutes: demonstrate square check on one corner (measure diagonals or use a square tool). Students repeat on their frame before the inspection + CAD block.
 
 ## Student work
 
@@ -99,7 +101,7 @@ Three minutes: demonstrate square check on one corner (measure diagonals or use 
 | Electrical | Identify motor and bearing locations on rails — no install yet |
 | Programming | No code — document frame dimensions for future mount planning |
 | Drive team | Measure wheel-well clearance zones on paper |
-| Documentation | Progress photos; card completion checklist; decision notes |
+| Documentation | Progress photos; card completion checklist; Onshape dimension screenshot |
 
 ## Integrated build or test activity
 
@@ -113,7 +115,7 @@ Mentor loosens one corner brace without announcing which. Square-check pair must
 
 - Sponsor cards ready for delivery or mailing (photo — redact addresses)
 - Chassis frame progress photographs (multiple angles)
-- Square/diagonal or rigidity check notes
+- Onshape chassis sketch with measured dimensions
 - Student explain-back on fastener engagement and next build step
 
 ## Student explain-back questions
@@ -159,6 +161,7 @@ Full-size paper template of chassis rails — students practice fastener order a
 
 ## Links to authoritative project documentation
 
+- [learning-paths/onshape-cad.md](../../../learning-paths/onshape-cad.md)
 - [docs/safety-and-enablement.md](../../../docs/safety-and-enablement.md)
 - [docs/award-and-portfolio-traceability.md](../../../docs/award-and-portfolio-traceability.md)
 - [season-plan.md](../season-plan.md)

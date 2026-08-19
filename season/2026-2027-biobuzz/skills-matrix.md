@@ -6,12 +6,14 @@ Do not store full student names if the team publishes this repo. Use A, B, C or 
 
 | Skill | F | D | I | C | Taught in | Authoritative link |
 | ----- | - | - | - | - | --------- | ------------------ |
-| Shop safety and disable path | | | | | S005 | session + mentor shop rules |
+| Shop safety and disable path | | | | | S001, S005 | session + mentor shop rules |
+| Onshape sketch → export | | | | | S001–S006 | [onshape-cad.md](../../learning-paths/onshape-cad.md) |
 | TRACE event vs measurement | | | | | S005 | [TRACE student path](https://github.com/The-Allsparks/TRACE/blob/main/docs/student-learning-path.md) |
 | Drive baseline and log review | | | | | S006 | [TRACE mentor guide](https://github.com/The-Allsparks/TRACE/blob/main/docs/mentor-guide.md) |
 | Battery sag vs command | | | | | S007 | [AMPER phases](https://github.com/The-Allsparks/AMPER/blob/main/docs/power-management/phases.md) |
 | Mechanism snapshot / state names | | | | | S008 | [MIMIC phases](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/phases.md) |
 | BIOBUZZ min-viable mapping | | | | | SK01 | official Kickoff materials |
+| Concept brainstorm and debate | | | | | SK01 | [concept-brainstorm](../../templates/concept-brainstorm.md) |
 | Robot-space range/bearing | | | | | S009 | [ViDAR TEACHING](https://github.com/The-Allsparks/ViDAR/blob/main/docs/TEACHING.md) |
 | Freshness vs stick value | | | | | S010 | [BEACON exercises](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/exercises.md) |
 | Pedro conventional auto | | | | | S011 | [Pedro intro](https://pedropathing.com/docs/pathing) |

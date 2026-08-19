@@ -165,4 +165,4 @@ MIMIC `gradlew test` + [lifecycle.md](https://github.com/The-Allsparks/MIMIC/blo
 
 ## Mentor notes
 
-Do not start Phase 2 homing because Kickoff is in two days. Allsparks elevator was not selected at audit. Keep HELM out of this meeting except "we still have no authority layer."
+Do not start Phase 2 homing because Kickoff is in two days. Allsparks elevator was not selected at audit. Keep HELM out of this meeting except "we still have no authority layer." Optional: mechanism envelope sketch in Onshape for the state diagram ([onshape-cad.md](../../../learning-paths/onshape-cad.md)).
