@@ -1,13 +1,14 @@
 ---
 id: S024
-title: "Meeting A — adversity drill"
+title: Adversity drill — depleted battery and sag
 date: 2026-12-07
 meeting_type: A
 season_phase: adversity-simulations
 event_checkpoint: league-3s-4s
 status: complete
 difficulty: Developing
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +19,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S024 |
-| Title | Meeting A — adversity drill |
+| Title | Adversity drill — depleted battery and sag |
 | Calendar date | 2026-12-07 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | A |
 | Season phase | adversity-simulations |
@@ -27,16 +28,17 @@ active_features: []
 
 ## Driving question
 
-What is the highest-value robot improvement we can finish today without breaking rollback?
+Can we finish a cycle when the battery is tired?
 
 ## Student-facing objective
 
-Students will run Meeting A from the season template. Update the **calendar title** when the week's mechanism changes — do not rename this file.
+Students run scripted adversity: low battery or AMPER-observed sag; practice swap and teleop fallback.
 
 ## Robot outcome
 
-- Documented progress on the focus named in `calendar.yaml` `title` for S024
-- No new active features without evidence
+- Drill script and result logged
+- Battery log practice updated
+
 
 ## Prerequisites
 

@@ -1,13 +1,14 @@
 ---
 id: S018
-title: "Meeting B — driver and auto reps"
+title: Driver and auto reps — league development
 date: 2026-11-13
 meeting_type: B
 season_phase: league-development
 event_checkpoint: league-3s-4s
 status: complete
 difficulty: Developing
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +19,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S018 |
-| Title | Meeting B — driver and auto reps |
+| Title | Driver and auto reps — league development |
 | Calendar date | 2026-11-13 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | B |
 | Season phase | league-development |
@@ -27,16 +28,17 @@ active_features: []
 
 ## Driving question
 
-What is the highest-value robot improvement we can finish today without breaking rollback?
+Did yesterday's fix survive repeated cycles?
 
 ## Student-facing objective
 
-Students will run Meeting B from the season template. Update the **calendar title** when the week's mechanism changes — do not rename this file.
+Students repeat driver and auto reps; validate S017 fix under load.
 
 ## Robot outcome
 
-- Documented progress on the focus named in `calendar.yaml` `title` for S018
-- No new active features without evidence
+- Rep count logged
+- Fix validated or rolled back
+
 
 ## Prerequisites
 

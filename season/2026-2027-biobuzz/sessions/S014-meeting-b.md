@@ -1,14 +1,19 @@
 ---
 id: S014
-title: "HELM intent-tree vocabulary"
+title: Post-Kickoff week 6 — full-match simulation and pit rehearsal
 date: 2026-10-30
 meeting_type: B
 season_phase: reliability-sprint
 event_checkpoint: league-1s-2s
 status: complete
 difficulty: Foundation
-projects: [HELM, PEDRO, TRACE]
+projects:
+- HELM
+- PEDRO
+- TRACE
 active_features: []
+compressed_week: 6
+forge_gate: G7
 ---
 
 # S014 — HELM intent-tree vocabulary
@@ -18,27 +23,30 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S014 |
-| Title | HELM intent-tree vocabulary |
+| Title | Post-Kickoff week 6 — full-match simulation and pit rehearsal |
 | Calendar date | 2026-10-30 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | Reliability sprint |
+| Relative week | Compressed week 6 (G7–G8 prep) |
 | Meeting type | B |
 | Season phase | reliability-sprint |
 | Event checkpoint | league-1s-2s |
+| Forge gate | G7 |
 | Difficulty | Foundation |
 
 ## Driving question
 
-Can we name the auto we already have as goals, tasks, timeouts, and fallbacks — without giving HELM any authority?
+Can we run a full 2½-minute match and pit cycle under pressure?
 
 ## Student-facing objective
 
-Keep repairing the robot. On paper (and optional desktop `Helm.validate`), describe the **existing** conventional auto. HELM mode stays `OFF`. Pedro still moves the chassis.
+Students run complete match simulations (nonideal conditions where safe), rehearse pit checklists, timed battery change, prep G8 readiness.
 
 ## Robot outcome
 
-- Unchanged control code path for matches
-- Paper intent tree that matches the auto students can explain
-- Optional validate errors discussed — not an executor
+- Full-match simulation completed
+- Pre/post-match checklists timed
+- Pit packing walkthrough
+- G8 prep or RD001 draft
+
 
 ## Prerequisites
 
@@ -77,10 +85,10 @@ Print the current auto steps from the notebook. Clone HELM and run tests on one 
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | HELM intent vocabulary; gates unmet; construction still wins; no execute |
-| 35 | Repair / tune / program | Draft and encode the paper intent tree; optional `Helm.validate` setup |
-| 55 | Driving / auto reps | Compare tree to actual auto and teleop during reps — not instead of reps |
-| 20 | Closeout | Photo of tree; dashboard HELM ladder 1 disabled; explain-back; cleanup |
+| 10 | Opening | Full 2½-minute match simulation rules; pit roles; no elective changes |
+| 35 | Repair / tune / program | Final P0 fixes only; verify [owner-assignment.md](../../../templates/competition/owner-assignment.md); timed battery change |
+| 55 | Driving reps | Complete match sims under nonideal conditions (congestion, failed auto recovery where safe) |
+| 20 | Closeout | Pre/post-match checklists timed; pit packing walkthrough; G8 / [RD001](../../../assessments/readiness/RD001-competition-approval.md) prep |
 
 ## Mentor demonstration
 
@@ -151,6 +159,11 @@ HELM desktop tests plus paper tree.
 
 ## Links to authoritative project documentation
 
+- [docs/season-process.md](../docs/season-process.md)
+- [docs/decision-gates.md](../docs/decision-gates.md)
+- [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [gate-review.md](../../../templates/gate-review.md)
 - [HELM README](https://github.com/The-Allsparks/HELM/blob/main/README.md)
 - [Student path](https://github.com/The-Allsparks/HELM/blob/main/docs/student-learning-path.md)
 - [Mentor guide](https://github.com/The-Allsparks/HELM/blob/main/docs/mentor-guide.md)

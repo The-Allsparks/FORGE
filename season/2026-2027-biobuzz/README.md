@@ -2,6 +2,8 @@
 
 Season folder for The Allsparks. Game details are unknown until Kickoff.
 
+**Season process:** Compressed competition-one cycle adapted from Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt) — [docs/season-process.md](docs/season-process.md), [docs/decision-gates.md](docs/decision-gates.md), [docs/references.md](docs/references.md). Pratt does not endorse FORGE.
+
 **Dates in [calendar.yaml](calendar.yaml) are planning inputs.** Verify them if the FIRST Nevada calendar changes. Regular shop meetings are **4:00–6:00 PM** (Monday Meeting A, Friday Meeting B).
 
 ## Session files (fixed paths)
@@ -19,8 +21,8 @@ Every numbered meeting uses **`{ID}-meeting-{type}.md`** where `type` is `a` (Mo
 
 ## Start this week
 
-1. Read [season-plan.md](season-plan.md)
-2. Open today's file under [sessions/](sessions/)
+1. Read [season-plan.md](season-plan.md) and [docs/season-process.md](docs/season-process.md)
+2. Open [P002-meeting-s.md](sessions/P002-meeting-s.md) — **today (2026-08-19); meeting not yet held**
 3. Update [readiness-dashboard.md](readiness-dashboard.md) in the last 10–20 minutes
 
 ## Priority
@@ -55,10 +57,16 @@ Combined-stack teaching: [stack-acceptance.md](../../docs/stack-acceptance.md), 
 
 Pit packing, rollback, and clinic test card: [pit-and-inspection.md](pit-and-inspection.md) (not a substitute for the official FIRST checklist).
 
+Competition checklists: [templates/competition/](../../templates/competition/).
+
 ## Award and portfolio traceability
 
-[docs/award-and-portfolio-traceability.md](../../docs/award-and-portfolio-traceability.md) — maps FORGE activities to Think, Innovate, Control, Design, and other judged-award criteria. Print the Think table and A201 checklist.
+[docs/award-and-portfolio-traceability.md](../../docs/award-and-portfolio-traceability.md) — maps FORGE activities to Think, Innovate, Control, Design, and other judged-award criteria. Print the Think table and A201 checklist. Prototype records: [prototype-test-record.md](../../templates/prototype-test-record.md).
 
 ## Kickoff replan
 
-After 12 September 2026: [kickoff-replan-guide.md](kickoff-replan-guide.md).
+After 12 September 2026: [kickoff-replan-guide.md](kickoff-replan-guide.md). Pass **G1 Strategy gate** before custom fabrication at scale.
+
+## Pratt crosswalk
+
+Session ↔ compressed week ↔ gate mapping: [docs/pratt-crosswalk.md](docs/pratt-crosswalk.md).

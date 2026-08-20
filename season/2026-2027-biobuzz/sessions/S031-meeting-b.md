@@ -1,13 +1,14 @@
 ---
 id: S031
-title: "Meeting B — driver and auto reps"
+title: League Meets 5S/6S preparation
 date: 2027-01-08
 meeting_type: B
 season_phase: adversity-simulations
 event_checkpoint: league-5s-6s
 status: complete
 difficulty: Developing
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +19,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S031 |
-| Title | Meeting B — driver and auto reps |
+| Title | League Meets 5S/6S preparation |
 | Calendar date | 2027-01-08 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | B |
 | Season phase | adversity-simulations |
@@ -27,16 +28,18 @@ active_features: []
 
 ## Driving question
 
-What is the highest-value robot improvement we can finish today without breaking rollback?
+Are we ready for January league meets with frozen scope?
 
 ## Student-facing objective
 
-Students will run Meeting B from the season template. Update the **calendar title** when the week's mechanism changes — do not rename this file.
+Students rehearse checklists, mock judging refresh, and full-match sim; portfolio revision from league evidence.
 
 ## Robot outcome
 
-- Documented progress on the focus named in `calendar.yaml` `title` for S031
-- No new active features without evidence
+- Checklists rehearsed
+- Portfolio updated from match evidence
+- Feature freeze still in effect
+
 
 ## Prerequisites
 

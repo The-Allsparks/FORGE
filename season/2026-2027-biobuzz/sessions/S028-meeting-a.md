@@ -1,13 +1,14 @@
 ---
 id: S028
-title: "Meeting A — adversity drill"
+title: Adversity drill — obstructed camera and stale sensors
 date: 2026-12-21
 meeting_type: A
 season_phase: adversity-simulations
 event_checkpoint: league-5s-6s
 status: complete
 difficulty: Developing
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +19,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S028 |
-| Title | Meeting A — adversity drill |
+| Title | Adversity drill — obstructed camera and stale sensors |
 | Calendar date | 2026-12-21 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | A |
 | Season phase | adversity-simulations |
@@ -27,16 +28,17 @@ active_features: []
 
 ## Driving question
 
-What is the highest-value robot improvement we can finish today without breaking rollback?
+Can we drive safely when vision or sensors lie?
 
 ## Student-facing objective
 
-Students will run Meeting A from the season template. Update the **calendar title** when the week's mechanism changes — do not rename this file.
+Students run manual-override drills; ViDAR observe-only or unplugged per dashboard.
 
 ## Robot outcome
 
-- Documented progress on the focus named in `calendar.yaml` `title` for S028
-- No new active features without evidence
+- Override procedure verified
+- Dashboard status unchanged unless evidenced
+
 
 ## Prerequisites
 

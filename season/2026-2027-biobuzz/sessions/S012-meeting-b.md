@@ -1,14 +1,20 @@
 ---
 id: S012
-title: "League meet 1S/2S preparation"
+title: Post-Kickoff week 5 — driver automation if earned; G6 gate review
 date: 2026-10-23
 meeting_type: B
 season_phase: reliability-sprint
 event_checkpoint: league-1s-2s
 status: complete
 difficulty: Competition readiness
-projects: [TRACE, PEDRO, AMPER, BEACON]
+projects:
+- TRACE
+- PEDRO
+- AMPER
+- BEACON
 active_features: []
+compressed_week: 5
+forge_gate: G6
 ---
 
 # S012 — League meet 1S/2S preparation
@@ -18,28 +24,29 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S012 |
-| Title | League meet 1S/2S preparation |
+| Title | Post-Kickoff week 5 — driver automation if earned; G6 gate review |
 | Calendar date | 2026-10-23 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | Week of first league meets |
+| Relative week | Compressed week 5 (G6 Stable software handoff) |
 | Meeting type | B |
 | Season phase | reliability-sprint |
 | Event checkpoint | league-1s-2s |
+| Forge gate | G6 |
 | Difficulty | Competition readiness |
 
 ## Driving question
 
-Are we bringing a reliable robot or a science fair?
+Did we earn driver automation — and does G6 pass with a stable robot?
 
 ## Student-facing objective
 
-Freeze the meet configuration: passive TRACE/AMPER/BEACON only unless the dashboard already has evidence. Pack from [pit-and-inspection.md](../pit-and-inspection.md). Practice independent disable for every optional. Combined stack compile-check is **not** a Saturday experiment ([FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)).
+Students add driver assists only if demonstrably reliable; complete G6 gate review; prep league meet checklists.#4](https://github.com/The-Allsparks/FORGE/issues/4)).
 
 ## Robot outcome
 
-- Meet configuration page in the notebook
-- Packed cart matching the pit list
-- Rollback drill signed off
-- Conventional auto still the auto that would run
+- G6 gate review recorded
+- Driver automation list (or explicit none)
+- [competition checklists](../../../templates/competition/) owners assigned
+
 
 ## Prerequisites
 
@@ -79,7 +86,7 @@ Print dashboard. Charge batteries. Confirm inspection document status. Packing l
 | 10 | Opening | Meet is not a debut; assignments; safety; nothing new enables |
 | 35 | Repair / tune / program | Reliability only — inspect, fasten, strain-relieve, pack |
 | 55 | Driving reps | Driver and auto reps; pit rollback drill; TRACE quotas |
-| 20 | Closeout | TRACE evidence, explain-back, dashboard freeze note, cleanup |
+| 20 | Closeout | [Gate review G6](../../../templates/gate-review.md); assign [checklist owners](../../../templates/competition/owner-assignment.md); dashboard freeze note; cleanup |
 
 ## Mentor demonstration
 
@@ -151,6 +158,11 @@ Tabletop pit drill with printed disable table.
 
 ## Links to authoritative project documentation
 
+- [docs/season-process.md](../docs/season-process.md)
+- [docs/decision-gates.md](../docs/decision-gates.md)
+- [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [gate-review.md](../../../templates/gate-review.md)
 - [safety-and-enablement.md](../../../docs/safety-and-enablement.md)
 - [student-install.md](../../../docs/student-install.md)
 - [stack-acceptance.md](../../../docs/stack-acceptance.md)

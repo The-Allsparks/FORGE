@@ -5,13 +5,13 @@ date: 2026-08-19
 meeting_type: S
 season_phase: preseason
 event_checkpoint: none
-status: complete
+status: scheduled
 difficulty: Foundation
 projects: []
 active_features: []
 ---
 
-# P002 — Sponsor stewardship and chassis foundation
+# P002 — Sponsor stewardship and chassis foundation *(scheduled — not yet held)*
 
 ## Session identity
 
@@ -19,8 +19,8 @@ active_features: []
 | ----- | ----- |
 | Session ID | P002 |
 | Title | Sponsor stewardship and chassis foundation |
-| Calendar date | 2026-08-19 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | Preseason week 0 |
+| Calendar date | 2026-08-19 (planning input; 4:00–6:00 PM unless Kickoff/event) — **not yet held** |
+| Relative week | Preseason week 0 (today's meeting) |
 | Meeting type | S |
 | Season phase | preseason |
 | Event checkpoint | none |
@@ -38,13 +38,13 @@ Students will finish, sign, and prepare first-wave sponsor thank-you cards; pull
 
 - First-wave sponsor cards ready for delivery or mailing
 - Main chassis frame substantially assembled, squared, and photographed
-- Dimensional and rigidity notes recorded for P002 drivetrain layout
-- Onshape chassis sketch updated with measured rail spacing (or P002 catch-up block completed first)
+- Dimensional and rigidity notes recorded for P003 drivetrain layout
+- Onshape chassis sketch updated with measured rail spacing (or P001 Onshape catch-up completed first)
 
 ## Prerequisites
 
-- P002 parts organization complete (or equivalent inventory)
-- Sponsor card drafts from P002 or fresh start today
+- P001 parts organization complete (or equivalent inventory)
+- Sponsor card drafts from P001 or fresh start today
 - goBILDA Strafer StarterBot chassis hardware staged
 - Mentors present for tool use and square-check coaching
 
@@ -61,7 +61,7 @@ square · rigidity · fastener engagement · stewardship · chassis rail · buil
 
 ## Required hardware
 
-- Strafer StarterBot chassis kit parts (from P002 organizers)
+- Strafer StarterBot chassis kit parts (from P001 organizers)
 - Square, measuring tape or calipers, level surface
 - Hand tools per kit instructions
 - Card materials, pens, envelopes, stamps (mentor-held)
@@ -70,24 +70,24 @@ square · rigidity · fastener engagement · stewardship · chassis rail · buil
 
 - Team notebook
 - Camera for progress photos
-- Onshape (`36117-preseason` document from P002)
+- Onshape (`36117-preseason` document from P001)
 
 ## Preparation required before the meeting
 
 - Pull list of chassis frame parts verified against kit BOM
-- Card drafts from P002 on table
+- Card drafts from P001 on table
 - Assign: card team, frame team lead, documentation photographer, square-check pair, **CAD pair**
 
 ## Exact 120-minute agenda
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Safety, goals, roles; review P002 organizer map; **P002 Onshape catch-up** here if P002 skipped CAD |
+| 10 | Opening | Safety, goals, roles; review P001 organizer map; **P001 Onshape catch-up** here if P001 skipped CAD |
 | 20 | Sponsor stewardship | Finish, sign, and prepare first-wave thank-you cards for delivery or mailing |
 | 15 | Parts pull | Retrieve and verify chassis frame parts from organizers; flag missing or damaged items |
 | 45 | Frame assembly | Assemble main chassis frame; square corners; tighten in star pattern; mentor coaches — no lecture |
-| 20 | Inspection + CAD | Dimensional and rigidity checks; enter measured rail spacing into Onshape; top-down layout sketch for P002 |
-| 10 | Closeout | Evidence photos; explain-back; cleanup; P002 prep |
+| 20 | Inspection + CAD | Dimensional and rigidity checks; enter measured rail spacing into Onshape; top-down layout sketch for P003 |
+| 10 | Closeout | Evidence photos; explain-back; cleanup; P003 prep |
 
 ## Mentor demonstration
 
@@ -123,7 +123,7 @@ Mentor loosens one corner brace without announcing which. Square-check pair must
 1. How did you verify the frame was square?
 2. What is still missing before drivetrain motors can mount?
 3. Why is sponsor thank-you work **stewardship** evidence?
-4. Where are oversized parts stored (from P002)?
+4. Where are oversized parts stored (from P001)?
 
 ## Assessment or exit check
 
@@ -147,7 +147,7 @@ Tools returned; loose fasteners bagged; frame on stable surface; card materials 
 
 ## Next-session preparation
 
-- P002 (2026-08-25): modified drivetrain — motors inside rails, mecanum orientation, front wheel clearance for intake
+- P003 (2026-08-24): modified drivetrain — motors inside rails, mecanum orientation, front wheel clearance for intake
 - Review goBILDA Strafer docs for standard vs planned wheel locations
 - Mentors: bearings, shafts, mecanum wheels staged
 

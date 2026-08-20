@@ -1,14 +1,18 @@
 ---
 id: S004
-title: "ViDAR camera geometry and one-camera observation"
+title: Post-Kickoff week 2 — starter vs alternative evidence (G2 gate)
 date: 2026-09-25
 meeting_type: B
 season_phase: kickoff-to-clinic
 event_checkpoint: clinic
 status: complete
 difficulty: Foundation
-projects: [ViDAR, TRACE]
+projects:
+- ViDAR
+- TRACE
 active_features: []
+compressed_week: 2
+forge_gate: G2
 ---
 
 # S004 — ViDAR camera geometry and one-camera observation
@@ -18,27 +22,30 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S004 |
-| Title | ViDAR camera geometry and one-camera observation |
+| Title | Post-Kickoff week 2 — starter vs alternative evidence (G2 gate) |
 | Calendar date | 2026-09-25 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | First Meeting A after Kickoff |
+| Relative week | Compressed week 2 (G2 Prototype evidence) |
 | Meeting type | B |
 | Season phase | kickoff-to-clinic |
 | Event checkpoint | clinic |
+| Forge gate | G2 |
 | Difficulty | Foundation |
 
 ## Driving question
 
-Where is the thing **in robot space**, and why would pixels lie to us?
+Do we have measured evidence to stop unrestricted exploration and commit to a leading direction?
 
 ## Student-facing objective
 
-Students will mount or mock **one** camera (or run the browser sim), name range and bearing, and keep building the Kickoff MVP mechanism — vision must not consume the construction block.
+Students complete starter vs alternative comparison, fill comparative summary, pass or fail G2 with [gate-review.md](../../../templates/gate-review.md), and run driver reps.
 
 ## Robot outcome
 
-- Camera mount prototype **or** sim screenshots with robot-frame numbers
-- Discover/Spatial-style observation without motors ([TEACHING.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/TEACHING.md))
-- MVP mechanical progress from Kickoff list
+- G2 gate review recorded
+- Comparative evidence table complete
+- Leading concept(s) and starter-bot fallback explicit
+- Unresolved risk list updated
+
 
 ## Prerequisites
 
@@ -154,6 +161,11 @@ Entire integration on sim. Construction uses Kickoff cardboard prototype of the 
 
 ## Links to authoritative project documentation
 
+- [docs/season-process.md](../docs/season-process.md)
+- [docs/decision-gates.md](../docs/decision-gates.md)
+- [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [gate-review.md](../../../templates/gate-review.md)
 - [ViDAR README](https://github.com/The-Allsparks/ViDAR/blob/main/README.md)
 - [TEACHING.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/TEACHING.md)
 - [COORDINATE_FRAMES.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/COORDINATE_FRAMES.md)

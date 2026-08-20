@@ -1,14 +1,18 @@
 ---
 id: S007
-title: "MIMIC interlocks"
+title: Post-Kickoff week 4 — module fabrication (incremental delivery)
 date: 2026-10-05
 meeting_type: A
 season_phase: kickoff-to-clinic
 event_checkpoint: clinic
 status: complete
 difficulty: Developing
-projects: [MIMIC, TRACE]
+projects:
+- MIMIC
+- TRACE
 active_features: []
+compressed_week: 4
+forge_gate: G4
 ---
 
 # S007 — MIMIC interlocks
@@ -18,27 +22,30 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S007 |
-| Title | MIMIC interlocks |
+| Title | Post-Kickoff week 4 — module fabrication (incremental delivery) |
 | Calendar date | 2026-10-05 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | Kickoff-to-clinic week 3 |
+| Relative week | Compressed week 4 (G4 Design freeze) |
 | Meeting type | A |
 | Season phase | kickoff-to-clinic |
 | Event checkpoint | clinic |
+| Forge gate | G4 |
 | Difficulty | Developing |
 
 ## Driving question
 
-How can two individually "fine" mechanisms become unsafe together?
+Can we deliver modules incrementally to software instead of waiting for a complete robot?
 
 ## Student-facing objective
 
-Students keep building MVP mechanisms and produce a named interlock table (legal / reject / defer). Software protections stay **off**. Paper and optional desktop tests only.
+Students fabricate authorized Sparkee modules; deliver first modules to programming pair; declare G4 design freeze on module set.
 
 ## Robot outcome
 
-- Interlock table for the real or mock geometry on the robot this week
-- Hard-stop discussion recorded
-- No MIMIC Phase 7 (or any actuation phase) enabled
+- ≥1 module fabricated and demonstrated under power
+- Incremental software handoff documented
+- G4 freeze declaration
+- Spares identified for fragile parts
+
 
 ## Prerequisites
 
@@ -80,10 +87,10 @@ interlock · reject · defer · clamp · deadlock · hard stop vs software
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Two safe motions can still collide; no surprise powered motion; assignments |
-| 75 | Construction | MVP mechanisms: geometry, hard stops, cable routing that will not be sheared by travel |
-| 25 | Integration | Fill the interlock table; pick one illegal pair and write reject vs defer; optional unit test on laptops |
-| 10 | Closeout | Photo of table; dashboard MIMIC still observation; explain-back; cleanup |
+| 10 | Opening | **G4 design freeze** — no new modules without gate review; incremental software delivery plan |
+| 75 | Construction | Fabricate authorized Sparkee modules; spares for fragile parts |
+| 25 | Integration | Deliver first completed module to programming pair; [prototype-test-record](../../../templates/prototype-test-record.md) per module |
+| 10 | Closeout | Module handoff log; explain-back; dashboard mechanical row |
 
 ## Mentor demonstration
 
@@ -154,6 +161,11 @@ MIMIC `gradlew test` / fake hardware plus the paper grid.
 
 ## Links to authoritative project documentation
 
+- [docs/season-process.md](../docs/season-process.md)
+- [docs/decision-gates.md](../docs/decision-gates.md)
+- [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [gate-review.md](../../../templates/gate-review.md)
 - [interlocks.md](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/interlocks.md)
 - [lifecycle.md](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/lifecycle.md)
 - [safety-model.md](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/safety-model.md)

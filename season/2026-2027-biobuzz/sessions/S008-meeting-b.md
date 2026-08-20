@@ -1,14 +1,22 @@
 ---
 id: S008
-title: "Clinic and scrimmage preparation"
+title: Post-Kickoff week 4 — integration, wiring, clinic prep
 date: 2026-10-09
 meeting_type: B
 season_phase: kickoff-to-clinic
 event_checkpoint: clinic
 status: complete
 difficulty: Competition readiness
-projects: [TRACE, AMPER, ViDAR, BEACON, ECHO, PEDRO]
+projects:
+- TRACE
+- AMPER
+- ViDAR
+- BEACON
+- ECHO
+- PEDRO
 active_features: []
+compressed_week: 4
+forge_gate: G5
 ---
 
 # S008 — Clinic and scrimmage preparation
@@ -18,28 +26,30 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S008 |
-| Title | Clinic and scrimmage preparation |
+| Title | Post-Kickoff week 4 — integration, wiring, clinic prep |
 | Calendar date | 2026-10-09 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | Last meeting before clinic |
+| Relative week | Compressed week 4 (G5 Mechanical/electrical completion) |
 | Meeting type | B |
 | Season phase | kickoff-to-clinic |
 | Event checkpoint | clinic |
+| Forge gate | G5 |
 | Difficulty | Competition readiness |
 
 ## Driving question
 
-What will we measure on 10 October, and what will we refuse to debut?
+Is Sparkee mechanically and electrically complete enough for clinic data collection?
 
 ## Student-facing objective
 
-Dry-run pit and practice-inspect, freeze optional systems, and spend 55 minutes on match-length teleop and conventional auto. Clinic is data collection.
+Students complete wiring (strain relief, service loops), integrate modules, test MIMIC states as hardware allows, prep clinic test card, and review G5 gate.
 
 ## Robot outcome
 
-- Packed list from [pit-and-inspection.md](../pit-and-inspection.md)
-- Practice-inspect notes
-- Conventional auto still runs with extras off, or a written blocker
-- Printed dashboard statuses in the toolbox
+- Mechanically and electrically integrated robot
+- Individual mechanisms under software control
+- Clinic test card copied to notebook
+- G5 gate pass or starter-bot fallback plan
+
 
 ## Prerequisites
 
@@ -77,10 +87,10 @@ Walk [pit-and-inspection.md](../pit-and-inspection.md). Charge batteries. Confir
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Clinic is measurement; list Saturday tests; transport safety; nothing new debuts |
-| 35 | Repair / tune / program | Practice-inspect; fix fails; paper preflight if BEACON Phase 2 is still off; freeze config |
-| 55 | Driving / auto reps | Match-length teleop and auto reps. No new features |
-| 20 | Closeout | Sign packing list; rollback drill (one minute); explain-back; pack |
+| 10 | Opening | **G5 target** — mech/electrical complete; clinic 10 Oct is measurement only |
+| 35 | Repair / tune / program | Wiring integration: strain relief, service loops, labels; MIMIC smoke test per module as wired |
+| 55 | Driving reps | Full mechanism cycles under teleop; practice-inspect failures fixed |
+| 20 | Closeout | Clinic test card signed; G5 gate review or fallback plan; pit rollback drill |
 
 ## Mentor demonstration
 
@@ -152,6 +162,11 @@ Walk pit workflow in the shop with empty boxes. Still time a 55-minute "match" a
 
 ## Links to authoritative project documentation
 
+- [docs/season-process.md](../docs/season-process.md)
+- [docs/decision-gates.md](../docs/decision-gates.md)
+- [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [gate-review.md](../../../templates/gate-review.md)
 - [pit-and-inspection.md](../pit-and-inspection.md)
 - [2026–2027 event resources](https://ftc-resources.firstinspires.org/ftc/archive/2027/event)
 - [BEACON preflight](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/preflight.md)

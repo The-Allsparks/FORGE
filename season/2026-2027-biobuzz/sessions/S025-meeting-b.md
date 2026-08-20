@@ -1,13 +1,14 @@
 ---
 id: S025
-title: "Meeting B — driver and auto reps"
+title: Driver and auto reps — adversity window
 date: 2026-12-11
 meeting_type: B
 season_phase: adversity-simulations
 event_checkpoint: league-3s-4s
 status: complete
 difficulty: Developing
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +19,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S025 |
-| Title | Meeting B — driver and auto reps |
+| Title | Driver and auto reps — adversity window |
 | Calendar date | 2026-12-11 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | B |
 | Season phase | adversity-simulations |
@@ -27,16 +28,16 @@ active_features: []
 
 ## Driving question
 
-What is the highest-value robot improvement we can finish today without breaking rollback?
+Did the battery drill change how we plan match strategy?
 
 ## Student-facing objective
 
-Students will run Meeting B from the season template. Update the **calendar title** when the week's mechanism changes — do not rename this file.
+Students run reps applying lessons from S024; no new features.
 
 ## Robot outcome
 
-- Documented progress on the focus named in `calendar.yaml` `title` for S025
-- No new active features without evidence
+- Rep log with strategy notes
+
 
 ## Prerequisites
 

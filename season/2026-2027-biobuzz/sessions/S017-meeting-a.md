@@ -1,13 +1,14 @@
 ---
 id: S017
-title: "Meeting A — mechanism of the week"
+title: Match-evidence mechanism calibration
 date: 2026-11-09
 meeting_type: A
 season_phase: league-development
 event_checkpoint: league-3s-4s
 status: complete
 difficulty: Developing
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +19,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S017 |
-| Title | Meeting A — mechanism of the week |
+| Title | Match-evidence mechanism calibration |
 | Calendar date | 2026-11-09 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | A |
 | Season phase | league-development |
@@ -27,16 +28,18 @@ active_features: []
 
 ## Driving question
 
-What is the highest-value robot improvement we can finish today without breaking rollback?
+Which league failure mode yields the highest-value fix today?
 
 ## Student-facing objective
 
-Students will run Meeting A from the season template. Update the **calendar title** when the week's mechanism changes — do not rename this file.
+Students pick one mechanism issue from the retrospective and implement an evidence-backed fix in the 75-minute build block.
 
 ## Robot outcome
 
-- Documented progress on the focus named in `calendar.yaml` `title` for S017
-- No new active features without evidence
+- One calibration fix shipped and tested
+- Before/after metric recorded
+- Rollback path documented
+
 
 ## Prerequisites
 

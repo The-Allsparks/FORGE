@@ -38,6 +38,8 @@ Opening this file does not approve anything.
 
 | Date | Session | What changed |
 | ---- | ------- | ------------ |
+| 2026-08-19 | — | Pratt compressed season process integrated; gates G1–G8; see [docs/season-process.md](docs/season-process.md). |
+| 2026-08-19 | P002 | **Scheduled** — sponsor cards + chassis foundation; meeting not yet held. |
 | 2026-08-19 | — | Renumber: P001–P008 preseason, K001 Kickoff, S001+ season; Mon/Fri 4–6 PM; E004/E005 event days. |
 | 2026-08-18 | — | Combined stack and team robot repo marked **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2). |
 | 2026-08-18 | — | Combined stack row added as first acceptance priority ([FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)); still blocked on robot repo. |

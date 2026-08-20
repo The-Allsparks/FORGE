@@ -31,13 +31,14 @@ Are we ready to choose a minimum viable BIOBUZZ robot on Saturday—not because 
 
 ## Student-facing objective
 
-Students will repair and repeat the drivetrain baseline, review P007 experiment results, separate proven facts from assumptions, inventory reusable prototype parts, complete the Kickoff requirements worksheet, and assign Kickoff analysis roles (rules, scoring, field, game piece, robot).
+Students will repair and repeat the drivetrain baseline, review P007 experiment results, separate proven facts from assumptions, inventory reusable prototype parts, complete the Kickoff requirements worksheet, assign Kickoff analysis roles (rules, scoring, field, game piece, robot), and record [student-learning-goal.md](../../../templates/student-learning-goal.md) baselines for all four students.
 
 ## Robot outcome
 
 - Reliable Strafer confirmed or repair list with owners
 - Summarized capstan/slide/transport evidence
 - Kickoff worksheet and role assignments ready for K001
+- Four [student-learning-goal.md](../../../templates/student-learning-goal.md) records with baselines
 - Notebook ready for game reveal
 
 ## Prerequisites
@@ -78,7 +79,7 @@ proven fact · assumption · open question · MVP · role assignment
 | 10 | Opening | Preseason definition-of-done checklist; K001 Saturday; role assignments preview |
 | 35 | Repair / review | Fix P006 repair items; **poster: proven vs assumption vs open**; inventory reusable prototype parts |
 | 55 | Driving reps | Repeat key P006 baseline tests; every driver one full cycle if chassis ready |
-| 20 | Closeout | Kickoff requirements worksheet; assign K001 roles; notebook pack list; explain-back |
+| 20 | Closeout | Kickoff requirements worksheet; assign K001 roles; **15 min:** four [student-learning-goal.md](../../../templates/student-learning-goal.md) baselines (one per student); notebook pack list; explain-back |
 
 ## Mentor demonstration
 
@@ -108,6 +109,7 @@ Mentor asks: "Can we build the full tower before reading the manual?" Correct an
 - Proven/assumption/open-question poster
 - Reusable prototype inventory
 - Kickoff role assignment sheet
+- **Four completed [student-learning-goal.md](../../../templates/student-learning-goal.md) forms with baselines** (initials only in git if preferred)
 - Preseason definition-of-done checklist ticked honestly
 
 ## Student explain-back questions
@@ -116,6 +118,7 @@ Mentor asks: "Can we build the full tower before reading the manual?" Correct an
 2. One open question only Kickoff can answer.
 3. Your K001 role.
 4. What stays off the robot until evidence exists?
+5. State your personal learning goal baseline in one sentence.
 
 ## Assessment or exit check
 
@@ -152,6 +155,8 @@ Walk baseline verbally; evidence poster still required.
 
 ## Links to authoritative project documentation
 
+- [student-learning-goal.md](../../../templates/student-learning-goal.md)
+- [student-progress-review.md](../../../templates/student-progress-review.md)
 - [preseason-kickoff-gate.md](../docs/preseason-kickoff-gate.md)
 - [preseason-software-allocation.md](../docs/preseason-software-allocation.md)
 - [kickoff-replan-guide.md](../kickoff-replan-guide.md)

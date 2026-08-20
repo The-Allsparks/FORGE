@@ -58,14 +58,15 @@ Teaching stays inside the blocks. A mentor demo is short and is followed by stud
 
 Defined in [season/2026-2027-biobuzz/season-plan.md](../season/2026-2027-biobuzz/season-plan.md) and dated in `calendar.yaml`.
 
+**Competition-one process** (adapted from Brogan M. Pratt's twelve-week FTC season plan): [season-process.md](../season/2026-2027-biobuzz/docs/season-process.md). Eight **decision gates** (G1–G8) protect software, driving, and judging time.
+
 | Phase | Intent |
 | ----- | ------ |
-| Preseason | Drivetrain, driver control, TRACE habit, passive observation |
-| Kickoff | BIOBUZZ analysis and minimum viable robot |
-| Kickoff to clinic | Build the scoring robot; keep fallbacks |
-| Clinic | Data collection and systems validation |
-| Reliability sprint | Repair, reps, only tested protections |
-| League development | Use match evidence; still practice every week |
+| Preseason | Strafer platform, driver control, TRACE habit, evidence templates, student goals |
+| Kickoff | BIOBUZZ analysis; G1 Strategy gate; MVP and fallback |
+| Compressed weeks 1–4 | Understand → compare → select → build (G1–G5) |
+| Compressed weeks 5–7 | Tune → freeze → rehearse → League 1S/2S (G6–G8) |
+| League development | Match evidence; Version 2 on Strafer/fixtures only |
 | Adversity simulations | Failures, pit, inspection, bounded active behavior |
 | Feature freeze | Mock competition; no new active features |
 | State | Two or three evidence-supported improvements if advancing |

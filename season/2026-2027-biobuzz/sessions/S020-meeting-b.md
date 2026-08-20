@@ -1,13 +1,14 @@
 ---
 id: S020
-title: "Meeting B — driver and auto reps"
+title: Driver and auto reps — league development
 date: 2026-11-20
 meeting_type: B
 season_phase: league-development
 event_checkpoint: league-3s-4s
 status: complete
 difficulty: Developing
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +19,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S020 |
-| Title | Meeting B — driver and auto reps |
+| Title | Driver and auto reps — league development |
 | Calendar date | 2026-11-20 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | B |
 | Season phase | league-development |
@@ -27,16 +28,17 @@ active_features: []
 
 ## Driving question
 
-What is the highest-value robot improvement we can finish today without breaking rollback?
+Are alliance-compatible paths worth the time budget?
 
 ## Student-facing objective
 
-Students will run Meeting B from the season template. Update the **calendar title** when the week's mechanism changes — do not rename this file.
+Students run driver/auto reps; add one alternate auto path only if G6 contract and time permit.
 
 ## Robot outcome
 
-- Documented progress on the focus named in `calendar.yaml` `title` for S020
-- No new active features without evidence
+- Rep log
+- Alternate auto decision recorded
+
 
 ## Prerequisites
 
