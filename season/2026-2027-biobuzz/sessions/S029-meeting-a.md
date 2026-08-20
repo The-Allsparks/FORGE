@@ -1,13 +1,14 @@
 ---
 id: S029
-title: "Meeting A — adversity drill"
+title: Adversity drill — mechanism jam and pit repair
 date: 2026-12-28
 meeting_type: A
 season_phase: adversity-simulations
 event_checkpoint: league-5s-6s
 status: complete
 difficulty: Developing
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +19,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S029 |
-| Title | Meeting A — adversity drill |
+| Title | Adversity drill — mechanism jam and pit repair |
 | Calendar date | 2026-12-28 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | A |
 | Season phase | adversity-simulations |
@@ -27,16 +28,17 @@ active_features: []
 
 ## Driving question
 
-What is the highest-value robot improvement we can finish today without breaking rollback?
+Can we repair the highest-frequency jam under time pressure?
 
 ## Student-facing objective
 
-Students will run Meeting A from the season template. Update the **calendar title** when the week's mechanism changes — do not rename this file.
+Students time pit repair for top jam mode; update [common-repairs.md](../../../templates/competition/common-repairs.md).
 
 ## Robot outcome
 
-- Documented progress on the focus named in `calendar.yaml` `title` for S029
-- No new active features without evidence
+- Timed repair result
+- Spares list updated
+
 
 ## Prerequisites
 

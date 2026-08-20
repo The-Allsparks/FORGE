@@ -1,14 +1,18 @@
 ---
 id: S010
-title: "ECHO cue vocabulary and off-robot driver lab"
+title: Post-Kickoff week 5 — minimum auto and mechanism tuning
 date: 2026-10-16
 meeting_type: B
 season_phase: reliability-sprint
 event_checkpoint: league-1s-2s
 status: complete
 difficulty: Foundation
-projects: [ECHO, TRACE]
+projects:
+- ECHO
+- TRACE
 active_features: []
+compressed_week: 5
+forge_gate: G6
 ---
 
 # S010 — ECHO cue vocabulary and off-robot driver lab
@@ -18,27 +22,29 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S010 |
-| Title | ECHO cue vocabulary and off-robot driver lab |
+| Title | Post-Kickoff week 5 — minimum auto and mechanism tuning |
 | Calendar date | 2026-10-16 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | Kickoff-to-clinic week 3 |
+| Relative week | Compressed week 5 (G6 Stable software handoff) |
 | Meeting type | B |
 | Season phase | reliability-sprint |
 | Event checkpoint | league-1s-2s |
+| Forge gate | G6 |
 | Difficulty | Foundation |
 
 ## Driving question
 
-Can a sound help a driver without hiding referees or lying about unknown targets?
+Can we run one reliable minimum autonomous path before adding anything advanced?
 
 ## Student-facing objective
 
-Complete an off-robot cue lab (pan vs pulse, silence reasons, mute) while the robot **drives silently**. Match audio stays off. Training accuracy is not competition proof.
+Students build minimum reliable Pedro (or conventional) auto on Sparkee; tune mechanisms; stop major mechanical changes.
 
 ## Robot outcome
 
-- No robot speakers, no Driver Hub audio experiment
-- 55 minutes of normal teleop/auto with ECHO off
-- Written mute path and three silence reasons
+- Minimum auto runs ≥7/10 in practice or teleop-only declared
+- Mechanism tuning log
+- Known-good release tag recorded
+
 
 ## Prerequisites
 
@@ -82,10 +88,10 @@ cue · pan · pulse · silence · mute · GUIDANCE vs WARN · `driverEnabled`
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Hearing rules; test goal: left/right on training UI **then** drive the real robot silently |
-| 35 | Repair / tune / program | Desktop ECHO (student path 1–2, 8) plus any robot repair. No DS audio wiring |
-| 55 | Driving / auto reps | Normal reps with ECHO off. After a set, one sentence: "Would a cue have helped?" — capture as a **question**, not approval |
-| 20 | Closeout | Mute-path checklist; dashboard ECHO stays disabled; explain-back; cleanup |
+| 10 | Opening | Minimum reliable auto before advanced paths; Pedro on **Sparkee mass**, not Strafer assumptions |
+| 35 | Repair / tune / program | Pedro path or conventional fallback; mechanism tuning; known-good release tag |
+| 55 | Driving reps | Auto repetitions (≥7/10 target) interleaved with teleop scoring cycles |
+| 20 | Closeout | Auto log; rollback tag recorded; optional libraries still per software contract |
 
 ## Mentor demonstration
 
@@ -157,6 +163,11 @@ Desktop UI for the whole meeting except a notebook auto walkthrough.
 
 ## Links to authoritative project documentation
 
+- [docs/season-process.md](../docs/season-process.md)
+- [docs/decision-gates.md](../docs/decision-gates.md)
+- [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [gate-review.md](../../../templates/gate-review.md)
 - [ECHO README](https://github.com/The-Allsparks/ECHO/blob/main/README.md)
 - [Student path](https://github.com/The-Allsparks/ECHO/blob/main/docs/student-learning-path.md)
 - [Cue vocabulary](https://github.com/The-Allsparks/ECHO/blob/main/docs/cue-vocabulary.md)

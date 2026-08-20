@@ -1,14 +1,17 @@
 ---
 id: S002
-title: "MVP teleop tuning and driver reps"
+title: Post-Kickoff week 1 — ideation scale-up and low-fi prototypes
 date: 2026-09-18
 meeting_type: B
 season_phase: kickoff-to-clinic
 event_checkpoint: clinic
 status: complete
 difficulty: Foundation
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
+compressed_week: 1
+forge_gate: G1
 ---
 
 # S002 — Driver baseline and chassis reliability
@@ -18,28 +21,30 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S002 |
-| Title | MVP teleop tuning and driver reps |
+| Title | Post-Kickoff week 1 — ideation scale-up and low-fi prototypes |
 | Calendar date | 2026-09-18 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | First Meeting B after Kickoff |
+| Relative week | Compressed week 1 (G1 Strategy) |
 | Meeting type | B |
 | Season phase | kickoff-to-clinic |
 | Event checkpoint | clinic |
+| Forge gate | G1 |
 | Difficulty | Foundation |
 
 ## Driving question
 
-Can every driver operate the **MVP teleop** configuration safely and produce a measurable baseline?
+Did we generate enough ideas (60–100 scaled) and finish G1 with a documented strategy before custom fabrication scales up?
 
 ## Student-facing objective
 
-Students will establish reliable driver control: forward/reverse, strafe both ways, rotation, fixed-distance straight-line tests, enable/start/stop/emergency disable, rotation through all drivers, and post-run inspection of fasteners, wiring, and motor temperatures.
+Students scale visual ideation, finish low-fidelity prototypes, complete G1 Strategy gate review, and run short driver reps on drivable chassis.
 
 ## Robot outcome
 
-- Safely driving chassis on restraint or short carpet (mentor OK)
-- Baseline measurements recorded
-- Mecanum orientation errors corrected or documented
-- Repair list for S003 prep
+- Ideation count recorded (target 60–100 across team)
+- [Gate review G1](../../../templates/gate-review.md) completed
+- Risk register started
+- Starter-bot fallback documented
+
 
 ## Prerequisites
 
@@ -155,6 +160,11 @@ Walk the baseline path; verbal stick calls; still rotate all students through en
 
 ## Links to authoritative project documentation
 
+- [docs/season-process.md](../docs/season-process.md)
+- [docs/decision-gates.md](../docs/decision-gates.md)
+- [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [gate-review.md](../../../templates/gate-review.md)
 - [preseason-software-allocation.md](../docs/preseason-software-allocation.md)
 - [S001 bring-up](P005-meeting-a.md)
 - [projects/pedro-pathing.md](../../../projects/pedro-pathing.md) — defer tuning

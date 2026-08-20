@@ -1,14 +1,24 @@
 ---
 id: S013
-title: "Full match simulation"
+title: Post-Kickoff week 6 — feature freeze and mock judging
 date: 2026-10-26
 meeting_type: A
 season_phase: reliability-sprint
 event_checkpoint: league-1s-2s
 status: complete
 difficulty: Competition readiness
-projects: [TRACE, AMPER, MIMIC, ViDAR, BEACON, ECHO, HELM, PEDRO]
+projects:
+- TRACE
+- AMPER
+- MIMIC
+- ViDAR
+- BEACON
+- ECHO
+- HELM
+- PEDRO
 active_features: []
+compressed_week: 6
+forge_gate: G7
 ---
 
 # S013 — Full match simulation
@@ -18,27 +28,29 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S013 |
-| Title | Full match simulation |
+| Title | Post-Kickoff week 6 — feature freeze and mock judging |
 | Calendar date | 2026-10-26 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | Adversity window |
+| Relative week | Compressed week 6 (G7 Reliability / feature freeze) |
 | Meeting type | A |
 | Season phase | reliability-sprint |
 | Event checkpoint | league-1s-2s |
+| Forge gate | G7 |
 | Difficulty | Competition readiness |
 
 ## Driving question
 
-Can we finish a match when the battery is tired, the camera is blocked, and a cue is wrong?
+Can all four students explain our robot and process — and have we frozen speculative features?
 
 ## Student-facing objective
 
-Run a **scripted** mock with only narrowly bounded, already-validated behavior. Practice mute/disable in under five seconds. Immediate rollback if anything optional fails its benefit test. This session tests the team, not a claim that the combined stack is FTC-ready ([stack-acceptance.md](../../../docs/stack-acceptance.md)).
+Students declare G7 feature/code freeze, run mock judging (5 min + Q&A), conduct failure-injection drills, allow only P0/P1 fixes.
 
 ## Robot outcome
 
-- Survives the mock, or fails with a written rollback
-- Annotated script in the notebook
-- Dashboard rows updated (disable anything that failed)
+- G7 freeze declaration
+- Mock judging feedback for all four students
+- Open defect list prioritized
+
 
 ## Prerequisites
 
@@ -152,6 +164,11 @@ Driver + programmer at a table with logs. Say this is not Hub loop-time evidence
 
 ## Links to authoritative project documentation
 
+- [docs/season-process.md](../docs/season-process.md)
+- [docs/decision-gates.md](../docs/decision-gates.md)
+- [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [gate-review.md](../../../templates/gate-review.md)
 - [season-plan.md](../season-plan.md)
 - [ECHO hearing safety](https://github.com/The-Allsparks/ECHO/blob/main/docs/hearing-safety.md)
 - [BEACON recovery](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/recovery.md)

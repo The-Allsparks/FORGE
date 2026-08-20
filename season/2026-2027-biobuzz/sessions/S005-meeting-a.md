@@ -1,14 +1,18 @@
 ---
 id: S005
-title: "BEACON communications freshness and recovery"
+title: Post-Kickoff week 3 — architecture selection and interfaces
 date: 2026-09-28
 meeting_type: A
 season_phase: kickoff-to-clinic
 event_checkpoint: clinic
 status: complete
 difficulty: Foundation
-projects: [BEACON, TRACE]
+projects:
+- BEACON
+- TRACE
 active_features: []
+compressed_week: 3
+forge_gate: G3
 ---
 
 # S005 — BEACON communications freshness and recovery
@@ -18,27 +22,30 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S005 |
-| Title | BEACON communications freshness and recovery |
+| Title | Post-Kickoff week 3 — architecture selection and interfaces |
 | Calendar date | 2026-09-28 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | First Meeting B after Kickoff |
+| Relative week | Compressed week 3 (G3 Architecture selection) |
 | Meeting type | A |
 | Season phase | kickoff-to-clinic |
 | Event checkpoint | clinic |
+| Forge gate | G3 |
 | Difficulty | Foundation |
 
 ## Driving question
 
-If the loop is still running, does that mean the driver is still in charge?
+What modular Sparkee architecture fits our evidence — and what are we explicitly cutting?
 
 ## Student-facing objective
 
-Students will classify freshness vs stale stick values, practice official disable, keep driving reps, and write a recovery story that does **not** invent a faster-than-FTC stop.
+Students select competition-one architecture, define module boundaries and interfaces per [modular-architecture.md](../docs/modular-architecture.md), and draft software contract (MVP libraries only).
 
 ## Robot outcome
 
-- Written freshness classification from [exercise 1](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/exercises.md)
-- Drive reps with a planned "stale command" discussion
-- BEACON flags remain default off on the robot unless a mentor adds **passive** reports
+- Architecture diagram with module interfaces
+- Software contract draft
+- Module owners assigned
+- Shared-parts table started ([two-platform-strategy.md](../docs/two-platform-strategy.md))
+
 
 ## Prerequisites
 
@@ -79,10 +86,10 @@ fresh · stale · connected (ambiguous) · official stop · recovery inhibit · 
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Review S004 tape-vs-vision note; BEACON passive only; safety: official stop only |
-| 75 | Construction | MVP wiring dress; Hub/DS strain relief; complete passive health-monitor read-through if useful |
-| 25 | Integration | BEACON exercises 1–2 on laptop or paper; classify stale stick stories — no intervention flags |
-| 10 | Closeout | Domain matching; explain-back; dashboard BEACON ladder 1–2; cleanup |
+| 10 | Opening | Review G2 comparative evidence; architecture selection starts today; module list from BIOBUZZ MVP |
+| 75 | Construction | Physical module-boundary mockups; interface sketches on Sparkee frame; begin CAD for authorized modules |
+| 25 | Integration | Architecture diagram draft; software contract (MVP libraries only); assign module owners |
+| 10 | Closeout | Shared-parts table started; explain-back; dashboard update; prep S006 G3 gate |
 
 ## Mentor demonstration
 
@@ -154,6 +161,11 @@ BEACON `gradlew test` if available; complete exercises 1–4 on paper. Watch off
 
 ## Links to authoritative project documentation
 
+- [docs/season-process.md](../docs/season-process.md)
+- [docs/decision-gates.md](../docs/decision-gates.md)
+- [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [gate-review.md](../../../templates/gate-review.md)
 - [BEACON README](https://github.com/The-Allsparks/BEACON/blob/main/README.md)
 - [Phases](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/phases.md)
 - [Exercises](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/exercises.md)

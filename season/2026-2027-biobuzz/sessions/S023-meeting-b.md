@@ -1,13 +1,14 @@
 ---
 id: S023
-title: "Meeting B — driver and auto reps"
+title: League Meets 3S/4S preparation
 date: 2026-12-04
 meeting_type: B
 season_phase: league-development
 event_checkpoint: league-3s-4s
 status: complete
 difficulty: Developing
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +19,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S023 |
-| Title | Meeting B — driver and auto reps |
+| Title | League Meets 3S/4S preparation |
 | Calendar date | 2026-12-04 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | B |
 | Season phase | league-development |
@@ -27,16 +28,18 @@ active_features: []
 
 ## Driving question
 
-What is the highest-value robot improvement we can finish today without breaking rollback?
+Are pit, checklists, and robot ready for the next league window?
 
 ## Student-facing objective
 
-Students will run Meeting B from the season template. Update the **calendar title** when the week's mechanism changes — do not rename this file.
+Students rehearse pre/post-match checklists, packing, and assigned pit roles; reliability reps in remaining time.
 
 ## Robot outcome
 
-- Documented progress on the focus named in `calendar.yaml` `title` for S023
-- No new active features without evidence
+- [competition checklists](../../../templates/competition/) walked once
+- Packing list verified
+- Known-good release tag confirmed
+
 
 ## Prerequisites
 

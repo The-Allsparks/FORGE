@@ -1,13 +1,14 @@
 ---
 id: S022
-title: "Meeting A — mechanism of the week"
+title: League-evidence mechanism refinement
 date: 2026-11-30
 meeting_type: A
 season_phase: league-development
 event_checkpoint: league-3s-4s
 status: complete
 difficulty: Developing
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +19,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S022 |
-| Title | Meeting A — mechanism of the week |
+| Title | League-evidence mechanism refinement |
 | Calendar date | 2026-11-30 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | A |
 | Season phase | league-development |
@@ -27,16 +28,17 @@ active_features: []
 
 ## Driving question
 
-What is the highest-value robot improvement we can finish today without breaking rollback?
+What is the second-highest-value fix before League 3S/4S?
 
 ## Student-facing objective
 
-Students will run Meeting A from the season template. Update the **calendar title** when the week's mechanism changes — do not rename this file.
+Students implement one more retrospective-driven mechanism improvement with measured before/after.
 
 ## Robot outcome
 
-- Documented progress on the focus named in `calendar.yaml` `title` for S022
-- No new active features without evidence
+- Fix shipped and tested
+- Portfolio candidate note if applicable
+
 
 ## Prerequisites
 

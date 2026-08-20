@@ -1,13 +1,14 @@
 ---
 id: S026
-title: "Meeting A — adversity drill"
+title: Adversity drill — missed acquisition
 date: 2026-12-14
 meeting_type: A
 season_phase: adversity-simulations
 event_checkpoint: league-5s-6s
 status: complete
 difficulty: Developing
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +19,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S026 |
-| Title | Meeting A — adversity drill |
+| Title | Adversity drill — missed acquisition |
 | Calendar date | 2026-12-14 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | A |
 | Season phase | adversity-simulations |
@@ -27,16 +28,17 @@ active_features: []
 
 ## Driving question
 
-What is the highest-value robot improvement we can finish today without breaking rollback?
+Can drivers recover when intake fails mid-match?
 
 ## Student-facing objective
 
-Students will run Meeting A from the season template. Update the **calendar title** when the week's mechanism changes — do not rename this file.
+Students inject missed acquisition; practice recovery and communication between Driver 1 and Driver 2.
 
 ## Robot outcome
 
-- Documented progress on the focus named in `calendar.yaml` `title` for S026
-- No new active features without evidence
+- Recovery procedure documented
+- Drill results logged
+
 
 ## Prerequisites
 

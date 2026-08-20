@@ -1,13 +1,14 @@
 ---
 id: S021
-title: "Meeting A — mechanism of the week"
+title: Version 2 fixture research (Strafer or bench only)
 date: 2026-11-23
 meeting_type: A
 season_phase: league-development
 event_checkpoint: league-3s-4s
 status: complete
 difficulty: Developing
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +19,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S021 |
-| Title | Meeting A — mechanism of the week |
+| Title | Version 2 fixture research (Strafer or bench only) |
 | Calendar date | 2026-11-23 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | A |
 | Season phase | league-development |
@@ -27,16 +28,17 @@ active_features: []
 
 ## Driving question
 
-What is the highest-value robot improvement we can finish today without breaking rollback?
+What should Sparkee 2 test — without stealing reliability time?
 
 ## Student-facing objective
 
-Students will run Meeting A from the season template. Update the **calendar title** when the week's mechanism changes — do not rename this file.
+Students prototype next-mechanism ideas on Strafer, fixtures, or spare modules only. Sparkee stays competition configuration.
 
 ## Robot outcome
 
-- Documented progress on the focus named in `calendar.yaml` `title` for S021
-- No new active features without evidence
+- Version 2 experiment record
+- No Sparkee competition resources diverted
+
 
 ## Prerequisites
 

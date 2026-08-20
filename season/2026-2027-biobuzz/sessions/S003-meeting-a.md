@@ -1,14 +1,18 @@
 ---
 id: S003
-title: "Pedro Pathing conventional autonomous"
+title: Post-Kickoff week 2 — comparative mechanism tests
 date: 2026-09-21
 meeting_type: A
 season_phase: kickoff-to-clinic
 event_checkpoint: clinic
 status: complete
 difficulty: Developing
-projects: [PEDRO, TRACE]
+projects:
+- PEDRO
+- TRACE
 active_features: []
+compressed_week: 2
+forge_gate: G2
 ---
 
 # S003 — Pedro Pathing conventional autonomous
@@ -18,28 +22,30 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S003 |
-| Title | Pedro Pathing conventional autonomous |
+| Title | Post-Kickoff week 2 — comparative mechanism tests |
 | Calendar date | 2026-09-21 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | Kickoff-to-clinic week 2 |
+| Relative week | Compressed week 2 (G2 Prototype evidence) |
 | Meeting type | A |
 | Season phase | kickoff-to-clinic |
 | Event checkpoint | clinic |
+| Forge gate | G2 |
 | Difficulty | Developing |
 
 ## Driving question
 
-Can we complete one simple, repeatable autonomous path without vision, HELM, or ECHO — and still keep building the robot?
+Which mechanism moves game objects reliably — and can we prove it with measurements, not opinions?
 
 ## Student-facing objective
 
-Students continue MVP construction, mount or verify localization, and leave with either a short Pedro path they can explain **or** a documented timed drive-forward auto plus a paper path. Official Pedro tuning takes up to a few days; this meeting does not finish every tuner.
+Students run comparative mechanism tests with [prototype-test-record.md](../../../templates/prototype-test-record.md) (≥3 trials each); begin minimum autonomous movement only if G3 software contract will require it.
 
 ## Robot outcome
 
-- Localization hardware mounted or drive-encoder localizer chosen
-- One of: (a) Localization Test seen on Panels/dashboard, (b) a two-pose Pedro path run at least twice, or (c) paper path walked + `DriveForward` fallback OpMode
-- TRACE events `Auto/start` and `Auto/end` if software is on the Hub; otherwise paper times
-- HELM, ECHO, and ViDAR **not** in the auto
+- ≥1 completed prototype test record with ≥3 trials
+- Starter-bot reference test scheduled or complete
+- Drivable chassis maintained
+- Variables held constant documented
+
 
 ## Prerequisites
 
@@ -169,6 +175,11 @@ Walk the taped (or hallway) path. Students write poses as inches and headings. E
 
 ## Links to authoritative project documentation
 
+- [docs/season-process.md](../docs/season-process.md)
+- [docs/decision-gates.md](../docs/decision-gates.md)
+- [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [gate-review.md](../../../templates/gate-review.md)
 - [Pedro Pathing site](https://pedropathing.com/)
 - [Introduction](https://pedropathing.com/docs/pathing)
 - [Tuning](https://pedropathing.com/docs/pathing/tuning)

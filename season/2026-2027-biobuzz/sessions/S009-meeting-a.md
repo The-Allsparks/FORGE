@@ -1,14 +1,17 @@
 ---
 id: S009
-title: "Clinic retrospective and reliability sprint"
+title: Post-Kickoff week 5 — clinic retrospective and software handoff
 date: 2026-10-12
 meeting_type: A
 season_phase: reliability-sprint
 event_checkpoint: clinic
 status: complete
 difficulty: Integration
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
+compressed_week: 5
+forge_gate: G6
 ---
 
 # S009 — Clinic retrospective and reliability sprint
@@ -18,28 +21,30 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S009 |
-| Title | Clinic retrospective and reliability sprint |
+| Title | Post-Kickoff week 5 — clinic retrospective and software handoff |
 | Calendar date | 2026-10-12 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | First meeting after clinic |
+| Relative week | Compressed week 5 (G6 Stable software handoff) |
 | Meeting type | A |
 | Season phase | reliability-sprint |
 | Event checkpoint | clinic |
+| Forge gate | G6 |
 | Difficulty | Integration |
 
 ## Driving question
 
-What broke, what we measured, and what we will not rewrite?
+What did clinic prove — and is Sparkee stable enough for sustained software and driver work?
 
 ## Student-facing objective
 
-Fill the event retrospective from clinic evidence (not vibes). Start the highest-priority mechanical or electrical repair. Keep TRACE closeout. Do not treat a clinic that “mostly drove” as combined-stack acceptance ([stack-acceptance.md](../../../docs/stack-acceptance.md)).
+Students run [event-retrospective.md](../../../templates/event-retrospective.md) for clinic; begin G6 handoff: minimum teleop stable, Pedro tuning on Sparkee mass (not Strafer assumptions).
 
 ## Robot outcome
 
-- Retrospective filled from [event-retrospective.md](../../../templates/event-retrospective.md)
-- Repair #1 started (fastener, wire, mechanism bind, or battery seating — not a new architecture)
-- Dashboard rows updated from clinic measurements
-- Conventional teleop and auto still the match plan
+- Clinic retrospective complete
+- P0 repair list from clinic
+- Stable teleop verified on Sparkee
+- Handoff checklist started
+
 
 ## Prerequisites
 
@@ -75,10 +80,10 @@ Copy logs off the Hub. Print or open the clinic test card. List keep / drop / de
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Retrospective rules: evidence not vibes; clinic was measurement; no architecture rewrite |
-| 75 | Construction | Repair #1 from the list. Fasteners, wiring, binds. Not a new library. |
-| 25 | Integration | Fill retrospective; update dashboard from clinic data; TRACE story of one match or scrim |
-| 10 | Closeout | TRACE evidence, explain-back, dashboard, cleanup |
+| 10 | Opening | Clinic retrospective rules: evidence not vibes; no architecture rewrite |
+| 75 | Construction | P0 clinic repairs only — fasteners, wiring, binds; no new modules |
+| 25 | Integration | [Event retrospective](../../../templates/event-retrospective.md); stable teleop verification on Sparkee |
+| 10 | Closeout | Handoff checklist for G6; TRACE clinic story; dashboard P0 list |
 
 ## Mentor demonstration
 
@@ -150,6 +155,11 @@ Log review only. Construction block becomes pit-cart / packing repair if the rob
 
 ## Links to authoritative project documentation
 
+- [docs/season-process.md](../docs/season-process.md)
+- [docs/decision-gates.md](../docs/decision-gates.md)
+- [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [gate-review.md](../../../templates/gate-review.md)
 - [templates/event-retrospective.md](../../../templates/event-retrospective.md)
 - [docs/evidence-model.md](../../../docs/evidence-model.md)
 - [docs/stack-acceptance.md](../../../docs/stack-acceptance.md)

@@ -1,14 +1,21 @@
 ---
 id: S011
-title: "Integrated failure injection"
+title: Post-Kickoff week 5 — reliability testing and portfolio draft
 date: 2026-10-19
 meeting_type: A
 season_phase: reliability-sprint
 event_checkpoint: league-1s-2s
 status: complete
 difficulty: Integration
-projects: [TRACE, AMPER, MIMIC, ViDAR, BEACON]
+projects:
+- TRACE
+- AMPER
+- MIMIC
+- ViDAR
+- BEACON
 active_features: []
+compressed_week: 5
+forge_gate: G6
 ---
 
 # S011 — Integrated failure injection
@@ -18,27 +25,29 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S011 |
-| Title | Integrated failure injection |
+| Title | Post-Kickoff week 5 — reliability testing and portfolio draft |
 | Calendar date | 2026-10-19 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | Week before clinic |
+| Relative week | Compressed week 5 (G6 Stable software handoff) |
 | Meeting type | A |
 | Season phase | reliability-sprint |
 | Event checkpoint | league-1s-2s |
+| Forge gate | G6 |
 | Difficulty | Integration |
 
 ## Driving question
 
-Can we tell a single honest story when several incomplete logs disagree?
+What is our measured reliability — and is the portfolio draft ready for final edit?
 
 ## Student-facing objective
 
-Finish clinic-critical construction. In the integration block, inject **one** planned fault (covered camera, labeled weaker pack, or stale snapshot) and write a timeline that uses `INSUFFICIENT_EVIDENCE` when the team cannot prove a cause.
+Students run repeated full-cycle tests (≥10 attempts), log via TRACE and human-readable log, draft portfolio narrative from season notes.
 
 ## Robot outcome
 
-- MVP construction progressed
-- One redacted failure timeline
-- No new active features added "to catch" the fault
+- Reliability metrics recorded honestly
+- Portfolio draft substantially complete
+- [student-progress-review.md](../../../templates/student-progress-review.md) if due
+
 
 ## Prerequisites
 
@@ -82,10 +91,10 @@ Pick **one** fault for the 25-minute block. Write it on the board before student
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | One fault only; clinic is data not features; safety |
-| 75 | Construction | Finish what clinic needs mechanically and electrically |
-| 25 | Integration | Inject the chosen fault; TRACE/paper story; do not enable new actives to catch it |
-| 10 | Closeout | Timeline; dashboard risks; explain-back; restore robot; cleanup |
+| 10 | Opening | Reliability test plan: ≥10 full-cycle attempts; portfolio draft milestone |
+| 75 | Construction | P1 repairs only — no new mechanisms; support reliability testing |
+| 25 | Integration | Log cycle success rate; TRACE + human-readable log; portfolio draft section |
+| 10 | Closeout | [student-progress-review](../../../templates/student-progress-review.md) if due; dashboard reliability row |
 
 ## Mentor demonstration
 
@@ -162,6 +171,11 @@ TRACE desktop memory sink + BEACON fake-clock exercises.
 
 ## Links to authoritative project documentation
 
+- [docs/season-process.md](../docs/season-process.md)
+- [docs/decision-gates.md](../docs/decision-gates.md)
+- [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [gate-review.md](../../../templates/gate-review.md)
 - [TRACE integrations](https://github.com/The-Allsparks/TRACE/blob/main/docs/integrations.md)
 - [BEACON exercises](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/exercises.md)
 - [Failure domains](https://github.com/The-Allsparks/BEACON/blob/main/docs/communications-health/failure-domains.md)

@@ -1,13 +1,14 @@
 ---
 id: S030
-title: "Meeting A — adversity drill"
+title: Adversity drill — comms loss and pit procedure
 date: 2027-01-04
 meeting_type: A
 season_phase: adversity-simulations
 event_checkpoint: league-5s-6s
 status: complete
 difficulty: Developing
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +19,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S030 |
-| Title | Meeting A — adversity drill |
+| Title | Adversity drill — comms loss and pit procedure |
 | Calendar date | 2027-01-04 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | A |
 | Season phase | adversity-simulations |
@@ -27,16 +28,17 @@ active_features: []
 
 ## Driving question
 
-What is the highest-value robot improvement we can finish today without breaking rollback?
+Can every student run rollback in under one minute?
 
 ## Student-facing objective
 
-Students will run Meeting A from the season template. Update the **calendar title** when the week's mechanism changes — do not rename this file.
+Students practice DS stop, teleop-only, and [pit-and-inspection.md](../pit-and-inspection.md) rollback; BEACON vocabulary only — no intervention.
 
 ## Robot outcome
 
-- Documented progress on the focus named in `calendar.yaml` `title` for S030
-- No new active features without evidence
+- Rollback timed
+- Pit roles confirmed
+
 
 ## Prerequisites
 

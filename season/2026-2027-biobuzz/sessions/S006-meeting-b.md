@@ -1,14 +1,18 @@
 ---
 id: S006
-title: "ViDAR game-relevant detection"
+title: Post-Kickoff week 3 — pivot deadline; CAD and BOM authorization
 date: 2026-10-02
 meeting_type: B
 season_phase: kickoff-to-clinic
 event_checkpoint: clinic
 status: complete
 difficulty: Developing
-projects: [ViDAR, TRACE]
+projects:
+- ViDAR
+- TRACE
 active_features: []
+compressed_week: 3
+forge_gate: G3
 ---
 
 # S006 — ViDAR game-relevant detection
@@ -18,27 +22,30 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S006 |
-| Title | ViDAR game-relevant detection |
+| Title | Post-Kickoff week 3 — pivot deadline; CAD and BOM authorization |
 | Calendar date | 2026-10-02 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | Kickoff-to-clinic week 2 |
+| Relative week | Compressed week 3 (G3 Architecture selection) |
 | Meeting type | B |
 | Season phase | kickoff-to-clinic |
 | Event checkpoint | clinic |
+| Forge gate | G3 |
 | Difficulty | Developing |
 
 ## Driving question
 
-Does BIOBUZZ actually need a detection today, and can we see that thing under shop lighting without stealing driver practice?
+Are we authorized to fabricate — and have we passed G3 before major pivots end?
 
 ## Student-facing objective
 
-If K001 mapped a vision need, students run one-camera detection for **that** element and compare to a tape measure. If vision is not MVP, they write the deferral, run sim calibration for 15 minutes of the repair block, and spend the 55-minute block driving and repeating the S003 auto.
+Students complete CAD/fabrication authorization package, BOM, major-design-pivot deadline declaration, and G3 gate review. Reject features that do not fit remaining time.
 
 ## Robot outcome
 
-- Written **vision serves MVP / vision deferred** decision in the notebook
-- If serving: Discover/sim screenshot of the Kickoff-named element (not a guessed color)
-- Teleop still has **no** vision-to-drive wiring
+- G3 gate review passed or fallback activated
+- BOM and fabrication package
+- Pivot deadline recorded — no architectural pivots after today without gate review
+- Explicit fallback plan
+
 
 ## Prerequisites
 
@@ -80,10 +87,10 @@ game-relevant · HSV · ROI · confidence · stale · deferred
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Review S003 auto log; test goal: detect MVP element **or** confirm vision is deferred; no drive-from-vision |
-| 35 | Repair / tune / program | If vision is MVP: calibration checklist items that fit. If deferred: 15 min sim Lesson 4, then mechanism/auto repair. Do not multi-cam |
-| 55 | Driving / auto reps | Driver and Pedro/fallback auto repetitions. Vision pair may observe from the sideline — they do not pause driving for HSV debates |
-| 20 | Closeout | Screenshot or deferral paragraph; dashboard ViDAR; explain-back; cleanup |
+| 10 | Opening | **Major-design-pivot deadline** — no new architecture after closeout unless G3 gate review |
+| 35 | Repair / tune / program | CAD dimensions; BOM finalize; cut list for week 4 fabrication |
+| 55 | Driving reps | Short drivetrain reps on Sparkee or Strafer — do not pause G3 paperwork for tuning debates |
+| 20 | Closeout | [Gate review G3](../../../templates/gate-review.md); explicit fallback plan; update `calendar.yaml` titles only |
 
 ## Mentor demonstration
 
@@ -157,6 +164,11 @@ Entire detection work on sim. Driving becomes gamepad dry-run if a Hub exists wi
 
 ## Links to authoritative project documentation
 
+- [docs/season-process.md](../docs/season-process.md)
+- [docs/decision-gates.md](../docs/decision-gates.md)
+- [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [gate-review.md](../../../templates/gate-review.md)
 - [TEACHING.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/TEACHING.md)
 - [CALIBRATION.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/CALIBRATION.md)
 - [CALIBRATION_CHECKLIST.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/CALIBRATION_CHECKLIST.md)

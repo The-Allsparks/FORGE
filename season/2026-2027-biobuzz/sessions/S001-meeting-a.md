@@ -1,14 +1,17 @@
 ---
 id: S001
-title: "Post-Kickoff MVP build and season execution"
+title: Post-Kickoff week 1 — strategy execution and crude prototypes
 date: 2026-09-14
 meeting_type: A
 season_phase: kickoff-to-clinic
 event_checkpoint: clinic
 status: complete
 difficulty: Integration
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
+compressed_week: 1
+forge_gate: G1
 ---
 
 # S001 — Post-Kickoff MVP build and season execution
@@ -18,27 +21,30 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S001 |
-| Title | Post-Kickoff MVP build and season execution |
+| Title | Post-Kickoff week 1 — strategy execution and crude prototypes |
 | Calendar date | 2026-09-14 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | First shop meeting after K001 |
+| Relative week | Compressed week 1 (G1 Strategy) |
 | Meeting type | A |
 | Season phase | kickoff-to-clinic |
 | Event checkpoint | clinic |
+| Forge gate | G1 |
 | Difficulty | Integration |
 
 ## Driving question
 
-Did we leave Kickoff with a buildable MVP — and does today's work move **that** robot forward, not a side quest?
+Did we turn K001 strategy into physical proof — crude prototype plus clear owners — without starting a side quest?
 
 ## Student-facing objective
 
-Students will translate K001 outputs into shop action: confirm mechanism owners, update `calendar.yaml` **titles** (not session IDs or filenames), start or continue MVP construction, and record what is proven vs assumed from preseason experiments.
+Students execute K001 strategy: build crude game-object interaction prototype(s), confirm mechanism owners, begin strategy matrix refinement, and record evidence vs preseason assumptions.
 
 ## Robot outcome
 
-- Visible MVP mechanism progress (substantial, not cosmetic)
-- Owner list posted with next-test column in [readiness-dashboard.md](../readiness-dashboard.md)
-- Optional: edit session **titles** in `calendar.yaml` for upcoming weeks — **never rename** `P001-meeting-a.md`-style files
+- Crude prototype demonstrating at least one game-object interaction
+- Strategy matrix draft updated
+- Owner list on [readiness-dashboard.md](../readiness-dashboard.md)
+- Progress toward G1 exit (complete G1 at S002 if needed)
+
 
 ## Prerequisites
 
@@ -152,6 +158,11 @@ Walk through teleop commands and mechanism states without Hub power.
 
 ## Links to authoritative project documentation
 
+- [docs/season-process.md](../docs/season-process.md)
+- [docs/decision-gates.md](../docs/decision-gates.md)
+- [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [gate-review.md](../../../templates/gate-review.md)
 - [kickoff-replan-guide.md](../kickoff-replan-guide.md)
 - [preseason-kickoff-gate.md](../docs/preseason-kickoff-gate.md)
 - [readiness-dashboard.md](../readiness-dashboard.md)

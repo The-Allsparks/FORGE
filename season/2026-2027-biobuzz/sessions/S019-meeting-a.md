@@ -1,13 +1,14 @@
 ---
 id: S019
-title: "Meeting A — mechanism of the week"
+title: Sensor and software calibration from match data
 date: 2026-11-16
 meeting_type: A
 season_phase: league-development
 event_checkpoint: league-3s-4s
 status: complete
 difficulty: Developing
-projects: [TRACE]
+projects:
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +19,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S019 |
-| Title | Meeting A — mechanism of the week |
+| Title | Sensor and software calibration from match data |
 | Calendar date | 2026-11-16 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | A |
 | Season phase | league-development |
@@ -27,16 +28,17 @@ active_features: []
 
 ## Driving question
 
-What is the highest-value robot improvement we can finish today without breaking rollback?
+Does match evidence justify any optional library work this week?
 
 ## Student-facing objective
 
-Students will run Meeting A from the season template. Update the **calendar title** when the week's mechanism changes — do not rename this file.
+Students calibrate only sensors/libraries named in the G3 software contract **and** supported by league evidence; otherwise continue mechanism reps.
 
 ## Robot outcome
 
-- Documented progress on the focus named in `calendar.yaml` `title` for S019
-- No new active features without evidence
+- Calibration record or explicit deferral
+- Dashboard rows updated honestly
+
 
 ## Prerequisites
 

@@ -1,13 +1,16 @@
 ---
 id: S015
-title: "HELM shadow recommendations"
+title: League 1S/2S retrospective and match evidence
 date: 2026-11-02
 meeting_type: A
 season_phase: league-development
 event_checkpoint: league-1s-2s
 status: complete
 difficulty: Developing
-projects: [HELM, PEDRO, TRACE]
+projects:
+- HELM
+- PEDRO
+- TRACE
 active_features: []
 ---
 
@@ -18,7 +21,7 @@ active_features: []
 | Field | Value |
 | ----- | ----- |
 | Session ID | S015 |
-| Title | HELM shadow recommendations |
+| Title | League 1S/2S retrospective and match evidence |
 | Calendar date | 2026-11-02 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Relative week | Reliability sprint |
 | Meeting type | A |
@@ -28,18 +31,19 @@ active_features: []
 
 ## Driving question
 
-If a selector suggested a different step, would we notice — without letting it drive?
+What did our first league teaches us — and what is Version 2 allowed to explore?
 
 ## Student-facing objective
 
-Spend 55 minutes on conventional auto and driver reps. Between reps, compare a **shadow** recommendation to what Pedro (or the fallback auto) actually did. If the HELM shadow API refuses — expected — do the comparison on paper from the S010 tree. HELM does not command motors. Combined-stack Hub evidence is still [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4), not this session.
+Students run [event-retrospective.md](../../../templates/event-retrospective.md) for League 1S/2S; map match evidence to dashboard; begin calibration backlog. Version 2 research only on Strafer/fixtures — not Sparkee competition time.#4](https://github.com/The-Allsparks/FORGE/issues/4), not this session.
 
 ## Robot outcome
 
-- Unchanged match control path
-- Shadow vs actual table in the notebook
-- Auto repetition times recorded
-- HELM competition status remains disabled
+- League retrospective complete
+- Match evidence table in notebook
+- P0/P1 repair list with owners
+- Version 2 boundary acknowledged
+
 
 ## Prerequisites
 
