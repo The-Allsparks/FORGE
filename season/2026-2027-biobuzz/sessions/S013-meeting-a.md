@@ -43,7 +43,7 @@ Can all four students explain our robot and process — and have we frozen specu
 
 ## Student-facing objective
 
-Students declare G7 feature/code freeze, run mock judging (5 min + Q&A), conduct failure-injection drills, allow only P0/P1 fixes.
+Students declare G7 feature/code freeze, run mock judging (5 min + Q&A), conduct **two** [failure-mode drills](../docs/failure-mode-drills.md) (include F6 if auto is in the plan), allow only P0/P1 fixes.
 
 ## Robot outcome
 

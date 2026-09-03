@@ -2,6 +2,8 @@
 
 Maps Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt) to The Allsparks FORGE sessions. Pratt does not endorse FORGE.
 
+A **different** Pratt video (*Why Most FTC Teams Fail (And How Not To)*) informs principle, releases, tests, and awards — see [pratt-why-teams-fail.md](pratt-why-teams-fail.md). Do not treat this crosswalk as covering that video.
+
 **Canonical session files only** — `{ID}-meeting-{type}.md` referenced by [calendar.yaml](../calendar.yaml). Legacy topic-named duplicates are not authoritative.
 
 ## Compression overview
@@ -27,13 +29,13 @@ Maps Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https:/
 | Session | Date | Pratt equivalent | Compressed phase | Primary deliverable |
 | ------- | ---- | ---------------- | ---------------- | ------------------- |
 | P001 | 2026-08-17 | — | Preseason | Parts org, safety, sponsor cards started (**complete**) |
-| P002 | 2026-08-19 | — | Preseason | Sponsor cards; Strafer chassis start (**scheduled**) |
-| P003 | 2026-08-24 | — | Preseason | Rolling drivetrain |
-| P004 | 2026-08-26 | — | Preseason | Electrical foundation |
-| P005 | 2026-08-31 | — | Preseason | Bring-up, TRACE habit |
-| P006 | 2026-09-04 | — | Preseason | Driver baseline |
-| P007 | 2026-09-07 | Pratt w2 mechanism lab (early) | Preseason | Reusable mechanism experiments |
-| P008 | 2026-09-11 | — | Preseason | Kickoff readiness; student goals baseline |
+| P002 | 2026-08-19 | — | Preseason | Strafer / first-robot construction session 1 of 3 (**complete**; subassembly detail unverified) |
+| P003 | 2026-08-24 | — | Preseason | Construction session 2 of 3. Original rolling-drivetrain plan **not done** |
+| P004 | 2026-08-26 | — | Preseason | Construction session 3 of 3. Original electrical + Onshape plan **not done** (electrical → P006) |
+| P005 | 2026-08-31 | Pratt w1 rules (early) | Preseason | BIOBUZZ Pre-Season V0 rules review. Original bring-up **not done** (→ P006) |
+| P006 | 2026-09-04 | — | Preseason | Electrical diagram, programming bring-up, first movement (was driver baseline) |
+| P007 | 2026-09-07 | Pratt w2 goals (early) | Preseason | Drivetrain dial-in **and** Kickoff prep (was mechanism lab; lab → S001/S003 if game-justified) |
+| P008 | 2026-09-11 | — | Preseason | FRC team tour (Kickoff readiness moved to P007) |
 
 ## Session mapping — competition one (through League 1S/2S)
 
@@ -90,7 +92,7 @@ Library deep-dives (ViDAR, BEACON, MIMIC, ECHO, HELM) occur **only when** the G3
 | [#23](https://github.com/The-Allsparks/FORGE/issues/23) | Fill S015–S031 post-league weekly goals | post–G8 |
 | [#24](https://github.com/The-Allsparks/FORGE/issues/24) | Verify BIOBUZZ award/portfolio limits | Kickoff → G8 |
 | [#25](https://github.com/The-Allsparks/FORGE/issues/25) | Assign checklist owners at G8 | G8 |
-| [#26](https://github.com/The-Allsparks/FORGE/issues/26) | Student learning-goal baselines at P008 | Preseason → G8 |
+| [#26](https://github.com/The-Allsparks/FORGE/issues/26) | Student learning-goal baselines at **P007** (moved from P008 because P008 is the FRC tour) | Preseason → G8 |
 | [#27](https://github.com/The-Allsparks/FORGE/issues/27) | Sparkee module docs after G3 | G3 → G5 |
 | [#28](https://github.com/The-Allsparks/FORGE/issues/28) | Retime S005–S011 agendas | weeks 3–5 |
 | [#29](https://github.com/The-Allsparks/FORGE/issues/29) | Archive legacy duplicate sessions | maintenance |

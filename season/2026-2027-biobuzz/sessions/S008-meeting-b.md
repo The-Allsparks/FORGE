@@ -41,7 +41,7 @@ Is Sparkee mechanically and electrically complete enough for clinic data collect
 
 ## Student-facing objective
 
-Students complete wiring (strain relief, service loops), integrate modules, test MIMIC states as hardware allows, prep clinic test card, and review G5 gate.
+Students complete wiring (strain relief, service loops), integrate modules, test MIMIC states as hardware allows, prep clinic test card, practice inspection, and review G5 gate. Clinic target is **R0** (stretch R1–R2). Not an R5 debut.
 
 ## Robot outcome
 

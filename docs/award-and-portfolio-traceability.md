@@ -10,6 +10,10 @@ Map FORGE activities to FTC judged-award criteria and PORTFOLIO format rules so 
 
 Print the "Think criteria" and "A201 format" tables. During closeout, tag the session's evidence record with the matching topic letter (A/B/C/D). Every two or three weeks, review tags and promote the strongest candidates into the portfolio shortlist. See [portfolio-candidate promotion](#portfolio-candidate-promotion) and the documentation learning path.
 
+Focused award **bets** (Control / Connect as a working hypothesis, not a lock): [award-strategy.md](../season/2026-2027-biobuzz/docs/award-strategy.md). Put a **page index** on the cover or page 1 so judges can find Think vs Control vs Connect without hunting. Tell one engineering story; do not shuffle pages into disconnected rubric scraps.
+
+Think is a season-long process objective. Do not skip engineering records because another award looks shinier.
+
 ---
 
 ## PORTFOLIO format rules (A201)
@@ -137,6 +141,8 @@ If Kickoff V1 changes these, update this table and check all FORGE templates tha
 Every two or three weeks during Meeting B closeout (~10 minutes), review evidence records and pick the strongest items for a shortlist. Use [portfolio-candidate.md](../templates/portfolio-candidate.md).
 
 Each candidate identifies: engineering story, student explanation, supporting image/diagram/calculation/TRACE graph, Think topic (A/B/C/D), other award criteria, readiness, missing evidence, fit in 15 pages.
+
+If the team has completed the post-Kickoff award decision, tag the **focus** MCI/TA award from [award-strategy.md](../season/2026-2027-biobuzz/docs/award-strategy.md) so the 15-page budget is not split equally across every trophy.
 
 ---
 

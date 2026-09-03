@@ -44,6 +44,10 @@ Students inject missed acquisition; practice recovery and communication between 
 
 - [calendar.yaml](../calendar.yaml) row for S026
 - [readiness-dashboard.md](../readiness-dashboard.md)
+- Catalog **F2 / F5**: [failure-mode-drills.md](../docs/failure-mode-drills.md)
+- File a [failure-record.md](../../../templates/failure-record.md)
+- Catalog **F2 / F5**: [failure-mode-drills.md](../docs/failure-mode-drills.md)
+- File a [failure-record.md](../../../templates/failure-record.md)
 
 ## Vocabulary
 

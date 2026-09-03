@@ -58,11 +58,11 @@ Teaching stays inside the blocks. A mentor demo is short and is followed by stud
 
 Defined in [season/2026-2027-biobuzz/season-plan.md](../season/2026-2027-biobuzz/season-plan.md) and dated in `calendar.yaml`.
 
-**Competition-one process** (adapted from Brogan M. Pratt's twelve-week FTC season plan): [season-process.md](../season/2026-2027-biobuzz/docs/season-process.md). Eight **decision gates** (G1–G8) protect software, driving, and judging time.
+**Competition-one process** (adapted from Brogan M. Pratt's twelve-week FTC season plan, with decision tests from *Why Most FTC Teams Fail*): [season-process.md](../season/2026-2027-biobuzz/docs/season-process.md). Eight **decision gates** (G1–G8) and the [four tests](../season/2026-2027-biobuzz/docs/guiding-principle.md) protect software, driving, and judging time. Releases: [robot-releases.md](../season/2026-2027-biobuzz/docs/robot-releases.md).
 
 | Phase | Intent |
 | ----- | ------ |
-| Preseason | Strafer platform, driver control, TRACE habit, evidence templates, student goals |
+| Preseason | Construction record, electrical/programming/first movement (P006), drivetrain dial-in plus Kickoff prep (P007), FRC tour (P008); mechanism lab deferred ([preseason-deferred-work.md](../season/2026-2027-biobuzz/docs/preseason-deferred-work.md)) |
 | Kickoff | BIOBUZZ analysis; G1 Strategy gate; MVP and fallback |
 | Compressed weeks 1–4 | Understand → compare → select → build (G1–G5) |
 | Compressed weeks 5–7 | Tune → freeze → rehearse → League 1S/2S (G6–G8) |

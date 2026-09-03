@@ -1,26 +1,37 @@
 ---
 id: P005
-title: "Bring-up, system map, and evidence"
+title: "BIOBUZZ Pre-Season V0 rules review"
 date: 2026-08-31
 meeting_type: A
 season_phase: preseason
 event_checkpoint: none
 status: complete
 difficulty: Foundation
-projects: [TRACE]
+projects: []
 active_features: []
 ---
 
-# P005 — Bring-up, system map, and evidence
+# P005 — Completed — BIOBUZZ Pre-Season V0 rules review
+
+## Planned versus actual
+
+| | |
+| --- | --- |
+| **Original plan** | Verify the assembled Strafer: inspect, elevate, one motor at a time, ports/directions, Driver Station disable, TRACE or paper timeline, system-map sketch; optional CAD export if P004 sketch existed |
+| **Confirmed actual** | Students **reviewed and discussed the BIOBUZZ Pre-Season V0 rules** |
+| **Classification** | **Completed rules-review record.** Motor bring-up, TRACE deployment, system mapping, wiring, and driving did **not** occur |
+| **Preserved original material** | Electrical + programming + first movement → [P006](P006-meeting-b.md). Drivetrain dial-in → [P007](P007-meeting-a.md). Kickoff-process worksheets → P007 (P008 is the FRC tour) |
+
+P005 **did** produce Kickoff-useful practice: reading and talking about season rules. **Pre-Season V0 is not the official Kickoff Game Manual.** Items from tonight must be **reverified** when the Kickoff manual is released.
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
 | Session ID | P005 |
-| Title | Bring-up, system map, and evidence |
+| Title | BIOBUZZ Pre-Season V0 rules review |
 | Calendar date | 2026-08-31 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | Preseason week 1 |
+| Relative week | Preseason week 1 (completed — variance) |
 | Meeting type | A |
 | Season phase | preseason |
 | Event checkpoint | none |
@@ -28,144 +39,146 @@ active_features: []
 
 ## Driving question
 
-If the chassis was built in P002–P004, can we prove—one motor at a time—that measurement, decision, command, and result match reality?
+Can we read the BIOBUZZ Pre-Season V0 manual as a team, notice what we do not yet know, and remember that Kickoff official materials can change the answer?
 
 ## Student-facing objective
 
-Students will **verify** the assembled Strafer drivetrain (not begin assembly): inspect structure and wiring, elevate the chassis, test one motor at a time, correct ports and directions, demonstrate Driver Station disable, record checks with TRACE or an honest paper timeline, and introduce the software system map without a library lecture.
+Students reviewed and discussed the BIOBUZZ Pre-Season V0 rules. They practiced student questions, rule interpretations, and distinguishing a written rule from a guess. They captured implications for later work **without locking a season robot**. They did **not** bring up motors, deploy TRACE, map live systems, wire the robot, or drive.
 
 ## Robot outcome
 
-- Every motor operates correctly on the bench (elevated/restrained)
-- Motor directions and ports documented
-- DS disable demonstrated
-- TRACE or paper timeline tied to **actual** bring-up checks
-- System-map vocabulary sketched (measurement → decision → command → result)
+- **None on hardware.** No motor verification table, no DS disable demonstration, no TRACE bring-up timeline, no wiring
+- Rules-discussion notes in the notebook if captured
+- Open questions reserved for official Kickoff materials
+- Initial implications list (design, software, inspections, strategy, team operations) marked **V0 / reverified at Kickoff**
 
 ## Prerequisites
 
-- [P002](P002-meeting-s.md)–[P004](P004-meeting-s.md) complete: chassis, rolling drivetrain, wired power path
-- Mentor present for all energized tests
-- Minimal TeleOp or per-motor test OpMode — or documented blocker ([#2](https://github.com/The-Allsparks/FORGE/issues/2))
-- ≤30 min software this week beyond evidence capture ([preseason-software-allocation.md](../docs/preseason-software-allocation.md))
+- P002–P004 construction (robot exists; configuration not documented)
+- BIOBUZZ Pre-Season V0 rules source (mentor-provided; FORGE is **not** the rules authority)
 
 ## Vocabulary
 
-bring-up · measurement · decision · command · result · disable path · port · direction
+Pre-Season V0 · Game Manual · official materials · open question · assumption · interpretation · Kickoff · reverify
 
 ## Safety concerns
 
-- Chassis **elevated or restrained** before any motor spin
-- One motor at a time until all verified
-- Hair, hoodies, ties away from wheels
-- DS disable path tested before multi-motor tests
-- No floor driving today — that is P006
+- No powered robot work recorded this session
+- If a robot was in the room, battery remains disconnected
+- Do not treat V0 interpretations as inspection-legal at events
+- Do not present provisional V0 material as final
 
 ## Required hardware
 
-- P002–P004 drivetrain and wiring
-- Blocks, crate, or stand; safety glasses
-- Control Hub, battery, main switch per P004 layout
+- Printed or projected Pre-Season V0 rules materials (mentor)
+- Notebook
+- Robot not required for the actual session
 
 ## Required software
 
-- Driver Station
-- Minimal motor test or TeleOp (≤30 min programming block if missing)
-- TRACE desktop or robot events — evidence only, not a library deep-dive
+- None required for rules discussion
+- Driver Station / motor-test OpMode remain **P006 prep**, not this meeting’s product
 
 ## Preparation required before the meeting
 
-- Charge batteries; print P004 power-path sketch
-- Open [docs/architecture.md](../../../docs/architecture.md) layer map
-- Assign: inspector pair, motor-test pair, documentation, **≤30 min** programmer cap
+- Historical: original plan wanted charged batteries and a P004 power-path sketch — those did not exist as P004 products
+- Actual: Pre-Season V0 rules document available to the team
 
 ## Exact 120-minute agenda
 
+Reconstructed **actual** Meeting A pattern. Original elevate-and-spin agenda **did not run.**
+
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Safety: elevated test only; software cap; goals; review P004 wiring list |
-| 75 | Construction | Inspect fasteners, wheel retention, wiring labels; elevate chassis; **one motor at a time** — direction, port, bind check; fix issues; draw/annotate system map on paper |
-| 25 | Integration | TRACE or paper events for each motor verified (`Motor/FL verified`, etc.); ≤30 min total if deploying test OpMode |
-| 10 | Closeout | Explain-back measurement→result chain; dashboard note; assign P006 prep |
+| 10 | Opening | What **Pre-Season V0** means; FORGE is not the manual; Kickoff can supersede tonight |
+| 75 | Construction | Read and discuss the BIOBUZZ Pre-Season V0 manual (this block is discussion, not metalwork): student questions, rule interpretations, what the text says vs what we are guessing |
+| 25 | Integration | Capture implications for robot design, software, inspections, strategy, and team operations. List items that **must be reverified** when the Kickoff manual is released. Separate proven-from-text vs assumptions vs questions only official materials can close |
+| 10 | Closeout | Notebook evidence; reminder that wiring and first movement are still ahead at P006 |
 
 ## Mentor demonstration
 
-Under three minutes: one motor enable on blocks — show disable before the wheel spins free. Then students run their own sequence.
+Show one sentence in V0 and one way a later official revision could change it. Students should leave knowing **where** to look, not a frozen strategy.
 
 ## Student work
 
 | Path | Work |
 | ---- | ---- |
-| Mechanical | Inspection, retention, elevation setup |
-| Electrical | Power-path verification, connector seating |
-| Programming | Motor test OpMode or port map — **time-boxed** |
-| Drive team | Call disable; observe wheel direction |
-| Documentation | Motor table: port, direction, mentor initials |
+| Mechanical | Discuss design implications — no documented hardware work |
+| Electrical | Discuss inspection / wiring implications — no documented wiring |
+| Programming | Discuss software implications — no OpMode work |
+| Drive team | Join rules discussion — drivers will need legal driving and scoring later |
+| Documentation | Rules notes; question list; reverify list |
 
 ## Integrated build or test activity
 
-One-motor-at-a-time bring-up **is** the session. System map is sketched from what was verified, not from README slides.
+Rules discussion **was** the session. One-motor bring-up remains the integrated test for [P006](P006-meeting-b.md).
 
 ## Failure-injection scenario
 
-Mentor swaps two motor labels on the board. Students must catch mismatch before enable.
+Mentor states a fake “we must use every scoring mode.” Students should answer from **text** or mark it unknown — not from hope. Reuse at P007 Kickoff prep / K001.
 
 ## Evidence to collect
 
-- Motor verification table (all four corners)
-- DS disable test note
-- TRACE or paper timeline
-- System-map sketch (layers as verbs, not a code dump)
-- Blocker record if TeamCode still missing — honest only
+- Notebook notes from V0 discussion (no student full names in git)
+- Student questions and interpretations
+- Implications list: design, software, inspections, strategy, team operations (all tagged V0)
+- Reverify-at-Kickoff list
+- Explicit non-evidence: motor table, DS disable, TRACE timeline, CAD export, driving
 
 ## Student explain-back questions
 
-1. What is the difference between a measurement and a command?
-2. Which project owns chassis motion? (Pedro Pathing — tuning deferred)
-3. How do you disable from the Driver Station?
-4. What did P004 leave for today to verify?
+1. What does **Pre-Season V0** mean for a rules document?
+2. Name one thing you learned from the text and one thing that is still an open question.
+3. Which documents will count at Kickoff and at inspection?
+4. Name one design or software implication that must be reverified after Kickoff.
+5. Did we prove any motors work tonight? (Honest answer: **no**.)
 
 ## Assessment or exit check
 
-Every motor verified **or** blocker written with owner. Every student can retell measurement→decision→command→result with today's motor example.
+**Met:** team reviewed and discussed BIOBUZZ Pre-Season V0 rules; students can distinguish text from guess; a reverify list exists.  
+**Not met (original plan):** every motor verified or blocker written; DS disable demonstrated; system-map sketch from live bring-up.
 
 ## Portfolio or engineering-notebook artifact
 
-Motor bring-up table + system-map sketch (Think topic A). Photo of elevated test setup.
+Rules-discussion notes, questions, and the reverify list (Think topic A — process of using sources). Not a strategy lock.
 
 ## Competition enablement impact
 
-TRACE passive goal only. No competition approval. Advanced libraries **not** enabled.
+None. No hardware enablement. TRACE not introduced on the robot. V0 notes are **not** final rules.
 
 ## Rollback procedure
 
-DS stop. Disconnect battery if needed. Fix wiring before re-enable. `TraceMode.OFF` if TRACE interferes.
+Not applicable to hardware. If notebook notes over-commit mechanisms from V0, mark them **Kickoff pending** before Saturday 12 September.
 
 ## Cleanup requirements
 
-Battery disconnected; robot on blocks; tools stored.
+Rules printouts stored; robot safe if present; no battery left connected.
 
 ## Next-session preparation
 
-- P006: full mecanum baseline on restraint/carpet if P005 complete
-- Gamepads charged; inspection checklist printed
+- **Current next shop meeting:** [P006](P006-meeting-b.md) (2026-09-04) — electrical diagram, programming bring-up, first movement
+- Bring the V0 open-question and reverify lists to [P007](P007-meeting-a.md) Kickoff preparation
+- Mentors: prepare Hub/battery/switch station and a building FTC project **before P006**, not as if P005 already did bring-up
 
 ## Hardware-unavailable fallback
 
-Paper motor port map and inspection on partial chassis. TRACE desktop events named after mock checks.
+This **was** the hardware-unavailable path: rules discussion without enable. No further fallback required.
 
 ## Robot-unavailable simulation option
 
-Same as fallback. Do not claim Hub success without hardware.
+Same as actual session.
 
 ## Links to authoritative project documentation
 
-- [preseason-software-allocation.md](../docs/preseason-software-allocation.md)
-- [TRACE README](https://github.com/The-Allsparks/TRACE/blob/main/README.md)
-- [docs/architecture.md](../../../docs/architecture.md)
-- [P003 modified drivetrain](P003-meeting-a.md)
-- [P004 electrical foundation](P004-meeting-s.md)
+- [preseason-deferred-work.md](../docs/preseason-deferred-work.md)
+- [P006 electrical, programming, and first movement](P006-meeting-b.md)
+- [P007 drivetrain dial-in and Kickoff preparation](P007-meeting-a.md)
+- [P008 FRC team tour](P008-meeting-b.md)
+- [K001 kickoff session](K001-meeting-k.md)
+- [kickoff-replan-guide.md](../kickoff-replan-guide.md)
+- [docs/safety-and-enablement.md](../../../docs/safety-and-enablement.md)
+- [season-plan.md](../season-plan.md)
 
 ## Mentor notes
 
-**Not** first assembly — P002–P004 already built the chassis. Protect bring-up from becoming a 75-minute Gradle session; cap software at 30 minutes. Drivetrain must be serviceable after today.
+**Not first construction and not bring-up.** P002–P004 already used three meetings on the robot. Protect P006 from becoming another rules seminar. At Kickoff, official FIRST materials override V0. Bring-up still needs an elevated chassis, mentor present, and a minimal OpMode — that is P006, not this file.

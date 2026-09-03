@@ -5,7 +5,7 @@ date: 2026-09-14
 meeting_type: A
 season_phase: kickoff-to-clinic
 event_checkpoint: clinic
-status: complete
+status: scheduled
 difficulty: Integration
 projects:
 - TRACE
@@ -32,26 +32,28 @@ forge_gate: G1
 
 ## Driving question
 
-Did we turn K001 strategy into physical proof — crude prototype plus clear owners — without starting a side quest?
+Did we finish the Kickoff package and prove the top-ranked cycle with a **crude** prototype — without fabricating a custom scoring robot to look busy?
 
 ## Student-facing objective
 
-Students execute K001 strategy: build crude game-object interaction prototype(s), confirm mechanism owners, begin strategy matrix refinement, and record evidence vs preseason assumptions.
+Students execute K001 strategy: complete leftover [kickoff-decision-package.md](../../../templates/kickoff-decision-package.md) rows (ranking, effort/value, not-yet list), finish **R0** if the chassis is not yet driveable, and build **low-fidelity** game-object interaction prototype(s) for the top-ranked capability only. Custom scoring fabrication at scale stays blocked until G1 (S002).
 
 ## Robot outcome
 
-- Crude prototype demonstrating at least one game-object interaction
-- Strategy matrix draft updated
+- Crude prototype demonstrating at least one game-object interaction (cardboard/coroplast/temporary channel)
+- Kickoff package rows that K001 left blank
 - Owner list on [readiness-dashboard.md](../readiness-dashboard.md)
-- Progress toward G1 exit (complete G1 at S002 if needed)
+- Progress toward G1 exit (complete G1 at S002)
+- R0 chassis work **if** enable is still blocked
 
 
 ## Prerequisites
 
-- [K001-meeting-k.md](K001-meeting-k.md) outputs: MVP, brainstorm, decision record if used
+- [K001-meeting-k.md](K001-meeting-k.md) outputs: MVP, brainstorm, decision package, decision record if used
 - [kickoff-replan-guide.md](../kickoff-replan-guide.md)
+- [guiding-principle.md](../docs/guiding-principle.md)
 - [preseason-kickoff-gate.md](../docs/preseason-kickoff-gate.md) if tower/capstan/transport is in debate
-- Strafer drivetrain from preseason (P002–P006)
+- Strafer drivetrain from preseason **as actually completed** (P002–P007; see [preseason-deferred-work.md](../docs/preseason-deferred-work.md)). Do not assume a P007 mechanism lab, a P008 shop meeting, or a full original-P006 driver baseline. P008 was the FRC tour.
 
 ## Vocabulary
 
@@ -83,10 +85,10 @@ MVP · owner · planning-input title · evidence vs assumption · rollback
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Review K001 MVP, owners, and preseason evidence; safety; **this meeting is about the season robot** |
-| 75 | Construction | Build the highest-priority MVP subsystem; integrate with Strafer only as the MVP requires |
-| 25 | Integration | TRACE or notebook: record build milestone; update dashboard; **optional:** edit upcoming `calendar.yaml` titles to name this week's mechanism |
-| 10 | Closeout | Explain-back: what shipped vs what is still assumption; assign S002 teleop checks |
+| 10 | Opening | Review K001 MVP, four tests, not-yet list; safety; **custom scoring fab is still blocked** |
+| 75 | Construction | If the chassis still cannot be enabled safely, **finish R0 first**. Otherwise: low-fi prototype of the **top-ranked** capability only (cardboard/coroplast/temporary channel). Do not start a multi-stage elevator/capstan/hopper because it looks productive. |
+| 25 | Integration | Finish decision-package rows (ranking, effort/value); TRACE or notebook; dashboard |
+| 10 | Closeout | Explain-back: what shipped vs assumption vs not-yet; assign S002 G1 review |
 
 ## Mentor demonstration
 
@@ -108,19 +110,19 @@ Construction **is** the session. No ViDAR/HELM/ECHO lecture block today.
 
 ## Failure-injection scenario
 
-Mentor asks: "Does this part serve the K001 MVP or a leftover preseason experiment?" Students defend with K001 decision record or park the work.
+Mentor asks: "Does this part serve the K001 ranked list or a leftover preseason experiment?" Students defend with the decision package or park the work.
 
 ## Evidence to collect
 
 - Photo of MVP progress
 - Dashboard row updates with owners
-- Note linking preseason P007 data to today's design choice (if applicable)
+- Note linking preseason **construction / V0 / first-movement** evidence to today's design choice (there is no P007 mechanism-lab data set; original lab may be reused this week / S003 **if** the official game needs those principles)
 
 ## Student explain-back questions
 
 1. What is the MVP scoring action from K001?
 2. Who owns each subsystem?
-3. What preseason evidence informed today's build?
+3. What preseason evidence informed today's build? (construction + V0 rules + first movement — not a fake mechanism lab)
 4. What library stays **off** until the MVP drives?
 
 ## Assessment or exit check
@@ -170,4 +172,4 @@ Walk through teleop commands and mechanism states without Hub power.
 
 ## Mentor notes
 
-**Filename stays `S001-meeting-a.md`.** Change the `title` in front matter and calendar when this week's focus shifts. First shop meeting after Kickoff is for **building the season robot**, not a standalone library lab.
+**Filename stays `S001-meeting-a.md`.** Change the `title` in front matter and calendar when this week's focus shifts. First shop meeting after Kickoff is for **building the season robot**, not a standalone library lab. If preseason never finished enablement, this 75-minute block is the last acceptable chassis catch-up — then return to K001 MVP. Original P007 capstan/slide/transport stations may be reused here **only** if the official game needs those principles; retarget to real game pieces ([preseason-kickoff-gate.md](../docs/preseason-kickoff-gate.md)).

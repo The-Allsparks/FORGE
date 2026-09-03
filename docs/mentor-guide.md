@@ -23,7 +23,8 @@ Students build and drive a working robot. FORGE exists so the Allsparks librarie
 - Student PII and secrets out of logs (see [TRACE SECURITY.md](https://github.com/The-Allsparks/TRACE/blob/main/SECURITY.md)).
 - Conventional teleop and autonomous fallbacks. Optional systems default off or passive.
 - Combined-stack honesty. Desktop tests and sibling CI are not Hub evidence.
-- Driver practice time. Do not spend Meeting B rewriting architecture.
+- Driver practice time. Do not spend Meeting B rewriting architecture. After G5, protect the [competition runway](../season/2026-2027-biobuzz/docs/robot-releases.md#competition-runway).
+- Apply the [four tests](../season/2026-2027-biobuzz/docs/guiding-principle.md) before authorizing a new mechanism or library.
 
 ## Review questions (every enablement discussion)
 

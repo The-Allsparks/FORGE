@@ -37,7 +37,7 @@ Are we authorized to fabricate — and have we passed G3 before major pivots end
 
 ## Student-facing objective
 
-Students complete CAD/fabrication authorization package, BOM, major-design-pivot deadline declaration, and G3 gate review. Reject features that do not fit remaining time.
+Students complete CAD/fabrication authorization package, BOM, major-design-pivot deadline declaration, and G3 gate review. **Disagree and commit.** Reject features that do not fit remaining time. CAD authorizes fab only **after** G2 physical comparison for that mechanism family.
 
 ## Robot outcome
 

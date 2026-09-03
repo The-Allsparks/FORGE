@@ -1,6 +1,6 @@
 # Student progress review
 
-Periodic review of [student-learning-goal.md](student-learning-goal.md) records. Schedule: P008 (baseline), end of post-Kickoff weeks 2 and 5, before G8, after each league event.
+Periodic review of [student-learning-goal.md](student-learning-goal.md) records. Schedule: **P007** baseline (P008 is the FRC tour), end of post-Kickoff weeks 2 and 5, before G8, after each league event.
 
 | Field | Value |
 | ----- | ----- |

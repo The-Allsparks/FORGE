@@ -5,7 +5,7 @@ Driver practice is a first-class deliverable, not leftover time.
 ## Foundation
 
 - Safe enable, disable, e-stop awareness
-- Baseline teleop on blocks, then carpet
+- Baseline teleop on blocks, then carpet (**P006 first movement; P007 dial-in**; S002 catch-up if blocked)
 - Callouts: "stop", "battery", "can't see"
 
 ## Developing
@@ -24,6 +24,7 @@ Driver practice is a first-class deliverable, not leftover time.
 
 - Match checklist, alliance communication, timeout/rollback language
 - Feature freeze: no new active cues or planners
+- Protected runway **12–30 Oct**: [robot-releases.md](../season/2026-2027-biobuzz/docs/robot-releases.md#competition-runway)
 
 ## Pairing
 

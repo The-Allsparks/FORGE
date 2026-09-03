@@ -37,7 +37,7 @@ Which mechanism moves game objects reliably — and can we prove it with measure
 
 ## Student-facing objective
 
-Students run comparative mechanism tests with [prototype-test-record.md](../../../templates/prototype-test-record.md) (≥3 trials each); begin minimum autonomous movement only if G3 software contract will require it.
+Students run comparative mechanism tests with [prototype-test-record.md](../../../templates/prototype-test-record.md) using [acceptance-criteria.md](../docs/acceptance-criteria.md) (≥3 trials each is the G2 default); begin minimum autonomous movement only if it does **not** consume the comparison. CAD is not a passing grade.
 
 ## Robot outcome
 
@@ -49,7 +49,7 @@ Students run comparative mechanism tests with [prototype-test-record.md](../../.
 
 ## Prerequisites
 
-- Driveable chassis from P006
+- Driveable chassis from [P006](P006-meeting-b.md)–[P007](P007-meeting-a.md) or S001 catch-up — original P006 baseline was rescoped; P008 was the FRC tour
 - Android Studio on at least one mentor laptop ([Pedro does not support OnBot Java or Blocks](https://pedropathing.com/docs/pathing))
 - Team robot project — see [team-robot-project.md](../../../docs/team-robot-project.md). If that URL is still empty, install into the local TeamCode the team is actually flashing
 - [Pedro Quickstart](https://github.com/Pedro-Pathing/Quickstart) or Pedro added per current docs
@@ -195,4 +195,4 @@ Walk the taped (or hallway) path. Students write poses as inches and headings. E
 
 ## Mentor notes
 
-Pedro's own docs say tuning can take days. Protect the 75-minute build. A drive-forward auto that students understand beats a half-tuned follower nobody can roll back. If the team robot GitHub URL is still missing, flash whatever project they actually use and update [team-robot-project.md](../../../docs/team-robot-project.md) after the meeting.
+Pedro's own docs say tuning can take days. Protect the 75-minute build. A drive-forward auto that students understand beats a half-tuned follower nobody can roll back. If the team robot GitHub URL is still missing, flash whatever project they actually use and update [team-robot-project.md](../../../docs/team-robot-project.md) after the meeting. Original preseason P007 capstan/slide/transport stations did **not** run; reuse that experiment design here or at S001 only if official game pieces justify it ([preseason-deferred-work.md](../docs/preseason-deferred-work.md)).

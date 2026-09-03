@@ -37,7 +37,7 @@ What modular Sparkee architecture fits our evidence — and what are we explicit
 
 ## Student-facing objective
 
-Students select competition-one architecture, define module boundaries and interfaces per [modular-architecture.md](../docs/modular-architecture.md), and draft software contract (MVP libraries only).
+Students select competition-one architecture, define module boundaries and interfaces per [modular-architecture.md](../docs/modular-architecture.md) (including reliability heuristics), and draft the [software-sequencing.md](../docs/software-sequencing.md) contract (tier 1 only for League 1S/2S). Apply the [four tests](../docs/guiding-principle.md). Cut features that fail them.
 
 ## Robot outcome
 

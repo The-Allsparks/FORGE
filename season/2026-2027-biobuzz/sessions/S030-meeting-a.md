@@ -44,6 +44,8 @@ Students practice DS stop, teleop-only, and [pit-and-inspection.md](../pit-and-i
 
 - [calendar.yaml](../calendar.yaml) row for S030
 - [readiness-dashboard.md](../readiness-dashboard.md)
+- Catalog **F4**: [failure-mode-drills.md](../docs/failure-mode-drills.md)
+- File a [failure-record.md](../../../templates/failure-record.md)
 
 ## Vocabulary
 

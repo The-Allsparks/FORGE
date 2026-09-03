@@ -37,7 +37,7 @@ Can we run one reliable minimum autonomous path before adding anything advanced?
 
 ## Student-facing objective
 
-Students build minimum reliable Pedro (or conventional) auto on Sparkee; tune mechanisms; stop major mechanical changes.
+Students build minimum reliable Pedro (or conventional) auto on Sparkee; tune mechanisms; stop major mechanical changes. Write k/n before testing ([acceptance-criteria.md](../docs/acceptance-criteria.md); example 7/10). Declare teleop-only if the sample fails. ECHO stays off-robot unless the G3 contract already placed it in tier 2.
 
 ## Robot outcome
 

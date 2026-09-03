@@ -24,9 +24,9 @@ Use at Kickoff (**K001**) or any major replan. About 10–15 minutes of silent/s
 | 3 | | | | | |
 | 4 (optional) | | | | | |
 
-## Wild ideas worth keeping
+## Wild ideas / not-yet list
 
-_Ideas we are **not** building yet but might revisit: ___
+_Ideas we are **not** building yet. Copy keepers into the Kickoff [not-yet / will not](kickoff-decision-package.md) list: ___
 
 ## Award tags
 

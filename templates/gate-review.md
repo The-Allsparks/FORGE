@@ -8,6 +8,16 @@ Use at the end of the gate week (Meeting B closeout, or K001 for G1). Full gate 
 | Date | |
 | Session ID | |
 | Facilitator (student) | |
+| Robot release in view (R0–R5) | |
+
+## Four tests
+
+- [ ] Top-ranked need
+- [ ] Reliability measured (or we are not claiming it)
+- [ ] Team-repairable
+- [ ] Does not consume protected practice time
+
+Full test text: [guiding-principle.md](../season/2026-2027-biobuzz/docs/guiding-principle.md).
 
 ## Result
 

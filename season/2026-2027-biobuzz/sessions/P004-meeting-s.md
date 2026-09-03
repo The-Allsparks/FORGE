@@ -1,6 +1,6 @@
 ---
 id: P004
-title: "Electrical foundation and power path"
+title: "Strafer / first-robot construction (session 3 of 3)"
 date: 2026-08-26
 meeting_type: S
 season_phase: preseason
@@ -11,14 +11,25 @@ projects: []
 active_features: []
 ---
 
-# P004 — Electrical foundation and power path
+# P004 — Completed — Strafer / first-robot construction (session 3 of 3)
+
+## Planned versus actual
+
+| | |
+| --- | --- |
+| **Original plan** | First Onshape lesson **plus** electrical foundation: battery, switch, Control Hub, labeled wiring, power-path diagram — no floor driving |
+| **Confirmed actual** | The meeting was spent **building and assembling the team’s first FTC robot** (third of three consecutive construction sessions) |
+| **Classification** | **Completed construction record.** Electrical foundation and Onshape are **incomplete** |
+| **Preserved original material** | Electrical / power path **and** initial programming / first movement → [P006](P006-meeting-b.md). Onshape first lesson → coach prep or [S006](S006-meeting-b.md). Drivetrain dial-in → [P007](P007-meeting-a.md) |
+
+Do not claim a dressed power path, Hub mount, named Onshape sketch, or first movement from this date.
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
 | Session ID | P004 |
-| Title | Electrical foundation and power path |
+| Title | Strafer / first-robot construction (session 3 of 3) |
 | Calendar date | 2026-08-26 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Meeting type | S |
 | Season phase | preseason |
@@ -27,144 +38,144 @@ active_features: []
 
 ## Driving question
 
-Is the power path drawn, labeled, and serviceable so P005 can bring up one motor at a time on an elevated chassis?
+Did we keep assembling the first robot with our hands, and can we be honest that wiring and CAD did not happen tonight?
 
 ## Student-facing objective
 
-Students will lay out battery, main switch, and Control Hub positions; verify battery removal, USB access, and switch accessibility; mount components securely; route and label motor and power wiring with strain relief and service loops; protect wiring from wheels, sharp edges, and moving mechanisms; draw the robot's power path; and record defects for P005 — **without floor driving or full motor bring-up today**.
+Students continued Strafer / first-robot construction: assembly, alignment, fastening, and build continuation. They did **not** complete the originally planned Onshape lesson or serviceable power-path installation as recorded outcomes.
 
 ## Robot outcome
 
-- Wired drivetrain ready for P005 controlled bring-up
-- Power-path diagram with labeled connections
-- Inspection and repair list for P005
+- First-robot construction **continued** from P002–P003
+- End of the three-meeting construction stretch
+- Electrical layout, labels, strain relief, and power-path diagram remain **incomplete** in FORGE
+- Onshape custom-part sketch remains **incomplete**
+- As-built configuration after this night is **not fully documented**
 
 ## Prerequisites
 
-- P004 rolling drivetrain installed
-- Control Hub, battery, main switch, motor controllers or integrated ESC wiring available
-- Mentor present for any energized work (limited to continuity or mentor-only pre-checks if needed)
+- P002–P003 construction progress (detail after P003 not documented)
+- Control Hub, battery, and switch were **available in the kit** from P001 — not verified as installed on this date
 
 ## Vocabulary
 
-strain relief · wire dress · service loop · power path · retention · inspection list
+assembly · as-built · power path (planned, not executed) · deferred CAD
 
 ## Safety concerns
 
-- **Mentor present** for any battery connection
-- No floor driving today — motor bring-up is P005 on blocks
-- Check wheel retention before any future spin
-- DS disable path known before first enable in P005
-- Protect wiring from wheels and pinch points
+- Same construction pinch points as P002–P003
+- Safety glasses in the build area
+- **No documented battery connection.** Do not retroactively treat this session as first enable
 
 ## Required hardware
 
-- P004 drivetrain assembly
-- Control Hub, battery, main switch, USB cables, motor wires
-- Zip ties, tape, grommets or edge protection for strain relief
-- Blocks, crate, or stand for future elevated test (P005)
+- Robot under construction
+- Kit hardware from organizers
+- Hand tools
 
 ## Required software
 
-- Team notebook
-- Optional: Onshape Hub/battery/switch mount plate concept ([onshape-cad.md](../../../learning-paths/onshape-cad.md))
+- Team notebook and camera
+- **Onshape was planned and did not run**
 
 ## Preparation required before the meeting
 
-- Charge batteries
-- Print inspection checklist (fasteners, shafts, wheel screws, wire routing)
-- Confirm DS and Hub pairing works (mentor pre-check only)
-- Write P005 bring-up plan on board: **one motor at a time**, elevated
+- Historical: original plan wanted a mentor CAD block and charged batteries for wiring
+- Those prep items remain useful for P006; they are not evidence they happened on 26 August
 
 ## Exact 120-minute agenda
 
+Reconstructed **actual** agenda. Original plan was CAD plus electrical — **that agenda did not run.**
+
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Review P004 layout and clearance notes; safety; goals; software cap (~30 min/week until Kickoff) |
-| 35 | Repair / tune / program | Mount Hub/battery/switch; verify removal and USB access; route and dress wiring; strain relief and service loops |
-| 55 | Wire completion | Complete motor and power dress; label ports; **draw power path**; inspect retention; protect routes from wheels — **no floor driving** |
-| 20 | Closeout | Record defects; inspection/repair list for P005; explain-back; cleanup |
+| 10 | Opening | Safety; continue first-robot construction |
+| 75 | Construction | Hands-on assembly, alignment, fastening, and build continuation |
+| 25 | Integration | Progress photos; notebook notes as taken; no Onshape lesson; no power-path diagram as a recorded product |
+| 10 | Closeout | Cleanup |
 
 ## Mentor demonstration
 
-Two minutes: show acceptable vs unacceptable wire routing near a spinning wheel. Students fix one route before leaving.
+Construction coaching as needed. Original plan (wire routing near a wheel; sketch → constrain → extrude) **did not run** and is reused at P006 (wiring/programming) and the deferred CAD lesson.
 
 ## Student work
 
 | Path | Work |
 | ---- | ---- |
-| Mechanical | Hub/battery/switch mount; retention re-check |
-| Electrical | Motor and power wiring, strain relief, labeling, power-path diagram |
-| Programming | Document port map on paper; minimal TeleOp prep only if within software cap |
-| Drive team | Call out pinch points during wire dress |
-| Documentation | Mount location sketch; wire routing photos; power-path diagram; inspection list |
+| Mechanical | Continue robot construction |
+| Electrical | Planned Hub/battery/switch work **did not run as the session** |
+| Programming / CAD | Planned first Onshape lesson **did not run** |
+| Drive team | No documented driving |
+| Documentation | Photos if captured |
 
 ## Integrated build or test activity
 
-Complete labeled wiring and power-path diagram. Motor spin tests **deferred to P005** unless mentor runs a single restrained check after dress is complete.
+Physical construction **was** the session. Labeled wiring, SDK bring-up, and first movement are **deferred to P006**.
 
 ## Failure-injection scenario
 
-Mentor asks where battery disconnect happens in an emergency. Student traces power path on diagram without guessing.
+Original plan: student traces emergency battery disconnect on the diagram. **Did not run.** Reuse at P006.
 
 ## Evidence to collect
 
-- Wire routing photos (strain relief and labels visible)
-- Power-path diagram (battery → switch → Hub → motors)
-- Inspection and repair list for P005
-- Optional: Onshape mount-plate concept
+- Construction progress photographs if taken
+- Honest gap list: no power-path diagram, no Onshape screenshot claimed, no first movement
+- [preseason-deferred-work.md](../docs/preseason-deferred-work.md)
 
 ## Student explain-back questions
 
-1. Where is the main switch and why?
-2. What strain relief and service loops did you add?
-3. Trace the power path from battery to one motor.
-4. What must P005 verify before any floor driving?
+1. What did you assemble today?
+2. Where will the battery, switch, and Control Hub go when we wire (P006)?
+3. Why is a robot that looks built still not a proven-moving robot?
+4. What happens if we skip inspection because we “already built for three meetings”?
 
 ## Assessment or exit check
 
-Components mounted securely; wiring labeled and dressed; power path drawn; retention inspected; honest P005 prep list written.
+**Met:** third construction meeting occurred.  
+**Not met (original plan):** components mounted for power, wiring labeled and dressed, power path drawn, one custom part sketched in CAD.
 
 ## Portfolio or engineering-notebook artifact
 
-Electrical layout and power-path sketch (Control award candidate — passive description only). Inspection list (engineering process).
+Construction photos (Design candidate). Electrical layout sketch is **not** a P004 artifact; collect it at P006.
 
 ## Competition enablement impact
 
-Wiring only. No competition approval. Control Hub combined-stack acceptance **not** claimed ([FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) blocked on [#2](https://github.com/The-Allsparks/FORGE/issues/2)).
+None. Control Hub combined-stack acceptance **not** claimed ([FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) blocked on [#2](https://github.com/The-Allsparks/FORGE/issues/2)).
 
 ## Rollback procedure
 
-Disconnect battery. Fix wiring before P005 enable. Do not treat dressed wiring as proof motors work.
+No software or powered hardware recorded. If a joint is unsafe, loosen and redo that joint.
 
 ## Cleanup requirements
 
-Battery disconnected and stored; robot on blocks; Hub powered off; cables un-trip-hazarded.
+Tools stored; robot stable; battery not left connected (none documented).
 
 ## Next-session preparation
 
-- P005 (2026-08-31): bring-up, system map, TRACE evidence — **not** first assembly
-- P006 (2026-09-04): driver baseline on restraint/carpet if P005 complete
-- Label batteries A/B if possible
-- Review [preseason-software-allocation.md](../docs/preseason-software-allocation.md)
+- **Historical next session:** [P005](P005-meeting-a.md) reviewed BIOBUZZ Pre-Season V0 rules — it did **not** run bring-up
+- **Current next shop meeting:** [P006](P006-meeting-b.md) — electrical diagram, programming bring-up, first movement
+- Mentors: stage Hub, battery, switch, labels, zip ties, blocks, and a building FTC project before P006
 
 ## Hardware-unavailable fallback
 
-Wire dress on a breadboard mock or second robot. Paper Hub mount sketch and power-path diagram.
+Not used — construction was the actual work.
 
 ## Robot-unavailable simulation option
 
-Paper wiring diagram with color codes. Students explain motor port map and disable path without Hub.
+Not used.
 
 ## Links to authoritative project documentation
 
+- [preseason-deferred-work.md](../docs/preseason-deferred-work.md)
+- [P006 electrical, programming, and first movement](P006-meeting-b.md)
+- [P007 drivetrain dial-in](P007-meeting-a.md)
 - [learning-paths/onshape-cad.md](../../../learning-paths/onshape-cad.md)
+- [learning-paths/electrical.md](../../../learning-paths/electrical.md)
 - [docs/safety-and-enablement.md](../../../docs/safety-and-enablement.md)
 - [docs/stack-acceptance.md](../../../docs/stack-acceptance.md)
-- [docs/student-install.md](../../../docs/student-install.md)
-- [docs/team-robot-project.md](../../../docs/team-robot-project.md) — **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2)
 - [preseason-software-allocation.md](../docs/preseason-software-allocation.md)
+- [docs/team-robot-project.md](../../../docs/team-robot-project.md) — **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2)
 
 ## Mentor notes
 
-P004 finishes wiring — P005 proves motors one at a time. Do not claim Control Hub acceptance. Protect wire dress from "quick enable" pressure. Preseason software stays at ~30 minutes per week until Kickoff.
+P004 in the original plan was **first CAD lesson + wiring**. Wiring, SDK, and first movement moved to P006. CAD is not Kickoff-critical. Three construction meetings are an offset for mechanical familiarity only. Charge batteries and print an as-built electrical checklist before P006.

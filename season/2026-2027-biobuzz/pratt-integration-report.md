@@ -1,6 +1,10 @@
 # Pratt integration report — FORGE 2026–2027 BIOBUZZ
 
 **Date:** 19 August 2026  
+**Later note (2 September 2026):** P002–P005 did not run as this report assumed. P006 is electrical/programming/first movement; P007 is drivetrain dial-in plus Kickoff prep; P008 is the FRC tour; the original mechanism lab stays post-Kickoff. See [docs/preseason-deferred-work.md](docs/preseason-deferred-work.md). The 19 August integration of Pratt gates G1–G8 is unchanged.
+
+**Later note (2 September 2026, evening):** A *second* Pratt source — *Why Most FTC Teams Fail (And How Not To)* — was integrated without replacing this twelve-week work. See [docs/pratt-why-teams-fail.md](docs/pratt-why-teams-fail.md) and [pratt-why-teams-fail-integration.md](pratt-why-teams-fail-integration.md).
+
 **Scope:** Incorporate Brogan M. Pratt's twelve-week FTC season process as a compressed, evidence-driven cycle for The Allsparks (FTC 36117).
 
 **Attribution:** Adapted from [Brogan M. Pratt, *A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt) and [final-week video](https://www.youtube.com/watch?v=Y4K540aCR0E). Pratt does not endorse FORGE or The Allsparks. See [docs/references.md](docs/references.md).
@@ -26,7 +30,7 @@
 
 - **52-session calendar** with P001–P008, K001, S001–S042, E004/E005 — IDs, dates, filenames unchanged
 - **P001 complete record:** parts organization, safety presentation, sponsor cards started
-- **P002 scheduled record:** sponsor cards + Strafer chassis (meeting not yet held)
+- **P002 construction record:** originally written as a scheduled chassis/cards plan; actual meeting was Strafer construction (see [docs/preseason-deferred-work.md](docs/preseason-deferred-work.md))
 - **Meeting A/B 120-minute blocks** (75 build / 55 drive-auto)
 - **Priority order:** working robot → mechanisms → driving → conventional auto → evidence → advanced autonomy
 - **FORGE#4** combined stack acceptance; **FORGE#2** robot repo block
@@ -71,7 +75,7 @@
 | `README.md` | Process links, crosswalk, competition checklists |
 | `docs/curriculum-model.md` | Compressed phases in season table |
 | `sessions/S001–S014` | Front matter + driving questions/objectives aligned to compressed phases |
-| `sessions/P008` | Student learning goal baselines added |
+| `sessions/P007` | Student learning-goal baselines (moved here; P008 is the FRC tour) |
 | `tools/update_compressed_sessions.py` | Maintainer script for session alignment |
 
 ### Not changed (deferred to issues)
@@ -156,7 +160,7 @@ Created during this integration (see repo for numbers):
 | [#23](https://github.com/The-Allsparks/FORGE/issues/23) | Fill S015–S031 cadence sessions with post-league weekly goals | league-development | — |
 | [#24](https://github.com/The-Allsparks/FORGE/issues/24) | Verify BIOBUZZ award and portfolio limits after Kickoff | kickoff | G8 templates |
 | [#25](https://github.com/The-Allsparks/FORGE/issues/25) | Assign competition checklist owners and rehearse at G8 | week 6 | G8 |
-| [#26](https://github.com/The-Allsparks/FORGE/issues/26) | Record student learning-goal baselines (P008) | preseason | G1 story |
+| [#26](https://github.com/The-Allsparks/FORGE/issues/26) | Record student learning-goal baselines (**P007**; P008 is now the FRC tour) | preseason | G1 story |
 | [#27](https://github.com/The-Allsparks/FORGE/issues/27) | Populate Sparkee module docs after G3 | week 3 | G5 |
 | [#28](https://github.com/The-Allsparks/FORGE/issues/28) | Retime S005–S011 agenda blocks to gate-first activities | week 3–5 | Session fidelity |
 

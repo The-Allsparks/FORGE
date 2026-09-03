@@ -25,3 +25,7 @@ Train all four students on P0 repairs before G8. Time targets from practice.
 - Any wiring short
 
 **Fallback:** swap to starter-bot module per [modular-architecture.md](../../season/2026-2027-biobuzz/docs/modular-architecture.md).
+
+## Timed pit drill
+
+Use at **S014** (and S029). Pick one P0 row. Visible timer. Record actual minutes. Catalog: [failure-mode-drills.md](../../season/2026-2027-biobuzz/docs/failure-mode-drills.md) F7.

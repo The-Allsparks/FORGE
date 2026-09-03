@@ -8,6 +8,8 @@ It is **not** the robot code. Robot code lives in the team's FTC project and in 
 
 **P0 this season:** being able to install, disable, and roll back optional libraries around a driving robot — not treating seven green GitHub repos as a finished stack.
 
+**How we decide what to build:** [guiding-principle.md](../season/2026-2027-biobuzz/docs/guiding-principle.md). Not every software idea has to be on the first competition robot.
+
 ## How a meeting works
 
 We meet twice a week for two hours.

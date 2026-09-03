@@ -6,7 +6,7 @@ FORGE does not certify any library as match-safe. Each project states its own ma
 
 working robot → reliable mechanisms → driver practice → conventional autonomous → evidence collection → advanced autonomy
 
-If an advanced feature threatens an earlier item, it stays disabled.
+If an advanced feature threatens an earlier item, it stays disabled. Also apply the [four tests](../season/2026-2027-biobuzz/docs/guiding-principle.md) and [software sequencing](../season/2026-2027-biobuzz/docs/software-sequencing.md).
 
 ## Enablement ladder
 

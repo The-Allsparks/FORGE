@@ -1,6 +1,10 @@
 # Season plan — 2026–2027 BIOBUZZ
 
-This plan sequences **one robot** (competition Sparkee) on a **compressed competition-one cycle** adapted from Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt). Pratt does not endorse FORGE or The Allsparks. Full process, gates, and attribution: [docs/season-process.md](docs/season-process.md), [docs/references.md](docs/references.md).
+This plan sequences **one robot** (competition Sparkee) on a **compressed competition-one cycle** adapted from Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt), with decision tests from Pratt, *Why Most FTC Teams Fail (And How Not To)*. Pratt does not endorse FORGE or The Allsparks. Official FIRST rules override both. Full process, gates, and attribution: [docs/season-process.md](docs/season-process.md), [docs/references.md](docs/references.md).
+
+**Guiding principle:** [docs/guiding-principle.md](docs/guiding-principle.md) — simplest robot that hits top-ranked cycles reliably, is pit-repairable, and leaves time to program and drive.
+
+Staged releases **R0–R5**: [docs/robot-releases.md](docs/robot-releases.md). These are capability ships, not a requirement to finish every Allsparks software idea before League 1S/2S.
 
 This plan is not seven courses. Dates: [calendar.yaml](calendar.yaml) (planning inputs; verify if FIRST Nevada changes them).
 
@@ -25,7 +29,7 @@ Eight gates protect software, driving, and judging time. Missing a gate triggers
 | G7 | Reliability / feature freeze | ~30 Oct 2026 |
 | G8 | Competition readiness | ~31 Oct 2026 |
 
-Definitions, acceptance criteria, and fallbacks: [docs/decision-gates.md](docs/decision-gates.md). Review template: [gate-review.md](../../templates/gate-review.md). Session mapping: [docs/pratt-crosswalk.md](docs/pratt-crosswalk.md).
+Definitions, acceptance criteria, and fallbacks: [docs/decision-gates.md](docs/decision-gates.md). Review template: [gate-review.md](../../templates/gate-review.md). Session mapping: [docs/pratt-crosswalk.md](docs/pratt-crosswalk.md). Quantified tests: [docs/acceptance-criteria.md](docs/acceptance-criteria.md). Four tests: [docs/guiding-principle.md](docs/guiding-principle.md).
 
 ## Constraints
 
@@ -38,35 +42,39 @@ Definitions, acceptance criteria, and fallbacks: [docs/decision-gates.md](docs/d
 
 ## Phase map
 
-### Preseason — through 11 September 2026 (P001–P008; last shop meeting before Kickoff)
+### Preseason — through 11 September 2026 (P001–P008; last **shop** meeting is P007; P008 is the FRC tour)
 
-**Revised preseason goal:** By Kickoff on 12 September 2026, The Allsparks will have a reliable Strafer drivetrain, safe and organized build practices, basic driver-control proficiency, a repeatable code deployment and robot bring-up process, measured experiments for capstan/lift/ball-transport concepts, engineering evidence for rapid post-Kickoff decisions, and a prepared process for selecting the minimum viable BIOBUZZ robot. The team will **not** fabricate a final tower, hopper, or game-piece system before learning actual game requirements.
+**Revised preseason goal (after P005 variance):** By Kickoff on 12 September 2026, The Allsparks will have construction experience on Sparkee, an as-built electrical diagram, first programming bring-up, first controlled movement if no blocking fault is found, drivetrain dial-in as far as P006 allows, honest engineering records, V0 rule-reading practice, packed Kickoff analysis materials, and an FRC tour. The team will **not** treat ViDAR/AMPER/MIMIC/BEACON/HELM/ECHO or a speculative scoring mechanism as Kickoff prerequisites. Detail: [preseason-deferred-work.md](docs/preseason-deferred-work.md).
 
-**Preseason priorities (in order):**
+Three P002–P004 construction meetings produced real mechanical shop time. They do **not** replace electrical, programming, or driving. Do not invent a finished rolling chassis.
 
-1. Safe students and an organized workspace
-2. Reliable driving chassis
-3. Electrical installation and diagnosis
-4. Driver practice
-5. Reusable mechanism experiments
-6. Evidence and engineering-notebook habits
-7. Minimal supporting software
-8. Advanced software only when it directly supports current hardware
+**Preseason priorities (in order, remaining work):**
+
+1. Safe students and an organized workspace (**P001 done**)
+2. Construction record (**P002–P004 done**; as-built detail unverified)
+3. Electrical diagram, wiring, programming bring-up, first movement (**P006**)
+4. Drivetrain dial-in (**P007**, not a full baseline if P006 is blocked)
+5. Kickoff analysis process (**P007** final block + K001)
+6. FRC team tour (**P008** — not shop)
+7. Evidence and engineering-notebook habits (**ongoing**)
+8. Minimal supporting software (**P006 TeleOp only**)
+9. Reusable mechanism experiments (**deferred to S001/S003 if the game justifies them**)
+10. Advanced software only when it directly supports current hardware (**not preseason**)
 
 #### Meetings
 
-| ID | Date | Primary goal |
-| -- | ---- | ------------ |
-| **P001** | 2026-08-17 | Onboarding, parts organization, safety, sponsor cards started |
-| **P002** | 2026-08-19 | Finish sponsor cards; begin Strafer chassis frame |
-| **P003** | 2026-08-24 | Mechanically complete rolling chassis (modified drivetrain) |
-| **P004** | 2026-08-26 | Safe, serviceable control and power system |
-| **P005** | 2026-08-31 | Bring-up one motor at a time; system map; TRACE habit — **not** first assembly |
-| **P006** | 2026-09-04 | Driver baseline in all mecanum directions |
-| **P007** | 2026-09-07 | Reusable mechanism lab: capstan, tower slide, transport |
-| **P008** | 2026-09-11 | Kickoff readiness review; evidence consolidation |
+| ID | Date | Original plan | Actual or rescoped goal | Status |
+| -- | ---- | ------------- | ----------------------- | ------ |
+| **P001** | 2026-08-17 | Onboarding, parts organization, safety, sponsor cards started | As planned | Complete |
+| **P002** | 2026-08-19 | Finish sponsor cards; begin Strafer chassis frame | Robot / Strafer construction (session 1 of 3) | Complete |
+| **P003** | 2026-08-24 | Drivetrain finish; CAD dimension sketches | Robot / Strafer construction (session 2 of 3) | Complete (variance) |
+| **P004** | 2026-08-26 | Electrical **and** first Onshape lesson | Robot / Strafer construction (session 3 of 3) | Complete (variance) |
+| **P005** | 2026-08-31 | One-motor bring-up; CAD export if ready | BIOBUZZ Pre-Season V0 rules review | Complete (variance) |
+| **P006** | 2026-09-04 | Driver baseline in all mecanum directions | Electrical diagram, programming bring-up, first movement | Scheduled (rescoped) |
+| **P007** | 2026-09-07 | Reusable mechanism lab | Drivetrain dial-in and Kickoff preparation | Scheduled (rescoped) |
+| **P008** | 2026-09-11 | Kickoff readiness; P007 experiment review | FRC team tour | Scheduled (rescoped) |
 
-See [learning-paths/onshape-cad.md](../../learning-paths/onshape-cad.md) for optional CAD tied to P002–P004 and P005–P006.
+See [learning-paths/onshape-cad.md](../../learning-paths/onshape-cad.md). Custom parts are **possible** if the as-built robot needs them; they are not confirmed P002 accomplishments. First CAD lesson is **not** a P004/P005/P006 shop gate — coach prep or S006. Students are beginners — mentor pairing, not assumed skill.
 
 #### Software allocation before Kickoff
 
@@ -78,27 +86,30 @@ Tower/capstan/transport proceeds only if official BIOBUZZ requirements justify i
 
 #### Preseason definition of done
 
-Preseason succeeds when:
+Preseason succeeds when the **Kickoff-critical** set is true, with honest blockers written for the rest:
 
-- The Strafer drives reliably in all mecanum directions
-- Every student can safely enable, drive, and disable it
-- Every student can identify drivetrain and power-path components
-- Wiring is labeled, retained, and serviceable
-- The team has measured capstan, slide, and transport behavior
-- Students can distinguish evidence from assumptions
-- Prototype components remain reusable
-- The notebook captures safety, organization, sponsor stewardship, construction, failures, and decisions
+- The Strafer has a documented as-built electrical diagram **or** a named blocker
+- Hub port assignments are recorded **or** enable is explicitly forbidden
+- The Driver Station can connect, enable, disable, and stop **or** that gap is written
+- Each drivetrain motor has been commanded individually **or** blocked in writing
+- First controlled movement has been attempted **or** a blocking hardware fault is named (P006)
+- Drivetrain dial-in observations exist **or** P007 honestly records that P006 blocked them
+- Students can distinguish evidence from assumptions (including V0 vs official rules)
+- The notebook captures safety, organization, construction, rules discussion, and decisions
+- Kickoff roles, worksheets, and learning-goal baselines are packed (**P007**, not the P008 tour)
 - No advanced software is treated as competition-ready without robot evidence
 - The team is prepared to choose a minimum viable robot immediately after Kickoff
 
+**Not required before Kickoff:** measured capstan/slide/transport lab, Onshape export, GitHub robot-repo workflow, full mecanum performance baseline, field-centric/odometry/auto, any optional library on the Hub, or finishing Kickoff prep during the FRC tour.
+
 ### Kickoff — 12 September 2026 (K001)
 
-- Analyze BIOBUZZ from the official Kickoff materials (do not use FORGE as a rules source)
-- **Brainstorm ≥3 robot concepts**; scale visual ideation to **60–100** across four students
-- **Debate** finalists before MVP lock; pass **G1 Strategy gate**
-- Identify scoring tasks; build strategy / ranking / penalty matrix
-- Select the minimum viable competition robot; identify **starter-bot fallback**
-- Map mechanisms, sensors, and software capabilities to the game
+- Analyze BIOBUZZ from the official Kickoff materials (do not use FORGE as a rules source; P005 v0 notes are study notes only)
+- Fill [kickoff-decision-package.md](../../templates/kickoff-decision-package.md): scoring **and ranking**, alliance roles, effort-versus-value, ranked capabilities, **not yet / will not build**, R0–R2 definition
+- **Brainstorm ≥3 robot concepts**; scale visual ideation to **60–100** across four students during week 1
+- **Debate** finalists; apply the [four tests](docs/guiding-principle.md); pass **G1 Strategy gate** at S002
+- Do **not** start custom scoring fabrication to look productive — crude game-object prototypes and R0 chassis finish only
+- Map software to [software-sequencing.md](docs/software-sequencing.md) tiers (not all libraries at once)
 - Revise remaining FORGE dates in `calendar.yaml`
 - Preserve build and driver-practice time
 
@@ -108,29 +119,31 @@ Guide: [kickoff-replan-guide.md](kickoff-replan-guide.md).
 
 Pratt's twelve weeks compress into six or seven shop weeks before **31 October 2026** (planning input). Software, driving, judging, and reliability time are **protected** by gates.
 
-| Week | Phase | Sessions | Gates |
-| ---- | ----- | -------- | ----- |
-| 1 | Understand and diverge | K001, S001, S002 | G1 |
-| 2 | Test and compare | S003, S004 | G2 |
-| 3 | Select and commit | S005, S006 | G3 |
-| 4 | Build and integrate | S007, S008, clinic 10 Oct | G4, G5 |
-| 5 | Tune and validate | S009–S012 | G6 |
-| 6 | Freeze and rehearse | S013, S014 | G7 |
-| 7 | Competition simulation | League 1S/2S 31 Oct | G8 |
+| Week | Phase | Sessions | Gates | Release target |
+| ---- | ----- | -------- | ----- | -------------- |
+| 1 | Understand and diverge | K001, S001, S002 | G1 | R0; crude R2 prototypes |
+| 2 | Test and compare | S003, S004 | G2 | Physical evidence for R2 path |
+| 3 | Select and commit | S005, S006 | G3 | Architecture for R2/R3 |
+| 4 | Build and integrate | S007, S008, clinic 10 Oct | G4, G5 | R0 required at clinic; R1–R2 stretch |
+| 5 | Tune and validate | S009–S012 | G6 | R1 required; R3/R4 in progress |
+| 6 | Freeze and rehearse | S013, S014 | G7 | R4 measurements; R5 only if earned |
+| 7 | Competition simulation | League 1S/2S 31 Oct | G8 | Score with R0–R2 (R3 if G3 held) |
+
+**Competition runway (protected driver practice):** 12–30 October (S009–S014). No elective redesign. Detail: [docs/robot-releases.md](docs/robot-releases.md#competition-runway).
 
 Detail per week: [docs/season-process.md](docs/season-process.md). Prototype evidence: [prototype-test-record.md](../../templates/prototype-test-record.md). Two platforms: [docs/two-platform-strategy.md](docs/two-platform-strategy.md).
 
-**Library sessions** (ViDAR, BEACON, MIMIC, ECHO, HELM) run **only when** the G3 software contract and K001 mapping table say yes — not by default.
+**Library sessions** (ViDAR, BEACON, MIMIC, ECHO, HELM) run **only when** the G3 software contract ([docs/software-sequencing.md](docs/software-sequencing.md)) places them in tier 1 or 2 — not by default.
 
 ### 10 October clinic / scrimmage
 
-Treat as **data collection and systems validation**, not as a feature debut. Contributes to **G5** integration evidence.
+Treat as **data collection and systems validation**, not as a feature debut. Contributes to **G5** integration evidence. Target **R0**; stretch R1–R2. Do not debut R5.
 
-Test: mechanisms under load, ViDAR under field lighting (if on robot), communications recovery, battery sag, driver workload, ECHO cue clarity **if** used in a drill, conventional auto, inspection and pit.
+Test: mechanisms under load, inspection and pit, driver workload, conventional auto or fallback, communications recovery, battery sag. ViDAR under field lighting **only if** already on the robot for a tier-2 reason. ECHO cue drills **only if** already evidenced. Failure notes use [failure-mode-drills.md](docs/failure-mode-drills.md) when a fault happens — do not inject unsafe faults at a public event.
 
 ### 12–31 October (S009–S014)
 
-Tune, validate, freeze, rehearse — not new mechanisms. Reliability sprint aligned to **G6–G8**. TRACE on. AMPER and BEACON passive. Only tested MIMIC protections. ECHO competition-disabled unless controlled evidence demonstrates benefit. HELM observe-only or static-only. Conventional auto fallback preserved. Mock judging and full 2½-minute matches before league meets.
+Tune, validate, freeze, rehearse — not new mechanisms. This **is** the protected driver-practice window. Reliability sprint aligned to **G6–G8**. TRACE on. AMPER and BEACON passive unless G3 promoted them. Only tested MIMIC protections. ECHO competition-disabled unless controlled evidence demonstrates benefit. HELM observe-only or static-only. Conventional auto fallback preserved. Mock judging, [failure-mode drills](docs/failure-mode-drills.md), and full 2½-minute matches before league meets.
 
 ### 2 November – 5 December (S014–S023)
 
@@ -182,4 +195,4 @@ Track progress with [portfolio-validation.md](../../templates/portfolio-validati
 | State-ready | 19 February 2027 (contingent) |
 | Final A201 validation | Before each submission |
 
-See [award-and-portfolio-traceability.md](../../docs/award-and-portfolio-traceability.md) for criteria mapping.
+See [award-and-portfolio-traceability.md](../../docs/award-and-portfolio-traceability.md) for criteria mapping. Think is continuous. Do not lock Control/Connect (or alternatives) until the team decision in [docs/award-strategy.md](docs/award-strategy.md).

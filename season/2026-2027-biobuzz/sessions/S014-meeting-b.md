@@ -38,7 +38,7 @@ Can we run a full 2½-minute match and pit cycle under pressure?
 
 ## Student-facing objective
 
-Students run complete match simulations (nonideal conditions where safe), rehearse pit checklists, timed battery change, prep G8 readiness.
+Students run complete match simulations (nonideal conditions where safe), rehearse pit checklists, **timed pit repair (F7)**, F1 three-motor drive only if a restrained test already passed, prep G8 readiness. HELM remains paper/vocabulary if time remains after match sims — not a substitute for G7.
 
 ## Robot outcome
 

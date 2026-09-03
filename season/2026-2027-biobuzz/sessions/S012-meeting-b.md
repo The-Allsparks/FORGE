@@ -39,7 +39,7 @@ Did we earn driver automation — and does G6 pass with a stable robot?
 
 ## Student-facing objective
 
-Students add driver assists only if demonstrably reliable; complete G6 gate review; prep league meet checklists.#4](https://github.com/The-Allsparks/FORGE/issues/4)).
+Students add driver assists only if the base cycle already meets its acceptance sample ([software-sequencing.md](../docs/software-sequencing.md) R5 rule); complete G6 gate review; prep league meet checklists. Combined stack remains [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4).
 
 ## Robot outcome
 

@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Rename session files to {ID}-meeting-{a|b|s|k|e}.md and shuffle post-Kickoff topics."""
+"""HISTORICAL rename to {ID}-meeting-{type}.md (August 2026).
+
+Do **not** re-run as the current source of truth. Canonical titles live in
+season/2026-2027-biobuzz/calendar.yaml. ROWS below still list the original
+pre-variance titles (P006 driver baseline, P007 mechanism laboratory, P008
+Kickoff readiness review).
+"""
 from __future__ import annotations
 
 import re

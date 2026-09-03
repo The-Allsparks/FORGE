@@ -44,6 +44,8 @@ Students run scripted adversity: low battery or AMPER-observed sag; practice swa
 
 - [calendar.yaml](../calendar.yaml) row for S024
 - [readiness-dashboard.md](../readiness-dashboard.md)
+- Catalog ID **F8**: [failure-mode-drills.md](../docs/failure-mode-drills.md)
+- File a [failure-record.md](../../../templates/failure-record.md)
 
 ## Vocabulary
 

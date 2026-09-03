@@ -8,7 +8,7 @@ Mechanical work is the default Meeting A occupation. Software layers describe th
 - Drivetrain assembly and wheel retention
 - Cable routing channels and strain relief (work with electrical)
 - Hard stops and pinch points before any MIMIC limit discussion
-- **Onshape:** accounts, sketches, extrude, layout — spread across preseason P002–P004 and P005–P006 ([onshape-cad.md](onshape-cad.md))
+- **Onshape:** first shop lesson is **deferred** (P004 was construction). Coach prep or S006. Paper as-built dimensions at P006 if needed ([onshape-cad.md](onshape-cad.md)). Custom parts are possible if the robot needs them — not confirmed P002 accomplishments.
 
 ## Developing
 
@@ -25,6 +25,7 @@ Mechanical work is the default Meeting A occupation. Software layers describe th
 
 - Inspection-legal fasteners and guards
 - Pit rebuild of one failed subsystem in a timed drill
+- Reliability heuristics: [modular-architecture.md](../season/2026-2027-biobuzz/docs/modular-architecture.md#reliability-design-competition-one-heuristics)
 
 ## Pairing
 

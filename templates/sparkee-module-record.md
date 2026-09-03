@@ -61,6 +61,8 @@ IDLE → … → SCORE
 
 _Safe state on jam, sensor loss, comms drop: ___
 
+_Degraded operation (what still works if this module dies): ___
+
 ## Service access
 
 _Tools, panels, clearance: ___

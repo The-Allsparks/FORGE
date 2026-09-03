@@ -1,6 +1,12 @@
 # Season process — compressed competition-one cycle
 
-**Adapted from** Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt). Pratt does not endorse FORGE or The Allsparks. See [references.md](references.md) for attribution and adaptation notes.
+**Adapted from** Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt). Additional decision tests adapted from Pratt, *Why Most FTC Teams Fail (And How Not To)*. Pratt does not endorse FORGE or The Allsparks. Official FIRST rules override both. See [references.md](references.md).
+
+**Guiding principle** (governs G1–G8, not a separate philosophy page): [guiding-principle.md](guiding-principle.md).
+
+> Build the simplest robot that performs our highest-priority cycles reliably, can be repaired between matches, and leaves time for programming and driver practice.
+
+Staged robot capabilities: [robot-releases.md](robot-releases.md) (R0–R5). Software tiers: [software-sequencing.md](software-sequencing.md).
 
 ## Team context
 
@@ -61,16 +67,17 @@ Session-level mapping: [pratt-crosswalk.md](pratt-crosswalk.md).
 | Deliverable | Detail |
 | ----------- | ------ |
 | Hybrid Strafer drivetrain | Modified goBILDA Strafer / 2026–2027 Starter Bot platform |
-| Safe wiring and battery practices | P004 electrical foundation |
-| SDK, version control, deployment, logging | ~30 min/week software cap — [preseason-software-allocation.md](preseason-software-allocation.md) |
+| Safe wiring and battery practices | P006 electrical diagram and wiring (was P004; P004 was construction) |
+| SDK, version control, deployment, logging | P006 first TeleOp is Kickoff-critical; extra courses stay off — [preseason-software-allocation.md](preseason-software-allocation.md) |
 | Pedro Pathing familiarity | Preseason tuning does **not** transfer unchanged to final Sparkee mass/geometry |
-| Minimum viable software stack | TRACE habit first; others passive or off |
-| Driver conventions and basic driving | P006 driver baseline |
+| Minimum viable software stack | Paper notes at P006/P007; TRACE library later; others passive or off |
+| Driver conventions and basic driving | First movement P006; dial-in P007; S002 catch-up if blocked. P008 is the FRC tour |
 | Templates and documentation habits | Prototype records, decision records, photos — [templates/](../../../templates/) |
-| Student learning goals and baselines | [student-learning-goal.md](../../../templates/student-learning-goal.md) |
-| Sponsor stewardship, inventory, safety | P001–P002 completed work preserved |
+| Student learning goals and baselines | [student-learning-goal.md](../../../templates/student-learning-goal.md) at **P007** (P008 is the tour) |
+| Sponsor stewardship, inventory, safety | P001 completed; P002 construction (card finish unverified) |
+| Schedule variance | [preseason-deferred-work.md](preseason-deferred-work.md) |
 
-**Preseason definition of done:** [season-plan.md](../season-plan.md#preseason--through-11-september-2026-p001p008-last-shop-meeting-before-kickoff).
+**Preseason definition of done:** [season-plan.md](../season-plan.md). Kickoff-critical set only — mechanism lab and Onshape are not gates.
 
 ---
 
@@ -88,7 +95,7 @@ Session-level mapping: [pratt-crosswalk.md](pratt-crosswalk.md).
 | Low-fidelity prototypes | Cardboard, coroplast, temporary channel — at least one game-object interaction proof |
 | Drivable chassis | Maintain drivable platform throughout |
 
-**Exit gate (G1 — Strategy):** Documented game strategy, prioritized capabilities, initial risk register, ≥1 physical game-object interaction proof. See [decision-gates.md](decision-gates.md#g1--strategy-gate).
+**Exit gate (G1 — Strategy):** Completed [kickoff-decision-package.md](../../../templates/kickoff-decision-package.md) through ranked capabilities, not-yet list, R0–R2 definition, and four-test commitment. Crude game-object prototypes only — **do not fabricate a custom scoring robot to look busy**. See [decision-gates.md](decision-gates.md#g1--strategy-gate).
 
 **Sessions:** K001, S001, S002.
 
@@ -227,21 +234,9 @@ See [two-platform-strategy.md](two-platform-strategy.md). Summary:
 
 ## Software protections
 
-Software progresses **throughout** the season — not after fabrication.
+Software progresses **throughout** the season — not after fabrication. Canonical four-tier contract: [software-sequencing.md](software-sequencing.md). Do not treat ViDAR, HELM, ECHO, TRACE extras, BEACON intervention, or AMPER limiting as simultaneous League 1S/2S requirements.
 
-| Capability | Minimum for first competition | Defer if time-constrained |
-| ---------- | ----------------------------- | ------------------------- |
-| FTC SDK + deployment | Required | — |
-| GitHub + release tags | Required | — |
-| Controller mapping | Required | — |
-| TRACE structured logs | Required | — |
-| MIMIC mechanism states | Required for scored mechanisms | Advanced interlocks |
-| Pedro Pathing | Minimum reliable auto | Alternate paths |
-| AMPER | Passive observation | Active limiting |
-| BEACON | Safe-state / freshness awareness | Active intervention |
-| ViDAR | Only if strategy + measurable value | Multi-camera |
-| HELM | After basic mechanism reliability | Execute authority (never) |
-| ECHO | Only if driver workload drops | Match audio |
+Summary: **tier 1** (MVR) = deploy, teleop, TRACE/paper, auto or teleop-only, MIMIC for scored mechanisms that exist. **Tier 2** = passive AMPER/BEACON and earned driver assists. **Tier 3–4** = later-season or research (HELM execute never).
 
 Combined stack acceptance: [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). Hub evidence blocked until [FORGE#2](https://github.com/The-Allsparks/FORGE/issues/2).
 
@@ -257,7 +252,7 @@ Combined stack acceptance: [FORGE#4](https://github.com/The-Allsparks/FORGE/issu
 
 Include: congestion, defensive pressure, alliance coordination, failed-auto recovery, sensor/manual override, degraded drivetrain (safe tests), Driver 1/Driver 2 communication, match strategy, post-run feedback as actionable issues.
 
-**Protect the final full week from elective robot changes.**
+**Protect the competition runway (12–30 Oct) from elective robot changes.** Meeting B 55-minute blocks stay driving. Detail: [robot-releases.md](robot-releases.md#competition-runway). Failure drills: [failure-mode-drills.md](failure-mode-drills.md).
 
 ## Outreach, Sustain, and judging
 
@@ -273,7 +268,7 @@ The Allsparks is lighter in Outreach/Sustain — activities start **preseason**:
 - Portfolio drafting **before** robot is finished
 - Mock judging: all four students; accommodations for comfortable authentic participation
 
-**Unverified until official rules publish:** award names, portfolio page limits, judging times, pit dimensions. Do not hard-code DECODE-era values.
+**Unverified until Kickoff V1:** judging times, pit dimensions, and any V0 award-table changes. Portfolio **page limits** currently follow V0 (15 content pages) in [award-and-portfolio-traceability.md](../../../docs/award-and-portfolio-traceability.md). Focused award bets: [award-strategy.md](award-strategy.md).
 
 ## Four-student rotating roles
 

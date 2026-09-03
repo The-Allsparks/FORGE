@@ -2,7 +2,7 @@
 
 Standardized engineering evidence for mechanism comparisons. Primary purpose: **authentic engineering learning**. Secondary: Think Award traceability ([award-and-portfolio-traceability.md](../docs/award-and-portfolio-traceability.md)).
 
-**Rule:** Require **≥3 repeated trials** before reacting to an isolated result. Use larger trial counts for reliability claims. Change one variable at a time unless the experiment explicitly tests an integrated configuration.
+**Rule:** Require **≥3 repeated trials** before reacting to an isolated result. Choose n using [acceptance-criteria.md](../season/2026-2027-biobuzz/docs/acceptance-criteria.md). Change one variable at a time unless the experiment explicitly tests an integrated configuration. CAD is not a passing grade.
 
 | Field | Value |
 | ----- | ----- |
@@ -10,6 +10,7 @@ Standardized engineering evidence for mechanism comparisons. Primary purpose: **
 | Date | |
 | Student owner / pair | |
 | Gate link (if any) | G1 · G2 · G3 · other |
+| Planned n / k (before testing) | n = ___ · k to claim pass = ___ |
 
 ## Question or hypothesis
 
@@ -44,15 +45,26 @@ _What stayed the same: ___
 
 **Total trials:** ___ · **Successes:** ___ · **Failures:** ___
 
+**Cycle times (s), every trial:** ___ · **Median:** ___ · **Range:** ___
+
+Do not report only the fastest cycle.
+
+## Interpretation
+
+_What these numbers mean for keep / modify / reject — not "it worked": ___
+
 ## Measurements
 
 | Metric | Value | How measured |
 | ------ | ----- | ------------ |
-| Cycle time (avg) | | |
+| Cycle time (median / range) | | |
 | Jam / drop rate | | |
+| Recovery time after jam | | |
 | Alignment tolerance | | |
 | Packaging dimensions | | |
 | Current / power (if relevant) | | AMPER passive or meter |
+| Battery / thermal (if relevant) | | |
+| Degraded config (if tested) | | sensor covered / motor out / etc. |
 | Game-object wear / damage | | |
 | Repairability (time to reset) | | |
 

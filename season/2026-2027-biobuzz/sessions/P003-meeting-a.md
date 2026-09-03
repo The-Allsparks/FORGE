@@ -1,6 +1,6 @@
 ---
 id: P003
-title: "Modified Strafer drivetrain installation"
+title: "Strafer / first-robot construction (session 2 of 3)"
 date: 2026-08-24
 meeting_type: A
 season_phase: preseason
@@ -11,16 +11,27 @@ projects: []
 active_features: []
 ---
 
-# P003 — Modified Strafer drivetrain installation
+# P003 — Completed — Strafer / first-robot construction (session 2 of 3)
+
+## Planned versus actual
+
+| | |
+| --- | --- |
+| **Original plan** | Finish remaining drivetrain hardware; plan side guards / narrowing; dimensioned paper sketches for CAD; unpowered push-test if rolling |
+| **Confirmed actual** | The meeting was spent **building and assembling the team’s first FTC robot** (second of three consecutive construction sessions) |
+| **Classification** | **Completed construction record.** Original drivetrain-finish, CAD-prep, and push-test outcomes are **not** marked done |
+| **Preserved original material** | Remaining mechanical finish is inspected as part of [P006](P006-meeting-b.md) bring-up, not assumed complete. CAD sketches → coach prep / [preseason-deferred-work.md](../docs/preseason-deferred-work.md) / [S006](S006-meeting-b.md) |
+
+FORGE does **not** record which subassemblies were completed on this date. Do not treat this file as a finished rolling Strafer.
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
 | Session ID | P003 |
-| Title | Modified Strafer drivetrain installation |
+| Title | Strafer / first-robot construction (session 2 of 3) |
 | Calendar date | 2026-08-24 (planning input; 4:00–6:00 PM unless Kickoff/event) |
-| Relative week | Preseason week 0 |
+| Relative week | Preseason week 0 (completed — variance) |
 | Meeting type | A |
 | Season phase | preseason |
 | Event checkpoint | none |
@@ -28,143 +39,146 @@ active_features: []
 
 ## Driving question
 
-Why did we move wheels and motors from the standard StarterBot layout, and does the drivetrain roll smoothly with correct mecanum roller orientation?
+After P002’s first construction session, did we keep building Sparkee with our hands — even if that meant not running the original “finish drivetrain and sketch CAD” agenda?
 
 ## Student-facing objective
 
-Students will confirm revised front and rear wheel locations, install drivetrain motors inside chassis rails, mount bearings, shafts, mecanum wheels and outside wheel supports, verify roller orientation, push-test for binding, measure front-wheel clearance for the planned intake wheel and angled servo mount, and document why this layout differs from the standard StarterBot.
+Students continued Strafer / first-robot construction: assembly, alignment, fastening, and build continuation. They did **not** complete the originally planned drivetrain-finish, side-guard CAD dimension sheet, or unpowered push-test as recorded outcomes.
 
 ## Robot outcome
 
-- Mechanically complete rolling drivetrain (unpowered push-test acceptable)
-- Measurements recorded for custom front servo/intake mount clearance
-- Written design rationale comparing modified layout to standard StarterBot
+- First-robot construction **continued** from [P002](P002-meeting-s.md)
+- No FORGE claim that all four motors, wheels, bearings, side guards, or a rolling chassis were finished
+- Original P003 robot outcomes remain **incomplete** unless later inspection at P006 proves them
 
 ## Prerequisites
 
-- P003 chassis frame assembled and squared
-- Strafer StarterBot drivetrain parts pulled and verified
-- Mentors reviewed planned wheel/motor layout before students arrive
+- P002 construction started (2026-08-19)
+- Kit hardware from P001 organizers as needed
+- Arrival of any ordered parts on this date is **unverified** in FORGE
 
 ## Vocabulary
 
-mecanum · roller orientation · binding · clearance · design rationale · inside-rail mount
+assembly · fastener engagement · chassis · as-built · incomplete record
 
 ## Safety concerns
 
-- Pinch points at chains, belts, or shaft couplers if present
-- Fingers clear during wheel spin push-test
-- No battery connected unless mentor explicitly approves a later exception (default: **unpowered** today)
-- Hair, hoodies, and lanyards away from rotating test areas
+- Pinch points during frame and drivetrain assembly
+- Allen keys and wrenches — no horseplay
+- Safety glasses in the build area
+- Motors **not** assumed powered — no documented battery or Hub connection at P003
 
 ## Required hardware
 
-- Completed chassis frame from P003
-- Drivetrain motors, bearings, shafts, mecanum wheels, outside wheel supports
-- Measuring tape or calipers; straightedge
+- Robot as left from P002
+- Strafer / StarterBot hardware from P001 organizers as needed
 - Hand tools per kit instructions
 
 ## Required software
 
 - Team notebook
-- Onshape (`36117-preseason` — update layout from P003)
-- [templates/decision-record.md](../../../templates/decision-record.md) (paper) for layout rationale
+- Camera for progress photos
+- **Not used as planned:** Onshape
 
 ## Preparation required before the meeting
 
-- Print or open standard Strafer StarterBot drivetrain diagram for comparison
-- Stage motors, bearings, and wheels at the frame
-- Assign: left/right rail pairs, measurement lead, documentation writer
+- Historical: P002 pull-list
+- Mentors later: as-built inspection happens when wiring and bring-up start at [P006](P006-meeting-b.md)
 
 ## Exact 120-minute agenda
 
+Reconstructed **actual** Meeting A pattern. This is not the original drivetrain-finish agenda.
+
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Review P003 frame; confirm today's layout sketch; safety; roles |
-| 75 | Construction | Confirm wheel locations; install motors inside rails; bearings, shafts, mecanum wheels, outside supports; verify roller orientation |
-| 25 | Integration | Push-test for binding; measure front-wheel clearance; **update Onshape layout** with as-built wheel/motor positions; write design rationale vs standard StarterBot |
-| 10 | Closeout | Evidence photos; explain-back; cleanup; P003 prep list |
+| 10 | Opening | Safety; continue first-robot construction from P002; roles |
+| 75 | Construction | Hands-on assembly, alignment, fastening, and build continuation |
+| 25 | Integration | Progress photos; notebook notes as taken; no CAD lesson |
+| 10 | Closeout | Cleanup; construction continues at P004 |
 
 ## Mentor demonstration
 
-Two minutes: show correct mecanum roller direction on one wheel. Students verify all four before push-test.
+Shop technique as needed for the subassembly in front of students. No recorded CAD or electrical demo this session.
 
 ## Student work
 
 | Path | Work |
 | ---- | ---- |
-| Mechanical | Motor mount, bearings, shafts, wheels, supports |
-| Electrical | Route motor leads loosely — no final dress (P003) |
-| Programming | No code — record motor names and ports planned on paper |
-| Drive team | Push-test each corner; note binding feel |
-| Documentation | Clearance measurements; decision record; photos; Onshape layout revision |
+| Mechanical | Continue robot construction |
+| Electrical | Not the planned power-path lesson — only incidental lead handling if it occurred |
+| Programming | No code |
+| Drive team | No documented driving |
+| Documentation | Photos and notebook if captured; as-built table was **not** a recorded exit check |
 
 ## Integrated build or test activity
 
-Push-test across the shop floor (unpowered) after mechanical complete. Measure clearance at the front wheel/intake zone before leaving.
+Physical construction **was** the session. An unpowered push-test was the original plan and is **not** marked complete.
 
 ## Failure-injection scenario
 
-Mentor rotates one mecanum wheel to wrong roller direction. Push-test pair must detect crab-walk bias and correct before closeout.
+Original plan: wrong mecanum roller direction caught at push-test. **Did not run as a recorded exercise.** Reuse at P006 restrained testing / P007 dial-in.
 
 ## Evidence to collect
 
-- Photos of installed drivetrain (motor inside rails visible)
-- Mecanum roller orientation checklist (four wheels)
-- Front-wheel clearance measurements for intake/servo mount
-- Onshape layout revision (wheel/motor/clearance zones)
-- Push-test notes (binding yes/no, which corner)
+- Construction progress photographs if taken
+- Honest note: original P003 decision record and dimensioned CAD sketches are **not** claimed
+- Forward pointer: [preseason-deferred-work.md](../docs/preseason-deferred-work.md)
 
 ## Student explain-back questions
 
-1. Why are motors inside the rails instead of the standard StarterBot placement?
-2. How do you verify mecanum roller orientation without powering motors?
-3. What clearance did you measure for the intake wheel zone?
-4. What would happen if one wheel's rollers were reversed?
+(Used if asked; not a claim that a formal explain-back was recorded.)
+
+1. What did you assemble with your own hands today?
+2. What is still missing before this robot can be powered?
+3. Why would we inspect the robot before claiming it is “done”?
+4. Where do oversized parts from P001 belong?
 
 ## Assessment or exit check
 
-Drivetrain rolls with push-test; all four roller orientations verified; rationale written; measurements logged.
+**Met:** students spent the meeting constructing the robot.  
+**Not met (original plan):** rolling drivetrain with verified roller orientation; dimensioned side-guard sketches; scheduled mentor CAD block as a recorded gate.
 
 ## Portfolio or engineering-notebook artifact
 
-Decision record (topic C — comparing choices) for modified layout. Clearance sketch with dimensions (topic D — math choices). Construction photos (Design/Innovate candidates).
+Build-progress photos from the construction stretch (Design candidate). Do not invent a decision record for narrowing if one was not written.
 
 ## Competition enablement impact
 
-Mechanical only. No TeleOp, no Control Hub acceptance claimed.
+None. Mechanical shop time only. No TeleOp, no Control Hub acceptance.
 
 ## Rollback procedure
 
-Remove the offending wheel or motor mount and revert to standard layout **only** if the modified layout fails safety or cannot be made to roll — document the revert in the notebook.
+Disassemble only a joint that is unsafe or wrong — do not strip the whole frame unless required for safety.
 
 ## Cleanup requirements
 
-Robot on blocks or side; motor leads bundled loosely; tools stored; floor swept.
+Tools returned; loose fasteners bagged; robot on a stable surface.
 
 ## Next-session preparation
 
-- P003 (2026-08-27): mount Control Hub, battery, switch; wire drivetrain; individual motor tests if code ready
-- Charge batteries
-- Mentors: confirm whether minimal drive OpMode exists (blocked on [#2](https://github.com/The-Allsparks/FORGE/issues/2) for repo — shop laptop sample OK)
+- **Historical next session:** [P004](P004-meeting-s.md) continued construction (did **not** run electrical + Onshape)
+- **Current next shop meeting:** [P006](P006-meeting-b.md) — electrical diagram, programming, first movement
+- Mentors: do not assume a rolling chassis from this file
 
 ## Hardware-unavailable fallback
 
-Install wheels and shafts on a partial frame or practice board. Write rationale and measurements against a paper diagram.
+Not used — construction hardware was the actual work.
 
 ## Robot-unavailable simulation option
 
-Scale drawing of chassis — students mark motor and wheel positions and defend layout in explain-back without metal.
+Not used.
 
 ## Links to authoritative project documentation
 
-- [learning-paths/onshape-cad.md](../../../learning-paths/onshape-cad.md)
-- [docs/safety-and-enablement.md](../../../docs/safety-and-enablement.md)
-- [docs/award-and-portfolio-traceability.md](../../../docs/award-and-portfolio-traceability.md)
+- [preseason-deferred-work.md](../docs/preseason-deferred-work.md)
+- [P002 construction session 1](P002-meeting-s.md)
+- [P004 construction session 3](P004-meeting-s.md)
+- [P006 electrical, programming, and first movement](P006-meeting-b.md)
+- [learning-paths/onshape-cad.md](../../../learning-paths/onshape-cad.md) — original CAD prep from this session is deferred
 - [templates/decision-record.md](../../../templates/decision-record.md)
-- [projects/pedro-pathing.md](../../../projects/pedro-pathing.md) — read for later; Pedro owns chassis motion
-- [docs/team-robot-project.md](../../../docs/team-robot-project.md) — **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2)
+- [docs/safety-and-enablement.md](../../../docs/safety-and-enablement.md)
+- [season-plan.md](../season-plan.md)
 
 ## Mentor notes
 
-This is a **student mechanical design decision** — mentors coach, students choose and document. Do not install Pedro or claim autonomous readiness. Standard StarterBot comparison must be honest — link kit docs in the notebook, do not invent part numbers.
+**Do not rewrite this session as the original modified-Strafer finish.** Three construction meetings are real mechanical learning, not a reason to skip P006 inspection, wiring, and restrained tests.
