@@ -49,6 +49,25 @@ Use [sparkee-module-record.md](../../../templates/sparkee-module-record.md). Sto
 3. **Software:** MIMIC owns mechanism states; Pedro owns chassis; HELM never bypasses MIMIC or Pedro.
 4. **Fallback:** Any module may be replaced by official **starter-bot equivalent** if custom version misses G5 — document swap procedure in pit materials.
 
+## Reliability design (competition-one heuristics)
+
+Apply when choosing among G2/G3 options. These are tests, not a requirement to copy a specific robot.
+
+| Heuristic | Why it matters on a 4 h/week team |
+| --------- | --------------------------------- |
+| Rigid support at load points | Floppy structure fails inspection and matches |
+| Fewer degrees of freedom | Each DOF is a jam, a sensor, and a programming task |
+| Short game-piece travel | Fewer transfers, fewer drops |
+| Fewer moving parts and transfers | Each handoff is a single point of failure |
+| Remove unnecessary SPOFs | Dual fasteners, service loops, labeled spares |
+| Accessible repairs | Students must reach it in the pit |
+| Relevant spares packed | Fragile/custom parts only |
+| Graceful degradation | Drive and score something if a sensor or one motor dies ([failure-mode-drills.md](failure-mode-drills.md)) |
+
+A design that fails these heuristics must **beat** a simpler option on measured G2 evidence, not on CAD elegance.
+
+CAD is a fabrication aid after physical comparison — not validation. See [acceptance-criteria.md](acceptance-criteria.md).
+
 ## Version 2 modules
 
 After G7 feature freeze, next-generation modules may be prototyped on:

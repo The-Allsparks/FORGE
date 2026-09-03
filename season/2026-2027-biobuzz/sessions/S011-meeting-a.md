@@ -40,13 +40,13 @@ What is our measured reliability — and is the portfolio draft ready for final 
 
 ## Student-facing objective
 
-Students run repeated full-cycle tests (≥10 attempts), log via TRACE and human-readable log, draft portfolio narrative from season notes.
+Students run repeated full-cycle tests using [acceptance-criteria.md](../docs/acceptance-criteria.md) (typical n = 8–12, not "it worked"), log via TRACE and human-readable log, run **one** [failure-mode drill](../docs/failure-mode-drills.md) (F2, F3, or F5), draft portfolio narrative from season notes.
 
 ## Robot outcome
 
-- Reliability metrics recorded honestly
+- Reliability metrics recorded honestly (distribution, not fastest cycle)
+- One failure-mode drill recorded
 - Portfolio draft substantially complete
-- [student-progress-review.md](../../../templates/student-progress-review.md) if due
 
 
 ## Prerequisites
@@ -91,9 +91,9 @@ Pick **one** fault for the 25-minute block. Write it on the board before student
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Reliability test plan: ≥10 full-cycle attempts; portfolio draft milestone |
+| 10 | Opening | Reliability test plan: write n and k on the board; pick **one** drill from F2/F3/F5; portfolio draft milestone |
 | 75 | Construction | P1 repairs only — no new mechanisms; support reliability testing |
-| 25 | Integration | Log cycle success rate; TRACE + human-readable log; portfolio draft section |
+| 25 | Integration | Log cycle success rate and time distribution; TRACE + human-readable log; run the chosen failure drill; portfolio draft section |
 | 10 | Closeout | [student-progress-review](../../../templates/student-progress-review.md) if due; dashboard reliability row |
 
 ## Mentor demonstration

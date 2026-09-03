@@ -44,6 +44,10 @@ Students time pit repair for top jam mode; update [common-repairs.md](../../../t
 
 - [calendar.yaml](../calendar.yaml) row for S029
 - [readiness-dashboard.md](../readiness-dashboard.md)
+- Catalog **F2 + F7**: [failure-mode-drills.md](../docs/failure-mode-drills.md)
+- File a [failure-record.md](../../../templates/failure-record.md)
+- Catalog **F2 + F7**: [failure-mode-drills.md](../docs/failure-mode-drills.md)
+- File a [failure-record.md](../../../templates/failure-record.md)
 
 ## Vocabulary
 

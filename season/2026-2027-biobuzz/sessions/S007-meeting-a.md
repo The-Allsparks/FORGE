@@ -49,7 +49,7 @@ Students fabricate authorized Sparkee modules; deliver first modules to programm
 
 ## Prerequisites
 
-- Paper mechanism state names from P007 or post-Kickoff MIMIC work
+- Paper mechanism state names from post-Kickoff prototypes (S001/S003) or MIMIC work — **not** from original P007, which did not run
 - [interlocks.md](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/interlocks.md)
 - [safety-model.md](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/safety-model.md)
 - Second mechanism **or** cardboard stand-in. Elevator-specific racking work stays out until hardware exists ([MIMIC assessment](https://github.com/The-Allsparks/MIMIC/blob/main/docs/mechanism-control/assessment.md))

@@ -77,6 +77,8 @@ The Allsparks are a small rookie FTC team.
 
 working robot → reliable mechanisms → driver practice → conventional autonomous → evidence collection → advanced autonomy
 
+**Guiding principle:** [season/2026-2027-biobuzz/docs/guiding-principle.md](season/2026-2027-biobuzz/docs/guiding-principle.md). Staged releases: [robot-releases.md](season/2026-2027-biobuzz/docs/robot-releases.md). Software is gated: [software-sequencing.md](season/2026-2027-biobuzz/docs/software-sequencing.md).
+
 Combined FTC stack acceptance ([#4](https://github.com/The-Allsparks/FORGE/issues/4)) is the integration gate in front of any claim that those libraries already compose on a robot.
 
 ---
@@ -93,7 +95,7 @@ Combined FTC stack acceptance ([#4](https://github.com/The-Allsparks/FORGE/issue
 | Robot code (not this repo) | [docs/team-robot-project.md](docs/team-robot-project.md) — **blocked** |
 | Create the robot repo (when ready) | [docs/create-robot-project.md](docs/create-robot-project.md) |
 | First preseason session | [season/2026-2027-biobuzz/sessions/P001-meeting-a.md](season/2026-2027-biobuzz/sessions/P001-meeting-a.md) |
-| TRACE / system map (preseason) | [season/2026-2027-biobuzz/sessions/P005-meeting-a.md](season/2026-2027-biobuzz/sessions/P005-meeting-a.md) |
+| TRACE / first movement (preseason) | [season/2026-2027-biobuzz/sessions/P006-meeting-b.md](season/2026-2027-biobuzz/sessions/P006-meeting-b.md) |
 | Kickoff | [season/2026-2027-biobuzz/sessions/K001-meeting-k.md](season/2026-2027-biobuzz/sessions/K001-meeting-k.md) |
 | First season shop meeting | [season/2026-2027-biobuzz/sessions/S001-meeting-a.md](season/2026-2027-biobuzz/sessions/S001-meeting-a.md) |
 | Readiness | [season/2026-2027-biobuzz/readiness-dashboard.md](season/2026-2027-biobuzz/readiness-dashboard.md) |

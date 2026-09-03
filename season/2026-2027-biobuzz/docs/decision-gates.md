@@ -2,9 +2,11 @@
 
 Eight gates protect downstream time for software, driving, judging, and reliability. A missed gate **must not** silently consume later work — trigger scope reduction or starter-bot fallback instead.
 
-Process context: [season-process.md](season-process.md). Gate review template: [gate-review.md](../../../templates/gate-review.md).
+Process context: [season-process.md](season-process.md). Gate review template: [gate-review.md](../../../templates/gate-review.md). Principle: [guiding-principle.md](guiding-principle.md). Releases: [robot-releases.md](robot-releases.md).
 
-**Attribution:** Gate timing is adapted from schedule protections in Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt). Pratt does not endorse FORGE.
+**Attribution:** Gate timing is adapted from schedule protections in Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt). Decision tests (simplicity, staged releases, quantified acceptance, disagree-and-commit) are adapted from Pratt, *Why Most FTC Teams Fail (And How Not To)*. Pratt does not endorse FORGE. Official FIRST rules override both.
+
+Every gate that authorizes metal, code, or a match claim must pass the **four tests**: top-ranked need, measured reliability, team-repairable, does not consume the [competition runway](robot-releases.md#competition-runway).
 
 ---
 
@@ -32,16 +34,21 @@ Confirm the team understands BIOBUZZ scoring constraints and has a written, stud
 ### Required inputs
 
 - Official Kickoff / Game Manual materials (FIRST — not FORGE)
-- K001 outputs: concept brainstorm (≥3 concepts), debate notes, MVP definition
-- Preseason mechanism experiments (P007) labeled evidence vs assumption
+- [Kickoff decision package](../../../templates/kickoff-decision-package.md) in progress (K001 start; S002 complete)
+- K001 outputs: concept brainstorm (≥3 concepts), debate notes, ranked capabilities, not-yet list
+- Preseason mechanism experiments labeled evidence vs assumption (P007 lab was **deferred** — do not invent that data set)
 
 ### Required evidence
 
-- Scoring / ranking / penalty / constraint matrix
-- Prioritized capability list tied to ranking points
+- Scoring **and ranking** matrix with manual citations (no invented points)
+- Alliance-role notes (what we contribute / must not block)
+- Ranked capability list with effort-versus-value
+- Explicit **not yet / will not build** list
+- Initial R0–R2 definition for this game ([robot-releases.md](robot-releases.md))
 - Initial risk register (≥3 risks with owners)
 - ≥1 low-fidelity physical proof of game-object interaction OR documented reason the game makes that impossible until parts arrive
 - [Concept brainstorm record](../../../templates/concept-brainstorm.md) with 60–100 scaled ideation count across four students (or honest count + plan to reach target)
+- Four-test check on the G1 commitment
 
 ### Student decision-making responsibilities
 
@@ -57,14 +64,15 @@ Confirm the team understands BIOBUZZ scoring constraints and has a written, stud
 
 ### Acceptance criteria
 
-- Written MVP: drive + one scoring action + required park/place per manual
-- Strategy matrix reviewed by all four students
+- Written MVP: drive + one scoring action + required park/place per manual (R0 + intended R2)
+- Strategy matrix and not-yet list reviewed by all four students
 - Fallback starter-bot path identified if custom MVP slips
+- Custom scoring fabrication at scale remains **blocked** (crude prototypes and R0 chassis finish only)
 
 ### Deliverables
 
-- K001 session evidence; updated [readiness-dashboard.md](../readiness-dashboard.md)
-- Mapping table from [kickoff-replan-guide.md](../kickoff-replan-guide.md)
+- K001 session evidence; filled [kickoff-decision-package.md](../../../templates/kickoff-decision-package.md)
+- Updated [readiness-dashboard.md](../readiness-dashboard.md)
 
 ### Fallback if missed
 
@@ -96,8 +104,9 @@ End unrestricted mechanism exploration with **measured** comparisons — not opi
 
 ### Required evidence
 
-- ≥2 [prototype-test-record.md](../../../templates/prototype-test-record.md) entries with **≥3 trials each**
-- Comparative summary: acquisition, cycle time, jams, alignment tolerance, packaging, repairability, current draw (where measured)
+- ≥2 [prototype-test-record.md](../../../templates/prototype-test-record.md) entries with sample size set per [acceptance-criteria.md](acceptance-criteria.md) (**≥3 trials each** is the G2 default)
+- Comparative summary: acquisition, cycle-time **distribution**, jams, alignment tolerance, packaging, repairability, current draw (where measured)
+- Interpretation sentence (what the numbers mean) — not "it worked"
 - [Decision record](../../../templates/decision-record.md) if finalists were close
 - Leading concept(s) and explicit **starter-bot fallback** if custom path fails
 
@@ -150,7 +159,7 @@ Lock competition-one modular architecture with interfaces sufficient to fabricat
 
 - G2 comparative evidence and leading concept
 - [modular-architecture.md](modular-architecture.md) module list derived from BIOBUZZ
-- Software contract: which libraries are MVP vs deferred ([season-process.md](season-process.md#software-protections))
+- Software contract: which libraries are tier 1–4 ([software-sequencing.md](software-sequencing.md))
 
 ### Required evidence
 
@@ -165,7 +174,8 @@ Lock competition-one modular architecture with interfaces sufficient to fabricat
 
 - Approve module boundaries and cut list
 - Decide necessary vs optional sensors
-- Sign software contract (what ships at first competition)
+- Sign software contract (what ships at first competition — tier 1 vs 2–4)
+- **Disagree and commit** on the architecture (see below)
 
 ### Mentor role
 
@@ -324,7 +334,7 @@ Hand a **stable** Sparkee to sustained software, auto, and driver work.
 - Stable teleop with controller map documented
 - MIMIC states for scored mechanisms (minimum viable)
 - TRACE logs from repeated tests
-- Measured reliability: cycle success rate over ≥10 attempts (honest count)
+- Measured reliability using [acceptance-criteria.md](acceptance-criteria.md) (example: cycle success over 8–12 attempts; auto 7/10 **or** teleop-only declared)
 - Portfolio draft substantially complete (skeleton + robot narrative + process evidence)
 
 ### Student decision-making responsibilities
@@ -340,8 +350,8 @@ Hand a **stable** Sparkee to sustained software, auto, and driver work.
 ### Acceptance criteria
 
 - Drivers can run full scoring cycle in teleop without mentor intervention
-- Auto completes minimum path ≥7/10 in practice (or documented fallback to teleop-only)
-- No major mechanical changes scheduled
+- Auto completes minimum path at the team's written k/n (example 7/10) **or** documented fallback to teleop-only
+- No major mechanical changes scheduled (runway starts S009)
 
 ### Deliverables
 
@@ -380,7 +390,7 @@ End speculative features; reserve remaining time for drivers, judging, pit, and 
 - Written feature/code freeze declaration
 - Full 2½-minute practice match completed (or documented field constraint)
 - Mock judging session completed — all four students spoke
-- Failure-injection drills: at least two scenarios from [season-process.md](season-process.md#post-kickoff-week-6-freeze-and-rehearse)
+- Failure-injection drills: at least two IDs from [failure-mode-drills.md](failure-mode-drills.md)
 - Open defect list: only P0/P1 allowed post-freeze
 
 ### Student decision-making responsibilities
@@ -471,6 +481,21 @@ Confirm the team is packed, rehearsed, documented, and safe to compete.
 
 - `approved` competition status on [readiness-dashboard.md](../readiness-dashboard.md) for optional systems
 - Enabling AMPER limiting, MIMIC homing, ViDAR drive, BEACON intervention, ECHO match audio, HELM execute
+
+---
+
+## Disagree and commit
+
+After **G3**, the architecture, module cut list, and software contract are **team decisions**. Students who voted otherwise still execute the plan (drive, build, document). Mentors do not reopen the decision because a new YouTube robot looked cooler.
+
+**Reopen** only when **all** of these are true:
+
+1. New **measured** evidence exists (prototype-test, match data, or official Q&A) that the original record did not have.
+2. A student writes which decision is in question and what changed (use [decision-record.md](../../../templates/decision-record.md) "Later validation").
+3. A 15-minute [gate-review.md](../../../templates/gate-review.md) exception is held.
+4. If the reopen would consume the [competition runway](robot-releases.md#competition-runway) (after G4/G5), the coach must approve **and** an equal-time scope cut is written on the not-yet list.
+
+G1/G2 decisions are **directional**; they are expected to tighten at G3. They are not invitations to keep a second full robot "in case."
 
 ---
 

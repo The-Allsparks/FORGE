@@ -27,6 +27,8 @@ TRACE is the default recorder. It must not become a second control system. See [
 
 If the robot still needs a wrench, fill the four-line minimum and take a photo. Do not skip the record entirely — a short note is better than nothing for later portfolio assembly.
 
+**Major design days:** also complete the process-completeness table on the evidence record (problem → alternatives → sources → criteria → math → method → raw results → interpretation → failure → decision). Split across [decision-record.md](../templates/decision-record.md), [prototype-test-record.md](../templates/prototype-test-record.md), [math-evidence.md](../templates/math-evidence.md), and [failure-record.md](../templates/failure-record.md) as needed — do not require ten forms for a fastener.
+
 Do not create a parallel logging standard.
 
 ## Privacy

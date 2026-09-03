@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""One-shot renumber: P001-P008, K001, S001-S043 (+ E004/E005). Run from repo root."""
+"""HISTORICAL one-shot renumber (August 2026).
+
+Do **not** re-run as the current source of truth. Canonical session IDs, dates,
+and titles live in season/2026-2027-biobuzz/calendar.yaml and the matching
+sessions/{ID}-meeting-{type}.md files. Titles in this script are the
+pre-variance plan (P006 driver baseline, P007 mechanism lab, P008 Kickoff
+readiness) and are kept only as migration history.
+"""
 from __future__ import annotations
 
 import re

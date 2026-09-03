@@ -1,6 +1,6 @@
 # Student learning goal
 
-One measurable personal goal per student. Record at preseason (P008 or earlier) and review at each [student-progress-review.md](student-progress-review.md).
+One measurable personal goal per student. Record at preseason (**P007**; P008 is the FRC tour) and review at each [student-progress-review.md](student-progress-review.md).
 
 | Field | Value |
 | ----- | ----- |

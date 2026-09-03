@@ -2,9 +2,9 @@
 
 Season folder for The Allsparks. Game details are unknown until Kickoff.
 
-**Season process:** Compressed competition-one cycle adapted from Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt) — [docs/season-process.md](docs/season-process.md), [docs/decision-gates.md](docs/decision-gates.md), [docs/references.md](docs/references.md). Pratt does not endorse FORGE.
+**Season process:** Compressed competition-one cycle adapted from Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt), with decision tests from *Why Most FTC Teams Fail (And How Not To)* — [docs/season-process.md](docs/season-process.md), [docs/guiding-principle.md](docs/guiding-principle.md), [docs/decision-gates.md](docs/decision-gates.md), [docs/references.md](docs/references.md). Pratt does not endorse FORGE. Official FIRST rules override Pratt.
 
-**Dates in [calendar.yaml](calendar.yaml) are planning inputs.** Verify them if the FIRST Nevada calendar changes. Regular shop meetings are **4:00–6:00 PM** (Monday Meeting A, Friday Meeting B).
+**Dates in [calendar.yaml](calendar.yaml) are planning inputs.** Verify them if the FIRST Nevada calendar changes. Regular shop meetings are **4:00–6:00 PM** (Monday Meeting A, Friday Meeting B; Wednesday preseason exceptions use type S). Session **topics** after P005 variance: [preseason-deferred-work.md](docs/preseason-deferred-work.md).
 
 ## Session files (fixed paths)
 
@@ -21,8 +21,8 @@ Every numbered meeting uses **`{ID}-meeting-{type}.md`** where `type` is `a` (Mo
 
 ## Start this week
 
-1. Read [season-plan.md](season-plan.md) and [docs/season-process.md](docs/season-process.md)
-2. Open [P002-meeting-s.md](sessions/P002-meeting-s.md) — **today (2026-08-19); meeting not yet held**
+1. Read [season-plan.md](season-plan.md) and [preseason-deferred-work.md](docs/preseason-deferred-work.md)
+2. Open [P006-meeting-b.md](sessions/P006-meeting-b.md) — **next meeting (2026-09-04)** — electrical diagram, programming bring-up, and first movement. Do not run the original driver-baseline agenda. Wheels off the floor before any floor driving.
 3. Update [readiness-dashboard.md](readiness-dashboard.md) in the last 10–20 minutes
 
 ## Priority
@@ -45,7 +45,7 @@ working robot → reliable mechanisms → driver practice → conventional auton
 
 ## Written sessions
 
-**Preseason:** P001–P008 (Strafer build, bring-up, mechanism lab, Kickoff readiness).
+**Preseason:** P001–P008 (construction + V0 rules variance recorded; remaining shop time is P006 first movement and P007 dial-in plus Kickoff prep; P008 is the FRC tour — not the original mechanism lab).
 
 **Kickoff:** K001.
 
@@ -61,12 +61,12 @@ Competition checklists: [templates/competition/](../../templates/competition/).
 
 ## Award and portfolio traceability
 
-[docs/award-and-portfolio-traceability.md](../../docs/award-and-portfolio-traceability.md) — maps FORGE activities to Think, Innovate, Control, Design, and other judged-award criteria. Print the Think table and A201 checklist. Prototype records: [prototype-test-record.md](../../templates/prototype-test-record.md).
+[docs/award-and-portfolio-traceability.md](../../docs/award-and-portfolio-traceability.md) — maps FORGE activities to Think, Innovate, Control, Design, and other judged-award criteria. Focused bets (not yet locked): [docs/award-strategy.md](docs/award-strategy.md). Print the Think table and A201 checklist. Prototype records: [prototype-test-record.md](../../templates/prototype-test-record.md).
 
 ## Kickoff replan
 
-After 12 September 2026: [kickoff-replan-guide.md](kickoff-replan-guide.md). Pass **G1 Strategy gate** before custom fabrication at scale.
+After 12 September 2026: [kickoff-replan-guide.md](kickoff-replan-guide.md) and [kickoff-decision-package.md](../../templates/kickoff-decision-package.md). Pass **G1 Strategy gate** before custom fabrication at scale. Apply the [four tests](docs/guiding-principle.md).
 
 ## Pratt crosswalk
 
-Session ↔ compressed week ↔ gate mapping: [docs/pratt-crosswalk.md](docs/pratt-crosswalk.md).
+Session ↔ compressed week ↔ gate mapping: [docs/pratt-crosswalk.md](docs/pratt-crosswalk.md). Failure-mode video audit: [docs/pratt-why-teams-fail.md](docs/pratt-why-teams-fail.md). Integration report: [pratt-why-teams-fail-integration.md](pratt-why-teams-fail-integration.md). Preseason variance: [docs/preseason-deferred-work.md](docs/preseason-deferred-work.md). Staged releases: [docs/robot-releases.md](docs/robot-releases.md).

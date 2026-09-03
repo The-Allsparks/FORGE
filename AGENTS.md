@@ -12,6 +12,7 @@ FORGE is the season-orchestration repository for The Allsparks (FTC Team 36117).
 - Pedro Pathing owns chassis motion. HELM must not take chassis authority in this curriculum.
 - Preserve Meeting A / Meeting B timing. Every session agenda must total 120 minutes.
 - Priority order: working robot → reliable mechanisms → driver practice → conventional autonomous → evidence collection → advanced autonomy.
+- Guiding principle (four tests): [season/2026-2027-biobuzz/docs/guiding-principle.md](season/2026-2027-biobuzz/docs/guiding-principle.md). Do not schedule every library as required for the first competition robot.
 - Combined FTC stack acceptance is **[FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)**. It outranks deeper standalone curriculum that assumes the libraries already compose on a robot. Document install, lifecycle, conventions, disable, and rollback here; do **not** put TeamCode in FORGE; do **not** claim Control Hub evidence until the robot project exists.
 
 ## Authoritative owners

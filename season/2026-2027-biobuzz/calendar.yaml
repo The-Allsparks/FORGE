@@ -10,9 +10,9 @@ season_name: BIOBUZZ
 team: The Allsparks
 team_number: 36117
 timezone: America/Los_Angeles
-last_reviewed: "2026-08-19"
+last_reviewed: "2026-09-02"
 dates_are_planning_inputs: true
-process_source: "Adapted from Brogan M. Pratt, A 12 Week FTC Season Plan That Actually Works — see docs/references.md"
+process_source: "Adapted from Brogan M. Pratt, A 12 Week FTC Season Plan That Actually Works, and Why Most FTC Teams Fail (And How Not To) — see docs/references.md. Official FIRST rules override Pratt."
 
 meeting_pattern:
   meeting_a_weekday: Monday
@@ -25,8 +25,10 @@ meeting_pattern:
 assumptions:
   - "Treat ViDAR, AMPER, MIMIC, BEACON, TRACE, HELM, and ECHO as functionally complete for scheduling after the week of 2026-08-24."
   - "Functional completeness for scheduling is not combined Control Hub acceptance. FORGE#4 remains the integration gate."
-  - "Preseason builds a capable team and reusable mechanism evidence — not a speculative BIOBUZZ tower or hopper."
+  - "Preseason builds a capable team and an inspectable/driveable chassis path — not a speculative BIOBUZZ tower or hopper. Mechanism experiments wait until after Kickoff if the game justifies them."
   - "BIOBUZZ game details are unknown until Kickoff 2026-09-12."
+  - "Guiding principle and R0–R5 releases govern scope — see docs/guiding-principle.md and docs/robot-releases.md."
+  - "ViDAR, AMPER, MIMIC, BEACON, TRACE, HELM, and ECHO are a staged software roadmap, not simultaneous first-meet requirements — see docs/software-sequencing.md."
 
 events:
   - id: kickoff
@@ -80,49 +82,49 @@ sessions:
     season_phase: preseason
     event_checkpoint: none
     file: sessions/P002-meeting-s.md
-    title: Sponsor stewardship and chassis foundation
+    title: Strafer / first-robot construction (session 1 of 3)
   - id: P003
     date: "2026-08-24"
     meeting_type: A
     season_phase: preseason
     event_checkpoint: none
     file: sessions/P003-meeting-a.md
-    title: Modified Strafer drivetrain installation
+    title: Strafer / first-robot construction (session 2 of 3)
   - id: P004
     date: "2026-08-26"
     meeting_type: S
     season_phase: preseason
     event_checkpoint: none
     file: sessions/P004-meeting-s.md
-    title: Electrical foundation and power path
+    title: Strafer / first-robot construction (session 3 of 3)
   - id: P005
     date: "2026-08-31"
     meeting_type: A
     season_phase: preseason
     event_checkpoint: none
     file: sessions/P005-meeting-a.md
-    title: Bring-up, system map, and evidence
+    title: BIOBUZZ Pre-Season V0 rules review
   - id: P006
     date: "2026-09-04"
     meeting_type: B
     season_phase: preseason
     event_checkpoint: none
     file: sessions/P006-meeting-b.md
-    title: Driver baseline and chassis reliability
+    title: Electrical diagram, programming bring-up, and first movement
   - id: P007
     date: "2026-09-07"
     meeting_type: A
     season_phase: preseason
     event_checkpoint: none
     file: sessions/P007-meeting-a.md
-    title: Reusable mechanism laboratory
+    title: Drivetrain dial-in and Kickoff preparation
   - id: P008
     date: "2026-09-11"
     meeting_type: B
     season_phase: preseason
     event_checkpoint: none
     file: sessions/P008-meeting-b.md
-    title: Kickoff readiness review
+    title: FRC team tour
   - id: K001
     date: "2026-09-12"
     meeting_type: K
@@ -464,7 +466,7 @@ cadence_windows:
   - id: preseason
     start: "2026-08-17"
     end: "2026-09-11"
-    intent: P001–P008 — capable team, Strafer drivetrain, reusable mechanism experiments, ~30 min/week software cap.
+    intent: P001–P008 — capable team and construction record; P006 electrical/programming/first movement; P007 drivetrain dial-in plus Kickoff prep; P008 FRC tour; mechanism lab deferred post-Kickoff.
   - id: kickoff-to-clinic
     start: "2026-09-12"
     end: "2026-10-10"

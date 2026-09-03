@@ -73,5 +73,23 @@ Check any that apply. These help identify portfolio candidates later.
 - [ ] Innovate (creative or unique design element)
 - [ ] Control (sensor or software feedback improved the robot)
 - [ ] Design (elegant, efficient, practical to maintain)
+- [ ] Connect (skill, mentor, or partnership evidence — if that is the session)
 
-See [award-and-portfolio-traceability.md](../docs/award-and-portfolio-traceability.md) for what required and encouraged mean.
+See [award-and-portfolio-traceability.md](../docs/award-and-portfolio-traceability.md) and [award-strategy.md](../season/2026-2027-biobuzz/docs/award-strategy.md).
+
+## Process completeness (major decisions only)
+
+If today was a design choice, confirm the story exists **somewhere** (this form, a decision record, a prototype record, math, or a failure record). Do not fill ten templates for a fastener.
+
+| Step | Where it lives today |
+| ---- | -------------------- |
+| Problem and constraints | |
+| Alternatives | |
+| Sources / prior art | |
+| Selection criteria | |
+| Calculations (if used) | |
+| Test method | |
+| Raw results | |
+| Interpretation | |
+| Failure / revision | |
+| Final decision | |

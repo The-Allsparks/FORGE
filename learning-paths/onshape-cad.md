@@ -1,46 +1,61 @@
 # Onshape CAD learning path
 
-The Allsparks use **Onshape** for custom parts that must be **3D-printed, machined, or ordered** (goBILDA, etc.). No student is assumed to know Onshape at season start. Spread learning across **preseason P002–P004 and P005–P006** so CAD keeps pace with the Strafer build — not a separate course that displaces shop time.
+The Allsparks **may need custom parts** if the as-built Strafer requires them (plates, guards, mounts). That need is **not** a confirmed P002 accomplishment in FORGE. **No student is assumed to know Onshape on day one.** Paper sketches and tape measurements come first; CAD turns those into printable/orderable parts.
 
-**Authoritative tutorials:** [Onshape Learning Center](https://learn.onshape.com/) and [Onshape Help](https://cad.onshape.com/help/). FORGE does not duplicate those lessons; each session assigns one skill to practice on the robot.
+**Authoritative tutorials:** [Onshape Learning Center](https://learn.onshape.com/) and [Onshape Help](https://cad.onshape.com/help/). FORGE assigns skills on the robot; it does not replace Onshape's own lessons.
 
-## Session map (preseason)
+## Possible custom parts (preseason — confirm on the as-built robot)
+
+| Part | Why | Design record starts | Target CAD session |
+| ---- | --- | -------------------- | ------------------ |
+| Motor mounts / plates | Only if as-built layout needs them | P006 inspection notes if taken | Coach prep / **S006** (was P004–P005) |
+| Side guards | Only if as-built robot needs them | Same | Same |
+| Narrowing / frame adapters | Only if as-built robot needs them | Same | Same |
+| Hub / battery / switch plates | Serviceable electrical layout | P006 mount positions if wired | Same |
+
+Do **not** spend P006 or P007 shop time on CAD before first movement ([preseason-deferred-work.md](../season/2026-2027-biobuzz/docs/preseason-deferred-work.md)). Mentor accounts can still be created between meetings.
+
+## Session map (preseason, after P005 variance)
 
 | Session | Onshape focus | Robot tie-in | Exit evidence |
 | ------- | ------------- | ------------ | ------------- |
-| **P002** | Accounts, mm units, UI tour; measure frame → rail spacing | Strafer chassis as-built | Key dimensions in a Onshape sketch |
-| **P003** | Layout sketch: wheel/motor positions, intake clearance zone | Modified drivetrain decision | Updated layout vs standard StarterBot |
-| **P004** | Mount plate sketch: Hub, battery, switch | Control-system locations | Plate concept + print vs order note |
-| **P005** | Export (STL/DXF) or dimensioned drawing for **one** custom part if shop needs it | Correction bracket or spacer | Print/order checklist with owner |
-| **P006** | As-built update: change CAD to match measured baseline | Drivetrain inspection numbers | Revision note in CAD version history |
-| **P007–P008** | Optional: envelope sketch for prototype experiments | Capstan/tower/transport fixtures | Link CAD rev to notebook |
+| **P002** | **None.** Notebook measurements only. | Frame as-built | Photos + tape dimensions |
+| **P003–P004** | **None.** Meetings were assembly, not CAD. | First-robot assembly | Do not invent sketches |
+| **P005** | **None.** Meeting was v0 rules review. | — | — |
+| **Between meetings** | **Mentor-led accounts** (coach prep): mm units, UI tour, open team doc | Prep only | Every student can log in |
+| **P006** | **None required.** First movement is the gate | Electrical + programming + motion | CAD skippable |
+| **P007** | None required | Dial-in + Kickoff prep | CAD must not displace driving or worksheets |
+| **P008** | None | FRC tour | No CAD |
+| **S006** | First **required** shop CAD lesson if still not done | CAD/BOM authorization week | Named sketch; export when a part blocks build |
 
-If **P002 already ran** without Onshape, mentors run the account + sketch block as the **first 15 minutes of P003** before drivetrain work.
+## First lesson content (mentor block or S006)
 
-## Foundation (P002)
+Students are **beginners**. First contact covers only:
 
-- Team workspace or shared folders; student accounts under mentor policy
-- Millimeters; hole patterns compatible with goBILDA spacing when possible
-- Sketch → constrain → extrude; do not skip constraints
-- **Not today:** assemblies, drawings, import/export (later sessions)
+1. Log in; team workspace / `36117-preseason` document (mentor creates)
+2. Millimeters; sketch tool; constrain dimensions from the **notebook**
+3. One extrude on a **simple plate or guard profile** — not a full robot
+4. Save; screenshot for portfolio
 
-## Developing (P003–P004)
+**Not on first contact:** assemblies, drawings, import/export (export with mentor when a part blocks build), full robot models.
 
-- Top-down layout on chassis profile
-- Clearance zones as sketch regions (intake, servo mount) — link to [decision-record](../templates/decision-record.md)
-- Simple plate with holes; name features for pit readability
+## Developing (after first contact)
 
-## Integration (P005–P006)
+- Top-down layout on chassis profile **with mentor pairing**
+- Clearance zones from notebook → sketch regions
+- Simple plate with goBILDA-compatible hole spacing when possible
 
-- Export for shop printer or mentor order submission
-- Record material, infill, and **who prints** in the notebook — not in git if it includes addresses
-- After driver baseline, fix CAD when reality differs from model (normal engineering)
+## Integration (when a custom part blocks build)
+
+- Export STL/DXF for shop printer or mentor order — **required** when a custom part blocks build, not on a fixed preseason date
+- Record material, infill, and **who prints** in the notebook
+- Fix CAD when metal reality differs from sketch (normal)
 
 ## Pairing
 
-- **Builder + CAD pair** on the same subsystem each Meeting A
-- CAD students still attend safety and inspection blocks
-- Programmers may CAD mount plates; they still own TRACE integration minutes during P005
+- **Two students + mentor** on CAD during S006 or a mentor block; others continue robot work
+- Rotate who CADs each week — not a permanent silo
+- Everyone still does safety, inspection, and explain-back
 
 ## Award tags
 
@@ -52,4 +67,4 @@ If **P002 already ran** without Onshape, mentors run the account + sketch block 
 
 - Onshape feature source or version pins
 - Printer profiles, slicer settings, or vendor order accounts
-- Game-specific mechanism CAD after Kickoff — update in robot repo or team cloud per mentor policy
+- Game-specific mechanism CAD after Kickoff — per mentor policy

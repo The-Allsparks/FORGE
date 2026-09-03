@@ -4,7 +4,7 @@ Electrical reliability is a season priority. AMPER observes power; it does not f
 
 ## Foundation
 
-- ESD-aware handling, connector seating, labeled batteries
+- ESD-aware handling, connector seating, labeled batteries (**first dedicated lesson at P006**; original P004 was construction)
 - Control Hub / Expansion Hub power architecture as taught by mentors using FIRST/REV docs (do not invent pinouts in FORGE)
 - XT30 / power connector strain relief
 

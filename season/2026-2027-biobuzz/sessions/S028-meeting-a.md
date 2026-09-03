@@ -44,6 +44,10 @@ Students run manual-override drills; ViDAR observe-only or unplugged per dashboa
 
 - [calendar.yaml](../calendar.yaml) row for S028
 - [readiness-dashboard.md](../readiness-dashboard.md)
+- Catalog **F3**: [failure-mode-drills.md](../docs/failure-mode-drills.md)
+- File a [failure-record.md](../../../templates/failure-record.md)
+- Catalog **F3**: [failure-mode-drills.md](../docs/failure-mode-drills.md)
+- File a [failure-record.md](../../../templates/failure-record.md)
 
 ## Vocabulary
 

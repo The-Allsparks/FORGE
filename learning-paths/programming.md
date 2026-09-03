@@ -4,7 +4,7 @@ Programming supports a working robot. It is not a separate course.
 
 ## Foundation
 
-- Driver Station OpMode select, INIT, start, stop
+- Driver Station OpMode select, INIT, start, stop (**first contact at P006**, not original P005)
 - TRACE events and one recorded signal
 - Read a CSV row and say input vs event
 
@@ -25,6 +25,7 @@ Programming supports a working robot. It is not a separate course.
 - Feature flags default off
 - Conventional auto and teleop with optional systems disabled
 - Explain-back: how to roll back in the pit
+- Promote libraries only along [software-sequencing.md](../season/2026-2027-biobuzz/docs/software-sequencing.md) tiers
 
 ## Pairing
 

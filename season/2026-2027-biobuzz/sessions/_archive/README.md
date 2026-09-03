@@ -6,8 +6,8 @@ These **topic-named** session files are superseded by canonical `{ID}-meeting-{t
 
 | Archived file | Canonical replacement |
 | ------------- | --------------------- |
-| S001-system-map-safety-trace.md | P005-meeting-a.md (preseason) |
-| S002-drivetrain-driver-baseline.md | P006-meeting-b.md |
+| S001-system-map-safety-trace.md | Originally mapped to P005; **P005 is now V0 rules review**. Bring-up / first movement lives in P006-meeting-b.md |
+| S002-drivetrain-driver-baseline.md | P006-meeting-b.md (first movement) and P007-meeting-a.md (dial-in). Original full baseline is not a Kickoff gate |
 | S003-amper-passive-power.md | (absorbed into stack / preseason software) |
 | S004-mimic-mechanism-states.md | S007-meeting-a.md (gate-first content) |
 | S005-vidar-one-camera.md | S005-meeting-a.md (architecture week 3) |

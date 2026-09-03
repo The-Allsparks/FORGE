@@ -20,7 +20,7 @@ FORGE does not pick the winner — students do. Fill this with what **your team*
 
 ## Evaluation criteria
 
-What mattered to us (pick 2–4):
+What mattered to us (pick 2–4). Include the [four tests](../season/2026-2027-biobuzz/docs/guiding-principle.md) when this is a G1–G3 decision:
 
 - [ ] Speed / cycle time
 - [ ] Reliability / repeatability
@@ -30,6 +30,10 @@ What mattered to us (pick 2–4):
 - [ ] Current / power use
 - [ ] Driver workload
 - [ ] Other: ___
+
+## Sources and prior art
+
+_What we looked at (starter-bot, another team’s public robot, datasheet, Kickoff video). Not a copy instruction: ___
 
 ## Measurements
 
@@ -53,9 +57,11 @@ _What we actually tested or measured: ___
 
 _We picked ___ because ___._
 
+- [ ] **Disagree and commit:** everyone will execute this until new evidence reopens it ([decision-gates.md](../season/2026-2027-biobuzz/docs/decision-gates.md#disagree-and-commit)).
+
 ## Later validation or reconsideration
 
-_We will retest ___ before ___. We might reconsider if ___._
+_We will retest ___ before ___. We might reopen if ___ (measured evidence, not a new opinion)._
 
 ## Award tags
 
