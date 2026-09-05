@@ -55,7 +55,7 @@ What can we **observe and ask** on an FRC team’s shop tour that will help us b
 
 ## Robot outcome
 
-- **None required on Sparkee.** Do not bring a powered robot unless mentors already arranged it with the host (not assumed)
+- **None required on BumbleBee.** Do not bring a powered robot unless mentors already arranged it with the host (not assumed)
 - Observation notes and photos only if the host allows photography
 - Thank-you / follow-up owner named
 - Connect / outreach and student-learning evidence from the visit — **not** a claim that the tour is a public Reach event unless the team actually ran one
@@ -242,7 +242,7 @@ If the tour is cancelled: stay at the Allsparks shop or classroom. Run the same 
 
 ## Robot-unavailable simulation option
 
-Same as cancellation fallback. Tour learning does not require Sparkee.
+Same as cancellation fallback. Tour learning does not require BumbleBee.
 
 ## Post-tour reflection (each student, 4–6 sentences)
 

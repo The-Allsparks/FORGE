@@ -37,7 +37,7 @@ forge_gate: G5
 
 ## Driving question
 
-Is Sparkee mechanically and electrically complete enough for clinic data collection?
+Is BumbleBee mechanically and electrically complete enough for clinic data collection?
 
 ## Student-facing objective
 

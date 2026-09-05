@@ -75,7 +75,7 @@ Attach [concept-brainstorm.md](concept-brainstorm.md) (≥3 distinct). Top final
 
 ## 8. Not yet / will not build
 
-Explicit list. Ambition can live here without living on Sparkee.
+Explicit list. Ambition can live here without living on BumbleBee.
 
 | Item | Not yet (revisit when) | Will not (this season) | Why |
 | ---- | ---------------------- | ---------------------- | --- |

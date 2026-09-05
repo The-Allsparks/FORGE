@@ -36,7 +36,7 @@ _Tools, mentor time, pairing: ___
 
 ## Connection to team robot
 
-_How this goal helps Sparkee or the team story: ___
+_How this goal helps BumbleBee or the team story: ___
 
 ## Progress notes (append only)
 

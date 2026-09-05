@@ -89,7 +89,7 @@ game-relevant · HSV · ROI · confidence · stale · deferred
 | ---: | --- | --- |
 | 10 | Opening | **Major-design-pivot deadline** — no new architecture after closeout unless G3 gate review |
 | 35 | Repair / tune / program | CAD dimensions; BOM finalize; cut list for week 4 fabrication |
-| 55 | Driving reps | Short drivetrain reps on Sparkee or Strafer — do not pause G3 paperwork for tuning debates |
+| 55 | Driving reps | Short drivetrain reps on BumbleBee or Strafer — do not pause G3 paperwork for tuning debates |
 | 20 | Closeout | [Gate review G3](../../../templates/gate-review.md); explicit fallback plan; update `calendar.yaml` titles only |
 
 ## Mentor demonstration

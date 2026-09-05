@@ -10,7 +10,7 @@ FORGE must never become a Gradle dependency of that project. Combined Hub compil
 2. Start from [Pedro-Pathing/Quickstart](https://github.com/Pedro-Pathing/Quickstart) **or** [FIRST-Tech-Challenge/FtcRobotController](https://github.com/FIRST-Tech-Challenge/FtcRobotController) plus Pedro later. Pedro requires **Android Studio**, not OnBot Java or Blocks ([Pedro introduction](https://pedropathing.com/docs/pathing)).
 3. Pick a repository name when you create it. Do not write a guessed URL into FORGE first.
 
-Local `FTC-test` is **not** the production robot repo until it has a remote and is recorded below.
+Local `FTC-test` is **not** the production robot repo. The published tree is [The-Allsparks/FtcRobotController](https://github.com/The-Allsparks/FtcRobotController) (v11.2.1 fork, `bumblebee` branch). Record it in [team-robot-project.md](team-robot-project.md).
 
 ## After the repo exists
 

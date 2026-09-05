@@ -40,7 +40,7 @@ Construction continued at [P003](P003-meeting-a.md) and [P004](P004-meeting-s.md
 
 ## Driving question
 
-Did we start building Sparkee with our hands — frame, fasteners, and kit parts — instead of only talking about the robot?
+Did we start building BumbleBee with our hands — frame, fasteners, and kit parts — instead of only talking about the robot?
 
 ## Student-facing objective
 
@@ -160,8 +160,9 @@ Tools returned; loose fasteners bagged; robot on a stable surface.
 ## Next-session preparation
 
 - **Historical next session:** [P003](P003-meeting-a.md) (2026-08-24) continued construction
-- **Next shop meeting now:** [P006](P006-meeting-b.md) (2026-09-04) — electrical diagram, programming bring-up, first movement
-- Mentors: confirm as-built hardware before P006; do not treat this file as a bill of materials
+- **Then:** [P006](P006-meeting-b.md) (2026-09-04) was a code walkthrough — bring-up did **not** run
+- **Next shop meeting now:** [P007](P007-meeting-a.md) (2026-09-07) — finish bring-up, first movement, and Kickoff preparation
+- Mentors: confirm as-built hardware before P007; do not treat this file as a bill of materials
 
 ## Hardware-unavailable fallback
 
@@ -176,10 +177,11 @@ Not used.
 - [preseason-deferred-work.md](../docs/preseason-deferred-work.md)
 - [P001 onboarding](P001-meeting-a.md)
 - [P003 construction session 2](P003-meeting-a.md)
-- [P006 electrical, programming, and first movement](P006-meeting-b.md)
+- [P006 code walkthrough](P006-meeting-b.md)
+- [P007 finish bring-up and Kickoff preparation](P007-meeting-a.md)
 - [docs/safety-and-enablement.md](../../../docs/safety-and-enablement.md)
 - [season-plan.md](../season-plan.md)
 
 ## Mentor notes
 
-Wednesday 2026-08-19 **held and complete as construction.** Do not upgrade this record with guessed motor counts or orders. Sponsor cards **started** at P001; finishing them may have happened here — mark complete in the notebook only if true. Students are beginners. Three construction meetings are real mechanical learning, not a skip of P006 inspection and wiring.
+Wednesday 2026-08-19 **held and complete as construction.** Do not upgrade this record with guessed motor counts or orders. Sponsor cards **started** at P001; finishing them may have happened here — mark complete in the notebook only if true. Students are beginners. Three construction meetings are real mechanical learning, not a skip of P007 inspection and wiring.

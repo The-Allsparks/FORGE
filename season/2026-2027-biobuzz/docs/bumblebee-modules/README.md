@@ -1,6 +1,6 @@
-# Sparkee module records
+# BumbleBee module records
 
-Per-module documentation for competition Sparkee. Template: [../../../../templates/sparkee-module-record.md](../../../../templates/sparkee-module-record.md).
+Per-module documentation for competition BumbleBee. Template: [../../../../templates/bumblebee-module-record.md](../../../../templates/bumblebee-module-record.md).
 
 **Status:** **BLOCKED pre-Kickoff** — module names and interfaces depend on BIOBUZZ ([biobuzz-unverified-facts.md](../biobuzz-unverified-facts.md)).
 
@@ -15,7 +15,7 @@ M-scorer.md
 …
 ```
 
-Copy [../../../../templates/sparkee-module-record.md](../../../../templates/sparkee-module-record.md) for each. Track in [FORGE#27](https://github.com/The-Allsparks/FORGE/issues/27).
+Copy [../../../../templates/bumblebee-module-record.md](../../../../templates/bumblebee-module-record.md) for each. Track in [FORGE#27](https://github.com/The-Allsparks/FORGE/issues/27).
 
 ## Candidate modules (placeholders — rename after Kickoff)
 

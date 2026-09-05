@@ -12,6 +12,7 @@ Parent: [stack-acceptance.md](stack-acceptance.md) / [FORGE#4](https://github.co
 - Installing a library must not activate it.
 - Unknown, stale, and missing are not `0`, `false`, or “no game piece.”
 - TRACE records; it does not command.
+- SHIFT owns operator intent. It does not command motors.
 - Pedro (or the chosen drive layer) owns chassis motion.
 - HELM never commands motors.
 - ECHO never commands hardware.
@@ -38,6 +39,7 @@ Parent: [stack-acceptance.md](stack-acceptance.md) / [FORGE#4](https://github.co
 
 ```text
 TeamCode (OpMode)
+  → SHIFT (operator intent; required for BumbleBee Drive teleop)
   → TRACE (optional)
   → AMPER (optional)
   → MIMIC (optional)

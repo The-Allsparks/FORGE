@@ -35,7 +35,7 @@ What did our first league teaches us — and what is Version 2 allowed to explor
 
 ## Student-facing objective
 
-Students run [event-retrospective.md](../../../templates/event-retrospective.md) for League 1S/2S; map match evidence to dashboard; begin calibration backlog. Version 2 research only on Strafer/fixtures — not Sparkee competition time.#4](https://github.com/The-Allsparks/FORGE/issues/4), not this session.
+Students run [event-retrospective.md](../../../templates/event-retrospective.md) for League 1S/2S; map match evidence to dashboard; begin calibration backlog. Version 2 research only on Strafer/fixtures — not BumbleBee competition time.#4](https://github.com/The-Allsparks/FORGE/issues/4), not this session.
 
 ## Robot outcome
 

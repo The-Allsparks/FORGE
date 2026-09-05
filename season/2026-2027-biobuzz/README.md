@@ -22,14 +22,14 @@ Every numbered meeting uses **`{ID}-meeting-{type}.md`** where `type` is `a` (Mo
 ## Start this week
 
 1. Read [season-plan.md](season-plan.md) and [preseason-deferred-work.md](docs/preseason-deferred-work.md)
-2. Open [P006-meeting-b.md](sessions/P006-meeting-b.md) — **next meeting (2026-09-04)** — electrical diagram, programming bring-up, and first movement. Do not run the original driver-baseline agenda. Wheels off the floor before any floor driving.
+2. Open [P007-meeting-a.md](sessions/P007-meeting-a.md) — **next meeting (2026-09-07)** — last shop night: finish electrical, programming bring-up, and first movement, then Kickoff worksheets. P006 was a code walkthrough only. Do not open as drivetrain dial-in. Wheels off the floor before any floor driving.
 3. Update [readiness-dashboard.md](readiness-dashboard.md) in the last 10–20 minutes
 
 ## Priority
 
 working robot → reliable mechanisms → driver practice → conventional autonomous → evidence collection → advanced autonomy
 
-**Integration gate:** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) — combined FTC stack acceptance. TeamCode URL is **BLOCKED** ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)).
+**Integration gate:** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) — combined FTC stack acceptance. Robot project: [The-Allsparks/FtcRobotController](https://github.com/The-Allsparks/FtcRobotController).
 
 ## First Nevada checkpoints (from calendar.yaml)
 
@@ -45,13 +45,13 @@ working robot → reliable mechanisms → driver practice → conventional auton
 
 ## Written sessions
 
-**Preseason:** P001–P008 (construction + V0 rules variance recorded; remaining shop time is P006 first movement and P007 dial-in plus Kickoff prep; P008 is the FRC tour — not the original mechanism lab).
+**Preseason:** P001–P008 (construction + V0 rules + P006 code-walkthrough variance recorded; remaining shop time is P007 bring-up/first movement plus Kickoff prep; P008 is the FRC tour — not the original mechanism lab).
 
 **Kickoff:** K001.
 
 **Season:** S001–S042 milestone and cadence sessions; **E004** (League Tournament day 1) and **E005** (State day 1, contingent) replace regular meetings on those dates.
 
-Team robot GitHub URL: **BLOCKED** ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)). Shop construction and driving still proceed. Compile-checked stack does not. Playbook: [create-robot-project.md](../../docs/create-robot-project.md).
+Team robot GitHub: [The-Allsparks/FtcRobotController](https://github.com/The-Allsparks/FtcRobotController). Shop construction and driving still proceed. Hub stack evidence does not. Detail: [team-robot-project.md](../../docs/team-robot-project.md).
 
 Combined-stack teaching: [stack-acceptance.md](../../docs/stack-acceptance.md), [student-install.md](../../docs/student-install.md), [lab I002](../../labs/integrated/I002-stack-install-diagnosis.md).
 

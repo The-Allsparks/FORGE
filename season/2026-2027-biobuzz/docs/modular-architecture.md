@@ -1,6 +1,6 @@
-# Modular architecture — Sparkee
+# Modular architecture — BumbleBee
 
-Sparkee is The Allsparks' competition-one robot (FTC 36117). Treat it as **replaceable modules**, not one inseparable mechanism.
+BumbleBee is The Allsparks' competition-one robot (FTC 36117). Treat it as **replaceable modules**, not one inseparable mechanism.
 
 Module set is **derived from BIOBUZZ** after Kickoff — do not force four modules because Pratt's DECODE-era example used approximately four.
 
@@ -25,7 +25,7 @@ Replace placeholders with BIOBUZZ-specific names at G3.
 
 Each module above must have a one-page record (notebook or linked doc) containing:
 
-Use [sparkee-module-record.md](../../../templates/sparkee-module-record.md). Store filled copies under [docs/sparkee-modules/](sparkee-modules/) after G3.
+Use [bumblebee-module-record.md](../../../templates/bumblebee-module-record.md). Store filled copies under [docs/bumblebee-modules/](bumblebee-modules/) after G3.
 
 | Field | Description |
 | ----- | ----------- |
@@ -44,7 +44,7 @@ Use [sparkee-module-record.md](../../../templates/sparkee-module-record.md). Sto
 
 ## Interface rules
 
-1. **Mechanical:** Modules attach to common rail pattern on Sparkee frame; no module-specific frame hacks without G3 change control.
+1. **Mechanical:** Modules attach to common rail pattern on BumbleBee frame; no module-specific frame hacks without G3 change control.
 2. **Electrical:** Each module gets a labeled harness with disconnect at module boundary.
 3. **Software:** MIMIC owns mechanism states; Pedro owns chassis; HELM never bypasses MIMIC or Pedro.
 4. **Fallback:** Any module may be replaced by official **starter-bot equivalent** if custom version misses G5 — document swap procedure in pit materials.
@@ -76,7 +76,7 @@ After G7 feature freeze, next-generation modules may be prototyped on:
 - Bench fixtures
 - Spare module mounts
 
-**Rule:** Version 2 work cannot remove students from Sparkee reliability, driving, documentation, or judging prep. See [two-platform-strategy.md](two-platform-strategy.md).
+**Rule:** Version 2 work cannot remove students from BumbleBee reliability, driving, documentation, or judging prep. See [two-platform-strategy.md](two-platform-strategy.md).
 
 ## Evidence
 

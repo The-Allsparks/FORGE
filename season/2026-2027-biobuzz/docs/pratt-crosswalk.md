@@ -33,8 +33,8 @@ A **different** Pratt video (*Why Most FTC Teams Fail (And How Not To)*) informs
 | P003 | 2026-08-24 | — | Preseason | Construction session 2 of 3. Original rolling-drivetrain plan **not done** |
 | P004 | 2026-08-26 | — | Preseason | Construction session 3 of 3. Original electrical + Onshape plan **not done** (electrical → P006) |
 | P005 | 2026-08-31 | Pratt w1 rules (early) | Preseason | BIOBUZZ Pre-Season V0 rules review. Original bring-up **not done** (→ P006) |
-| P006 | 2026-09-04 | — | Preseason | Electrical diagram, programming bring-up, first movement (was driver baseline) |
-| P007 | 2026-09-07 | Pratt w2 goals (early) | Preseason | Drivetrain dial-in **and** Kickoff prep (was mechanism lab; lab → S001/S003 if game-justified) |
+| P006 | 2026-09-04 | — | Preseason | Code walkthrough only. Original electrical/programming/first movement **not done** (→ P007) |
+| P007 | 2026-09-07 | Pratt w2 goals (early) | Preseason | Finish bring-up and first movement **and** Kickoff prep (was mechanism lab; lab → S001/S003 if game-justified; dial-in leftover only) |
 | P008 | 2026-09-11 | — | Preseason | FRC team tour (Kickoff readiness moved to P007) |
 
 ## Session mapping — competition one (through League 1S/2S)
@@ -93,7 +93,7 @@ Library deep-dives (ViDAR, BEACON, MIMIC, ECHO, HELM) occur **only when** the G3
 | [#24](https://github.com/The-Allsparks/FORGE/issues/24) | Verify BIOBUZZ award/portfolio limits | Kickoff → G8 |
 | [#25](https://github.com/The-Allsparks/FORGE/issues/25) | Assign checklist owners at G8 | G8 |
 | [#26](https://github.com/The-Allsparks/FORGE/issues/26) | Student learning-goal baselines at **P007** (moved from P008 because P008 is the FRC tour) | Preseason → G8 |
-| [#27](https://github.com/The-Allsparks/FORGE/issues/27) | Sparkee module docs after G3 | G3 → G5 |
+| [#27](https://github.com/The-Allsparks/FORGE/issues/27) | BumbleBee module docs after G3 | G3 → G5 |
 | [#28](https://github.com/The-Allsparks/FORGE/issues/28) | Retime S005–S011 agendas | weeks 3–5 |
 | [#29](https://github.com/The-Allsparks/FORGE/issues/29) | Archive legacy duplicate sessions | maintenance |
 

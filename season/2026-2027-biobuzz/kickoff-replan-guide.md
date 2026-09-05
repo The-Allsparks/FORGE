@@ -22,7 +22,7 @@ Use the fillable [kickoff-decision-package.md](../../templates/kickoff-decision-
 2. Scoring **and ranking** notes from the official manual (citations, not invented points).
 3. Alliance-role sketch (what we contribute / must not block as a likely weaker partner).
 4. Structured **debate notes** on the top two or three concepts (pros, cons, driver workload, build time, four tests).
-5. Draft **not yet / will not build** list (ambition lives here, not on Sparkee).
+5. Draft **not yet / will not build** list (ambition lives here, not on BumbleBee).
 6. Written **minimum viable robot** as R0 + intended R2 ([robot-releases.md](docs/robot-releases.md)).
 7. **Starter-bot fallback** identified if custom MVP slips.
 8. Initial **risk register** (≥3 risks with owners).

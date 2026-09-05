@@ -39,7 +39,7 @@ FORGE does **not** record which subassemblies were completed on this date. Do no
 
 ## Driving question
 
-After P002’s first construction session, did we keep building Sparkee with our hands — even if that meant not running the original “finish drivetrain and sketch CAD” agenda?
+After P002’s first construction session, did we keep building BumbleBee with our hands — even if that meant not running the original “finish drivetrain and sketch CAD” agenda?
 
 ## Student-facing objective
 
@@ -157,7 +157,8 @@ Tools returned; loose fasteners bagged; robot on a stable surface.
 ## Next-session preparation
 
 - **Historical next session:** [P004](P004-meeting-s.md) continued construction (did **not** run electrical + Onshape)
-- **Current next shop meeting:** [P006](P006-meeting-b.md) — electrical diagram, programming, first movement
+- **Then:** [P006](P006-meeting-b.md) was a code walkthrough — bring-up did **not** run
+- **Current next shop meeting:** [P007](P007-meeting-a.md) — finish bring-up, first movement, and Kickoff preparation
 - Mentors: do not assume a rolling chassis from this file
 
 ## Hardware-unavailable fallback
@@ -173,7 +174,8 @@ Not used.
 - [preseason-deferred-work.md](../docs/preseason-deferred-work.md)
 - [P002 construction session 1](P002-meeting-s.md)
 - [P004 construction session 3](P004-meeting-s.md)
-- [P006 electrical, programming, and first movement](P006-meeting-b.md)
+- [P006 code walkthrough](P006-meeting-b.md)
+- [P007 finish bring-up and Kickoff preparation](P007-meeting-a.md)
 - [learning-paths/onshape-cad.md](../../../learning-paths/onshape-cad.md) — original CAD prep from this session is deferred
 - [templates/decision-record.md](../../../templates/decision-record.md)
 - [docs/safety-and-enablement.md](../../../docs/safety-and-enablement.md)

@@ -12,16 +12,16 @@ Competition status: `disabled` · `passive` · `practice-only` · `approved` · 
 
 Opening this file does not approve anything.
 
-**Combined stack (P0):** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). Until a published TeamCode repo exists and Hub evidence is recorded, the Combined stack row stays blocked. Desktop CI is not that evidence.
+**Combined stack (P0):** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). Robot repo is published. Hub evidence is still unmeasured. Desktop compile is not that evidence.
 
 | Capability | Owner / pair | Ladder | Latest evidence | Known risks | Rollback method | Next required test | Competition status |
 | ---------- | ------------ | ------ | --------------- | ----------- | --------------- | ------------------ | ------------------ |
-| Combined stack | | 1 | paper only; **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2) | no published robot repo; Hub budgets unmeasured | disable each optional independently ([student-install.md](../../docs/student-install.md)) | **blocked** — publish/link TeamCode, then compile-checked TeleOp/auto | disabled |
-| Robot mechanical | | 1 | P002–P004 construction (**as-built unverified**) | unknown remainder after three build meetings | n/a | **P006** — inspect during wiring/bring-up | disabled |
-| Electrical | | 1 | none (original P004 wiring did not run) | unvalidated wiring | power disconnect | **P006** diagram and wiring | disabled |
-| Driver-control | | 1 | none | no first movement yet | DS stop | **P006** restrained then slow floor; **P007** dial-in | disabled |
+| Combined stack | | 1 | desktop compile of BumbleBee Drive on [FtcRobotController](https://github.com/The-Allsparks/FtcRobotController); Hub budgets unmeasured | Hub untested | disable each optional independently ([student-install.md](../../docs/student-install.md)) | P007 deploy + conventional teleop on a Hub | disabled |
+| Robot mechanical | | 1 | P002–P004 construction (**as-built unverified**); P006 did not inspect | unknown remainder after three build meetings | n/a | **P007** — inspect during wiring/bring-up | disabled |
+| Electrical | | 1 | none (P004 wiring did not run; P006 did not run it either) | unvalidated wiring | power disconnect | **P007** diagram and wiring | disabled |
+| Driver-control | | 1 | none (P006 was code reading only) | no first movement yet | DS stop | **P007** restrained then slow floor; dial-in leftover or **S002** | disabled |
 | Conventional autonomous | | 1 | none | no path yet | run teleop only | S003 simple Pedro path | disabled |
-| TRACE | | 1 | none | not Hub-tested | `TraceMode.OFF` | P006/P007 paper notes; library later | passive (goal) |
+| TRACE | | 1 | none | not Hub-tested | `TraceMode.OFF` | P007 paper notes; library later | passive (goal) |
 | AMPER | | 1 | none | not Hub-tested | `AmperPolicies.disabled()` | passive voltage in S001+ if useful | disabled |
 | MIMIC | | 1 | none | Phase 0 only | flags default / no actuation | paper states post-Kickoff (original P007 lab deferred) | disabled |
 | ViDAR | | 1 | none | 4-cam unvalidated | do not consume detections in drive | S001 sim or one camera | disabled |
@@ -38,6 +38,7 @@ Opening this file does not approve anything.
 
 | Date | Session | What changed |
 | ---- | ------- | ------------ |
+| 2026-09-04 | P006 | **Complete (variance)** — code walkthrough only. Electrical, useful programming, motor tests, and first movement did **not** run. Catch-up is P007 (last shop night). |
 | 2026-09-02 | — | Pratt *Why Most FTC Teams Fail* findings integrated: four tests, R0–R5, Kickoff package, acceptance method, software tiers, award strategy. See [docs/pratt-why-teams-fail.md](docs/pratt-why-teams-fail.md). Not marked as team-practiced yet. |
 | 2026-09-02 | — | **Schedule reconciliation.** P002–P004 = construction (subassembly detail unverified). P005 = BIOBUZZ Pre-Season V0 rules (not bring-up). P006 = electrical/programming/first movement. P007 = drivetrain dial-in + Kickoff prep. P008 = FRC tour. Mechanism lab stays post-Kickoff. See [preseason-deferred-work.md](docs/preseason-deferred-work.md). |
 | 2026-08-31 | P005 | **Complete (variance)** — BIOBUZZ Pre-Season V0 rules review. Bring-up, TRACE, wiring, and driving did **not** run. |

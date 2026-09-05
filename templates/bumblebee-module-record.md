@@ -1,4 +1,4 @@
-# Sparkee module record
+# BumbleBee module record
 
 One page per module. Fill after **G3 Architecture gate** when BIOBUZZ module set is known.
 

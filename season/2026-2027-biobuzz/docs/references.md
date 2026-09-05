@@ -45,10 +45,10 @@ Audit and adaptations: [pratt-why-teams-fail.md](pratt-why-teams-fail.md). Integ
 - [decision-gates.md](decision-gates.md) — eight FORGE decision gates
 - [pratt-crosswalk.md](pratt-crosswalk.md) — Pratt **twelve-week** series ↔ FORGE session mapping
 - [pratt-why-teams-fail.md](pratt-why-teams-fail.md) — failure-mode video audit
-- [modular-architecture.md](modular-architecture.md) — Sparkee module contract
+- [modular-architecture.md](modular-architecture.md) — BumbleBee module contract
 - [software-sequencing.md](software-sequencing.md) — four-tier software contract
 - [award-strategy.md](award-strategy.md) — Think plus focused MCI/TA bets
-- [two-platform-strategy.md](two-platform-strategy.md) — Strafer vs competition Sparkee
+- [two-platform-strategy.md](two-platform-strategy.md) — Strafer vs competition BumbleBee
 - [../season-plan.md](../season-plan.md) — integrated season timeline
 - [../kickoff-replan-guide.md](../kickoff-replan-guide.md) — Kickoff outputs aligned to Gate 1
 

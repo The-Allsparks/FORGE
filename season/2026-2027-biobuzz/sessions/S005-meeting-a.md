@@ -33,7 +33,7 @@ forge_gate: G3
 
 ## Driving question
 
-What modular Sparkee architecture fits our evidence — and what are we explicitly cutting?
+What modular BumbleBee architecture fits our evidence — and what are we explicitly cutting?
 
 ## Student-facing objective
 
@@ -87,7 +87,7 @@ fresh · stale · connected (ambiguous) · official stop · recovery inhibit · 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
 | 10 | Opening | Review G2 comparative evidence; architecture selection starts today; module list from BIOBUZZ MVP |
-| 75 | Construction | Physical module-boundary mockups; interface sketches on Sparkee frame; begin CAD for authorized modules |
+| 75 | Construction | Physical module-boundary mockups; interface sketches on BumbleBee frame; begin CAD for authorized modules |
 | 25 | Integration | Architecture diagram draft; software contract (MVP libraries only); assign module owners |
 | 10 | Closeout | Shared-parts table started; explain-back; dashboard update; prep S006 G3 gate |
 

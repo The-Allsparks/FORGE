@@ -37,7 +37,7 @@ Can we deliver modules incrementally to software instead of waiting for a comple
 
 ## Student-facing objective
 
-Students fabricate authorized Sparkee modules; deliver first modules to programming pair; declare G4 design freeze on module set.
+Students fabricate authorized BumbleBee modules; deliver first modules to programming pair; declare G4 design freeze on module set.
 
 ## Robot outcome
 
@@ -88,7 +88,7 @@ interlock · reject · defer · clamp · deadlock · hard stop vs software
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
 | 10 | Opening | **G4 design freeze** — no new modules without gate review; incremental software delivery plan |
-| 75 | Construction | Fabricate authorized Sparkee modules; spares for fragile parts |
+| 75 | Construction | Fabricate authorized BumbleBee modules; spares for fragile parts |
 | 25 | Integration | Deliver first completed module to programming pair; [prototype-test-record](../../../templates/prototype-test-record.md) per module |
 | 10 | Closeout | Module handoff log; explain-back; dashboard mechanical row |
 

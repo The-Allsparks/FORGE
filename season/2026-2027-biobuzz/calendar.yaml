@@ -110,14 +110,14 @@ sessions:
     season_phase: preseason
     event_checkpoint: none
     file: sessions/P006-meeting-b.md
-    title: Electrical diagram, programming bring-up, and first movement
+    title: Code walkthrough — no bring-up or first movement
   - id: P007
     date: "2026-09-07"
     meeting_type: A
     season_phase: preseason
     event_checkpoint: none
     file: sessions/P007-meeting-a.md
-    title: Drivetrain dial-in and Kickoff preparation
+    title: Finish bring-up, first movement, and Kickoff preparation
   - id: P008
     date: "2026-09-11"
     meeting_type: B
@@ -466,11 +466,11 @@ cadence_windows:
   - id: preseason
     start: "2026-08-17"
     end: "2026-09-11"
-    intent: P001–P008 — capable team and construction record; P006 electrical/programming/first movement; P007 drivetrain dial-in plus Kickoff prep; P008 FRC tour; mechanism lab deferred post-Kickoff.
+    intent: P001–P008 — capable team and construction record; P006 code walkthrough (no bring-up); P007 finish electrical/programming/first movement plus Kickoff prep; P008 FRC tour; mechanism lab deferred post-Kickoff.
   - id: kickoff-to-clinic
     start: "2026-09-12"
     end: "2026-10-10"
-    intent: K001 + compressed weeks 1–4 (G1–G5); Sparkee architecture through integration; clinic data collection.
+    intent: K001 + compressed weeks 1–4 (G1–G5); BumbleBee architecture through integration; clinic data collection.
   - id: reliability-sprint
     start: "2026-10-12"
     end: "2026-10-31"

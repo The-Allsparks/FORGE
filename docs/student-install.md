@@ -2,7 +2,7 @@
 
 This page is the student-facing companion to [stack-acceptance.md](stack-acceptance.md). It is **not** a substitute for each library’s install document. The robot application is the composition root ([team-robot-project.md](team-robot-project.md)). FORGE is not a Gradle dependency.
 
-Parent epic: [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). Combined Hub compile-check is **blocked** until a published TeamCode repo exists ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)). Do not invent a clone URL.
+Parent epic: [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). Robot project: [The-Allsparks/FtcRobotController](https://github.com/The-Allsparks/FtcRobotController) ([team-robot-project.md](team-robot-project.md)). Combined Hub evidence is still unmeasured.
 
 ## Before you add a library
 
@@ -18,13 +18,14 @@ Add one library at a time. After each add: sync Gradle, compile, deploy if a Hub
 Recommended order for first contact (optional systems stay disabled):
 
 1. Team FTC SDK project + Pedro (or chosen drive layer)
-2. TRACE (recorder only)
-3. AMPER (`amper-core` + `amper-ftc`; [install.md](https://github.com/The-Allsparks/AMPER/blob/main/docs/install.md))
-4. MIMIC (Phase 0 observation)
-5. BEACON (reports only)
-6. ViDAR (teaching OpModes; no motors)
-7. HELM (`OFF` / validate / observe only)
-8. ECHO last, and only if a supported Driver Hub path exists — otherwise omit
+2. SHIFT (`shift-core` + `shift-ftc`; input layer for BumbleBee teleop — not chassis motion)
+3. TRACE (recorder only; Java 11 — do not add until an FTC/Java 8 path exists)
+4. AMPER (`amper-core` + `amper-ftc`; [install.md](https://github.com/The-Allsparks/AMPER/blob/main/docs/install.md))
+5. MIMIC (Phase 0 observation)
+6. BEACON (reports only)
+7. ViDAR (teaching OpModes; no motors)
+8. HELM (`OFF` / validate / observe only)
+9. ECHO last, and only if a supported Driver Hub path exists — otherwise omit
 
 Use the FTC SDK Gradle wrapper. Do not upgrade Gradle because a library asked you to. Prefer composite `includeBuild` while versions are SNAPSHOT or rc. Pins: [stack-acceptance.md](stack-acceptance.md).
 
@@ -65,6 +66,7 @@ Installing a library must not turn it on.
 
 | System | Disable |
 | ------ | ------- |
+| SHIFT | omit from the OpMode; run Motor Test / conventional-stick teleop |
 | TRACE | `TraceMode.OFF` / do not configure |
 | AMPER | `AmperPolicies.disabled()` |
 | MIMIC | no actuation flags; omit from loop |
