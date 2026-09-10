@@ -40,6 +40,10 @@ python tools/validation/validate_curriculum.py
 
 Do not merge changes that fail validation.
 
+## Cursor skills
+
+When filing a GitHub issue for team review (not Jira), follow [.cursor/skills/github-design-review/SKILL.md](.cursor/skills/github-design-review/SKILL.md). Draft first; post only after a human accepts the text. Do not start implementation from a design-review issue.
+
 ## Session contract
 
 Every detailed session must include the headings in [templates/session.md](templates/session.md). Distinguish:
