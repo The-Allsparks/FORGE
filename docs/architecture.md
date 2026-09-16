@@ -1,6 +1,6 @@
 # Architecture
 
-FORGE is the season layer above seven Allsparks libraries and Pedro Pathing. It sequences learning and integration. It does not compile into the robot.
+FORGE is the season layer above Allsparks libraries and Pedro Pathing. It sequences learning and integration. It does not compile into the robot. SHIFT is the operator-intent layer; it does not `setPower`.
 
 **Combined-stack acceptance** is a FORGE-owned gate ([FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)): install matrix, OpMode lifecycle ordering, shared conventions, disable/rollback teaching, and (when a robot repo exists) compile-checked fallbacks plus Control Hub evidence. Details: [stack-acceptance.md](stack-acceptance.md), [conventions.md](conventions.md), [student-install.md](student-install.md). The composition root is the team's OpMode, not FORGE and not any single library.
 
@@ -15,6 +15,8 @@ FORGE  — season sequence, meetings, evidence, enablement, rollback,
         │
         ▼
 FTC OpMode / robot application  ← only composition root (TeamCode; not this repo)
+        │
+        ├── SHIFT  operator-intent layer (does not setPower)
         │
 ┌─────────┬─────────┬─────────┬─────────┬─────────┬─────────┬─────────┐
 │  TRACE  │  AMPER  │  MIMIC  │  ViDAR  │ BEACON  │  ECHO   │  HELM   │

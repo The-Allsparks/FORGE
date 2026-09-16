@@ -33,6 +33,7 @@ Canonical robot repo exists: [The-Allsparks/FtcRobotController](https://github.c
 | AMPER | https://github.com/The-Allsparks/AMPER/issues/41 |
 | MIMIC | https://github.com/The-Allsparks/MIMIC/issues/34 |
 | TRACE | https://github.com/The-Allsparks/TRACE/issues/31 |
+| SHIFT | https://github.com/The-Allsparks/SHIFT/issues/8 |
 | BEACON | https://github.com/The-Allsparks/BEACON/issues/42 |
 | HELM | https://github.com/The-Allsparks/HELM/issues/44 |
 | ViDAR | https://github.com/The-Allsparks/ViDAR/issues/33 |
