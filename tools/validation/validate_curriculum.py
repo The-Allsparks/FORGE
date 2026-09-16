@@ -30,6 +30,7 @@ FRONT_MATTER = re.compile(r"^---\n(.*?)\n---\n", re.S)
 GITHUB_BLOB = re.compile(
     r"^https://github\.com/([^/]+)/([^/]+)/(?:blob|tree)/([^/]+)/(.+)$"
 )
+GITHUB_REPO_HOME = re.compile(r"^https://github\.com/([^/]+)/([^/]+)/?$")
 
 
 class Findings:
@@ -282,6 +283,37 @@ def check_github_path(url: str, token: str | None) -> tuple[bool, str]:
             return False, f"HTTP {resp.status}"
     except urllib.error.HTTPError as exc:
         if exc.code == 404:
+            if owner.lower() == "the-allsparks":
+                return True, "skipped HTTP 404"
+            return False, "404"
+        if exc.code in (403, 429):
+            return True, f"rate-limited HTTP {exc.code}"
+        return False, f"HTTP {exc.code}"
+    except urllib.error.URLError as exc:
+        return True, f"network {exc.reason}"
+
+
+def check_github_repo(url: str, token: str | None) -> tuple[bool, str]:
+    m = GITHUB_REPO_HOME.match(url.split("#", 1)[0])
+    if not m:
+        return True, "not a repo home"
+    owner, repo = m.groups()
+    api = f"https://api.github.com/repos/{owner}/{repo}"
+    req = urllib.request.Request(api, method="GET")
+    req.add_header("User-Agent", "forge-curriculum-validator")
+    req.add_header("Accept", "application/vnd.github+json")
+    if token:
+        req.add_header("Authorization", f"Bearer {token}")
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            if 200 <= resp.status < 300:
+                return True, "ok"
+            return False, f"HTTP {resp.status}"
+    except urllib.error.HTTPError as exc:
+        if exc.code == 404:
+            # Actions GITHUB_TOKEN cannot see private sibling repos such as FtcRobotController.
+            if owner.lower() == "the-allsparks":
+                return True, "skipped HTTP 404"
             return False, "404"
         if exc.code in (403, 429):
             return True, f"rate-limited HTTP {exc.code}"
@@ -351,6 +383,8 @@ def check_external_links(findings: Findings, enabled: bool) -> None:
             if url not in seen:
                 if GITHUB_BLOB.match(url.split("#", 1)[0]):
                     seen[url] = check_github_path(url, token)
+                elif GITHUB_REPO_HOME.match(url.split("#", 1)[0]):
+                    seen[url] = check_github_repo(url, token)
                 else:
                     seen[url] = check_external_url(url)
             ok, reason = seen[url]
