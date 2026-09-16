@@ -37,11 +37,12 @@ The individual repositories remain authoritative for source code, APIs, installa
 | [MIMIC](https://github.com/The-Allsparks/MIMIC) | Mechanism lifecycle, state, and safety |
 | [BEACON](https://github.com/The-Allsparks/BEACON) | Communications health and recovery |
 | [TRACE](https://github.com/The-Allsparks/TRACE) | Structured logging, evidence, and replay |
+| [SHIFT](https://github.com/The-Allsparks/SHIFT) | Operator input to named intent; not chassis |
 | [HELM](https://github.com/The-Allsparks/HELM) | High-level behavior and intent coordination |
 | [ECHO](https://github.com/The-Allsparks/ECHO) | Sound-based directional guidance for the driver |
 | [Pedro Pathing](https://pedropathing.com/) | Chassis motion |
 
-Do not construct seven independent courses. Teach these as related layers of one robot.
+Do not construct independent courses for each library. Teach these as related layers of one robot.
 
 ---
 
