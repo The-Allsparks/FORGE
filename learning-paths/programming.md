@@ -4,7 +4,7 @@ Programming supports a working robot. It is not a separate course.
 
 ## Foundation
 
-- Driver Station OpMode select, INIT, start, stop (**first contact at P006**, not original P005)
+- Driver Station OpMode select, INIT, start, stop (**first contact at P007**; P006 was code reading only, not original P005)
 - TRACE events and one recorded signal
 - Read a CSV row and say input vs event
 

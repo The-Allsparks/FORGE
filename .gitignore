@@ -30,3 +30,10 @@ node_modules/
 credentials.json
 local/
 scratch/
+
+# FIRST official downloads (copyrighted; refresh from ftc-resources)
+season/**/official/*.pdf
+season/**/official/*.htm
+season/**/official/*.html
+season/**/official/*.step
+season/**/official/*.stp

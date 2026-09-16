@@ -46,7 +46,7 @@ Confirm the team understands BIOBUZZ scoring constraints and has a written, stud
 - Explicit **not yet / will not build** list
 - Initial R0–R2 definition for this game ([robot-releases.md](robot-releases.md))
 - Initial risk register (≥3 risks with owners)
-- ≥1 low-fidelity physical proof of game-object interaction OR documented reason the game makes that impossible until parts arrive
+- ≥1 low-fidelity physical proof of game-object interaction OR documented reason the game makes that impossible until parts arrive (proof is due by **S002**, not as S001's primary product)
 - [Concept brainstorm record](../../../templates/concept-brainstorm.md) with 60–100 scaled ideation count across four students (or honest count + plan to reach target)
 - Four-test check on the G1 commitment
 

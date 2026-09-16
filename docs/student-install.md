@@ -19,7 +19,7 @@ Recommended order for first contact (optional systems stay disabled):
 
 1. Team FTC SDK project + Pedro (or chosen drive layer)
 2. SHIFT (`shift-core` + `shift-ftc`; input layer for BumbleBee teleop — not chassis motion)
-3. TRACE (recorder only; Java 11 — do not add until an FTC/Java 8 path exists)
+3. TRACE (`org.allsparks:trace`; recorder only — BumbleBee uses `includeBuild('../TRACE')` plus Android core library desugaring)
 4. AMPER (`amper-core` + `amper-ftc`; [install.md](https://github.com/The-Allsparks/AMPER/blob/main/docs/install.md))
 5. MIMIC (Phase 0 observation)
 6. BEACON (reports only)
@@ -67,7 +67,7 @@ Installing a library must not turn it on.
 | System | Disable |
 | ------ | ------- |
 | SHIFT | omit from the OpMode; run Motor Test / conventional-stick teleop |
-| TRACE | `TraceMode.OFF` / do not configure |
+| TRACE | `BumbleBeeTrace.MODE = TraceMode.OFF` |
 | AMPER | `AmperPolicies.disabled()` |
 | MIMIC | no actuation flags; omit from loop |
 | ViDAR | do not consume detections; unplug camera if the loop dies |

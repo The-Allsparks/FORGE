@@ -88,7 +88,7 @@ fresh · stale · connected (ambiguous) · official stop · recovery inhibit · 
 | ---: | --- | --- |
 | 10 | Opening | Review G2 comparative evidence; architecture selection starts today; module list from BIOBUZZ MVP |
 | 75 | Construction | Physical module-boundary mockups; interface sketches on BumbleBee frame; begin CAD for authorized modules |
-| 25 | Integration | Architecture diagram draft; software contract (MVP libraries only); assign module owners |
+| 25 | Integration | Architecture diagram and software contract (~15). Pit-interview practice (~10): one student on the robot, one on team story (handbook clinic pit roles). |
 | 10 | Closeout | Shared-parts table started; explain-back; dashboard update; prep S006 G3 gate |
 
 ## Mentor demonstration
@@ -148,8 +148,9 @@ Gamepad reconnection verified; robot disabled; batteries stored.
 
 ## Next-session preparation
 
-- S003 Pedro conventional auto — install/tune docs from [pedropathing.com](https://pedropathing.com/docs/pathing) on one laptop
+- S006: CAD/BOM authorization and G3 pivot deadline (first Onshape lesson was S003)
 - Keep MVP build list from Kickoff visible
+- Clinic is 10 Oct — continue short pit Q&A, not a full mock judging (that is S013)
 
 ## Hardware-unavailable fallback
 
@@ -178,4 +179,4 @@ BEACON `gradlew test` if available; complete exercises 1–4 on paper. Watch off
 
 ## Mentor notes
 
-The teaching win is humility about evidence. If students ask to "make it stop faster," read driver-link.md together and refuse. Protect the 55-minute driving block.
+Architecture and module cuts are the G3 product. BEACON exercises are optional evidence vocabulary — they must not replace the architecture diagram or the 10-minute pit-interview practice. First CAD lesson was S003; S006 authorizes fab. Meeting A has no 55-minute drive block.

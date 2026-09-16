@@ -112,8 +112,9 @@ Reconstructed **actual** Meeting B pattern. The electrical-diagram and first-mov
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
 | 10 | Opening | Goal as planned was first movement; the meeting did not reach that work |
-| ~90 | Code reading | Read through existing robot / FTC code as a group. No hardware configuration, TeleOp, deploy, or motor test recorded |
-| ~20 | Closeout | Cleanup. Remaining electrical, programming, and first-movement work is still ahead at P007 |
+| 35 | Work block 1 | Read through existing robot / FTC code. No hardware configuration, TeleOp, or deploy |
+| 55 | Work block 2 | Continued code reading in the slot that would have been driving; nobody enabled the robot |
+| 20 | Closeout | Cleanup. Remaining electrical, programming, and first-movement work is still ahead at P007 |
 
 Times are approximate. FORGE does not have a minute-by-minute attendance log.
 

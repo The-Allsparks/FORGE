@@ -1,198 +1,183 @@
 ---
 id: S003
-title: Post-Kickoff week 2 — comparative mechanism tests
+title: Post-Kickoff week 2 — FRC-hosted Onshape training
 date: 2026-09-21
 meeting_type: A
 season_phase: kickoff-to-clinic
 event_checkpoint: clinic
-status: complete
-difficulty: Developing
-projects:
-- PEDRO
-- TRACE
+status: scheduled
+difficulty: Foundation
+projects: []
 active_features: []
 compressed_week: 2
 forge_gate: G2
 ---
 
-# S003 — Pedro Pathing conventional autonomous
+# S003 — FRC-hosted Onshape training
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
 | Session ID | S003 |
-| Title | Post-Kickoff week 2 — comparative mechanism tests |
+| Title | Post-Kickoff week 2 — FRC-hosted Onshape training |
 | Calendar date | 2026-09-21 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Relative week | Compressed week 2 (G2 Prototype evidence) |
 | Meeting type | A |
 | Season phase | kickoff-to-clinic |
 | Event checkpoint | clinic |
 | Forge gate | G2 |
-| Difficulty | Developing |
+| Difficulty | Foundation |
 
 ## Driving question
 
-Which mechanism moves game objects reliably — and can we prove it with measurements, not opinions?
+Can every student log into the team Onshape document, constrain one sketch from notebook dimensions, and extrude a simple plate — without treating CAD as a G2 passing grade?
 
 ## Student-facing objective
 
-Students run comparative mechanism tests with [prototype-test-record.md](../../../templates/prototype-test-record.md) using [acceptance-criteria.md](../docs/acceptance-criteria.md) (≥3 trials each is the G2 default); begin minimum autonomous movement only if it does **not** consume the comparison. CAD is not a passing grade.
+Students complete the **first shop CAD lesson**, taught by the FRC team visited at P008. First contact is login, millimeters, one constrained sketch, one extrude, screenshot for the notebook. Comparative mechanism tests that this calendar slot used to own move to [S004](S004-meeting-b.md) if the whole team is in CAD class. G2 still ends Friday.
 
 ## Robot outcome
 
-- ≥1 completed prototype test record with ≥3 trials
-- Starter-bot reference test scheduled or complete
-- Drivable chassis maintained
-- Variables held constant documented
-
+- Named Onshape sketch in the team document (mentor creates the doc; host names stay out of git)
+- Screenshot of the sketch/extrude in the notebook
+- No requirement to export STL unless a custom part actually blocks build
+- No Pedro path, no custom scoring fab as the lesson product
+- If training is at the Allsparks shop: non-CAD pair may set up cardboard comparative tests for S004 — not a substitute for the CAD lesson
 
 ## Prerequisites
 
-- Driveable chassis from [P006](P006-meeting-b.md)–[P007](P007-meeting-a.md) or S001 catch-up — original P006 baseline was rescoped; P008 was the FRC tour
-- Android Studio on at least one mentor laptop ([Pedro does not support OnBot Java or Blocks](https://pedropathing.com/docs/pathing))
-- Team robot project — see [team-robot-project.md](../../../docs/team-robot-project.md). If that URL is still empty, install into the local TeamCode the team is actually flashing
-- [Pedro Quickstart](https://github.com/Pedro-Pathing/Quickstart) or Pedro added per current docs
-- Kickoff MVP list from K001 (if Kickoff was missed, path is still "leave starting area / park-shaped motion" without invented scoring)
+- Appendix F Onshape parental consent on file **before** student accounts
+- Mentor-created team Onshape document (coach prep; see [onshape-cad.md](../../../learning-paths/onshape-cad.md))
+- Notebook dimensions from as-built robot or S001 sketches
+- [P008](P008-meeting-b.md) tour complete or skipped — tonight is the CAD follow-up, not a second full tour script
+- G1 from S002 should be passed or explicitly conditional; CAD does not unlock architecture freeze (G3 is S006)
 
 ## Vocabulary
 
-path · localization · pose · conventional auto · fallback · tuner (do not finish all today)
+Onshape · sketch · constrain · extrude · millimeter · team document · export (later)
 
 ## Safety concerns
 
-- First auto: clear floor, exclusion zone, DS stop in a mentor's hand
-- Omnidirectional drive required for Pedro; do not force Pedro onto tank
-- Gentle bump only during failure injection — no ramming
-- Do not "fix" localization by turning on ViDAR
-- Robot Wi-Fi for Panels is for the shop; follow event Wi-Fi rules at competition ([Pedro dashboard notes](https://pedropathing.com/docs/pathing/dashboard))
+- Follow **host shop rules** if offsite; safety glasses if their build area requires them
+- Stay with the assigned adult; do not touch FRC robots, batteries, or machine tools unless invited
+- No Allsparks motor enable at a host shop unless mentors already arranged it (not assumed)
+- Laptop chargers; no food on keyboards
+- Do not put student full names or personal emails in git
 
 ## Required hardware
 
-- Drivetrain; charged battery
-- Localization as the team actually has: drive encoders (allowed), dead wheels, Pinpoint, or OTOS — pick one and follow **that** Pedro page
-- Tape or cones for a 2–3 waypoint course (about one to two tiles)
-- Optional: laptop for Panels at `192.168.43.1:8001` on robot Wi-Fi
+- Laptops that can reach Onshape
+- Notebook with tape measurements
+- Closed-toe shoes; safety glasses if packed for a host shop
+- Optional: calipers for one plate dimension
 
 ## Required software
 
-- Pedro Pathing in the team FTC project
-- `Tuning` OpMode from Pedro/Quickstart
-- One team `@Autonomous` that is either a tiny Pedro path **or** timed drive-forward
-- TRACE events around auto if TRACE is installed; else DS timer
-- HELM off; no ViDAR in this OpMode
+- Onshape in a browser (Education / team document)
+- [Onshape Learning Center](https://learn.onshape.com/) as backup homework, not a replacement for tonight
+- No robot project required
 
 ## Preparation required before the meeting
 
-- Read [Pedro introduction](https://pedropathing.com/docs/pathing) and [tuning overview](https://pedropathing.com/docs/pathing/tuning)
-- Open the localizer page that matches hardware: [localization index](https://pedropathing.com/docs/pathing/tuning/localization) (drive encoders are valid)
-- Confirm Android Studio opens the robot project
-- Stage localization mount hardware
-- Tape a short course before students arrive if the field is available
+- Mentors: confirm host, location, time, transport, and photo policy **outside git**
+- Confirm every participating student has Appendix F consent
+- Create or open the team Onshape document; invite consented accounts
+- Print one simple plate/guard profile from notebook dimensions — not a full robot
+- If offsite: comparative-test hardware stays home; S004 owns G2 trials
 
 ## Exact 120-minute agenda
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Goal: conventional auto fallback; Pedro owns chassis; we will not finish every tuner today; safety: exclusion zone; assignments |
-| 75 | Construction | MVP mechanism remaining work **and** localization mount (or encoder cable dress if using drive encoders). Mechanical pair owns the mount; electrical pair owns wiring per the chosen Pedro localizer page |
-| 25 | Integration | Run Localization Test **or** one short path **or** encode the paper path. If Pedro is not compiling, write timed drive-forward auto and walk the paper path. TRACE start/stop events |
-| 10 | Closeout | Rep count or blocker; dashboard Conventional autonomous row; explain-back; cleanup |
+| 10 | Opening | Purpose: first CAD contact with FRC hosts. Consent check. Host safety. CAD is not G2. Assign CAD pair vs shop pair **if** at Allsparks. |
+| 75 | Construction | Host-led Onshape: log in, mm units, sketch, constrain from notebook, one extrude. If at Allsparks, non-CAD students prepare cardboard comparative setups for Friday — they still rotate through a CAD seat. If offsite, everyone is in class. |
+| 25 | Integration | Save; screenshot; name the part; export STL/DXF **only if** a custom part blocks build. Record who prints. No assemblies. |
+| 10 | Closeout | Thank hosts; notebook screenshot; S004 = G2 comparative evidence + driving; cleanup. |
 
 ## Mentor demonstration
 
-Under five minutes: show official constraints (omni drive, some localization, Android Studio). Show where `Constants` / follower setup lives in **their** project if it exists. Do not lecture PIDF vs predictive braking — name that those tuners exist on [tuning](https://pedropathing.com/docs/pathing/tuning) and are homework/next Meeting B.
+Under five minutes: show the team document and millimeters. Let the FRC hosts teach the rest. Allsparks mentors watch YPP/supervision and stop any "full robot assembly tonight" scope creep.
 
 ## Student work
 
 | Path | Work |
 | ---- | ---- |
-| Mechanical | Localization mount square to the robot; bumpers/skids if needed for auto |
-| Electrical | Encoder / Pinpoint / OTOS / drive-encoder wiring as chosen; strain relief |
-| Programming | Localizer constants from the official page; tiny path or drive-forward fallback; TRACE events |
-| Drive team | Watch every auto; call stop; time completions |
-| Documentation | Field sketch with start pose and two waypoints; note which localizer |
+| Mechanical | Dimensions from the real robot or S001 sketch; say when CAD disagrees with metal |
+| Electrical | Optional: battery/Hub plate outline if that is the simple part — not a wiring lesson |
+| Programming | None required |
+| Drive team | If at Allsparks, keep the chassis serviceable for Friday driving |
+| Documentation | Screenshot, part name, date, who sat at CAD |
 
 ## Integrated build or test activity
 
-1. If localization is new: run Pedro `Tuning` → Localization Test. Confirm forward increases `x` and strafe left increases `y` as [Pedro localization](https://pedropathing.com/docs/pathing/tuning/localization) describes — or record that the team has not reached that screen yet.
-2. If localization already looks sane: run a two-pose path twice. Success is **repeatability**, not speed.
-3. If neither is possible: walk the taped path, write poses on paper, and keep a timed `setPower` forward auto as the emergency fallback.
+One constrained sketch and one extrude that a student can explain. Paper sketch is the fallback if Onshape is down.
 
 ## Failure-injection scenario
 
-Mentor gives a **gentle** bump mid-path or mid-drive-forward. Students explain whether the robot recovered toward the path (Pedro) or just kept pushing (timed auto). Do not enable vision to compensate.
+Mentor (or host) asks for a full robot assembly or a decorative render. Correct answer: first contact is a simple plate. Assemblies wait. G2 evidence is physical tests on Friday, not a pretty CAD model.
 
 ## Evidence to collect
 
-- Path sketch
-- Number of complete runs and times
-- Localization notes (jumped / spun / looked right)
-- TRACE or paper `Auto/start`–`Auto/end`
-- Honest dashboard ladder (likely 4 controlled hardware, not 8)
+- Screenshot of named sketch (no full student names in git)
+- Consent-on-file check (mentor, outside git)
+- Thank-you / follow-up owner if the hosts taught offsite
+- Note: comparative tests deferred to S004 if CAD consumed the 75-minute block
 
 ## Student explain-back questions
 
-1. What happens if HELM is off? (This auto still runs.)
-2. Who owns chassis motion?
-3. How do you disable this auto in a pit? (Select teleop; do not run the OpMode.)
-4. Why is a boring repeatable auto a higher priority than HELM execute or ViDAR-guided drive?
-5. Which localizer did we choose, and which Pedro page is the authority for it?
+1. How do you open the team document and set millimeters?
+2. What did you constrain, and where did the number come from?
+3. When do we export STL — tonight, or when a part blocks build?
+4. Does a CAD model pass G2? (No. G2 is measured prototype tests.)
+5. What is Friday's meeting for?
 
 ## Assessment or exit check
 
-A student who is not the programmer can retell the path in human words. The team has either repeated runs or a written blocker plus fallback auto.
+A student who is not the CAD lead can open the sketch and point at one constrained dimension. If accounts failed, a paper dimensioned sketch plus a written blocker is the pass.
 
 ## Portfolio or engineering-notebook artifact
 
-Field sketch: start, waypoints, which localizer, "ViDAR not used." Photo of localization mount.
+CAD screenshot with date. Candidate Design/Think evidence when the part later exists on the robot.
 
 ## Competition enablement impact
 
-Conventional autonomous moves toward practice-field (ladder 4–5) only if it actually ran. **Not** competition-approved from this session. HELM stays disabled. Pedro is allowed as the chassis follower when the path is the one students can explain.
+None. CAD does not enable robot features.
 
 ## Rollback procedure
 
-Select teleop on the DS. Do not run the auto OpMode. If Pedro misbehaves, the timed drive-forward OpMode is the fallback — keep it in the project. Optional systems remain off.
+If the model is wrong, keep the metal as-built and fix CAD later. Do not cut or print from an unconstrained sketch. Do not skip S004 tests because CAD "looks done."
 
 ## Cleanup requirements
 
-Robot disabled; battery stored; tape removed if the venue requires it; laptop off robot Wi-Fi before leaving.
+Log out of shared laptops if needed; thank hosts; leave the host shop better than found; Allsparks tools returned if used; robot disabled.
 
 ## Next-session preparation
 
-- Continue tuners on Meeting B repair time using [tuning](https://pedropathing.com/docs/pathing/tuning) — do not steal driving block for a tuner marathon
-- S004 only if Kickoff mapped a vision need; otherwise construction and auto reps
-- Write the chosen localizer name on the dashboard "next test" cell
+- S004 (25 Sep): G2 comparative tests with [prototype-test-record.md](../../../templates/prototype-test-record.md); **55-minute driving block stays**
+- Homework optional: [CAD for robotics](https://learn.onshape.com/learn/learning-path/cad-for-robotics) — does not replace tonight
+- S006 will authorize BOM/fab from CAD, not repeat login training
 
 ## Hardware-unavailable fallback
 
-Walk the taped (or hallway) path. Students write poses as inches and headings. Encode later. Construction block still builds MVP and a cardboard localization mount.
+Paper millimeter sketch of one plate with three constraints called out. Retry Onshape as coach prep before S006. If the tour/class is cancelled, run the same first-lesson content at the Allsparks shop from [onshape-cad.md](../../../learning-paths/onshape-cad.md).
 
 ## Robot-unavailable simulation option
 
-[Pedro Visualizer](https://github.com/Pedro-Pathing/Visualizer) if the team can run it; otherwise paper Bézier/polyline sketch. Programmers read the matching localizer doc. No invented constants in FORGE.
+CAD does not need BumbleBee powered. Use notebook measurements or a cardboard silhouette.
 
 ## Links to authoritative project documentation
 
+- [learning-paths/onshape-cad.md](../../../learning-paths/onshape-cad.md)
 - [docs/season-process.md](../docs/season-process.md)
 - [docs/decision-gates.md](../docs/decision-gates.md)
 - [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
-- [prototype-test-record.md](../../../templates/prototype-test-record.md)
-- [gate-review.md](../../../templates/gate-review.md)
-- [Pedro Pathing site](https://pedropathing.com/)
-- [Introduction](https://pedropathing.com/docs/pathing)
-- [Tuning](https://pedropathing.com/docs/pathing/tuning)
-- [Localization](https://pedropathing.com/docs/pathing/tuning/localization)
-- [Drive encoder localizer](https://pedropathing.com/docs/pathing/tuning/localization/drive-encoder)
-- [Dashboard / Panels](https://pedropathing.com/docs/pathing/dashboard)
-- [PedroPathing repo](https://github.com/Pedro-Pathing/PedroPathing)
-- [Quickstart](https://github.com/Pedro-Pathing/Quickstart)
-- [Visualizer](https://github.com/Pedro-Pathing/Visualizer)
-- [projects/pedro-pathing.md](../../../projects/pedro-pathing.md)
-- [docs/team-robot-project.md](../../../docs/team-robot-project.md)
-- [ViDAR Pedro integration](https://github.com/The-Allsparks/ViDAR/blob/main/docs/PEDRO_INTEGRATION.md) (do **not** use today)
+- [preseason-deferred-work.md](../docs/preseason-deferred-work.md)
+- [P008 FRC team tour](P008-meeting-b.md)
+- [S004 G2 evidence](S004-meeting-b.md)
+- [Onshape Learning Center](https://learn.onshape.com/)
+- [Onshape Help](https://cad.onshape.com/help/)
 
 ## Mentor notes
 
-Pedro's own docs say tuning can take days. Protect the 75-minute build. A drive-forward auto that students understand beats a half-tuned follower nobody can roll back. If the team robot GitHub URL is still missing, flash whatever project they actually use and update [team-robot-project.md](../../../docs/team-robot-project.md) after the meeting. Original preseason P007 capstan/slide/transport stations did **not** run; reuse that experiment design here or at S001 only if official game pieces justify it ([preseason-deferred-work.md](../docs/preseason-deferred-work.md)).
+**Filename stays `S003-meeting-a.md`.** Do not invent host, location, or personnel. This slot used to be comparative tests (and the old file body was Pedro). Pedro conventional auto waits for [S010](S010-meeting-b.md) / Meeting B repair — do not steal Friday driving for tuners. If the class is offsite, treat leftover time like P008 (thank-you, reflection), not a surprise mechanism lab. Keep 10+75+25+10.

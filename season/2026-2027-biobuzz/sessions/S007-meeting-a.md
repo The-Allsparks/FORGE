@@ -149,7 +149,7 @@ Mechanisms unpowered and down; no loaded arms left standing.
 
 ## Next-session preparation
 
-S006 ECHO is off-robot. Bring hearing-safety willingness. Keep building Friday if Meeting B has repair time.
+S008 clinic prep and code freeze. Keep building Friday if Meeting B has repair time. ECHO stays off-robot unless the G3 contract already placed it in tier 2.
 
 ## Hardware-unavailable fallback
 

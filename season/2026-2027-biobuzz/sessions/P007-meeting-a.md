@@ -5,7 +5,7 @@ date: 2026-09-07
 meeting_type: A
 season_phase: preseason
 event_checkpoint: none
-status: scheduled
+status: complete
 difficulty: Foundation
 projects: []
 active_features: []
@@ -13,15 +13,13 @@ active_features: []
 
 # P007 — Finish bring-up, first movement, and Kickoff preparation
 
-## Planned versus actual (this session has not run)
+## Planned versus actual
 
-Original P007 plan was the **reusable mechanism laboratory** (capstan, slide, transport). That lab is deferred after Kickoff to [S001](S001-meeting-a.md) / [S003](S003-meeting-a.md) **only if** official BIOBUZZ materials justify those principles.
+Bring-up completed **after** the 7 Sep calendar slot. Hub TRACE from **8 Sep** shows BumbleBee Drive (~50 Hz, AMPER current sampling later blew the loop). On **15 Sep** every student drove. Extra practice is **16 Sep**. Electrical is still **temporary** until a real scoring design starts — do not freeze a competition wiring diagram yet.
 
-The 2 September rescope used ~75 minutes to **dial in** the drivetrain from P006 first movement, then Kickoff preparation. **That dial-in plan is not tonight’s opening.** [P006](P006-meeting-b.md) was a code walkthrough: no electrical diagram, no useful programming, no enable, no movement.
+Original P007 plan was the reusable mechanism laboratory. That lab remains deferred. P006 was a code walkthrough.
 
-Tonight is the **last shop meeting before Kickoff.** [P008](P008-meeting-b.md) is an FRC team tour. [K001](K001-meeting-k.md) is the next day. Construction time **finishes P006:** as-built electrical/power path as needed for safe enable, hardware configuration, minimal robot-centric TeleOp, restrained one-motor tests, disable/stop, then first movement if no blocking fault. Dial-in (mix, speed limit, deadband, practice laps) is **leftover only** after the robot already moves. Kickoff worksheets still use integration + closeout — P008 cannot recover them.
-
-Do **not** claim a full performance baseline. Do **not** open as if P006 already produced first movement.
+Do **not** claim a finished as-built electrical diagram. Do **not** claim a tuned performance baseline.
 
 ## Session identity
 
@@ -273,4 +271,4 @@ Paper chassis: students mark battery, switch, Hub, and motor ports and defend th
 
 ## Mentor notes
 
-Protect the 25-minute Kickoff block. P008 cannot recover it. P006 produced a code walkthrough — construction tonight is wiring, deploy, restrained tests, and first movement, **not** mix tuning. If wiring eats most of the 75 minutes, still attempt one restrained motor before leaving — that is more honest than a pretty diagram with no enable. If a blocking hardware fault appears, stop and write it; do not claim a performance baseline. Original mechanism-lab stations do **not** fill leftover time. Keep CAD and GitHub workflow off this meeting. Learning-goal baselines live here, not at the tour.
+Protect the 25-minute Kickoff block. P008 cannot recover it. Bring-up and first movement are now true (Hub 8 Sep; all students 15 Sep). Electrical remains temporary. Original mechanism-lab stations do **not** fill leftover time.

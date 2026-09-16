@@ -5,17 +5,16 @@ date: 2026-09-25
 meeting_type: B
 season_phase: kickoff-to-clinic
 event_checkpoint: clinic
-status: complete
-difficulty: Foundation
+status: scheduled
+difficulty: Developing
 projects:
-- ViDAR
 - TRACE
 active_features: []
 compressed_week: 2
 forge_gate: G2
 ---
 
-# S004 — ViDAR camera geometry and one-camera observation
+# S004 — Prototype evidence (G2) and driver reps
 
 ## Session identity
 
@@ -29,7 +28,7 @@ forge_gate: G2
 | Season phase | kickoff-to-clinic |
 | Event checkpoint | clinic |
 | Forge gate | G2 |
-| Difficulty | Foundation |
+| Difficulty | Developing |
 
 ## Driving question
 
@@ -37,142 +36,149 @@ Do we have measured evidence to stop unrestricted exploration and commit to a le
 
 ## Student-facing objective
 
-Students complete starter vs alternative comparison, fill comparative summary, pass or fail G2 with [gate-review.md](../../../templates/gate-review.md), and run driver reps.
+Students run starter vs alternative comparison using [prototype-test-record.md](../../../templates/prototype-test-record.md) and [acceptance-criteria.md](../docs/acceptance-criteria.md) (≥3 trials each is the G2 default). They pass, fail, or condition G2 with [gate-review.md](../../../templates/gate-review.md). Every student drives in the 55-minute block. S003 was Onshape training — **do not skip these tests because CAD exists.** ViDAR is not tonight's product unless leftover minutes remain and Kickoff mapped a vision need.
 
 ## Robot outcome
 
+- ≥1 completed prototype test record with ≥3 trials **or** a written blocker plus starter-bot fallback
+- Comparative evidence table (starter vs alternative)
+- Leading concept(s) explicit
 - G2 gate review recorded
-- Comparative evidence table complete
-- Leading concept(s) and starter-bot fallback explicit
-- Unresolved risk list updated
-
+- Driving reps logged
+- Drivable chassis maintained
 
 ## Prerequisites
 
-- K001 minimum viable robot list (if Kickoff was missed, use a placeholder "drive + one intake" and replan)
-- Laptop for [sim README](https://github.com/The-Allsparks/ViDAR/blob/main/sim/README-SIM.md)
-- Optional: Control Hub + `Webcam 1`
+- G1 from S002 (passed or conditional). If G1 failed, tonight is starter-bot path + driving, not new exploration
+- S001 brainstorm / Kickoff package — which concepts are we comparing?
+- S003 CAD screenshots optional; they do not replace trials
+- Driveable chassis from P007 or S002 catch-up
+- Game pieces or legal stand-ins from official materials only — do not invent a piece
 
 ## Vocabulary
 
-robot space · range · bearing · frame · stale track · one camera first
+comparative test · trial · starter-bot fallback · G2 · leading concept
 
 ## Safety concerns
 
-- USB strain relief; powered hub only if using multiple cameras later (not today)
-- No-motor ViDAR OpModes — do not wire detections to drive
-- Camera pointing: no climbing on robots
-- Privacy: do not commit raw video ([TRACE storage rules](https://github.com/The-Allsparks/TRACE/blob/main/SECURITY.md) apply to vision files too)
+- Mentor present for powered tests
+- Exclusion zone; DS stop in a mentor's hand
+- One variable at a time
+- No vision-to-motors
+- Stop if retention, temperature, or binding fails
 
 ## Required hardware
 
-- One UVC webcam **or** none (sim)
-- Mount materials; continue MVP mechanism hardware
-- Control Hub if using Discover OpMode
+- Robot as built; battery; Hub
+- Two (or starter + one alternative) low-fi mechanisms or cardboard setups
+- Tape measure; notebook; game elements if owned
+- Gamepads
 
 ## Required software
 
-- ViDAR sim **or** `VidarDiscoverOpMode`
-- TRACE event `Vision/observe` when a detection is trusted
-- Team teleop unchanged
+- Team TeleOp for driving and simple mechanism checks
+- TRACE or paper trial log
+- Pedro / ViDAR **not** required tonight
 
 ## Preparation required before the meeting
 
-- Try `.\scripts\serve_sim.ps1` once before students arrive ([TEACHING Lesson 4](https://github.com/The-Allsparks/ViDAR/blob/main/docs/TEACHING.md))
-- Name the Kickoff object students should care about — **only if** the manual needs it. If vision does not serve MVP, keep this session on geometry with a colored ball and say so
-- Stage mount hardware
+- Print [prototype-test-record.md](../../../templates/prototype-test-record.md) and [gate-review.md](../../../templates/gate-review.md)
+- Stage starter vs alternative hardware from S001 ideas
+- Charge batteries; every student will drive
+- Name pass/fail criteria before the first trial
 
 ## Exact 120-minute agenda
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Robot-space vs pixels; Kickoff MVP reminder; safety: no motor from vision; assignments |
-| 35 | Repair / tune / program | Camera mount prototype + USB dress; sim or Discover setup; fix S002 teleop blockers if any |
-| 55 | Driving reps | Driver rotations; tape-measure vs telemetry checks between reps; TRACE one trusted observation event |
-| 20 | Closeout | Screenshot; explain-back; dashboard ViDAR ladder 2 or 3; cleanup |
+| 10 | Opening | G2: measured comparison, not opinions. S003 was CAD. Safety. Pass/fail criteria on the board. Every driver will drive. |
+| 35 | Repair / tune / program | Comparative trials (≥3 each if reset is fast). Fill prototype-test-record. Fix only what blocks a fair test. No new architecture. |
+| 55 | Driving reps | Every student enables, drives, disables on the current chassis. Do not pause driving for CAD or extra trials. |
+| 20 | Closeout | [Gate review G2](../../../templates/gate-review.md); leading concept + fallback; explain-back; cleanup. |
 
 ## Mentor demonstration
 
-Hold a game element at a known distance. Show sim overlay **or** Camera Stream circle. Say "size range vs floor range" only as far as TEACHING Lesson 1. No fusion lecture.
+Two minutes: show a filled trial row (success/fail, not "it felt good"). One minute: starter-bot fallback sentence.
 
 ## Student work
 
 | Path | Work |
 | ---- | ---- |
-| Mechanical | MVP + camera mount that can be removed |
-| Electrical | USB routing and strain relief |
-| Programming | Discover/sim; do not consume detections in teleop |
-| Drive team | Tape-measure partner for the ranging check |
-| Documentation | Photo of mount; calibration note "not field-validated" |
+| Mechanical | Run the two setups; keep fasteners serviceable |
+| Electrical | Battery logged; wiring not the experiment unless it is the failure |
+| Programming | TeleOp only if needed to actuate the test |
+| Drive team | All students drive; call stop |
+| Documentation | Trial table, photos, G2 record |
 
 ## Integrated build or test activity
 
-Lesson 1 or 4 from [TEACHING.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/TEACHING.md): see a detection, estimate inches, compare to tape.
+Starter vs one alternative on the same game task. Hold variables constant. Record n trials.
 
 ## Failure-injection scenario
 
-Cover the lens (or switch sim to empty scene). Students must report unknown/stale — not last known pose as truth.
+Mentor asks to pick a winner from a pretty Onshape screenshot. Correct answer: G2 needs physical trials. CAD is supporting evidence only.
 
 ## Evidence to collect
 
-- Tape vs ViDAR number
-- Sim or DS screenshot
-- Note that 4-camera Hub operation is **not** validated ([ViDAR README](https://github.com/The-Allsparks/ViDAR/blob/main/README.md))
+- Prototype test record
+- Comparative summary
+- Gate review G2
+- Driver names/initials and rep notes
+- Photo of both setups
 
 ## Student explain-back questions
 
-1. What frame is this range in?
-2. Why start with one camera?
-3. Who is allowed to move the chassis using this number today? (Nobody — observation only)
-4. What should the robot do if the track is old?
+1. What was the pass/fail test before you built?
+2. Which option won on measurements, not volume?
+3. What is the starter-bot fallback if the winner slips?
+4. Why did Monday CAD not finish G2?
+5. How do you emergency-disable?
 
 ## Assessment or exit check
 
-Student explains a detection as robot-relative, not "the blob is on the left of the screen."
+G2 passed, failed, or conditional with a named fallback. Driving block happened. Honest "we only got n trials" is better than a fake pass.
 
 ## Portfolio or engineering-notebook artifact
 
-Sketch: camera, robot origin, element, range/bearing arrows. Link [COORDINATE_FRAMES.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/COORDINATE_FRAMES.md) as the authority — do not redraw the whole spec.
+Comparative table and photos. Think topic C.
 
 ## Competition enablement impact
 
-ViDAR **disabled** for control. Simulation or passive observation only. Not approved. Multi-camera off.
+None. Direction lock for shop work, not match enablement.
 
 ## Rollback procedure
 
-Do not call `VidarSpatial` from teleop. Use stock drive. Unplug camera if it tanks loop time.
+Park the losing mechanism. Keep TeleOp that drives. Do not leave an unsafe alternative on the robot.
 
 ## Cleanup requirements
 
-Camera capped; USB unstrained; robot unpowered.
+Robot disabled; batteries on charge; cardboard/mechanisms labeled; floor clear.
 
 ## Next-session preparation
 
-- Keep camera mount removable
-- S005 BEACON integration continues on S006 if needed
+- S005: architecture selection and module interfaces (G3 starts)
+- Optional 10-minute pit-interview practice starts S005
+- Pedro pathing still later (S010 / Meeting B repair) — not a G2 requirement
 
 ## Hardware-unavailable fallback
 
-Browser sim + cardboard mount. Construction block still builds MVP without vision hardware.
+Cardboard mechanisms on a table; time trials by hand; still run G2 paperwork. Driving: unpowered push-bot or hallway walk.
 
 ## Robot-unavailable simulation option
 
-Entire integration on sim. Construction uses Kickoff cardboard prototype of the scoring mechanism.
+Paper comparison with honest "not yet measured" flags. Gamepad dry-run if a Hub exists without a base.
 
 ## Links to authoritative project documentation
 
 - [docs/season-process.md](../docs/season-process.md)
 - [docs/decision-gates.md](../docs/decision-gates.md)
 - [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
+- [docs/acceptance-criteria.md](../docs/acceptance-criteria.md)
 - [prototype-test-record.md](../../../templates/prototype-test-record.md)
 - [gate-review.md](../../../templates/gate-review.md)
-- [ViDAR README](https://github.com/The-Allsparks/ViDAR/blob/main/README.md)
-- [TEACHING.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/TEACHING.md)
-- [COORDINATE_FRAMES.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/COORDINATE_FRAMES.md)
-- [CALIBRATION.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/CALIBRATION.md)
-- [sim/README-SIM.md](https://github.com/The-Allsparks/ViDAR/blob/main/sim/README-SIM.md)
-- [projects/vidar.md](../../../projects/vidar.md)
+- [S003 Onshape training](S003-meeting-a.md)
+- [kickoff-decision-package.md](../../../templates/kickoff-decision-package.md)
 
 ## Mentor notes
 
-If Kickoff showed vision is optional for MVP, say that out loud and keep the 75 minutes on the scoring mechanism. Do not chase four cameras.
+**Filename stays `S004-meeting-b.md`.** Old file body was ViDAR geometry. Vision stays off unless the G3 software contract later promotes it. Protect the 55-minute drive block. G2 is the point of tonight.

@@ -62,7 +62,7 @@ Defined in [season/2026-2027-biobuzz/season-plan.md](../season/2026-2027-biobuzz
 
 | Phase | Intent |
 | ----- | ------ |
-| Preseason | Construction record, electrical/programming/first movement (P006), drivetrain dial-in plus Kickoff prep (P007), FRC tour (P008); mechanism lab deferred ([preseason-deferred-work.md](../season/2026-2027-biobuzz/docs/preseason-deferred-work.md)) |
+| Preseason | Construction record, P006 code walkthrough, electrical/programming/first movement plus Kickoff prep (P007), FRC tour (P008); mechanism lab deferred ([preseason-deferred-work.md](../season/2026-2027-biobuzz/docs/preseason-deferred-work.md)) |
 | Kickoff | BIOBUZZ analysis; G1 Strategy gate; MVP and fallback |
 | Compressed weeks 1–4 | Understand → compare → select → build (G1–G5) |
 | Compressed weeks 5–7 | Tune → freeze → rehearse → League 1S/2S (G6–G8) |

@@ -24,11 +24,12 @@ Android Studio:       Narwhal 3 Feature Drop or later (v11.2.1 requirement)
 Default branch:       bumblebee
 ```
 
-Sibling `includeBuild` (while SHIFT/AMPER are unpublished SNAPSHOT/rc):
+Sibling `includeBuild` (while SHIFT/AMPER/TRACE are unpublished SNAPSHOT/rc):
 
 ```gradle
 includeBuild('../SHIFT')
 includeBuild('../AMPER')
+includeBuild('../TRACE')
 ```
 
 Install libraries into **that** project using each library's own install docs. Combined order, lifecycle, and disable paths: [stack-acceptance.md](stack-acceptance.md), [student-install.md](student-install.md). AMPER’s multi-module packaging is the starting Gradle reference, not something to copy into FORGE.

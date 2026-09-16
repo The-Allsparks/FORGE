@@ -20,7 +20,7 @@ active_features: []
 | **Original plan** | Finish remaining drivetrain hardware; plan side guards / narrowing; dimensioned paper sketches for CAD; unpowered push-test if rolling |
 | **Confirmed actual** | The meeting was spent **building and assembling the team’s first FTC robot** (second of three consecutive construction sessions) |
 | **Classification** | **Completed construction record.** Original drivetrain-finish, CAD-prep, and push-test outcomes are **not** marked done |
-| **Preserved original material** | Remaining mechanical finish is inspected as part of [P006](P006-meeting-b.md) bring-up, not assumed complete. CAD sketches → coach prep / [preseason-deferred-work.md](../docs/preseason-deferred-work.md) / [S006](S006-meeting-b.md) |
+| **Preserved original material** | Remaining mechanical finish is inspected as part of [P006](P006-meeting-b.md) bring-up, not assumed complete. CAD sketches → coach prep / [preseason-deferred-work.md](../docs/preseason-deferred-work.md) / first lesson [S003](S003-meeting-a.md) |
 
 FORGE does **not** record which subassemblies were completed on this date. Do not treat this file as a finished rolling Strafer.
 

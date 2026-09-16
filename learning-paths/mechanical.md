@@ -8,7 +8,7 @@ Mechanical work is the default Meeting A occupation. Software layers describe th
 - Drivetrain assembly and wheel retention
 - Cable routing channels and strain relief (work with electrical)
 - Hard stops and pinch points before any MIMIC limit discussion
-- **Onshape:** first shop lesson is **deferred** (P004 was construction). Coach prep or S006. Paper as-built dimensions at P006 if needed ([onshape-cad.md](onshape-cad.md)). Custom parts are possible if the robot needs them — not confirmed P002 accomplishments.
+- **Onshape:** first shop lesson is **S003 (21 Sep)**, FRC-hosted (P004 was construction; S006 is BOM authorization). Paper as-built dimensions at P007 if needed ([onshape-cad.md](onshape-cad.md)). Custom parts are possible if the robot needs them — not confirmed P002 accomplishments.
 
 ## Developing
 

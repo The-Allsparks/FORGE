@@ -1,12 +1,12 @@
 ---
 id: S001
-title: Post-Kickoff week 1 — strategy execution and crude prototypes
+title: Post-Kickoff week 1 — season updates, game review, and brainstorm
 date: 2026-09-14
 meeting_type: A
 season_phase: kickoff-to-clinic
 event_checkpoint: clinic
-status: scheduled
-difficulty: Integration
+status: complete
+difficulty: Foundation
 projects:
 - TRACE
 active_features: []
@@ -14,162 +14,183 @@ compressed_week: 1
 forge_gate: G1
 ---
 
-# S001 — Post-Kickoff MVP build and season execution
+# S001 — Season updates, BIOBUZZ game review, and brainstorm
+
+## Planned versus actual
+
+**Completed 14 Sep 2026** as game review and brainstorm. Custom scoring fab stayed blocked. Driving was **not** this meeting's product.
+
+After this session: Hub Drive evidence 8 Sep; **all students drove 15 Sep**; extra practice **16 Sep**. Electrical remains temporary. G1 and more driving remain [S002](S002-meeting-b.md).
 
 ## Session identity
 
 | Field | Value |
 | ----- | ----- |
 | Session ID | S001 |
-| Title | Post-Kickoff week 1 — strategy execution and crude prototypes |
+| Title | Post-Kickoff week 1 — season updates, game review, and brainstorm |
 | Calendar date | 2026-09-14 (planning input; 4:00–6:00 PM unless Kickoff/event) |
 | Relative week | Compressed week 1 (G1 Strategy) |
 | Meeting type | A |
 | Season phase | kickoff-to-clinic |
 | Event checkpoint | clinic |
 | Forge gate | G1 |
-| Difficulty | Integration |
+| Difficulty | Foundation |
 
 ## Driving question
 
-Did we finish the Kickoff package and prove the top-ranked cycle with a **crude** prototype — without fabricating a custom scoring robot to look busy?
+Do we share the same season plan, understand the official BIOBUZZ game, and have more than one robot idea on paper — without fabricating a scoring robot tonight?
 
 ## Student-facing objective
 
-Students execute K001 strategy: complete leftover [kickoff-decision-package.md](../../../templates/kickoff-decision-package.md) rows (ranking, effort/value, not-yet list), finish **R0** if the chassis is not yet driveable, and build **low-fidelity** game-object interaction prototype(s) for the top-ranked capability only. Custom scoring fabrication at scale stays blocked until G1 (S002).
+Students hear season updates (handbook, meeting pattern, Onshape training on 21 Sep, clinic on 10 Oct). They walk through the **official** BIOBUZZ game from Kickoff V1 materials. They start brainstorming robot concepts into the [concept-brainstorm.md](../../../templates/concept-brainstorm.md) record. Custom scoring fabrication stays blocked until G1 (S002). Crude cardboard proofs wait until ideas exist.
 
 ## Robot outcome
 
-- Crude prototype demonstrating at least one game-object interaction (cardboard/coroplast/temporary channel)
-- Kickoff package rows that K001 left blank
-- Owner list on [readiness-dashboard.md](../readiness-dashboard.md)
-- Progress toward G1 exit (complete G1 at S002)
-- R0 chassis work **if** enable is still blocked
-
+- None required on BumbleBee. Do not start custom scoring fab to look busy
+- Season-update notes in the notebook (meetings, Onshape 21 Sep, clinic 10 Oct, attendance)
+- Game facts vs assumptions vs ideas split, citing the V1 manual — not FORGE
+- Concept brainstorm started (≥3 distinct concepts by closeout if time; otherwise honest count + S002 plan)
+- Kickoff decision-package rows started or continued from K001
+- R0 chassis catch-up **only if** enable is still unsafe — that work uses leftover construction time, not the game block
 
 ## Prerequisites
 
-- [K001-meeting-k.md](K001-meeting-k.md) outputs: MVP, brainstorm, decision package, decision record if used
+- [K001-meeting-k.md](K001-meeting-k.md) outputs if Kickoff produced them; this meeting continues analysis if the package is incomplete
+- Official V1 Competition Manual and Game and Season Materials — [official/README.md](../official/README.md)
 - [kickoff-replan-guide.md](../kickoff-replan-guide.md)
 - [guiding-principle.md](../docs/guiding-principle.md)
-- [preseason-kickoff-gate.md](../docs/preseason-kickoff-gate.md) if tower/capstan/transport is in debate
-- Strafer drivetrain from preseason **as actually completed** (P002–P007; see [preseason-deferred-work.md](../docs/preseason-deferred-work.md)). Do not assume a P007 mechanism lab, a P008 shop meeting, or a full original-P006 driver baseline. P008 was the FRC tour.
+- [concept-brainstorm.md](../../../templates/concept-brainstorm.md)
+- [kickoff-decision-package.md](../../../templates/kickoff-decision-package.md)
+- P005 V0 notes are study notes only. Official Kickoff text wins
+- Strafer as actually completed (P002–P007; see [preseason-deferred-work.md](../docs/preseason-deferred-work.md)). P008 was the FRC tour, not shop
 
 ## Vocabulary
 
-MVP · owner · planning-input title · evidence vs assumption · rollback
+season update · official manual · fact vs assumption vs idea · brainstorm · not-yet list · G1
 
 ## Safety concerns
 
-- Mentor present for powered tests
 - No library enablement because Kickoff was exciting
-- DS disable path before any enable
+- Powered robot only if a mentor is running a safety check — not the default tonight
+- Debate stays on ideas, not people
+- Do not invent point values in FORGE or the notebook
 
 ## Required hardware
 
-- MVP mechanism materials from Kickoff list
-- Strafer chassis; hand tools; notebook
+- Printed or projected V1 Competition Manual (or laptops on the live FIRST page)
+- Notebook, sticky notes or whiteboard, pens
+- Strafer visible for scale talk; hand tools only if R0 catch-up is required
 
 ## Required software
 
-- Minimal TeleOp only if needed for mechanism clearance checks
-- TRACE optional for build milestones (≤10 min)
+- Browser for [Game and Season Materials](https://ftc-resources.firstinspires.org/ftc/game)
+- Optional: game animation / field tour links from [official/README.md](../official/README.md)
+- TRACE not required
 
 ## Preparation required before the meeting
 
-- Print mechanism owner list from K001
-- Mentors: identify **one** scoring subsystem for today's 75-minute block
-- Read [preseason-software-allocation.md](../docs/preseason-software-allocation.md) — software cap lifts after Kickoff but still serves the robot
+- Open the V1 PDF (local copy or live FIRST URL). Do not use P005 V0 as the rules source
+- Print or display [concept-brainstorm.md](../../../templates/concept-brainstorm.md)
+- Bring the team handbook (coach copy) for the opening season-update block
+- Confirm Appendix F Onshape consent status before advertising student accounts for 21 Sep
+- Charge batteries only if a short safety-enable check is planned; default is analysis
 
 ## Exact 120-minute agenda
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Review K001 MVP, four tests, not-yet list; safety; **custom scoring fab is still blocked** |
-| 75 | Construction | If the chassis still cannot be enabled safely, **finish R0 first**. Otherwise: low-fi prototype of the **top-ranked** capability only (cardboard/coroplast/temporary channel). Do not start a multi-stage elevator/capstan/hopper because it looks productive. |
-| 25 | Integration | Finish decision-package rows (ranking, effort/value); TRACE or notebook; dashboard |
-| 10 | Closeout | Explain-back: what shipped vs assumption vs not-yet; assign S002 G1 review |
+| 10 | Opening | Season updates: handbook, Mon/Fri 4:00–6:00, 75% attendance before events, Onshape training 21 Sep (consent first), clinic 10 Oct, custom fab still blocked. Safety. Assign note-taker. |
+| 75 | Construction | Official game walkthrough (scoring, ranking, constraints, illegal). Then silent/sketch brainstorm — quantity before judgment. No metal scoring mechanisms. R0 chassis only if enable is still unsafe, and only after the game block has a named owner. |
+| 25 | Integration | Capture ≥3 concepts on the brainstorm record; start scoring/ranking notes with **manual citations**; start not-yet list. TRACE-style decision note optional. |
+| 10 | Closeout | Explain-back; cleanup (tools, floor, batteries if used); S002 = G1 review + every student drives; Onshape consent homework. |
 
 ## Mentor demonstration
 
-Two minutes: show K001 MVP written goal vs one physical part that proves progress today.
+Three minutes: show where the **V1** manual lives vs a P005 V0 note. One minute: an example of a fact ("the manual says…") vs an idea ("we could build…").
 
 ## Student work
 
 | Path | Work |
 | ---- | ---- |
-| Mechanical | Lead the 75-minute construction block |
-| Electrical | Power path for new mechanism; labeled wires |
-| Programming | TeleOp trim only if blocking mechanical progress |
-| Drive team | Clearance checks; call out driver visibility |
-| Documentation | Dashboard update; photo of today's subsystem |
+| Mechanical | Sketches of how a mechanism would score; scale against the Strafer, not FRC |
+| Electrical | Note sensors/motors implied by ideas — do not wire them tonight |
+| Programming | Note auto vs teleop needs; no new OpModes required |
+| Drive team | Driver-workload veto on wild ideas; "can we drive this?" |
+| Documentation | Brainstorm record, citations, season-update notes |
 
 ## Integrated build or test activity
 
-Construction **is** the session. No ViDAR/HELM/ECHO lecture block today.
+The product is a shared game understanding plus a started concept list. If a robot is enabled, it is a **safety check**, not a scoring prototype.
 
 ## Failure-injection scenario
 
-Mentor asks: "Does this part serve the K001 ranked list or a leftover preseason experiment?" Students defend with the decision package or park the work.
+Mentor says "FRC teams do X, so we must do X." Correct answer: write it as an **idea**, then check FTC rules, scale, budget, and four-student capacity. Do not lock it tonight.
 
 ## Evidence to collect
 
-- Photo of MVP progress
-- Dashboard row updates with owners
-- Note linking preseason **construction / V0 / first-movement** evidence to today's design choice (there is no P007 mechanism-lab data set; original lab may be reused this week / S003 **if** the official game needs those principles)
+- Season-update notes (Onshape 21 Sep, clinic 10 Oct, attendance)
+- Fact / assumption / idea list with manual citations
+- Concept brainstorm started (count of sketches)
+- Not-yet list started
+- Photo of whiteboard or notebook pages (no student full names in git)
 
 ## Student explain-back questions
 
-1. What is the MVP scoring action from K001?
-2. Who owns each subsystem?
-3. What preseason evidence informed today's build? (construction + V0 rules + first movement — not a fake mechanism lab)
-4. What library stays **off** until the MVP drives?
+1. Where do official BIOBUZZ rules live, and why is FORGE not the manual?
+2. Name one scoring or ranking fact from tonight and one idea we are not building yet.
+3. When is Onshape training, and what consent is required first?
+4. What is Friday (S002) for?
+5. Why are we not fabricating a scoring mechanism tonight?
 
 ## Assessment or exit check
 
-Mechanism progress is visible; owners named; no competitor treated a library session as today's priority.
+Every student can state one official game fact and one robot idea. The brainstorm record has at least three concept lines **or** an honest count plus an S002 plan. No custom scoring hardware was added to look busy.
 
 ## Portfolio or engineering-notebook artifact
 
-Before/after photo of MVP subsystem with owner initials and K001 task reference.
+Dated brainstorm sketches and the fact/assumption/idea split. Candidate Think topic C (comparing choices) starts here — winners are not required tonight.
 
 ## Competition enablement impact
 
-None. Build and document only.
+None. Analysis and documentation only.
 
 ## Rollback procedure
 
-Remove untested mechanism additions; return to Strafer-only teleop if integration fails.
+If the team over-commits on paper, move those rows to the not-yet list before Friday. Do not change library defaults. Remove any unplanned hardware added during a "quick build."
 
 ## Cleanup requirements
 
-Robot safe; floor clear; tools stored.
+Whiteboard photographed then erased if needed; tools returned; floor clear; robot powered down if it was on; batteries on charge only if used.
 
 ## Next-session preparation
 
-- S002: teleop and driver reps on the MVP configuration
-- Charge batteries; list teleop blockers
+- S002 (18 Sep): finish G1 package; 55-minute driving block for every student
+- Parents/guardians: Onshape parental consent (handbook Appendix F) before 21 Sep accounts
+- Bring sketches; do not order custom parts until G1
 
 ## Hardware-unavailable fallback
 
-Cardboard MVP prototype and full K001 mapping table on paper.
+Paper and official PDF only. Game review and brainstorm do not require the robot.
 
 ## Robot-unavailable simulation option
 
-Walk through teleop commands and mechanism states without Hub power.
+Same as fallback. Use photos of the current drivetrain for scale.
 
 ## Links to authoritative project documentation
 
 - [docs/season-process.md](../docs/season-process.md)
 - [docs/decision-gates.md](../docs/decision-gates.md)
 - [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
-- [prototype-test-record.md](../../../templates/prototype-test-record.md)
-- [gate-review.md](../../../templates/gate-review.md)
+- [official/README.md](../official/README.md)
 - [kickoff-replan-guide.md](../kickoff-replan-guide.md)
-- [preseason-kickoff-gate.md](../docs/preseason-kickoff-gate.md)
+- [kickoff-decision-package.md](../../../templates/kickoff-decision-package.md)
+- [concept-brainstorm.md](../../../templates/concept-brainstorm.md)
+- [gate-review.md](../../../templates/gate-review.md)
+- [guiding-principle.md](../docs/guiding-principle.md)
 - [readiness-dashboard.md](../readiness-dashboard.md)
 - [docs/safety-and-enablement.md](../../../docs/safety-and-enablement.md)
+- [Game and Season Materials](https://ftc-resources.firstinspires.org/ftc/game)
 
 ## Mentor notes
 
-**Filename stays `S001-meeting-a.md`.** Change the `title` in front matter and calendar when this week's focus shifts. First shop meeting after Kickoff is for **building the season robot**, not a standalone library lab. If preseason never finished enablement, this 75-minute block is the last acceptable chassis catch-up — then return to K001 MVP. Original P007 capstan/slide/transport stations may be reused here **only** if the official game needs those principles; retarget to real game pieces ([preseason-kickoff-gate.md](../docs/preseason-kickoff-gate.md)).
+**Filename stays `S001-meeting-a.md`.** Opening is season logistics; the 75-minute block is **game + brainstorm**, not a library lab and not a fabrication night. Keep Meeting A durations 10+75+25+10. Driving catch-up happened after this meeting (15 Sep all students; 16 Sep extra practice). First Onshape lesson is **S003 (21 Sep)** with the P008 FRC host — not tonight.

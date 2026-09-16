@@ -1,7 +1,7 @@
-# BIOBUZZ unverified facts — blocked until Kickoff
+# BIOBUZZ unverified facts — cite V1, do not invent numbers
 
 **Issue:** [FORGE#24](https://github.com/The-Allsparks/FORGE/issues/24)  
-**Status:** **BLOCKED** until FTC Kickoff **12 September 2026** and official 2026–2027 materials publish.
+**Status:** Official **V1** Competition Manual published **12 September 2026**. Source copies: [../official/README.md](../official/README.md). Individual rows below stay unverified until mentors cite the V1 PDF (do not copy invented numbers into FORGE).
 
 FORGE must not invent these values. When verified, update the listed files and check off below.
 

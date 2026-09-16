@@ -42,9 +42,9 @@ A **different** Pratt video (*Why Most FTC Teams Fail (And How Not To)*) informs
 | Session | Date | Pratt weeks | Compressed week | Gate | Session focus (calendar title) |
 | ------- | ---- | ----------- | --------------- | ---- | ------------------------------ |
 | K001 | 2026-09-12 | 1 | Week 1 | G1 | BIOBUZZ analysis; MVP; ideation |
-| S001 | 2026-09-14 | 1 | Week 1 | G1 | Strategy execution; crude prototypes |
-| S002 | 2026-09-18 | 1–2 | Week 1 | G1 | Ideation scale-up; low-fi prototypes |
-| S003 | 2026-09-21 | 2–3 | Week 2 | G2 | Comparative mechanism tests |
+| S001 | 2026-09-14 | 1 | Week 1 | G1 | Season updates; official game review; start brainstorm |
+| S002 | 2026-09-18 | 1–2 | Week 1 | G1 | Ideation scale-up; G1 gate; driving |
+| S003 | 2026-09-21 | 2–3 | Week 2 | G2 | FRC-hosted Onshape training (comparative tests → S004) |
 | S004 | 2026-09-25 | 3 | Week 2 | G2 | Starter vs alternative evidence |
 | S005 | 2026-09-28 | 4–5 | Week 3 | G3 | Architecture selection; interfaces |
 | S006 | 2026-10-02 | 5–6 | Week 3 | G3 | Pivot deadline; CAD/BOM authorization |

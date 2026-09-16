@@ -5,17 +5,16 @@ date: 2026-10-02
 meeting_type: B
 season_phase: kickoff-to-clinic
 event_checkpoint: clinic
-status: complete
+status: scheduled
 difficulty: Developing
 projects:
-- ViDAR
 - TRACE
 active_features: []
 compressed_week: 3
 forge_gate: G3
 ---
 
-# S006 — ViDAR game-relevant detection
+# S006 — CAD/BOM authorization and G3 pivot deadline
 
 ## Session identity
 
@@ -37,147 +36,147 @@ Are we authorized to fabricate — and have we passed G3 before major pivots end
 
 ## Student-facing objective
 
-Students complete CAD/fabrication authorization package, BOM, major-design-pivot deadline declaration, and G3 gate review. **Disagree and commit.** Reject features that do not fit remaining time. CAD authorizes fab only **after** G2 physical comparison for that mechanism family.
+Students complete the CAD/fabrication authorization package, BOM, major-design-pivot deadline declaration, and G3 gate review. **Disagree and commit.** Reject features that do not fit remaining time. First Onshape **login lesson already ran at S003**. Tonight applies that skill to authorize fab after G2 physical comparison. Clinic pit-interview talking points get a short practice in closeout.
 
 ## Robot outcome
 
 - G3 gate review passed or fallback activated
-- BOM and fabrication package
+- BOM and fabrication package (what we will cut/print/order)
 - Pivot deadline recorded — no architectural pivots after today without gate review
 - Explicit fallback plan
-
+- CAD used to dimension authorized parts, not to discover a new robot
 
 ## Prerequisites
 
-- S001 geometry
-- K001 mapping table (vision column)
-- [CALIBRATION.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/CALIBRATION.md) and [CALIBRATION_CHECKLIST.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/CALIBRATION_CHECKLIST.md)
-- [TEACHING.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/TEACHING.md)
+- G2 from S004
+- S005 architecture draft
+- S003 Onshape screenshot / team document
+- [modular-architecture.md](../docs/modular-architecture.md)
+- [software-sequencing.md](../docs/software-sequencing.md)
+- [guiding-principle.md](../docs/guiding-principle.md)
 
 ## Vocabulary
 
-game-relevant · HSV · ROI · confidence · stale · deferred
+BOM · authorization · pivot deadline · disagree and commit · G3 · fallback
 
 ## Safety concerns
 
-- No motors from vision
-- No raw video in git
-- Cover lens as a fault — do not stare into bright lights
-- USB strain relief; one camera only
+- Do not order or cut parts that fail the four tests
+- Driving block still has exclusion zone and DS stop
+- No last-minute mechanism redesign during reps
 
 ## Required hardware
 
-- One webcam **or** sim laptops
-- Official-looking game elements **only if Kickoff provided or the team bought the legal set** — do not invent a piece
 - Drivetrain for the 55-minute drive block
+- Laptops with team Onshape document
+- Notebook BOM template (part, vendor, qty, why, owner)
 
 ## Required software
 
-- `VidarDiscoverOpMode` or browser sim
-- Team teleop **without** consuming detections
-- TRACE optional `Vision/detect` event when a detection is trusted
+- Onshape team document
+- Team teleop for driving
+- TRACE optional
 
 ## Preparation required before the meeting
 
-- Re-read K001 vision column. If blank, this session is deferral + driving
-- Stage one camera or confirm sim serves
-- Charge batteries for auto reps
+- Open S003 sketches and S004 test records
+- Draft BOM rows before students arrive if mentors have vendor links (students still own the why)
+- Print [gate-review.md](../../../templates/gate-review.md)
+- Charge batteries
 
 ## Exact 120-minute agenda
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | **Major-design-pivot deadline** — no new architecture after closeout unless G3 gate review |
-| 35 | Repair / tune / program | CAD dimensions; BOM finalize; cut list for week 4 fabrication |
-| 55 | Driving reps | Short drivetrain reps on BumbleBee or Strafer — do not pause G3 paperwork for tuning debates |
-| 20 | Closeout | [Gate review G3](../../../templates/gate-review.md); explicit fallback plan; update `calendar.yaml` titles only |
+| 10 | Opening | **Major-design-pivot deadline** — no new architecture after closeout unless G3 gate review. S003 was first CAD; tonight authorizes fab. |
+| 35 | Repair / tune / program | CAD dimensions for authorized modules; BOM finalize; cut/print/order list for week 4 fabrication |
+| 55 | Driving reps | Short drivetrain reps — do not pause G3 paperwork for tuning debates |
+| 20 | Closeout | [Gate review G3](../../../templates/gate-review.md); fallback plan; 5 min pit talking points (robot + team story); update `calendar.yaml` titles only |
 
 ## Mentor demonstration
 
-Show [CALIBRATION_CHECKLIST.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/CALIBRATION_CHECKLIST.md). If Kickoff said vision is optional, say that out loud in the first minute.
+Show one BOM line that is **not** authorized (fails time or four tests) and one that is. CAD screenshot without G2 evidence does not authorize metal.
 
 ## Student work
 
 | Path | Work |
 | ---- | ---- |
-| Mechanical | Keep camera mount out of mechanism travel; or ignore camera if deferred |
-| Electrical | USB reliability |
-| Programming | Tune only fields named in ViDAR config docs — do not invent HSV in FORGE |
-| Drive team | Reps; veto if vision work tries to take the field |
-| Documentation | Before/after or deferral |
+| Mechanical | Dimensions and spare-parts rows |
+| Electrical | Sensors/wires on the BOM only if G3 software contract needs them |
+| Programming | Software contract stays tier 1 for League 1S/2S unless already decided |
+| Drive team | Reps; veto workload |
+| Documentation | BOM, G3 record, pit 30-second script start |
 
 ## Integrated build or test activity
 
-**If MVP needs detection:** tape-measure vs telemetry/sim range on the Kickoff element. Cover the lens; students must not treat last pose as truth.
-
-**If deferred:** one sim screenshot labeled "practice only, not this season's scoring piece" plus the deferral sentence.
+Authorize or reject each major part. Export STL/DXF only for authorized custom parts that block S007 fabrication.
 
 ## Failure-injection scenario
 
-Wrong-color object in view (or empty sim scene). Students must not drive at it. If someone wired vision to motors, stop and remove it.
+Someone wants a new scoring idea after seeing another team's photo. Correct answer: not-yet list. Pivot requires gate review. Do not add it to the BOM tonight.
 
 ## Evidence to collect
 
-- Decision: serve vs defer
-- Screenshot if serving
-- Lighting notes (shop ≠ field)
-- TRACE event optional
+- BOM with owners
+- G3 gate review
+- CAD screenshots of **authorized** parts
+- Fallback sentence
+- Pit talking-point draft (clinic is 10 Oct)
 
 ## Student explain-back questions
 
-1. What game need does this serve, or why is it deferred?
-2. What is a stale track?
-3. Why not four cameras yet?
-4. How do we roll vision out of teleop?
+1. What are we authorized to fabricate after today?
+2. What did we explicitly cut?
+3. What happens if a custom part is late?
+4. Why is driving still 55 minutes on a paperwork night?
+5. Who speaks if judges visit the pit at clinic?
 
 ## Assessment or exit check
 
-If deferred, the written decision is the pass. If not, a detection is shown as robot-relative range/bearing.
+G3 passed or fallback named. BOM exists. Students can say what they will not build.
 
 ## Portfolio or engineering-notebook artifact
 
-Calibration notes that **point at** ViDAR docs, or a deferral dated today.
+BOM + architecture commit. Think C/D. Pit script seed for Connect/team attributes.
 
 ## Competition enablement impact
 
-Still not control. Observation at most. Multi-camera stays off.
+Shop authorization only. No match feature flags.
 
 ## Rollback procedure
 
-Unplug camera. Teleop without `VidarSpatial`. Sim closed.
+If G3 fails, fabricate starter-bot path only. Do not place vendor orders for rejected modules.
 
 ## Cleanup requirements
 
-Elements stored; camera capped; robot disabled.
+Laptops logged out if shared; robot disabled; batteries charging; BOM photographed or copied to team drive.
 
 ## Next-session preparation
 
-S005 interlocks on whatever mechanisms exist. Keep S003 auto as the competition fallback.
+- S007: module fabrication from this BOM
+- Clinic 10 Oct: S008 is the night-before freeze
+- Continue Onshape homework only for authorized parts
 
 ## Hardware-unavailable fallback
 
-Browser sim. Drive block: unpowered push-bot or hallway walk of the auto.
+Paper BOM and dimensioned sketches. Driving: unpowered push-bot or hallway walk of cycles.
 
 ## Robot-unavailable simulation option
 
-Entire detection work on sim. Driving becomes gamepad dry-run if a Hub exists without a base.
+CAD + BOM on laptops. Gamepad dry-run if a Hub exists without a base.
 
 ## Links to authoritative project documentation
 
 - [docs/season-process.md](../docs/season-process.md)
 - [docs/decision-gates.md](../docs/decision-gates.md)
 - [docs/pratt-crosswalk.md](../docs/pratt-crosswalk.md)
-- [prototype-test-record.md](../../../templates/prototype-test-record.md)
+- [docs/modular-architecture.md](../docs/modular-architecture.md)
+- [docs/software-sequencing.md](../docs/software-sequencing.md)
+- [learning-paths/onshape-cad.md](../../../learning-paths/onshape-cad.md)
 - [gate-review.md](../../../templates/gate-review.md)
-- [TEACHING.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/TEACHING.md)
-- [CALIBRATION.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/CALIBRATION.md)
-- [CALIBRATION_CHECKLIST.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/CALIBRATION_CHECKLIST.md)
-- [CONFIGURATION.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/CONFIGURATION.md)
-- [COORDINATE_FRAMES.md](https://github.com/The-Allsparks/ViDAR/blob/main/docs/COORDINATE_FRAMES.md)
-- [sim/README-SIM.md](https://github.com/The-Allsparks/ViDAR/blob/main/sim/README-SIM.md)
+- [S003 Onshape training](S003-meeting-a.md)
 - [kickoff-replan-guide.md](../kickoff-replan-guide.md)
-- [projects/vidar.md](../../../projects/vidar.md)
 
 ## Mentor notes
 
-Do not invent BIOBUZZ element names in this file. After Kickoff, write the real name in the notebook, not as a FORGE "rule." Protect the 55-minute drive block.
+**Filename stays `S006-meeting-b.md`.** Old file body was ViDAR detection. Do not run a vision lab unless the G3 software contract already placed detection in tier 1 or 2 — and even then it cannot eat the 55-minute drive or the BOM. Protect driving. Clinic judging practice started as a five-minute closeout, not a full mock (that is S013 for league).

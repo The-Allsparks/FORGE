@@ -108,7 +108,7 @@ Failure of TRACE, AMPER, ViDAR, BEACON, MIMIC observation, HELM, or ECHO must no
 | System | Disable |
 | ------ | ------- |
 | SHIFT | omit from the OpMode; run Motor Test / conventional-stick teleop |
-| TRACE | `TraceMode.OFF` / do not configure |
+| TRACE | `BumbleBeeTrace.MODE = TraceMode.OFF` |
 | AMPER | `AmperPolicies.disabled()` |
 | MIMIC | no actuation flags; omit from loop |
 | ViDAR | do not consume detections; unplug camera if loop dies |

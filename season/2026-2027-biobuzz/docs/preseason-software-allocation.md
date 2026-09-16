@@ -1,8 +1,8 @@
 # Preseason software allocation
 
-Until Kickoff (12 September 2026), extra software courses stay off. **P006 is the exception:** creating the FTC project, hardware configuration, hardware map, and a minimal robot-centric TeleOp is Kickoff-critical and may use most of that meeting’s programming block. That does **not** reopen a weekly library curriculum.
+Until Kickoff (12 September 2026), extra software courses stay off. **P007 is the exception:** creating the FTC project, hardware configuration, hardware map, and a minimal robot-centric TeleOp is Kickoff-critical and may use most of that meeting’s construction block. [P006](../sessions/P006-meeting-b.md) was a code walkthrough only — that does **not** count as bring-up and does **not** reopen a weekly library curriculum.
 
-After P006, P007 software is **dial-in only** (directions, mix, speed limit, deadband). GitHub TeamCode workflow stays blocked on [#2](https://github.com/The-Allsparks/FORGE/issues/2).
+After a working TeleOp exists, leftover P007 software is **dial-in only** (directions, mix, speed limit, deadband). GitHub TeamCode workflow stays blocked on [#2](https://github.com/The-Allsparks/FORGE/issues/2).
 
 Use software only for immediate robot needs:
 

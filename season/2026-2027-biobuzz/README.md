@@ -1,6 +1,6 @@
 # 2026–2027 BIOBUZZ
 
-Season folder for The Allsparks. Game details are unknown until Kickoff.
+Season folder for The Allsparks. Official Kickoff rules: [official/README.md](official/README.md) (BIOBUZZ Competition Manual **V1**, 12 Sep 2026).
 
 **Season process:** Compressed competition-one cycle adapted from Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt), with decision tests from *Why Most FTC Teams Fail (And How Not To)* — [docs/season-process.md](docs/season-process.md), [docs/guiding-principle.md](docs/guiding-principle.md), [docs/decision-gates.md](docs/decision-gates.md), [docs/references.md](docs/references.md). Pratt does not endorse FORGE. Official FIRST rules override Pratt.
 
@@ -10,7 +10,7 @@ Season folder for The Allsparks. Game details are unknown until Kickoff.
 
 Every numbered meeting uses **`{ID}-meeting-{type}.md`** where `type` is `a` (Monday), `b` (Friday), `s` (Wednesday preseason), `k` (Kickoff), or `e` (event day). Example: [S001-meeting-a.md](sessions/S001-meeting-a.md).
 
-**Do not rename session files** when the topic changes. Edit the `title` field in front matter and in `calendar.yaml` instead. After Kickoff, S001 is typically MVP build; later weeks might retitle the same file to match the mechanism of the week.
+**Do not rename session files** when the topic changes. Edit the `title` field in front matter and in `calendar.yaml` instead. After Kickoff, S001 is season updates + game review + brainstorm; later weeks retitle the same file to match the week's work.
 
 | Prefix | Meaning |
 | ------ | ------- |
@@ -22,8 +22,9 @@ Every numbered meeting uses **`{ID}-meeting-{type}.md`** where `type` is `a` (Mo
 ## Start this week
 
 1. Read [season-plan.md](season-plan.md) and [preseason-deferred-work.md](docs/preseason-deferred-work.md)
-2. Open [P007-meeting-a.md](sessions/P007-meeting-a.md) — **next meeting (2026-09-07)** — last shop night: finish electrical, programming bring-up, and first movement, then Kickoff worksheets. P006 was a code walkthrough only. Do not open as drivetrain dial-in. Wheels off the floor before any floor driving.
-3. Update [readiness-dashboard.md](readiness-dashboard.md) in the last 10–20 minutes
+2. Open [S001-meeting-a.md](sessions/S001-meeting-a.md) — **14 Sep 2026** — season updates, official BIOBUZZ game review, start brainstorming. Do not fabricate a scoring robot tonight.
+3. Collect Onshape parental consent before [S003](sessions/S003-meeting-a.md) (21 Sep FRC-hosted CAD class)
+4. Update [readiness-dashboard.md](readiness-dashboard.md) in the last 10–20 minutes
 
 ## Priority
 

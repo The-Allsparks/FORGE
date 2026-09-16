@@ -54,10 +54,14 @@ Audit and adaptations: [pratt-why-teams-fail.md](pratt-why-teams-fail.md). Integ
 
 ## Official FIRST sources (authoritative over FORGE)
 
-FORGE does **not** contain BIOBUZZ rules. After Kickoff, use:
+FORGE does **not** contain BIOBUZZ rules. Kickoff V1 materials were published **12 September 2026**. Local copies and the refresh procedure: [../official/README.md](../official/README.md).
 
-- Official Game Manual and field documents from FIRST Kickoff materials
-- [2026–2027 FTC team resources](https://ftc-resources.firstinspires.org/ftc/archive/2027/team) (planning shortcut — verify when live)
-- [2026–2027 event resources](https://ftc-resources.firstinspires.org/ftc/archive/2027/event) (inspection — verify when live)
+- [Current Game and Season Materials](https://ftc-resources.firstinspires.org/ftc/game) — **BIOBUZZ Competition Manual V1** (English PDF is authoritative)
+- [Competition Manual PDF](https://ftc-resources.firstinspires.org/ftc/game/manual)
+- [Competition Manual HTML](https://ftc-resources.firstinspires.org/ftc/game/cm-html)
+- [Team Update 00](https://ftc-resources.firstinspires.org/ftc/game/tu-00)
+- [2026–2027 playing field resources](https://ftc-resources.firstinspires.org/ftc/archive/2027/field)
+- [2026–2027 FTC team resources](https://ftc-resources.firstinspires.org/ftc/archive/2027/team)
+- [2026–2027 event resources](https://ftc-resources.firstinspires.org/ftc/archive/2027/event)
 
-Mark any award page limits, judging times, or pit dimensions as **unverified** until confirmed in official 2026–2027 materials.
+Inspection checklist / quick reference were still “coming soon” on Kickoff day. Award page limits, judging times, and pit dimensions stay **unverified** until those event PDFs publish.

@@ -91,11 +91,11 @@ Session-level mapping: [pratt-crosswalk.md](pratt-crosswalk.md).
 | Strategy matrix | Scoring, ranking, penalty, and constraint matrix |
 | MVP strategies | Minimum viable scoring and ranking-point paths |
 | Research | Official starter robots; comparable prior-game mechanisms |
-| Visual ideation | **60–100** concepts across four students (scaled from Pratt's hundreds) |
-| Low-fidelity prototypes | Cardboard, coroplast, temporary channel — at least one game-object interaction proof |
+| Visual ideation | **60–100** concepts across four students (scaled from Pratt's hundreds) — **S001 starts this**; S002 scales |
+| Low-fidelity prototypes | Cardboard, coroplast, temporary channel — after brainstorm, not instead of the 14 Sep game review |
 | Drivable chassis | Maintain drivable platform throughout |
 
-**Exit gate (G1 — Strategy):** Completed [kickoff-decision-package.md](../../../templates/kickoff-decision-package.md) through ranked capabilities, not-yet list, R0–R2 definition, and four-test commitment. Crude game-object prototypes only — **do not fabricate a custom scoring robot to look busy**. See [decision-gates.md](decision-gates.md#g1--strategy-gate).
+**Exit gate (G1 — Strategy):** Completed [kickoff-decision-package.md](../../../templates/kickoff-decision-package.md) through ranked capabilities, not-yet list, R0–R2 definition, and four-test commitment. Crude game-object prototypes only — **do not fabricate a custom scoring robot to look busy**. S001 (14 Sep) is season updates, official game walkthrough, and brainstorm. See [decision-gates.md](decision-gates.md#g1--strategy-gate).
 
 **Sessions:** K001, S001, S002.
 
@@ -117,7 +117,7 @@ Session-level mapping: [pratt-crosswalk.md](pratt-crosswalk.md).
 
 **Exit gate (G2 — Prototype evidence):** Comparative evidence, leading concepts, starter-bot fallback identified, unresolved-risk list. Template: [prototype-test-record.md](../../../templates/prototype-test-record.md).
 
-**Sessions:** S002 (continued), S003, S004.
+**Sessions:** S003 (FRC Onshape), S004 (G2 tests). S002 continued driving.
 
 ---
 

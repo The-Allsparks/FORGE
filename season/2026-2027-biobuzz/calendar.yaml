@@ -10,7 +10,7 @@ season_name: BIOBUZZ
 team: The Allsparks
 team_number: 36117
 timezone: America/Los_Angeles
-last_reviewed: "2026-09-02"
+last_reviewed: "2026-09-14"
 dates_are_planning_inputs: true
 process_source: "Adapted from Brogan M. Pratt, A 12 Week FTC Season Plan That Actually Works, and Why Most FTC Teams Fail (And How Not To) — see docs/references.md. Official FIRST rules override Pratt."
 
@@ -140,7 +140,7 @@ sessions:
     forge_gate: G1
     event_checkpoint: clinic
     file: sessions/S001-meeting-a.md
-    title: Post-Kickoff week 1 — strategy execution and crude prototypes
+    title: Post-Kickoff week 1 — season updates, game review, and brainstorm
   - id: S002
     date: "2026-09-18"
     meeting_type: B
@@ -158,7 +158,7 @@ sessions:
     forge_gate: G2
     event_checkpoint: clinic
     file: sessions/S003-meeting-a.md
-    title: Post-Kickoff week 2 — comparative mechanism tests
+    title: Post-Kickoff week 2 — FRC-hosted Onshape training
   - id: S004
     date: "2026-09-25"
     meeting_type: B
@@ -470,7 +470,7 @@ cadence_windows:
   - id: kickoff-to-clinic
     start: "2026-09-12"
     end: "2026-10-10"
-    intent: K001 + compressed weeks 1–4 (G1–G5); BumbleBee architecture through integration; clinic data collection.
+    intent: K001 + S001 game review/brainstorm; S003 FRC Onshape; S004 G2 tests; compressed weeks 1–4 (G1–G5); clinic data collection.
   - id: reliability-sprint
     start: "2026-10-12"
     end: "2026-10-31"

@@ -74,7 +74,7 @@ Three P002–P004 construction meetings produced real mechanical shop time. They
 | **P007** | 2026-09-07 | Reusable mechanism lab | Finish bring-up and first movement **and** Kickoff preparation (dial-in leftover only) | Scheduled (rescoped) |
 | **P008** | 2026-09-11 | Kickoff readiness; P007 experiment review | FRC team tour | Scheduled (rescoped) |
 
-See [learning-paths/onshape-cad.md](../../learning-paths/onshape-cad.md). Custom parts are **possible** if the as-built robot needs them; they are not confirmed P002 accomplishments. First CAD lesson is **not** a P004/P005/P006/P007 shop gate — coach prep or S006. Students are beginners — mentor pairing, not assumed skill.
+See [learning-paths/onshape-cad.md](../../learning-paths/onshape-cad.md). Custom parts are **possible** if the as-built robot needs them; they are not confirmed P002 accomplishments. First CAD lesson is **not** a P004/P005/P006/P007 shop gate — it is **S003 (21 Sep)**, FRC-hosted. S006 authorizes BOM/fab. Students are beginners — mentor/host pairing, not assumed skill.
 
 #### Software allocation before Kickoff
 
@@ -108,7 +108,7 @@ Preseason succeeds when the **Kickoff-critical** set is true, with honest blocke
 - Fill [kickoff-decision-package.md](../../templates/kickoff-decision-package.md): scoring **and ranking**, alliance roles, effort-versus-value, ranked capabilities, **not yet / will not build**, R0–R2 definition
 - **Brainstorm ≥3 robot concepts**; scale visual ideation to **60–100** across four students during week 1
 - **Debate** finalists; apply the [four tests](docs/guiding-principle.md); pass **G1 Strategy gate** at S002
-- Do **not** start custom scoring fabrication to look productive — crude game-object prototypes and R0 chassis finish only
+- Do **not** start custom scoring fabrication to look productive — S001 is game + brainstorm; crude game-object prototypes wait until G1 has ideas (S002/S004)
 - Map software to [software-sequencing.md](docs/software-sequencing.md) tiers (not all libraries at once)
 - Revise remaining FORGE dates in `calendar.yaml`
 - Preserve build and driver-practice time
@@ -121,9 +121,9 @@ Pratt's twelve weeks compress into six or seven shop weeks before **31 October 2
 
 | Week | Phase | Sessions | Gates | Release target |
 | ---- | ----- | -------- | ----- | -------------- |
-| 1 | Understand and diverge | K001, S001, S002 | G1 | R0; crude R2 prototypes |
-| 2 | Test and compare | S003, S004 | G2 | Physical evidence for R2 path |
-| 3 | Select and commit | S005, S006 | G3 | Architecture for R2/R3 |
+| 1 | Understand and diverge | K001, S001, S002 | G1 | R0; **S001 = season updates, official game review, brainstorm** (crude proofs wait until ideas exist) |
+| 2 | Test and compare | S003, S004 | G2 | **S003 = FRC Onshape**; **S004 = physical G2 evidence** |
+| 3 | Select and commit | S005, S006 | G3 | Architecture for R2/R3; S006 CAD/BOM authorization |
 | 4 | Build and integrate | S007, S008, clinic 10 Oct | G4, G5 | R0 required at clinic; R1–R2 stretch |
 | 5 | Tune and validate | S009–S012 | G6 | R1 required; R3/R4 in progress |
 | 6 | Freeze and rehearse | S013, S014 | G7 | R4 measurements; R5 only if earned |
