@@ -32,11 +32,11 @@ forge_gate: G1
 
 ## Driving question
 
-Did we generate enough ideas, finish G1 with a documented strategy (including the not-yet list), and still give every student driving time?
+Did we generate enough ideas, finish G1 with a documented strategy (including the not-yet list), and still give every student **more** driving time?
 
 ## Student-facing objective
 
-Students scale visual ideation, finish low-fidelity prototypes, complete G1 Strategy gate review using [kickoff-decision-package.md](../../../templates/kickoff-decision-package.md), and run the **55-minute** driver block on a drivable chassis. Do not steal driving time to fabricate.
+Students scale visual ideation from S001, finish low-fidelity prototypes if ideas exist, complete G1 Strategy gate review using [kickoff-decision-package.md](../../../templates/kickoff-decision-package.md), and run the **55-minute** driver block. Every student has already driven (15 Sep) and will practice again **16 Sep**. Friday is more reps, not first enable. Electrical stays temporary. Do not steal driving time to fabricate.
 
 ## Robot outcome
 
@@ -49,7 +49,7 @@ Students scale visual ideation, finish low-fidelity prototypes, complete G1 Stra
 
 ## Prerequisites
 
-- Driveable chassis from [P006](P006-meeting-b.md)–[P007](P007-meeting-a.md) **or** honest blocker — do not assume original P006 already produced a baseline. P008 was the FRC tour, not driving catch-up
+- Driveable chassis: all students drove **15 Sep**; extra practice **16 Sep**. Electrical is still **temporary** until a real design. Do not assume a frozen wiring diagram.
 - Gamepads; Driver Station; blocks/restraint
 - Minimal TeleOp deployed ([preseason-software-allocation.md](../docs/preseason-software-allocation.md))
 
@@ -84,7 +84,7 @@ baseline · strafe · rotation · enable · disable · repair list
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | S001 status; G1 checklist; test goals; safety; every driver will drive |
+| 10 | Opening | S001 game/brainstorm status; G1 checklist; clinic attendance clock (75% in 4 weeks before an event); Appendix F/G consent if still missing; safety; every driver will drive |
 | 35 | Repair / tune / program | Finish decision-package rows; ideation count; fix S001 items; correct mecanum orientation — **no custom scoring fab** |
 | 55 | Driving reps | Forward/reverse; strafe L/R; rotation; fixed-distance straight lines; **every student** enables, drives, disables; emergency-disable drill |
 | 20 | Closeout | [Gate review G1](../../../templates/gate-review.md); inspect fasteners; baseline table; explain-back |
@@ -122,8 +122,9 @@ Random DS disable during a rep. Driver must stop; document whether disable was i
 
 1. What changed if a wheel drove backward?
 2. How do you emergency-disable?
-3. What is on the repair list before S003?
+3. What is on the repair list before S004 comparative tests?
 4. Is the chassis ready for mechanism experiments? (honest answer)
+5. Who still needs Onshape parental consent before Monday?
 
 ## Assessment or exit check
 
@@ -148,8 +149,9 @@ Battery off; robot on blocks; gamepads stored.
 
 ## Next-session preparation
 
-- S003: capstan/tower/transport experiments — chassis must stay serviceable
-- K001: consolidate evidence before Kickoff
+- S003 (21 Sep): FRC-hosted Onshape training — chassis stays serviceable at home if the class is offsite
+- Appendix F consent before student Onshape accounts
+- S004: G2 comparative tests; 55-minute driving stays
 
 ## Hardware-unavailable fallback
 
@@ -167,9 +169,9 @@ Walk the baseline path; verbal stick calls; still rotate all students through en
 - [prototype-test-record.md](../../../templates/prototype-test-record.md)
 - [gate-review.md](../../../templates/gate-review.md)
 - [preseason-software-allocation.md](../docs/preseason-software-allocation.md)
-- [P006 first movement](P006-meeting-b.md)
+- [P007 first movement](P007-meeting-a.md)
 - [projects/pedro-pathing.md](../../../projects/pedro-pathing.md) — defer tuning
 
 ## Mentor notes
 
-Success = **MVP teleop** on the Kickoff robot configuration, not library features. If teleop missing, use 35-minute block — not 55-minute lecture. Pedro follower tuning waits until post-Kickoff when justified.
+Success = **G1 package + every student drove again**. First enable already happened (15 Sep; extra 16 Sep). If G1 slips, do not skip driving to write a novel. Electrical stays temporary. S001 was game review and brainstorm, not fabrication. Pedro follower tuning waits until S010 / later Meeting B repair.

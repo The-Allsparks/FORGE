@@ -1,6 +1,6 @@
 # 2026–2027 BIOBUZZ
 
-Season folder for The Allsparks. Game details are unknown until Kickoff.
+Season folder for The Allsparks. Official Kickoff rules: [official/README.md](official/README.md) (BIOBUZZ Competition Manual **V1**, 12 Sep 2026).
 
 **Season process:** Compressed competition-one cycle adapted from Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt), with decision tests from *Why Most FTC Teams Fail (And How Not To)* — [docs/season-process.md](docs/season-process.md), [docs/guiding-principle.md](docs/guiding-principle.md), [docs/decision-gates.md](docs/decision-gates.md), [docs/references.md](docs/references.md). Pratt does not endorse FORGE. Official FIRST rules override Pratt.
 
@@ -10,7 +10,7 @@ Season folder for The Allsparks. Game details are unknown until Kickoff.
 
 Every numbered meeting uses **`{ID}-meeting-{type}.md`** where `type` is `a` (Monday), `b` (Friday), `s` (Wednesday preseason), `k` (Kickoff), or `e` (event day). Example: [S001-meeting-a.md](sessions/S001-meeting-a.md).
 
-**Do not rename session files** when the topic changes. Edit the `title` field in front matter and in `calendar.yaml` instead. After Kickoff, S001 is typically MVP build; later weeks might retitle the same file to match the mechanism of the week.
+**Do not rename session files** when the topic changes. Edit the `title` field in front matter and in `calendar.yaml` instead. After Kickoff, S001 is season updates + game review + brainstorm; later weeks retitle the same file to match the week's work.
 
 | Prefix | Meaning |
 | ------ | ------- |
@@ -22,14 +22,15 @@ Every numbered meeting uses **`{ID}-meeting-{type}.md`** where `type` is `a` (Mo
 ## Start this week
 
 1. Read [season-plan.md](season-plan.md) and [preseason-deferred-work.md](docs/preseason-deferred-work.md)
-2. Open [P006-meeting-b.md](sessions/P006-meeting-b.md) — **next meeting (2026-09-04)** — electrical diagram, programming bring-up, and first movement. Do not run the original driver-baseline agenda. Wheels off the floor before any floor driving.
-3. Update [readiness-dashboard.md](readiness-dashboard.md) in the last 10–20 minutes
+2. Open [S001-meeting-a.md](sessions/S001-meeting-a.md) — **14 Sep 2026** — season updates, official BIOBUZZ game review, start brainstorming. Do not fabricate a scoring robot tonight.
+3. Collect Onshape parental consent before [S003](sessions/S003-meeting-a.md) (21 Sep FRC-hosted CAD class)
+4. Update [readiness-dashboard.md](readiness-dashboard.md) in the last 10–20 minutes
 
 ## Priority
 
 working robot → reliable mechanisms → driver practice → conventional autonomous → evidence collection → advanced autonomy
 
-**Integration gate:** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) — combined FTC stack acceptance. TeamCode URL is **BLOCKED** ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)).
+**Integration gate:** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) — combined FTC stack acceptance. Robot project: [The-Allsparks/FtcRobotController](https://github.com/The-Allsparks/FtcRobotController).
 
 ## First Nevada checkpoints (from calendar.yaml)
 
@@ -45,13 +46,13 @@ working robot → reliable mechanisms → driver practice → conventional auton
 
 ## Written sessions
 
-**Preseason:** P001–P008 (construction + V0 rules variance recorded; remaining shop time is P006 first movement and P007 dial-in plus Kickoff prep; P008 is the FRC tour — not the original mechanism lab).
+**Preseason:** P001–P008 (construction + V0 rules + P006 code-walkthrough variance recorded; remaining shop time is P007 bring-up/first movement plus Kickoff prep; P008 is the FRC tour — not the original mechanism lab).
 
 **Kickoff:** K001.
 
 **Season:** S001–S042 milestone and cadence sessions; **E004** (League Tournament day 1) and **E005** (State day 1, contingent) replace regular meetings on those dates.
 
-Team robot GitHub URL: **BLOCKED** ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)). Shop construction and driving still proceed. Compile-checked stack does not. Playbook: [create-robot-project.md](../../docs/create-robot-project.md).
+Team robot GitHub: [The-Allsparks/FtcRobotController](https://github.com/The-Allsparks/FtcRobotController). Shop construction and driving still proceed. Hub stack evidence does not. Detail: [team-robot-project.md](../../docs/team-robot-project.md).
 
 Combined-stack teaching: [stack-acceptance.md](../../docs/stack-acceptance.md), [student-install.md](../../docs/student-install.md), [lab I002](../../labs/integrated/I002-stack-install-diagnosis.md).
 

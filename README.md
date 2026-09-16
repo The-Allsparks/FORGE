@@ -47,14 +47,14 @@ Do not construct seven independent courses. Teach these as related layers of one
 
 ## Current status
 
-**First combined-stack acceptance priority:** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). A library that compiles on a desktop is not an FTC-ready stack. See [docs/stack-acceptance.md](docs/stack-acceptance.md). Do not invent a TeamCode URL ([issue #2](https://github.com/The-Allsparks/FORGE/issues/2)).
+**First combined-stack acceptance priority:** [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4). A library that compiles on a desktop is not an FTC-ready stack. See [docs/stack-acceptance.md](docs/stack-acceptance.md). Robot project: [The-Allsparks/FtcRobotController](https://github.com/The-Allsparks/FtcRobotController) ([docs/team-robot-project.md](docs/team-robot-project.md)).
 
 | Item | Status |
 | ---- | ------ |
 | Season | 2026–2027 BIOBUZZ (game details unknown until Kickoff) |
 | Foundation | Session contract, calendar, P001–P008, K001, S001–S042, E004/E005 |
-| Combined stack acceptance | **Open P0.** Paper install/lifecycle/conventions done. Compile-checked Hub evidence **BLOCKED** on [#2](https://github.com/The-Allsparks/FORGE/issues/2) |
-| Team robot / TeamCode repository | **BLOCKED.** No published URL. Playbook: [docs/create-robot-project.md](docs/create-robot-project.md) |
+| Combined stack acceptance | **Open P0.** Paper install/lifecycle/conventions done. Desktop compile of BumbleBee Drive exists. Hub evidence still unmeasured. |
+| Team robot / TeamCode repository | **Published.** [The-Allsparks/FtcRobotController](https://github.com/The-Allsparks/FtcRobotController) (SDK [v11.2.1](https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases/tag/v11.2.1), `bumblebee` branch) |
 | Competition enablement | All optional advanced features start **disabled** or **passive** |
 | Hardware validation of linked libraries | **Not claimed.** See each project README |
 
@@ -95,7 +95,7 @@ Combined FTC stack acceptance ([#4](https://github.com/The-Allsparks/FORGE/issue
 | Robot code (not this repo) | [docs/team-robot-project.md](docs/team-robot-project.md) — **blocked** |
 | Create the robot repo (when ready) | [docs/create-robot-project.md](docs/create-robot-project.md) |
 | First preseason session | [season/2026-2027-biobuzz/sessions/P001-meeting-a.md](season/2026-2027-biobuzz/sessions/P001-meeting-a.md) |
-| TRACE / first movement (preseason) | [season/2026-2027-biobuzz/sessions/P006-meeting-b.md](season/2026-2027-biobuzz/sessions/P006-meeting-b.md) |
+| TRACE / first movement (preseason) | [season/2026-2027-biobuzz/sessions/P007-meeting-a.md](season/2026-2027-biobuzz/sessions/P007-meeting-a.md) |
 | Kickoff | [season/2026-2027-biobuzz/sessions/K001-meeting-k.md](season/2026-2027-biobuzz/sessions/K001-meeting-k.md) |
 | First season shop meeting | [season/2026-2027-biobuzz/sessions/S001-meeting-a.md](season/2026-2027-biobuzz/sessions/S001-meeting-a.md) |
 | Readiness | [season/2026-2027-biobuzz/readiness-dashboard.md](season/2026-2027-biobuzz/readiness-dashboard.md) |

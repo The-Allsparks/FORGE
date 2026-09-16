@@ -46,7 +46,7 @@ Confirm the team understands BIOBUZZ scoring constraints and has a written, stud
 - Explicit **not yet / will not build** list
 - Initial R0–R2 definition for this game ([robot-releases.md](robot-releases.md))
 - Initial risk register (≥3 risks with owners)
-- ≥1 low-fidelity physical proof of game-object interaction OR documented reason the game makes that impossible until parts arrive
+- ≥1 low-fidelity physical proof of game-object interaction OR documented reason the game makes that impossible until parts arrive (proof is due by **S002**, not as S001's primary product)
 - [Concept brainstorm record](../../../templates/concept-brainstorm.md) with 60–100 scaled ideation count across four students (or honest count + plan to reach target)
 - Four-test check on the G1 commitment
 
@@ -76,7 +76,7 @@ Confirm the team understands BIOBUZZ scoring constraints and has a written, stud
 
 ### Fallback if missed
 
-- **Scope reduction:** Adopt official starter-bot scoring baseline as Sparkee MVP
+- **Scope reduction:** Adopt official starter-bot scoring baseline as BumbleBee MVP
 - **Time protection:** No custom fabrication beyond drivetrain until G1 passes
 - **Recovery meeting:** Extra 30 min strategy block on next Meeting A before build
 
@@ -136,13 +136,13 @@ End unrestricted mechanism exploration with **measured** comparisons — not opi
 ### Fallback if missed
 
 - **Starter-bot fallback:** Commit to official starter scoring mechanism for competition one
-- **Bench-only exploration:** Further prototypes on fixtures only — Sparkee build frozen to drivetrain + starter module
+- **Bench-only exploration:** Further prototypes on fixtures only — BumbleBee build frozen to drivetrain + starter module
 - **Time protection:** Architecture gate (G3) delayed max 3 days; then fallback auto-applies
 
 ### Blocks until passed
 
 - G3 architecture lock
-- Unrestricted new mechanism branches on Sparkee
+- Unrestricted new mechanism branches on BumbleBee
 - Reliability claims about unscored prototypes
 
 ---
@@ -203,7 +203,7 @@ Lock competition-one modular architecture with interfaces sufficient to fabricat
 
 ### Blocks until passed
 
-- Full Sparkee module fabrication beyond drivetrain
+- Full BumbleBee module fabrication beyond drivetrain
 - Nonessential sensor procurement
 - ViDAR/HELM/ECHO competition enablement
 
@@ -238,7 +238,7 @@ Stop new modules and interface churn so integration can finish.
 
 ### Acceptance criteria
 
-- No unapproved new modules on Sparkee
+- No unapproved new modules on BumbleBee
 - Interface changes documented as ECO-level decisions
 
 ### Deliverables
@@ -262,7 +262,7 @@ Stop new modules and interface churn so integration can finish.
 
 ### Purpose
 
-Confirm Sparkee is mechanically and electrically complete so software tuning uses final mass and geometry.
+Confirm BumbleBee is mechanically and electrically complete so software tuning uses final mass and geometry.
 
 **Pratt protection:** Week 8 completes mechanical and electrical integration.
 
@@ -287,7 +287,7 @@ Confirm Sparkee is mechanically and electrically complete so software tuning use
 ### Mentor role
 
 - Safety inspect wiring and battery path
-- Confirm no shared Strafer parts are missing from Sparkee ([two-platform-strategy.md](two-platform-strategy.md))
+- Confirm no shared Strafer parts are missing from BumbleBee ([two-platform-strategy.md](two-platform-strategy.md))
 
 ### Acceptance criteria
 
@@ -308,7 +308,7 @@ Confirm Sparkee is mechanically and electrically complete so software tuning use
 
 ### Blocks until passed
 
-- Final Pedro localization tuning on Sparkee
+- Final Pedro localization tuning on BumbleBee
 - Reliability statistics for full robot
 - G6 stable software handoff
 
@@ -318,7 +318,7 @@ Confirm Sparkee is mechanically and electrically complete so software tuning use
 
 ### Purpose
 
-Hand a **stable** Sparkee to sustained software, auto, and driver work.
+Hand a **stable** BumbleBee to sustained software, auto, and driver work.
 
 **Pratt protection:** Week 9 hands stable robot to software.
 
@@ -423,7 +423,7 @@ End speculative features; reserve remaining time for drivers, judging, pit, and 
 ### Blocks until passed
 
 - G8 competition enablement for optional systems
-- Version 2 / next-gen mechanism research on Sparkee
+- Version 2 / next-gen mechanism research on BumbleBee
 
 ---
 

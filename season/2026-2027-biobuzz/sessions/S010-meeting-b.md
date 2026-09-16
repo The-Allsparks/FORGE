@@ -37,7 +37,7 @@ Can we run one reliable minimum autonomous path before adding anything advanced?
 
 ## Student-facing objective
 
-Students build minimum reliable Pedro (or conventional) auto on Sparkee; tune mechanisms; stop major mechanical changes. Write k/n before testing ([acceptance-criteria.md](../docs/acceptance-criteria.md); example 7/10). Declare teleop-only if the sample fails. ECHO stays off-robot unless the G3 contract already placed it in tier 2.
+Students build minimum reliable Pedro (or conventional) auto on BumbleBee; tune mechanisms; stop major mechanical changes. Write k/n before testing ([acceptance-criteria.md](../docs/acceptance-criteria.md); example 7/10). Declare teleop-only if the sample fails. ECHO stays off-robot unless the G3 contract already placed it in tier 2.
 
 ## Robot outcome
 
@@ -88,7 +88,7 @@ cue · pan · pulse · silence · mute · GUIDANCE vs WARN · `driverEnabled`
 
 | Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Minimum reliable auto before advanced paths; Pedro on **Sparkee mass**, not Strafer assumptions |
+| 10 | Opening | Minimum reliable auto before advanced paths; Pedro on **BumbleBee mass**, not Strafer assumptions |
 | 35 | Repair / tune / program | Pedro path or conventional fallback; mechanism tuning; known-good release tag |
 | 55 | Driving reps | Auto repetitions (≥7/10 target) interleaved with teleop scoring cycles |
 | 20 | Closeout | Auto log; rollback tag recorded; optional libraries still per software contract |

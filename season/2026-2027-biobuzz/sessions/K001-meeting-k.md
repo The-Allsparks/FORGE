@@ -46,7 +46,7 @@ Students will extract scoring **and ranking** tasks from **official** Kickoff ma
 
 - Official Kickoff broadcast/materials (FIRST)
 - [kickoff-replan-guide.md](../kickoff-replan-guide.md)
-- Preseason robot and evidence **as they actually exist** — see [preseason-deferred-work.md](../docs/preseason-deferred-work.md). P002–P004 were construction; P005 was V0 rules review; electrical/programming/first movement only if P006 completed them; dial-in and Kickoff worksheets only if P007 completed them
+- Preseason robot and evidence **as they actually exist** — see [preseason-deferred-work.md](../docs/preseason-deferred-work.md). P002–P004 were construction; P005 was V0 rules review; P006 was a code walkthrough; electrical/programming/first movement only if P007 completed them; Kickoff worksheets only if P007 completed them
 - P005 V0 notes are study notes. **Official Kickoff materials supersede V0**
 - [preseason-kickoff-gate.md](../docs/preseason-kickoff-gate.md)
 - Do not assume a P007 mechanism-lab data set — that lab was deferred after Kickoff
@@ -156,8 +156,8 @@ Recycle printouts with game spoilers if the team cares; pack robot if present.
 
 ## Next-session preparation
 
-- S001 is vision **only if** MVP needs it; otherwise construction-heavy with sim geometry
-- Order parts for MVP immediately; update Onshape with MVP layout when back in shop
+- S001 (14 Sep): season updates, official game walkthrough, start brainstorming — not custom scoring fab
+- Order parts for MVP only after G1 direction exists; first Onshape lesson is S003 (21 Sep) with the P008 FRC host
 
 ## Hardware-unavailable fallback
 
@@ -182,4 +182,4 @@ Same as fallback — Kickoff is analysis. Use photos of the current drivetrain.
 
 ## Mentor notes
 
-Do not let programmers dominate debate. Drive team has veto on cue/planner cognitive load. Preserve S003 comparative-test time. **Creativity block is not fluff** — it feeds the decision record and portfolio. If debate runs long, steal from software tiers, not from brainstorm. Students already saw **Pre-Season V0** rules at P005 — use that as practice, then switch to official text. If the chassis still does not drive, MVP must include finishing a legal drivetrain (R0), not only a scoring mechanism. G1 is **not** finished tonight unless the package is actually complete — S002 is the gate review. P008 was an FRC tour; do not look there for missing Kickoff worksheets.
+Do not let programmers dominate debate. Drive team has veto on cue/planner cognitive load. S001 continues game review and brainstorm if tonight is incomplete. G2 comparative tests moved to S004 because S003 is FRC-hosted Onshape training. **Creativity block is not fluff** — it feeds the decision record and portfolio. If debate runs long, steal from software tiers, not from brainstorm. Students already saw **Pre-Season V0** rules at P005 — use that as practice, then switch to official text. If the chassis still does not drive, MVP must include finishing a legal drivetrain (R0), not only a scoring mechanism. G1 is **not** finished tonight unless the package is actually complete — S002 is the gate review. P008 was an FRC tour; do not look there for missing Kickoff worksheets.

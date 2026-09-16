@@ -23,6 +23,7 @@ Until the 26–27 checklist is posted, practice with the **process** (present th
 
 | System | Event status |
 | ------ | ------------ |
+| SHIFT | BumbleBee Drive teleop input layer; Motor Test if SHIFT is omitted |
 | TRACE | passive recorder if Hub evidence exists; else off |
 | AMPER | passive or off — **no** limiting |
 | MIMIC | observation only unless a tested protection is listed on the dashboard |
@@ -38,7 +39,7 @@ Independent disable commands: [student-install.md](../../docs/student-install.md
 
 1. DS stop.
 2. Select teleop. Do not run optional autos.
-3. If a flag was enabled: set TRACE `OFF` / AMPER disabled / omit ViDAR from teleop / ECHO mute and audio off / HELM `OFF`.
+3. If a flag was enabled: omit SHIFT (run Motor Test) / set TRACE `OFF` / AMPER disabled / omit ViDAR from teleop / ECHO mute and audio off / HELM `OFF`.
 4. Battery disconnect if the robot will not disable.
 5. Who can do this: any mentor or the designated drive-coach.
 

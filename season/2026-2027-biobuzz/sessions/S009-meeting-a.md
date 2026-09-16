@@ -32,17 +32,17 @@ forge_gate: G6
 
 ## Driving question
 
-What did clinic prove — and is Sparkee stable enough for sustained software and driver work?
+What did clinic prove — and is BumbleBee stable enough for sustained software and driver work?
 
 ## Student-facing objective
 
-Students run [event-retrospective.md](../../../templates/event-retrospective.md) for clinic; begin G6 handoff: minimum teleop stable, Pedro tuning on Sparkee mass (not Strafer assumptions).
+Students run [event-retrospective.md](../../../templates/event-retrospective.md) for clinic; begin G6 handoff: minimum teleop stable, Pedro tuning on BumbleBee mass (not Strafer assumptions).
 
 ## Robot outcome
 
 - Clinic retrospective complete
 - P0 repair list from clinic
-- Stable teleop verified on Sparkee
+- Stable teleop verified on BumbleBee
 - Handoff checklist started
 
 
@@ -82,7 +82,7 @@ Copy logs off the Hub. Print or open the clinic test card. List keep / drop / de
 | ---: | --- | --- |
 | 10 | Opening | Clinic retrospective rules: evidence not vibes; no architecture rewrite |
 | 75 | Construction | P0 clinic repairs only — fasteners, wiring, binds; no new modules |
-| 25 | Integration | [Event retrospective](../../../templates/event-retrospective.md); stable teleop verification on Sparkee |
+| 25 | Integration | [Event retrospective](../../../templates/event-retrospective.md); stable teleop verification on BumbleBee |
 | 10 | Closeout | Handoff checklist for G6; TRACE clinic story; dashboard P0 list |
 
 ## Mentor demonstration

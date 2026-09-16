@@ -4,7 +4,7 @@
 **Scope:** Incorporate applicable findings from Brogan M. Pratt, *Why Most FTC Teams Fail (And How Not To)*, into the 2026–2027 BIOBUZZ FORGE plan for The Allsparks (FTC 36117).  
 **Primary source:** Findings enumerated from the video (integration brief). A standalone transcript file was not present in the repository; the brief’s seventeen findings were treated as the extract. Official FIRST rules override the video. Pratt does not endorse FORGE.
 
-This is **not** a replacement of the 19 August twelve-week Pratt integration ([pratt-integration-report.md](pratt-integration-report.md)). That work (G1–G8, compressed weeks, Sparkee modules) is preserved.
+This is **not** a replacement of the 19 August twelve-week Pratt integration ([pratt-integration-report.md](pratt-integration-report.md)). That work (G1–G8, compressed weeks, BumbleBee modules) is preserved.
 
 Audit matrix: [docs/pratt-why-teams-fail.md](docs/pratt-why-teams-fail.md).
 
@@ -62,7 +62,7 @@ Evidence for each row is in the audit file.
 
 **Updated FORGE-wide:** `AGENTS.md`, `README.md`, `docs/curriculum-model.md`, `docs/evidence-model.md`, `docs/award-and-portfolio-traceability.md`, `docs/mentor-guide.md`, `docs/student-guide.md`, `docs/safety-and-enablement.md`, `learning-paths/{programming,drive-team,mechanical}.md`
 
-**Updated templates:** decision-record, prototype-test-record, evidence-record, concept-brainstorm, gate-review, sparkee-module-record, competition/common-repairs
+**Updated templates:** decision-record, prototype-test-record, evidence-record, concept-brainstorm, gate-review, bumblebee-module-record, competition/common-repairs
 
 **Updated sessions:** P008 (link), K001, S001, S002, S003, S005, S006, S008, S010, S011, S012, S013, S014, S024, S026, S028, S029, S030
 
@@ -124,7 +124,7 @@ Evidence for each row is in the audit file.
 - K001 agenda still **120** minutes (15+25+20+20+15+15+10)
 - S001 / S002 Meeting A/B blocks still 120
 - Clinic 10 Oct and league 31 Oct used as planning inputs; no new impossible freeze before G2/G3
-- Preseason variance (P002–P005 actuals; P006 first movement, P007 dial-in + Kickoff prep, P008 FRC tour) not overwritten
+- Preseason variance (P002–P006 actuals; P007 finish bring-up + Kickoff prep; P008 FRC tour) not overwritten
 - Twelve-week Pratt gates G1–G8 retained
 - Future sessions not marked complete (K001/S001/S002 set to `scheduled`; other future bodies left as they were except content edits)
 - `python tools/validation/validate_curriculum.py` run after edits

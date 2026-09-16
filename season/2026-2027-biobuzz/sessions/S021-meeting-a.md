@@ -28,16 +28,16 @@ active_features: []
 
 ## Driving question
 
-What should Sparkee 2 test — without stealing reliability time?
+What should BumbleBee 2 test — without stealing reliability time?
 
 ## Student-facing objective
 
-Students prototype next-mechanism ideas on Strafer, fixtures, or spare modules only. Sparkee stays competition configuration.
+Students prototype next-mechanism ideas on Strafer, fixtures, or spare modules only. BumbleBee stays competition configuration.
 
 ## Robot outcome
 
 - Version 2 experiment record
-- No Sparkee competition resources diverted
+- No BumbleBee competition resources diverted
 
 
 ## Prerequisites

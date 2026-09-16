@@ -6,23 +6,23 @@ A library that compiles on a desktop is not an FTC-ready stack. Combined readine
 
 FORGE still does **not** contain robot code and must not become a Gradle dependency of the robot project. The composition root is the team's OpMode / robot application ([team-robot-project.md](team-robot-project.md), [issue #2](https://github.com/The-Allsparks/FORGE/issues/2)).
 
-## Status (18 August 2026)
+## Status (5 September 2026)
 
-**Blocked by [FORGE#2](https://github.com/The-Allsparks/FORGE/issues/2):** no published robot / TeamCode repository. Paper teaching in this file is not Hub evidence. Playbook when the team is ready: [create-robot-project.md](create-robot-project.md).
+Canonical robot repo exists: [The-Allsparks/FtcRobotController](https://github.com/The-Allsparks/FtcRobotController) (FTC SDK [v11.2.1](https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases/tag/v11.2.1), `bumblebee` branch). Paper teaching in this file is still not Hub evidence.
 
 | Gate | Status |
 | ---- | ------ |
-| Canonical robot / TeamCode repository | **BLOCKED** on #2. No published Allsparks robot repo. Do not invent a URL. |
+| Canonical robot / TeamCode repository | **Done.** [The-Allsparks/FtcRobotController](https://github.com/The-Allsparks/FtcRobotController) |
 | Pinned install matrix (this file) | **Paper done.** Re-verify at Kickoff if the season SDK changes |
 | Lifecycle ordering | **Paper done** below; not Hub-timed |
-| Composition root = OpMode | **Paper done** |
+| Composition root = OpMode | **Paper done** (BumbleBee Drive in TeamCode) |
 | Student install / disable / rollback | **Paper done** ([student-install.md](student-install.md)) |
-| Shared conventions | **Paper done** ([conventions.md](conventions.md)); Hub collision-check still blocked |
+| Shared conventions | **Paper done** ([conventions.md](conventions.md)); Hub collision-check still open |
 | Sibling P0 epics linked | **Done** (table below) |
 | Combined-stack teaching in sessions | **Paper done** (P005, I002, later sessions refuse Hub claims) |
-| Compile-checked combined TeleOp / auto | **BLOCKED** on #2 |
-| Conventional fallbacks demonstrated on a Hub | **BLOCKED** on #2 |
-| Combined Control Hub budgets | **BLOCKED** on #2 |
+| Compile-checked combined TeleOp / auto | **Desktop compile of BumbleBee Drive + SHIFT + AMPER disabled.** Auto still missing. Hub deploy is P007. |
+| Conventional fallbacks demonstrated on a Hub | **BLOCKED** — no Hub evidence yet |
+| Combined Control Hub budgets | **BLOCKED** — unmeasured |
 | Combined “FTC-ready” claim | **Forbidden** until #4 Hub acceptance is checked |
 
 ## Sibling P0 epics
@@ -45,6 +45,7 @@ Do not treat a sibling green CI job as combined stack acceptance.
 ```text
 FTC OpMode / robot application   ← only composition root
         │
+        ├── SHIFT             operator input → semantic intent (not chassis)
         ├── Pedro Pathing     chassis motion
         ├── TRACE             record (never command)
         ├── AMPER             observe power (passive until gated)
@@ -63,6 +64,7 @@ Re-verify at Kickoff if FIRST publishes a new season SDK. AMPER’s install doc 
 
 | Library | Version at 17–18 Aug 2026 audit | Install authority | Default on the robot |
 | ------- | -------------------------------- | ----------------- | -------------------- |
+| SHIFT | `0.1.0` (`shift-core` + `shift-ftc`) | [SHIFT README](https://github.com/The-Allsparks/SHIFT/blob/main/README.md) | input layer for BumbleBee teleop; not a drivetrain library |
 | AMPER | `0.1.0-rc.1` (`amper-core` + `amper-ftc`) | [AMPER install](https://github.com/The-Allsparks/AMPER/blob/main/docs/install.md) | off / passive |
 | TRACE | `0.1.0-SNAPSHOT` | [TRACE README](https://github.com/The-Allsparks/TRACE/blob/main/README.md) | off until configured; observational |
 | MIMIC | `0.1.0-SNAPSHOT` | [MIMIC README](https://github.com/The-Allsparks/MIMIC/blob/main/README.md) | Phase 0 observation |
@@ -82,10 +84,10 @@ TeamCode owns the calls. Libraries do not replace OpMode methods.
 
 | Phase | Robot application | Optional libraries |
 | ----- | ----------------- | ------------------ |
-| `init` | HardwareMap, construct adapters, fail closed on missing **required** devices | Construct/configure. AMPER `initialize()` pattern. TRACE configure. Do not move mechanisms. HELM stays OFF. |
+| `init` | HardwareMap, construct adapters, fail closed on missing **required** devices | Construct/configure. SHIFT `FtcShift.builder`. AMPER `initialize()` pattern. TRACE configure. Do not move mechanisms. HELM stays OFF. |
 | `init_loop` | Driver-visible status; alliance/config | Publish health/preflight **advisory** only (BEACON). No motion. |
 | `start` | Match clock | AMPER `start()` / TRACE session start if used. |
-| `loop` | Read inputs, command motors **from team code**, one observe pass | TRACE cycle; AMPER `observe()` once; MIMIC snapshot; ViDAR `update()`; BEACON reports. HELM must not command. ECHO off. |
+| `loop` | `shift.update()` then command motors **from team code**, one observe pass | TRACE cycle; AMPER `observe()` once; MIMIC snapshot; ViDAR `update()`; BEACON reports. HELM must not command. ECHO off. SHIFT does not `setPower`. |
 | `stop` | Zero outputs as team policy + official stop | AMPER `stop()` / TRACE flush. No leaked writer threads. |
 | Init failure | OpMode must still be abortable | Missing optional library → degrade; missing required Hub/motor → fail explicit, do not invent 0.0 |
 | Repeated transitions | INIT→START→STOP→INIT again | No leaked cameras, file sinks, or static singletons that fight the next OpMode |
@@ -99,13 +101,14 @@ These must run with **every** Allsparks optional independently disabled:
 1. Team teleop (sticks drive the chassis).
 2. Conventional autonomous (Pedro or a timed drive-forward fallback from S011).
 
-Failure of TRACE, AMPER, ViDAR, BEACON, MIMIC observation, HELM, or ECHO must not prevent those two modes unless a **required** safety stop from FIRST/REV already would.
+Failure of TRACE, AMPER, ViDAR, BEACON, MIMIC observation, HELM, or ECHO must not prevent those two modes unless a **required** safety stop from FIRST/REV already would. If SHIFT is omitted, team teleop must still drive from conventional sticks (BumbleBee Motor Test / a non-SHIFT teleop).
 
 ## Disable paths (pit)
 
 | System | Disable |
 | ------ | ------- |
-| TRACE | `TraceMode.OFF` / do not configure |
+| SHIFT | omit from the OpMode; run Motor Test / conventional-stick teleop |
+| TRACE | `BumbleBeeTrace.MODE = TraceMode.OFF` |
 | AMPER | `AmperPolicies.disabled()` |
 | MIMIC | no actuation flags; omit from loop |
 | ViDAR | do not consume detections; unplug camera if loop dies |

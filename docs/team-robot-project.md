@@ -1,44 +1,45 @@
 # Team robot project
 
-FORGE does not contain robot code. Students and mentors still need a real FTC SDK / TeamCode project for P006 onward.
+FORGE does not contain robot code. Students and mentors use the published FTC SDK / TeamCode project for P006 onward.
 
-## Status: BLOCKED (18 August 2026)
+## Status: published (5 September 2026)
 
-**Blocked on a team decision to publish or name the robot repository.** Tracking: [FORGE#2](https://github.com/The-Allsparks/FORGE/issues/2). When you are ready to create it, use [create-robot-project.md](create-robot-project.md). Do not invent a GitHub URL.
-
-Re-checked [The-Allsparks](https://github.com/The-Allsparks) public and listed-private repositories. There is **no** published TeamCode / `FtcRobotController` robot project.
+Robot repository: [The-Allsparks/FtcRobotController](https://github.com/The-Allsparks/FtcRobotController). Fork of [FIRST-Tech-Challenge/FtcRobotController](https://github.com/FIRST-Tech-Challenge/FtcRobotController) at tag [v11.2.1](https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases/tag/v11.2.1). Default branch: `bumblebee`. Tracking: [FORGE#2](https://github.com/The-Allsparks/FORGE/issues/2).
 
 | Candidate | Finding |
 | --------- | ------- |
-| Org GitHub repos | Libraries, `FORGE`, `ftc-dev-tools`, `ftc-team-analysis`, `SponsorshipPlan` only |
-| Local folder `FTC-test` | Contains an `FtcRobotController` tree; **no git remote**; not treated as the production robot repo |
+| Org GitHub | [The-Allsparks/FtcRobotController](https://github.com/The-Allsparks/FtcRobotController) — BumbleBee TeamCode |
+| Local folder `FtcRobotController` | Sibling of SHIFT / AMPER; clone of the org fork |
+| Local folder `FTC-test` | Earlier SDK 11.2.0 working tree; not the published robot repo |
 
-Do not invent a GitHub URL. Do not copy TeamCode into FORGE.
+Do not copy TeamCode into FORGE. Do not add FORGE as a Gradle dependency of the robot project.
 
-## What mentors should do
-
-1. Create or choose the team's Android Studio robot project (Pedro requires Android Studio, not OnBot Java or Blocks — [Pedro introduction](https://pedropathing.com/docs/pathing)).
-2. Put it on GitHub under The-Allsparks if the team wants it versioned, public or private.
-3. Replace the placeholder below with the real clone URL and TeamCode path.
-4. Keep FORGE out of that project's Gradle dependencies.
-
-## Placeholder (fill when the repo exists)
+## Clone
 
 ```text
-Robot project URL:    (not published)
-Clone:                (not published)
+Robot project URL:    https://github.com/The-Allsparks/FtcRobotController
+Clone:                git clone https://github.com/The-Allsparks/FtcRobotController.git
 TeamCode path:        TeamCode/src/main/java/org/firstinspires/ftc/teamcode/
-Android Studio:       required for Pedro Pathing
+Android Studio:       Narwhal 3 Feature Drop or later (v11.2.1 requirement)
+Default branch:       bumblebee
 ```
 
-Install libraries into **that** project using each library's own install docs (AMPER, TRACE, ViDAR, and so on). FORGE only links those docs. Combined order, lifecycle, and disable paths: [stack-acceptance.md](stack-acceptance.md), [student-install.md](student-install.md). AMPER’s multi-module packaging is the starting Gradle reference, not something to copy into FORGE.
+Sibling `includeBuild` (while SHIFT/AMPER/TRACE are unpublished SNAPSHOT/rc):
 
-Until this URL exists, [FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) cannot check compile-checked TeleOp/auto or Control Hub budgets. Keep [#2](https://github.com/The-Allsparks/FORGE/issues/2) open and labeled **blocked**.
+```gradle
+includeBuild('../SHIFT')
+includeBuild('../AMPER')
+includeBuild('../TRACE')
+```
+
+Install libraries into **that** project using each library's own install docs. Combined order, lifecycle, and disable paths: [stack-acceptance.md](stack-acceptance.md), [student-install.md](student-install.md). AMPER’s multi-module packaging is the starting Gradle reference, not something to copy into FORGE.
+
+[FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4) can start compile-checked TeleOp/auto against this repo. Control Hub budgets are still unmeasured.
 
 ## Related
 
-- Tracking issue: [The-Allsparks/FORGE#2](https://github.com/The-Allsparks/FORGE/issues/2) (**blocked**)
-- Create-when-ready playbook: [create-robot-project.md](create-robot-project.md)
+- Tracking issue: [The-Allsparks/FORGE#2](https://github.com/The-Allsparks/FORGE/issues/2)
+- Create playbook: [create-robot-project.md](create-robot-project.md)
 - Combined stack epic: [The-Allsparks/FORGE#4](https://github.com/The-Allsparks/FORGE/issues/4)
-- Pedro Quickstart (if starting from Pedro's template): [Pedro-Pathing/Quickstart](https://github.com/Pedro-Pathing/Quickstart)
-- Official SDK: [FIRST-Tech-Challenge/FtcRobotController](https://github.com/FIRST-Tech-Challenge/FtcRobotController)
+- Official SDK tag: [v11.2.1](https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases/tag/v11.2.1)
+- Pedro Quickstart (later): [Pedro-Pathing/Quickstart](https://github.com/Pedro-Pathing/Quickstart)

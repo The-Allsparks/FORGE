@@ -37,7 +37,7 @@ forge_gate: G5
 
 ## Driving question
 
-Is Sparkee mechanically and electrically complete enough for clinic data collection?
+Is BumbleBee mechanically and electrically complete enough for clinic data collection?
 
 ## Student-facing objective
 
@@ -90,7 +90,7 @@ Walk [pit-and-inspection.md](../pit-and-inspection.md). Charge batteries. Confir
 | 10 | Opening | **G5 target** — mech/electrical complete; clinic 10 Oct is measurement only |
 | 35 | Repair / tune / program | Wiring integration: strain relief, service loops, labels; MIMIC smoke test per module as wired |
 | 55 | Driving reps | Full mechanism cycles under teleop; practice-inspect failures fixed |
-| 20 | Closeout | Clinic test card signed; G5 gate review or fallback plan; pit rollback drill |
+| 20 | Closeout | Clinic test card signed; G5 gate review or fallback plan; pit rollback drill; **clinic code freeze** — bug fixes only with Programming Lead and Driver Coach until after Saturday |
 
 ## Mentor demonstration
 
@@ -177,4 +177,4 @@ Walk pit workflow in the shop with empty boxes. Still time a 55-minute "match" a
 
 ## Mentor notes
 
-Protect Saturday as measurement. Do not promise wins. Do not enable HELM or ECHO in the parking lot.
+Protect Saturday as measurement. Do not promise wins. Do not enable HELM or ECHO in the parking lot. Handbook 24-hour code freeze starts at closeout tonight: no unreviewed "quick fixes" Saturday morning. G7 freeze before league is separate (S013–S014).

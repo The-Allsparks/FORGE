@@ -1,6 +1,6 @@
 # Staged robot releases
 
-Sparkee ships as **capability releases**, not as "every idea on the robot by the first event."
+BumbleBee ships as **capability releases**, not as "every idea on the robot by the first event."
 
 Adapt the scoring verbs after Kickoff from the **official** Game Manual. The R0–R5 labels stay; the BIOBUZZ tasks inside them change. Do not treat the examples below as required scoring functions.
 
@@ -12,7 +12,7 @@ Process: [season-process.md](season-process.md) · gates: [decision-gates.md](de
 
 | Release | Name | Meaning | Typical first evidence |
 | ------- | ---- | ------- | ---------------------- |
-| **R0** | Driveable legal chassis | Legal, safe, inspectable, driveable. Battery/switch/Hub path understood. Students can enable, drive, disable. | Preseason P006–P007 as actually completed; remaining gaps closed in week 1 if needed. P008 is the FRC tour |
+| **R0** | Driveable legal chassis | Legal, safe, inspectable, driveable. Battery/switch/Hub path understood. Students can enable, drive, disable. | Preseason P007 as actually completed (P006 was code reading only); remaining gaps closed in week 1 if needed. P008 is the FRC tour |
 | **R1** | Autonomous mobility + fallback | Dependable auto movement **or** a written teleop-only fallback. Failed auto does not strand the match plan. | G6 minimum auto **or** declared teleop-only |
 | **R2** | Acquire and release | Reliable pickup and release of the **primary** game piece (name it from the manual after Kickoff). | G2 prototype records; G5 module under software control |
 | **R3** | Primary score | Reliable scoring of the **primary** objective on the ranked capability list. | G5–G6 measured cycles |
@@ -51,7 +51,7 @@ Worked **backward** from planning-input dates (verify if FIRST Nevada changes th
 | Competition-mechanism freeze (no new modules) | ~5 Oct (G4) | Week-4 build must finish, not expand. |
 | Clinic / scrimmage | **10 Oct** | R0 required; R1–R2 stretch; inspection practice; **not** feature freeze. |
 | Mechanical/electrical complete | ~9–11 Oct (S008 / G5) | Day-after-clinic is already tight — do not add modules after S007. |
-| Software integration on final mass | 12–23 Oct (S009–S012 / G6) | Retune Pedro on Sparkee, not Strafer assumptions. |
+| Software integration on final mass | 12–23 Oct (S009–S012 / G6) | Retune Pedro on BumbleBee, not Strafer assumptions. |
 | Autonomous stabilization | 16–23 Oct (S010–S012) | One reliable path or teleop-only declared. |
 | Inspection readiness | S008 + clinic + S014 | Practice the team checklist; official PDF when published. |
 | **Protected driver practice** | **12–30 Oct (S009–S014)** | Six sessions (~12 h). Meeting B 55-minute blocks stay driving. No elective redesign. |

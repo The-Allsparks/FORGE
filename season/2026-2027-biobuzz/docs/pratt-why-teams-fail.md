@@ -45,7 +45,7 @@ This is **not** an official FIRST source. Game Manual, Q&A, and inspection rules
 | Hardcoded 20/20 (or similar) everywhere | **Rejected** as a universal gate | Sample size method in acceptance-criteria.md. |
 | Declare a final award target now | **Rejected** | Official V1/Kickoff criteria and Nevada context first. |
 | Transcript page-limit numbers | **Rejected** | Use V0 **15 pages / 15 MB** in traceability; re-verify Kickoff. |
-| Two full competition robots | **Already modified** (prior integration) | Strafer + Sparkee + fixtures. |
+| Two full competition robots | **Already modified** (prior integration) | Strafer + BumbleBee + fixtures. |
 | Hundreds of sketches | **Already modified** | 60–100 across four students. |
 | Zero physical work in week 1 | **Modified** | Chassis finish (R0) and crude game-object prototypes allowed; custom scoring fab at scale still blocked until G1. |
 | Delete the software vision | **Rejected** | Four-tier sequencing instead. |

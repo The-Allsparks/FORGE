@@ -5,7 +5,7 @@ Driver practice is a first-class deliverable, not leftover time.
 ## Foundation
 
 - Safe enable, disable, e-stop awareness
-- Baseline teleop on blocks, then carpet (**P006 first movement; P007 dial-in**; S002 catch-up if blocked)
+- Baseline teleop on blocks, then carpet (**P007 first movement**; dial-in leftover or S002 catch-up)
 - Callouts: "stop", "battery", "can't see"
 
 ## Developing

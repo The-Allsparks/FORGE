@@ -17,7 +17,7 @@ Staged robot capabilities: [robot-releases.md](robot-releases.md) (R0–R5). Sof
 | Meetings | ~2 hours, twice per week (Mon Meeting A, Fri Meeting B) |
 | Kickoff | 12 September 2026 (planning input) |
 | First Nevada competition window | League 1S/2S **31 October 2026** (planning input) — ~6–7 post-Kickoff weeks |
-| Competition robot name | **Sparkee** (modular; see [modular-architecture.md](modular-architecture.md)) |
+| Competition robot name | **BumbleBee** (modular; see [modular-architecture.md](modular-architecture.md)). Formerly called Sparkee; old notebooks may still use that name. |
 
 ## Pratt's original twelve-week structure (preserved for reference)
 
@@ -67,11 +67,11 @@ Session-level mapping: [pratt-crosswalk.md](pratt-crosswalk.md).
 | Deliverable | Detail |
 | ----------- | ------ |
 | Hybrid Strafer drivetrain | Modified goBILDA Strafer / 2026–2027 Starter Bot platform |
-| Safe wiring and battery practices | P006 electrical diagram and wiring (was P004; P004 was construction) |
-| SDK, version control, deployment, logging | P006 first TeleOp is Kickoff-critical; extra courses stay off — [preseason-software-allocation.md](preseason-software-allocation.md) |
-| Pedro Pathing familiarity | Preseason tuning does **not** transfer unchanged to final Sparkee mass/geometry |
-| Minimum viable software stack | Paper notes at P006/P007; TRACE library later; others passive or off |
-| Driver conventions and basic driving | First movement P006; dial-in P007; S002 catch-up if blocked. P008 is the FRC tour |
+| Safe wiring and battery practices | P007 electrical diagram and wiring (was P004 then P006; neither ran it) |
+| SDK, version control, deployment, logging | P007 first TeleOp is Kickoff-critical (P006 was code reading only); extra courses stay off — [preseason-software-allocation.md](preseason-software-allocation.md) |
+| Pedro Pathing familiarity | Preseason tuning does **not** transfer unchanged to final BumbleBee mass/geometry |
+| Minimum viable software stack | Paper notes at P007; TRACE library later; others passive or off |
+| Driver conventions and basic driving | First movement P007; dial-in leftover or S002 catch-up. P006 was code reading. P008 is the FRC tour |
 | Templates and documentation habits | Prototype records, decision records, photos — [templates/](../../../templates/) |
 | Student learning goals and baselines | [student-learning-goal.md](../../../templates/student-learning-goal.md) at **P007** (P008 is the tour) |
 | Sponsor stewardship, inventory, safety | P001 completed; P002 construction (card finish unverified) |
@@ -91,11 +91,11 @@ Session-level mapping: [pratt-crosswalk.md](pratt-crosswalk.md).
 | Strategy matrix | Scoring, ranking, penalty, and constraint matrix |
 | MVP strategies | Minimum viable scoring and ranking-point paths |
 | Research | Official starter robots; comparable prior-game mechanisms |
-| Visual ideation | **60–100** concepts across four students (scaled from Pratt's hundreds) |
-| Low-fidelity prototypes | Cardboard, coroplast, temporary channel — at least one game-object interaction proof |
+| Visual ideation | **60–100** concepts across four students (scaled from Pratt's hundreds) — **S001 starts this**; S002 scales |
+| Low-fidelity prototypes | Cardboard, coroplast, temporary channel — after brainstorm, not instead of the 14 Sep game review |
 | Drivable chassis | Maintain drivable platform throughout |
 
-**Exit gate (G1 — Strategy):** Completed [kickoff-decision-package.md](../../../templates/kickoff-decision-package.md) through ranked capabilities, not-yet list, R0–R2 definition, and four-test commitment. Crude game-object prototypes only — **do not fabricate a custom scoring robot to look busy**. See [decision-gates.md](decision-gates.md#g1--strategy-gate).
+**Exit gate (G1 — Strategy):** Completed [kickoff-decision-package.md](../../../templates/kickoff-decision-package.md) through ranked capabilities, not-yet list, R0–R2 definition, and four-test commitment. Crude game-object prototypes only — **do not fabricate a custom scoring robot to look busy**. S001 (14 Sep) is season updates, official game walkthrough, and brainstorm. See [decision-gates.md](decision-gates.md#g1--strategy-gate).
 
 **Sessions:** K001, S001, S002.
 
@@ -117,7 +117,7 @@ Session-level mapping: [pratt-crosswalk.md](pratt-crosswalk.md).
 
 **Exit gate (G2 — Prototype evidence):** Comparative evidence, leading concepts, starter-bot fallback identified, unresolved-risk list. Template: [prototype-test-record.md](../../../templates/prototype-test-record.md).
 
-**Sessions:** S002 (continued), S003, S004.
+**Sessions:** S003 (FRC Onshape), S004 (G2 tests). S002 continued driving.
 
 ---
 
@@ -148,7 +148,7 @@ Session-level mapping: [pratt-crosswalk.md](pratt-crosswalk.md).
 
 | Activity | Detail |
 | -------- | ------ |
-| Module fabrication | Robust, maintainable Sparkee modules |
+| Module fabrication | Robust, maintainable BumbleBee modules |
 | Incremental software delivery | Modules to software as built — do not wait for whole robot |
 | Wiring | Strain relief, service loops, moving-mechanism protection, ESD awareness |
 | Instrumentation | MIMIC mechanism classes; TRACE/AMPER as hardware appears |
@@ -169,7 +169,7 @@ Session-level mapping: [pratt-crosswalk.md](pratt-crosswalk.md).
 | Activity | Detail |
 | -------- | ------ |
 | Mechanical freeze | Stop major mechanical changes |
-| Pathing tuning | Final mass and geometry on Sparkee — not Strafer assumptions |
+| Pathing tuning | Final mass and geometry on BumbleBee — not Strafer assumptions |
 | Autonomous | Minimum reliable auto first; alliance-compatible alternate path if time |
 | Driver automation | Only when workload drops and reliability is demonstrated |
 | Testing | Repeated mechanism and full-robot tests; TRACE + human-readable log |
@@ -229,8 +229,8 @@ See [two-platform-strategy.md](two-platform-strategy.md). Summary:
 
 - **Strafer (preseason platform):** Software, driver conventions, Pedro familiarity
 - **Official starter-bot design:** Scoring baseline and fallback
-- **Bench/fixture rigs:** Mechanism development without blocking Sparkee
-- **Version 2 research:** After Sparkee mechanical freeze only — cannot steal competition-one resources
+- **Bench/fixture rigs:** Mechanism development without blocking BumbleBee
+- **Version 2 research:** After BumbleBee mechanical freeze only — cannot steal competition-one resources
 
 ## Software protections
 

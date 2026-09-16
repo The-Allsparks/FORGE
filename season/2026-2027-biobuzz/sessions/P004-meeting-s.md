@@ -20,7 +20,7 @@ active_features: []
 | **Original plan** | First Onshape lesson **plus** electrical foundation: battery, switch, Control Hub, labeled wiring, power-path diagram — no floor driving |
 | **Confirmed actual** | The meeting was spent **building and assembling the team’s first FTC robot** (third of three consecutive construction sessions) |
 | **Classification** | **Completed construction record.** Electrical foundation and Onshape are **incomplete** |
-| **Preserved original material** | Electrical / power path **and** initial programming / first movement → [P006](P006-meeting-b.md). Onshape first lesson → coach prep or [S006](S006-meeting-b.md). Drivetrain dial-in → [P007](P007-meeting-a.md) |
+| **Preserved original material** | Electrical / power path **and** initial programming / first movement → [P006](P006-meeting-b.md) (planned) then [P007](P007-meeting-a.md). Onshape first lesson → [S003](S003-meeting-a.md) (FRC-hosted; was coach prep / S006) |
 
 Do not claim a dressed power path, Hub mount, named Onshape sketch, or first movement from this date.
 
@@ -110,7 +110,7 @@ Construction coaching as needed. Original plan (wire routing near a wheel; sketc
 
 ## Integrated build or test activity
 
-Physical construction **was** the session. Labeled wiring, SDK bring-up, and first movement are **deferred to P006**.
+Physical construction **was** the session. Labeled wiring, SDK bring-up, and first movement were deferred to P006, then to [P007](P007-meeting-a.md) after P006 was a code walkthrough.
 
 ## Failure-injection scenario
 
@@ -153,8 +153,9 @@ Tools stored; robot stable; battery not left connected (none documented).
 ## Next-session preparation
 
 - **Historical next session:** [P005](P005-meeting-a.md) reviewed BIOBUZZ Pre-Season V0 rules — it did **not** run bring-up
-- **Current next shop meeting:** [P006](P006-meeting-b.md) — electrical diagram, programming bring-up, first movement
-- Mentors: stage Hub, battery, switch, labels, zip ties, blocks, and a building FTC project before P006
+- **Then:** [P006](P006-meeting-b.md) was a code walkthrough — electrical/programming/first movement did **not** run
+- **Current next shop meeting:** [P007](P007-meeting-a.md) — finish bring-up, first movement, and Kickoff preparation
+- Mentors: stage Hub, battery, switch, labels, zip ties, blocks, and a building FTC project before P007
 
 ## Hardware-unavailable fallback
 
@@ -167,8 +168,8 @@ Not used.
 ## Links to authoritative project documentation
 
 - [preseason-deferred-work.md](../docs/preseason-deferred-work.md)
-- [P006 electrical, programming, and first movement](P006-meeting-b.md)
-- [P007 drivetrain dial-in](P007-meeting-a.md)
+- [P006 code walkthrough](P006-meeting-b.md)
+- [P007 finish bring-up and Kickoff preparation](P007-meeting-a.md)
 - [learning-paths/onshape-cad.md](../../../learning-paths/onshape-cad.md)
 - [learning-paths/electrical.md](../../../learning-paths/electrical.md)
 - [docs/safety-and-enablement.md](../../../docs/safety-and-enablement.md)
@@ -178,4 +179,4 @@ Not used.
 
 ## Mentor notes
 
-P004 in the original plan was **first CAD lesson + wiring**. Wiring, SDK, and first movement moved to P006. CAD is not Kickoff-critical. Three construction meetings are an offset for mechanical familiarity only. Charge batteries and print an as-built electrical checklist before P006.
+P004 in the original plan was **first CAD lesson + wiring**. Wiring, SDK, and first movement moved to P006, then to P007 after P006 was a code walkthrough. CAD is not Kickoff-critical. Three construction meetings are an offset for mechanical familiarity only. Charge batteries and print an as-built electrical checklist before P007.

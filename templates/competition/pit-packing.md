@@ -4,7 +4,7 @@
 
 ## Robot
 
-- [ ] Sparkee (or fallback config documented)
+- [ ] BumbleBee (or fallback config documented)
 - [ ] Primary battery + spare if owned
 - [ ] Charger(s)
 - [ ] Controller / Driver Hub / gamepads

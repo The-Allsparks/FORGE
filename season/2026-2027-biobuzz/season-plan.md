@@ -1,6 +1,6 @@
 # Season plan — 2026–2027 BIOBUZZ
 
-This plan sequences **one robot** (competition Sparkee) on a **compressed competition-one cycle** adapted from Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt), with decision tests from Pratt, *Why Most FTC Teams Fail (And How Not To)*. Pratt does not endorse FORGE or The Allsparks. Official FIRST rules override both. Full process, gates, and attribution: [docs/season-process.md](docs/season-process.md), [docs/references.md](docs/references.md).
+This plan sequences **one robot** (competition BumbleBee) on a **compressed competition-one cycle** adapted from Brogan M. Pratt's [*A 12 Week FTC Season Plan That Actually Works*](https://www.youtube.com/playlist?list=PLRHdgFNRLyaM6TmNVVHKqVnnyntDDYDNt), with decision tests from Pratt, *Why Most FTC Teams Fail (And How Not To)*. Pratt does not endorse FORGE or The Allsparks. Official FIRST rules override both. Full process, gates, and attribution: [docs/season-process.md](docs/season-process.md), [docs/references.md](docs/references.md).
 
 **Guiding principle:** [docs/guiding-principle.md](docs/guiding-principle.md) — simplest robot that hits top-ranked cycles reliably, is pit-repairable, and leaves time to program and drive.
 
@@ -44,20 +44,20 @@ Definitions, acceptance criteria, and fallbacks: [docs/decision-gates.md](docs/d
 
 ### Preseason — through 11 September 2026 (P001–P008; last **shop** meeting is P007; P008 is the FRC tour)
 
-**Revised preseason goal (after P005 variance):** By Kickoff on 12 September 2026, The Allsparks will have construction experience on Sparkee, an as-built electrical diagram, first programming bring-up, first controlled movement if no blocking fault is found, drivetrain dial-in as far as P006 allows, honest engineering records, V0 rule-reading practice, packed Kickoff analysis materials, and an FRC tour. The team will **not** treat ViDAR/AMPER/MIMIC/BEACON/HELM/ECHO or a speculative scoring mechanism as Kickoff prerequisites. Detail: [preseason-deferred-work.md](docs/preseason-deferred-work.md).
+**Revised preseason goal (after P006 variance):** By Kickoff on 12 September 2026, The Allsparks will have construction experience on BumbleBee, V0 rule-reading practice, a first look at existing robot code, **and — if P007 completes it** — an as-built electrical diagram, first programming bring-up, and first controlled movement if no blocking fault is found, plus packed Kickoff analysis materials and an FRC tour. Drivetrain dial-in is leftover at P007 or catch-up at S002. The team will **not** treat ViDAR/AMPER/MIMIC/BEACON/HELM/ECHO or a speculative scoring mechanism as Kickoff prerequisites. Detail: [preseason-deferred-work.md](docs/preseason-deferred-work.md).
 
-Three P002–P004 construction meetings produced real mechanical shop time. They do **not** replace electrical, programming, or driving. Do not invent a finished rolling chassis.
+Three P002–P004 construction meetings produced real mechanical shop time. They do **not** replace electrical, programming, or driving. P006 code reading does **not** replace a deployed TeleOp. Do not invent a finished rolling chassis.
 
 **Preseason priorities (in order, remaining work):**
 
 1. Safe students and an organized workspace (**P001 done**)
 2. Construction record (**P002–P004 done**; as-built detail unverified)
-3. Electrical diagram, wiring, programming bring-up, first movement (**P006**)
-4. Drivetrain dial-in (**P007**, not a full baseline if P006 is blocked)
-5. Kickoff analysis process (**P007** final block + K001)
+3. Electrical diagram, wiring, programming bring-up, first movement (**P007** — last shop night; P006 did not complete this)
+4. Drivetrain dial-in (**P007 leftover only**; otherwise **S002**)
+5. Kickoff analysis process (**P007** final block + K001 — must not slip)
 6. FRC team tour (**P008** — not shop)
 7. Evidence and engineering-notebook habits (**ongoing**)
-8. Minimal supporting software (**P006 TeleOp only**)
+8. Minimal supporting software (**P007 TeleOp**; P006 was read-only)
 9. Reusable mechanism experiments (**deferred to S001/S003 if the game justifies them**)
 10. Advanced software only when it directly supports current hardware (**not preseason**)
 
@@ -70,11 +70,11 @@ Three P002–P004 construction meetings produced real mechanical shop time. They
 | **P003** | 2026-08-24 | Drivetrain finish; CAD dimension sketches | Robot / Strafer construction (session 2 of 3) | Complete (variance) |
 | **P004** | 2026-08-26 | Electrical **and** first Onshape lesson | Robot / Strafer construction (session 3 of 3) | Complete (variance) |
 | **P005** | 2026-08-31 | One-motor bring-up; CAD export if ready | BIOBUZZ Pre-Season V0 rules review | Complete (variance) |
-| **P006** | 2026-09-04 | Driver baseline in all mecanum directions | Electrical diagram, programming bring-up, first movement | Scheduled (rescoped) |
-| **P007** | 2026-09-07 | Reusable mechanism lab | Drivetrain dial-in and Kickoff preparation | Scheduled (rescoped) |
+| **P006** | 2026-09-04 | Driver baseline in all mecanum directions | Electrical/programming/first movement **planned**; actual was a code walkthrough | Complete (variance) |
+| **P007** | 2026-09-07 | Reusable mechanism lab | Finish bring-up and first movement **and** Kickoff preparation (dial-in leftover only) | Scheduled (rescoped) |
 | **P008** | 2026-09-11 | Kickoff readiness; P007 experiment review | FRC team tour | Scheduled (rescoped) |
 
-See [learning-paths/onshape-cad.md](../../learning-paths/onshape-cad.md). Custom parts are **possible** if the as-built robot needs them; they are not confirmed P002 accomplishments. First CAD lesson is **not** a P004/P005/P006 shop gate — coach prep or S006. Students are beginners — mentor pairing, not assumed skill.
+See [learning-paths/onshape-cad.md](../../learning-paths/onshape-cad.md). Custom parts are **possible** if the as-built robot needs them; they are not confirmed P002 accomplishments. First CAD lesson is **not** a P004/P005/P006/P007 shop gate — it is **S003 (21 Sep)**, FRC-hosted. S006 authorizes BOM/fab. Students are beginners — mentor/host pairing, not assumed skill.
 
 #### Software allocation before Kickoff
 
@@ -92,8 +92,8 @@ Preseason succeeds when the **Kickoff-critical** set is true, with honest blocke
 - Hub port assignments are recorded **or** enable is explicitly forbidden
 - The Driver Station can connect, enable, disable, and stop **or** that gap is written
 - Each drivetrain motor has been commanded individually **or** blocked in writing
-- First controlled movement has been attempted **or** a blocking hardware fault is named (P006)
-- Drivetrain dial-in observations exist **or** P007 honestly records that P006 blocked them
+- First controlled movement has been attempted **or** a blocking hardware fault is named (P007; P006 did not)
+- Drivetrain dial-in observations exist **or** P007 honestly records that first movement blocked them
 - Students can distinguish evidence from assumptions (including V0 vs official rules)
 - The notebook captures safety, organization, construction, rules discussion, and decisions
 - Kickoff roles, worksheets, and learning-goal baselines are packed (**P007**, not the P008 tour)
@@ -108,7 +108,7 @@ Preseason succeeds when the **Kickoff-critical** set is true, with honest blocke
 - Fill [kickoff-decision-package.md](../../templates/kickoff-decision-package.md): scoring **and ranking**, alliance roles, effort-versus-value, ranked capabilities, **not yet / will not build**, R0–R2 definition
 - **Brainstorm ≥3 robot concepts**; scale visual ideation to **60–100** across four students during week 1
 - **Debate** finalists; apply the [four tests](docs/guiding-principle.md); pass **G1 Strategy gate** at S002
-- Do **not** start custom scoring fabrication to look productive — crude game-object prototypes and R0 chassis finish only
+- Do **not** start custom scoring fabrication to look productive — S001 is game + brainstorm; crude game-object prototypes wait until G1 has ideas (S002/S004)
 - Map software to [software-sequencing.md](docs/software-sequencing.md) tiers (not all libraries at once)
 - Revise remaining FORGE dates in `calendar.yaml`
 - Preserve build and driver-practice time
@@ -121,9 +121,9 @@ Pratt's twelve weeks compress into six or seven shop weeks before **31 October 2
 
 | Week | Phase | Sessions | Gates | Release target |
 | ---- | ----- | -------- | ----- | -------------- |
-| 1 | Understand and diverge | K001, S001, S002 | G1 | R0; crude R2 prototypes |
-| 2 | Test and compare | S003, S004 | G2 | Physical evidence for R2 path |
-| 3 | Select and commit | S005, S006 | G3 | Architecture for R2/R3 |
+| 1 | Understand and diverge | K001, S001, S002 | G1 | R0; **S001 = season updates, official game review, brainstorm** (crude proofs wait until ideas exist) |
+| 2 | Test and compare | S003, S004 | G2 | **S003 = FRC Onshape**; **S004 = physical G2 evidence** |
+| 3 | Select and commit | S005, S006 | G3 | Architecture for R2/R3; S006 CAD/BOM authorization |
 | 4 | Build and integrate | S007, S008, clinic 10 Oct | G4, G5 | R0 required at clinic; R1–R2 stretch |
 | 5 | Tune and validate | S009–S012 | G6 | R1 required; R3/R4 in progress |
 | 6 | Freeze and rehearse | S013, S014 | G7 | R4 measurements; R5 only if earned |

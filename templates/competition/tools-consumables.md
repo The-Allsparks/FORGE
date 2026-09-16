@@ -2,7 +2,7 @@
 
 **Event load-in** · Customize at G8 based on what actually broke in practice.
 
-- [ ] Allen keys / wrenches used on Sparkee
+- [ ] Allen keys / wrenches used on BumbleBee
 - [ ] Screwdrivers
 - [ ] Pliers, side cutters
 - [ ] Zip ties

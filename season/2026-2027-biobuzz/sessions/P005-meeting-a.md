@@ -20,7 +20,7 @@ active_features: []
 | **Original plan** | Verify the assembled Strafer: inspect, elevate, one motor at a time, ports/directions, Driver Station disable, TRACE or paper timeline, system-map sketch; optional CAD export if P004 sketch existed |
 | **Confirmed actual** | Students **reviewed and discussed the BIOBUZZ Pre-Season V0 rules** |
 | **Classification** | **Completed rules-review record.** Motor bring-up, TRACE deployment, system mapping, wiring, and driving did **not** occur |
-| **Preserved original material** | Electrical + programming + first movement → [P006](P006-meeting-b.md). Drivetrain dial-in → [P007](P007-meeting-a.md). Kickoff-process worksheets → P007 (P008 is the FRC tour) |
+| **Preserved original material** | Electrical + programming + first movement → [P006](P006-meeting-b.md) (planned) then [P007](P007-meeting-a.md) after P006 was a code walkthrough. Kickoff-process worksheets → P007 (P008 is the FRC tour) |
 
 P005 **did** produce Kickoff-useful practice: reading and talking about season rules. **Pre-Season V0 is not the official Kickoff Game Manual.** Items from tonight must be **reverified** when the Kickoff manual is released.
 
@@ -93,7 +93,7 @@ Reconstructed **actual** Meeting A pattern. Original elevate-and-spin agenda **d
 | 10 | Opening | What **Pre-Season V0** means; FORGE is not the manual; Kickoff can supersede tonight |
 | 75 | Construction | Read and discuss the BIOBUZZ Pre-Season V0 manual (this block is discussion, not metalwork): student questions, rule interpretations, what the text says vs what we are guessing |
 | 25 | Integration | Capture implications for robot design, software, inspections, strategy, and team operations. List items that **must be reverified** when the Kickoff manual is released. Separate proven-from-text vs assumptions vs questions only official materials can close |
-| 10 | Closeout | Notebook evidence; reminder that wiring and first movement are still ahead at P006 |
+| 10 | Closeout | Notebook evidence; reminder that wiring and first movement are still ahead |
 
 ## Mentor demonstration
 
@@ -111,7 +111,7 @@ Show one sentence in V0 and one way a later official revision could change it. S
 
 ## Integrated build or test activity
 
-Rules discussion **was** the session. One-motor bring-up remains the integrated test for [P006](P006-meeting-b.md).
+Rules discussion **was** the session. One-motor bring-up remains the integrated test for [P007](P007-meeting-a.md) (P006 was a code walkthrough).
 
 ## Failure-injection scenario
 
@@ -156,9 +156,9 @@ Rules printouts stored; robot safe if present; no battery left connected.
 
 ## Next-session preparation
 
-- **Current next shop meeting:** [P006](P006-meeting-b.md) (2026-09-04) — electrical diagram, programming bring-up, first movement
+- **Then next shop meeting:** [P006](P006-meeting-b.md) (2026-09-04) — planned electrical/programming/first movement; **actual P006 was a code walkthrough** — remaining bring-up is [P007](P007-meeting-a.md)
 - Bring the V0 open-question and reverify lists to [P007](P007-meeting-a.md) Kickoff preparation
-- Mentors: prepare Hub/battery/switch station and a building FTC project **before P006**, not as if P005 already did bring-up
+- Mentors: prepare Hub/battery/switch station and a building FTC project **before P007**, not as if P005 or P006 already did bring-up
 
 ## Hardware-unavailable fallback
 
@@ -171,8 +171,8 @@ Same as actual session.
 ## Links to authoritative project documentation
 
 - [preseason-deferred-work.md](../docs/preseason-deferred-work.md)
-- [P006 electrical, programming, and first movement](P006-meeting-b.md)
-- [P007 drivetrain dial-in and Kickoff preparation](P007-meeting-a.md)
+- [P006 code walkthrough](P006-meeting-b.md)
+- [P007 finish bring-up and Kickoff preparation](P007-meeting-a.md)
 - [P008 FRC team tour](P008-meeting-b.md)
 - [K001 kickoff session](K001-meeting-k.md)
 - [kickoff-replan-guide.md](../kickoff-replan-guide.md)
@@ -181,4 +181,4 @@ Same as actual session.
 
 ## Mentor notes
 
-**Not first construction and not bring-up.** P002–P004 already used three meetings on the robot. Protect P006 from becoming another rules seminar. At Kickoff, official FIRST materials override V0. Bring-up still needs an elevated chassis, mentor present, and a minimal OpMode — that is P006, not this file.
+**Not first construction and not bring-up.** P002–P004 already used three meetings on the robot. P006 then became a code walkthrough rather than bring-up. Protect [P007](P007-meeting-a.md) from becoming another seminar — it is the last shop night. At Kickoff, official FIRST materials override V0. Bring-up still needs an elevated chassis, mentor present, and a minimal OpMode — that is P007, not this file.

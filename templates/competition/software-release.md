@@ -5,7 +5,7 @@
 | Field | Value |
 | ----- | ----- |
 | Release tag / commit | |
-| Platform tested | Sparkee · Strafer |
+| Platform tested | BumbleBee · Strafer |
 | Date verified | |
 | Verified by (initials) | |
 

@@ -13,19 +13,19 @@ AGENDAS = {
     "S005-meeting-a.md": """| Duration (min) | Block | Activity |
 | ---: | --- | --- |
 | 10 | Opening | Review G2 comparative evidence; architecture selection starts today; module list from BIOBUZZ MVP |
-| 75 | Construction | Physical module-boundary mockups; interface sketches on Sparkee frame; begin CAD for authorized modules |
+| 75 | Construction | Physical module-boundary mockups; interface sketches on BumbleBee frame; begin CAD for authorized modules |
 | 25 | Integration | Architecture diagram draft; software contract (MVP libraries only); assign module owners |
 | 10 | Closeout | Shared-parts table started; explain-back; dashboard update; prep S006 G3 gate |""",
     "S006-meeting-b.md": """| Duration (min) | Block | Activity |
 | ---: | --- | --- |
 | 10 | Opening | **Major-design-pivot deadline** — no new architecture after closeout unless G3 gate review |
 | 35 | Repair / tune / program | CAD dimensions; BOM finalize; cut list for week 4 fabrication |
-| 55 | Driving reps | Short drivetrain reps on Sparkee or Strafer — do not pause G3 paperwork for tuning debates |
+| 55 | Driving reps | Short drivetrain reps on BumbleBee or Strafer — do not pause G3 paperwork for tuning debates |
 | 20 | Closeout | [Gate review G3](../../../templates/gate-review.md); explicit fallback plan; update `calendar.yaml` titles only |""",
     "S007-meeting-a.md": """| Duration (min) | Block | Activity |
 | ---: | --- | --- |
 | 10 | Opening | **G4 design freeze** — no new modules without gate review; incremental software delivery plan |
-| 75 | Construction | Fabricate authorized Sparkee modules; spares for fragile parts |
+| 75 | Construction | Fabricate authorized BumbleBee modules; spares for fragile parts |
 | 25 | Integration | Deliver first completed module to programming pair; [prototype-test-record](../../../templates/prototype-test-record.md) per module |
 | 10 | Closeout | Module handoff log; explain-back; dashboard mechanical row |""",
     "S008-meeting-b.md": """| Duration (min) | Block | Activity |
@@ -38,11 +38,11 @@ AGENDAS = {
 | ---: | --- | --- |
 | 10 | Opening | Clinic retrospective rules: evidence not vibes; no architecture rewrite |
 | 75 | Construction | P0 clinic repairs only — fasteners, wiring, binds; no new modules |
-| 25 | Integration | [Event retrospective](../../../templates/event-retrospective.md); stable teleop verification on Sparkee |
+| 25 | Integration | [Event retrospective](../../../templates/event-retrospective.md); stable teleop verification on BumbleBee |
 | 10 | Closeout | Handoff checklist for G6; TRACE clinic story; dashboard P0 list |""",
     "S010-meeting-b.md": """| Duration (min) | Block | Activity |
 | ---: | --- | --- |
-| 10 | Opening | Minimum reliable auto before advanced paths; Pedro on **Sparkee mass**, not Strafer assumptions |
+| 10 | Opening | Minimum reliable auto before advanced paths; Pedro on **BumbleBee mass**, not Strafer assumptions |
 | 35 | Repair / tune / program | Pedro path or conventional fallback; mechanism tuning; known-good release tag |
 | 55 | Driving reps | Auto repetitions (≥7/10 target) interleaved with teleop scoring cycles |
 | 20 | Closeout | Auto log; rollback tag recorded; optional libraries still per software contract |""",
@@ -58,7 +58,7 @@ S015_S031 = {
     "S015": {
         "title": "League 1S/2S retrospective and match evidence",
         "dq": "What did our first league teaches us — and what is Version 2 allowed to explore?",
-        "obj": "Students run [event-retrospective.md](../../../templates/event-retrospective.md) for League 1S/2S; map match evidence to dashboard; begin calibration backlog. Version 2 research only on Strafer/fixtures — not Sparkee competition time.",
+        "obj": "Students run [event-retrospective.md](../../../templates/event-retrospective.md) for League 1S/2S; map match evidence to dashboard; begin calibration backlog. Version 2 research only on Strafer/fixtures — not BumbleBee competition time.",
         "outcome": "- League retrospective complete\n- Match evidence table in notebook\n- P0/P1 repair list with owners\n- Version 2 boundary acknowledged",
     },
     "S016": {
@@ -93,9 +93,9 @@ S015_S031 = {
     },
     "S021": {
         "title": "Version 2 fixture research (Strafer or bench only)",
-        "dq": "What should Sparkee 2 test — without stealing reliability time?",
-        "obj": "Students prototype next-mechanism ideas on Strafer, fixtures, or spare modules only. Sparkee stays competition configuration.",
-        "outcome": "- Version 2 experiment record\n- No Sparkee competition resources diverted",
+        "dq": "What should BumbleBee 2 test — without stealing reliability time?",
+        "obj": "Students prototype next-mechanism ideas on Strafer, fixtures, or spare modules only. BumbleBee stays competition configuration.",
+        "outcome": "- Version 2 experiment record\n- No BumbleBee competition resources diverted",
     },
     "S022": {
         "title": "League-evidence mechanism refinement",
