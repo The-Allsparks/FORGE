@@ -42,7 +42,7 @@ By the end of a session you should be able to:
 | HELM | Names for goals and fallbacks | Off; vocabulary and shadow only |
 | Pedro Pathing | Chassis movement in autonomous | Conventional auto is required |
 
-If a library is confusing, open its page in `projects/` and follow the links. Those repositories are the source of truth. How they sit together: [stack-acceptance.md](stack-acceptance.md). How to add, diagnose, and turn one off: [student-install.md](student-install.md).
+If a library is confusing, open its page in `projects/` and follow the links. Those repositories are the source of truth. One-page printable map: [stack-handout.html](stack-handout.html). How they sit together: [stack-acceptance.md](stack-acceptance.md). How to add, diagnose, and turn one off: [student-install.md](student-install.md).
 
 ## Roles
 

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BumbleBee software stack — The Allsparks 36117</title>
+  <style>
+    :root {
+      --yellow: #fdd835;
+      --live: #fff3b0;
+      --ink: #212121;
+      --mute: #5c5c5c;
+      --line: #bdbdbd;
+      --paper: #ffffff;
+      --soft: #f0f0f0;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      font-family: "Segoe UI", "Open Sans", system-ui, sans-serif;
+      color: var(--ink);
+      background: #d9d9d9;
+    }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px 20px;
+      padding: 12px 16px;
+      background: var(--ink);
+      color: #fff;
+      font-size: 14px;
+    }
+    .toolbar button {
+      font: inherit;
+      font-weight: 700;
+      border: 0;
+      background: var(--yellow);
+      color: var(--ink);
+      padding: 8px 14px;
+      cursor: pointer;
+    }
+    .toolbar .hint { color: #ccc; }
+    .stage {
+      padding: 16px;
+      display: flex;
+      justify-content: center;
+    }
+    .sheet {
+      width: 11in;
+      height: 8.5in;
+      padding: 0.26in 0.32in 0.2in;
+      background: var(--paper);
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+      overflow: hidden;
+      box-shadow: 0 1px 8px rgba(0, 0, 0, 0.18);
+    }
+    header { flex: 0 0 auto; }
+    .title-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 16px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      margin: 0;
+      font-size: 11px;
+      color: var(--mute);
+      white-space: nowrap;
+    }
+    .banner {
+      margin: 8px 0 0;
+      padding: 6px 10px;
+      background: var(--yellow);
+      font-size: 12px;
+      line-height: 1.3;
+      font-weight: 600;
+    }
+    .diagram {
+      flex: 0 0 auto;
+      min-height: 0;
+      border: 1.5px solid var(--ink);
+      display: flex;
+      flex-direction: column;
+      padding: 8px 10px 8px;
+      gap: 7px;
+    }
+    .legend {
+      display: flex;
+      gap: 16px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 10px;
+      color: var(--mute);
+    }
+    .legend li { display: flex; align-items: center; gap: 6px; }
+    .swatch {
+      width: 22px;
+      height: 11px;
+      border: 1px solid var(--ink);
+      background: #fff;
+    }
+    .swatch.live { background: var(--live); }
+    .swatch.later { border-style: dashed; }
+    .swatch.shop { background: var(--soft); }
+    .flow {
+      flex: 0 0 auto;
+      display: grid;
+      grid-template-columns: 1.15fr 16px 1.2fr 16px 2.9fr 16px 1.35fr;
+      grid-template-rows: auto auto;
+      gap: 8px 0;
+      align-items: center;
+    }
+    .node {
+      border: 1.5px solid var(--ink);
+      padding: 10px 8px 9px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      min-width: 0;
+    }
+    .node h2 {
+      margin: 0 0 3px;
+      font-size: 13px;
+      line-height: 1.15;
+    }
+    .node p {
+      margin: 0;
+      font-size: 10.5px;
+      line-height: 1.25;
+      color: var(--mute);
+    }
+    .live { background: var(--live); }
+    .shop { background: var(--soft); }
+    .later { border-style: dashed; background: #fff; }
+    .arr {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1;
+    }
+    .team {
+      padding: 8px;
+      justify-content: flex-start;
+      gap: 6px;
+      text-align: left;
+    }
+    .team h2 { text-align: center; }
+    .team .lead {
+      text-align: center;
+      color: var(--mute);
+      font-size: 10.5px;
+    }
+    .inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 5px;
+      flex: 0 0 auto;
+    }
+    .chip {
+      border: 1px solid var(--ink);
+      background: #fff;
+      padding: 6px 4px 5px;
+      text-align: center;
+      min-width: 0;
+    }
+    .chip b {
+      display: block;
+      font-size: 11px;
+    }
+    .chip span {
+      display: block;
+      font-size: 9.5px;
+      color: var(--mute);
+      line-height: 1.2;
+    }
+    .chip.later { border-style: dashed; }
+    .inner .span2 { grid-column: span 2; }
+    .exit {
+      margin: 0;
+      text-align: center;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .shop-strip {
+      grid-column: 1 / -1;
+      background: var(--soft);
+      border: 1.5px solid var(--ink);
+      padding: 6px 10px;
+      font-size: 11px;
+      line-height: 1.3;
+      text-align: center;
+    }
+    .shop-strip strong { font-weight: 700; }
+    .cards {
+      flex: 0 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 7px;
+    }
+    article {
+      border: 1px solid var(--ink);
+      padding: 8px 9px 8px;
+      min-width: 0;
+      min-height: 1.16in;
+    }
+    article h2 {
+      margin: 0;
+      font-size: 13px;
+      line-height: 1.15;
+    }
+    article .status {
+      margin: 1px 0 5px;
+      font-size: 10px;
+      color: var(--mute);
+    }
+    article p {
+      margin: 0 0 4px;
+      font-size: 11px;
+      line-height: 1.3;
+    }
+    article p:last-child { margin: 0; }
+    article b { font-weight: 700; }
+    footer {
+      flex: 0 0 auto;
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 9.5px;
+      color: var(--mute);
+    }
+    @media print {
+      @page { size: letter landscape; margin: 0; }
+      html, body { background: #fff; }
+      .toolbar, .noprint { display: none !important; }
+      .stage { padding: 0; }
+      .sheet { box-shadow: none; }
+      * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar noprint">
+    <button type="button" onclick="window.print()">Print one page</button>
+    <span>Letter, landscape, background graphics on. Keep printer margins at 0 — the page already has inset.</span>
+    <span class="hint">The Allsparks 36117 · FORGE stack handout</span>
+  </div>
+  <div class="stage">
+    <main class="sheet">
+      <header>
+        <div class="title-row">
+          <h1>How BumbleBee’s software fits together</h1>
+          <p class="meta">The Allsparks FTC 36117 · BIOBUZZ 2026–2027</p>
+        </div>
+        <p class="banner">TeamCode is the only composition root. Libraries map or observe. Only MecanumDrive.setPower commands wheels.</p>
+      </header>
+
+      <section class="diagram" aria-label="How the systems connect">
+        <ul class="legend">
+          <li><span class="swatch live" aria-hidden="true"></span> In this APK</li>
+          <li><span class="swatch later" aria-hidden="true"></span> Designed, not wired</li>
+          <li><span class="swatch shop" aria-hidden="true"></span> Laptop / shop — never a Hub library</li>
+        </ul>
+        <div class="flow">
+          <div class="node shop">
+            <h2>Drivers</h2>
+            <p>Gamepads and the Driver Station. Intent starts here.</p>
+          </div>
+          <div class="arr" aria-hidden="true">→</div>
+          <div class="node live">
+            <h2>SHIFT</h2>
+            <p>Sticks become named intents from JSON. Does not setPower.</p>
+          </div>
+          <div class="arr" aria-hidden="true">→</div>
+          <div class="node live team">
+            <h2>TeamCode · BumbleBee Drive</h2>
+            <p class="lead">This year’s OpMode. Adapters live here. Mix + field-centric + hardware names.</p>
+            <div class="inner">
+              <div class="chip"><b>PULSE</b><span>sample once</span></div>
+              <div class="chip"><b>TRACE</b><span>record only</span></div>
+              <div class="chip"><b>AMPER</b><span>watch battery</span></div>
+              <div class="chip"><b>Pedro</b><span>paths, hidden</span></div>
+              <div class="chip later span2"><b>Later</b><span>MIMIC · ViDAR · BEACON</span></div>
+              <div class="chip later span2"><b>Off</b><span>HELM · ECHO</span></div>
+            </div>
+            <p class="exit">out: MecanumDrive.setPower</p>
+          </div>
+          <div class="arr" aria-hidden="true">→</div>
+          <div class="node">
+            <h2>Control Hub</h2>
+            <p>FTC SDK 12.0 · Android 7<br>FL FR BL BR motors<br>Official stop still wins.</p>
+          </div>
+          <p class="shop-strip"><strong>Laptop / shop, not on the robot:</strong> FORGE sequences enablement. FTC Dev Tools builds and deploys. AdvantageScope graphs TRACE logs. Laptop Java is dead until the Hub APK is installed.</p>
+        </div>
+      </section>
+
+      <section class="cards">
+        <article class="live">
+          <h2>TeamCode</h2>
+          <p class="status">In this APK · composition root</p>
+          <p><b>Does:</b> this year’s OpModes, hardware names, and adapters.</p>
+          <p><b>Why:</b> the robot program decides when motors move. Libraries must not take over.</p>
+        </article>
+        <article class="live">
+          <h2>SHIFT</h2>
+          <p class="status">In this APK · input layer</p>
+          <p><b>Does:</b> map sticks to named intents.</p>
+          <p><b>Why:</b> next robot is a JSON change, not a Java rewrite of stick axes.</p>
+        </article>
+        <article class="live">
+          <h2>PULSE + contracts</h2>
+          <p class="status">In this APK · sampling</p>
+          <p><b>Does:</b> sample each encoder, IMU, or voltage once per loop.</p>
+          <p><b>Why:</b> duplicate Hub reads stretch loop time. Contracts keep libraries independent.</p>
+        </article>
+        <article class="live">
+          <h2>TRACE</h2>
+          <p class="status">In this APK · observe only</p>
+          <p><b>Does:</b> flight-record what the robot sensed, believed, decided, and commanded.</p>
+          <p><b>Why:</b> Driver Station lines cannot explain a brownout or a missed score later.</p>
+        </article>
+        <article class="live">
+          <h2>AMPER</h2>
+          <p class="status">In this APK · observe only</p>
+          <p><b>Does:</b> watch Hub voltage (optional current). Does not cut motors.</p>
+          <p><b>Why:</b> “weak drive” is often a sagging pack or a loose XT30, not the mixer.</p>
+        </article>
+        <article class="live">
+          <h2>Pedro Pathing</h2>
+          <p class="status">In this APK · OpModes hidden</p>
+          <p><b>Does:</b> own chassis localization and path follow. Teleop sticks stay with Drive.</p>
+          <p><b>Why:</b> conventional auto must still work with every optional turned off.</p>
+        </article>
+        <article class="later">
+          <h2>MIMIC</h2>
+          <p class="status">Designed · not in settings.gradle</p>
+          <p><b>Does:</b> mechanism snapshots, later limits and interlocks. Phase 0 does not actuate.</p>
+          <p><b>Why:</b> intake, turret, and hood need states and units, not copy-paste PID.</p>
+        </article>
+        <article class="later">
+          <h2>ViDAR</h2>
+          <p class="status">Designed · not in this APK</p>
+          <p><b>Does:</b> turn camera images into range and bearing in robot space.</p>
+          <p><b>Why:</b> pixels are not positions. Stale tracks are not field truth.</p>
+        </article>
+        <article class="later">
+          <h2>BEACON</h2>
+          <p class="status">Designed · not a watchdog</p>
+          <p><b>Does:</b> ask whether hubs, cameras, and loops still look fresh.</p>
+          <p><b>Why:</b> a running loop is not a fresh driver command. Official FTC stop still wins.</p>
+        </article>
+        <article class="later">
+          <h2>HELM</h2>
+          <p class="status">Designed · stays OFF</p>
+          <p><b>Does:</b> name goals, timeouts, and fallbacks from lower-layer snapshots.</p>
+          <p><b>Why:</b> students explain the plan. HELM must not drive or bypass safety.</p>
+        </article>
+        <article class="later">
+          <h2>ECHO</h2>
+          <p class="status">Designed · disabled</p>
+          <p><b>Does:</b> turn a few chosen facts into sound for the driver. Never motors.</p>
+          <p><b>Why:</b> eyes stay on the field. Silence is valid. Mute must not stop the robot.</p>
+        </article>
+        <article class="shop">
+          <h2>FORGE + shop tools</h2>
+          <p class="status">Laptop · not a Gradle dependency</p>
+          <p><b>Does:</b> enablement plan, Hub deploy, and TRACE graphs.</p>
+          <p><b>Why:</b> laptop code is not live until the Hub has the APK. Curriculum is not robot code.</p>
+        </article>
+      </section>
+
+      <footer>
+        <span>Community software, unofficial — not affiliated with FIRST. Installing a library must not turn it on.</span>
+        <span>FORGE/docs/stack-handout.html · 18 Sep 2026</span>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

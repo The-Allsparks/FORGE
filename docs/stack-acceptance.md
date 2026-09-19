@@ -59,6 +59,8 @@ FTC OpMode / robot application   ← only composition root
 
 No library may become the robot composition root. Adapters belong in TeamCode.
 
+Printable one-page diagram (what each layer does and why): [stack-handout.html](stack-handout.html).
+
 ## Install matrix (planning pins)
 
 Re-verify at Kickoff if FIRST publishes a new season SDK. AMPER’s install doc was verified against **FTC SDK 11.2.0** (DECODE) on 2026-08-17. BIOBUZZ may require a newer SDK; do not freeze 11.2.0 as a game-year claim.
