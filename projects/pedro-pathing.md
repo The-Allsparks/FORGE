@@ -43,6 +43,8 @@ Standard motion hazards. Blocks or carpet as the session specifies. Disable path
 
 ## Integration
 
+BumbleBee includeBuilds Allsparks Pedro **3.0** (`pedro3`, `:revhub`). TeamCode path numbers are inches. Official 3.0 dropped `FollowerBuilder` and drive-encoder localization; the Allsparks fork restores drive-encoder odometry and PULSE injection on every localizer.
+
 [ViDAR Pedro integration](https://github.com/The-Allsparks/ViDAR/blob/main/docs/PEDRO_INTEGRATION.md) is optional later. Do not block the first auto on vision.
 
 Audit: [docs/research-audit.md](../docs/research-audit.md)

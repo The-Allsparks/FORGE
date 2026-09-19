@@ -36,7 +36,7 @@ No new active flags. No HELM execute. No ECHO match audio. Mentor present if a H
 
 **Paper path (no published robot repo — current Allsparks state)**
 
-1. Draw the composition-root diagram from stack-acceptance.md.
+1. Print or copy [stack-handout.html](../../docs/stack-handout.html), or draw the composition-root diagram from stack-acceptance.md.
 2. Write the install order and the disable line for each library.
 3. Write the blocker: “compile-checked combined TeleOp is issue #2 / #4.”
 4. Do not invent a GitHub URL.

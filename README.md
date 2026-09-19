@@ -92,6 +92,7 @@ Combined FTC stack acceptance ([#4](https://github.com/The-Allsparks/FORGE/issue
 | Mentors | [docs/mentor-guide.md](docs/mentor-guide.md) |
 | This season | [season/2026-2027-biobuzz/README.md](season/2026-2027-biobuzz/README.md) |
 | Combined stack gate | [docs/stack-acceptance.md](docs/stack-acceptance.md) |
+| Printable stack handout | [docs/stack-handout.html](docs/stack-handout.html) |
 | Student install / disable | [docs/student-install.md](docs/student-install.md) |
 | Robot code (not this repo) | [docs/team-robot-project.md](docs/team-robot-project.md) — **blocked** |
 | Create the robot repo (when ready) | [docs/create-robot-project.md](docs/create-robot-project.md) |
@@ -175,7 +176,7 @@ python tools/validation/validate_curriculum.py
 - Kickoff replan after 12 September 2026: [kickoff-replan-guide.md](season/2026-2027-biobuzz/kickoff-replan-guide.md)
 - Judging story practice: [templates/judging-one-pager.md](templates/judging-one-pager.md)
 - Mechanical/electrical construction and driver practice in the shop (hardware does not wait on GitHub)
-- Paper stack teaching: [docs/stack-acceptance.md](docs/stack-acceptance.md)
+- Paper stack teaching: [docs/stack-acceptance.md](docs/stack-acceptance.md), printable [docs/stack-handout.html](docs/stack-handout.html)
 
 **Blocked until #2**
 
