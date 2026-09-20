@@ -52,6 +52,10 @@ python tools/validation/validate_curriculum.py
 5. Include hardware-unavailable and robot-unavailable fallbacks.
 6. Run `python tools/validation/validate_curriculum.py`.
 
+## GitHub Actions pins
+
+Workflows pin third-party actions to full commit SHAs with a version comment (for example `actions/checkout@<sha> # v7.0.1`). Do not switch back to floating major tags. Dependabot can still open PRs that move those pins.
+
 ## Line endings
 
 The repository stores LF line endings (see [.gitattributes](.gitattributes)).
